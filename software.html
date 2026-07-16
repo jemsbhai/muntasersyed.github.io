@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open-Source Software — Muntaser Syed</title>
+  <meta name="description" content="Python, Rust, and TypeScript software by Muntaser Syed for trustworthy AI, agent infrastructure, edge intelligence, compact data, explainability, and efficient ML.">
+  <meta name="theme-color" content="#f4f1e8">
+  <link rel="canonical" href="https://muntasersyed.com/software.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Open-Source Software — Muntaser Syed">
+  <meta property="og:description" content="Research ideas shipped across Python, Rust, and TypeScript.">
+  <meta property="og:url" content="https://muntasersyed.com/software.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell masthead">
+      <a class="brand" href="index.html" aria-label="Muntaser Syed, home"><span class="brand-mark" aria-hidden="true">MS</span><span class="brand-text">Muntaser Syed</span></a>
+      <nav class="site-nav" data-site-nav aria-label="Primary navigation"><a href="index.html">Home</a><a href="research.html">Research</a><a href="software.html" aria-current="page">Software</a><a href="projects.html">Projects</a><a href="about.html">About</a></nav>
+      <div class="header-actions"><button class="icon-button" type="button" data-theme-toggle aria-label="Use dark theme">◐</button><button class="menu-button" type="button" data-menu-toggle aria-expanded="false" aria-label="Open navigation">Menu</button></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="shell page-intro-grid">
+        <div>
+          <p class="eyebrow"><span class="kicker">Open source</span> / Python · Rust · TypeScript</p>
+          <h1>Software as a <em>research method.</em></h1>
+          <p class="page-lede">Major projects are presented as coherent software families, with related implementations, ports, papers, and installation paths kept together.</p>
+        </div>
+        <aside class="source-note"><strong>What is included.</strong> Published packages and research-grade repositories with a concrete technical purpose. Placeholder releases, interview exercises, one-off demos, and unrelated forks are intentionally omitted.</aside>
+      </div>
+    </section>
+
+    <section class="signal-strip" aria-label="Software profile at a glance">
+      <div class="shell signals">
+        <div class="signal"><strong>23</strong><span>PyPI projects on profile</span></div>
+        <div class="signal"><strong>4</strong><span>npm packages</span></div>
+        <div class="signal"><strong>5</strong><span>Rust crates</span></div>
+        <div class="signal"><strong>8</strong><span>Major software families</span></div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-bottom:0">
+      <div class="shell">
+        <div class="section-head"><p class="eyebrow">Major software</p><div><h2>From core idea to multiple ecosystems.</h2><p>Each family begins with the research question, then exposes the implementations that make the work usable.</p></div></div>
+      </div>
+    </section>
+
+    <div class="shell">
+      <article class="software-family" id="jsonld-ex">
+        <div class="software-family-copy">
+          <span class="software-family-number">01 / TRUSTWORTHY DATA</span>
+          <h2>JSON-LD Ex</h2>
+          <p>Extensions for representing AI confidence, provenance, temporal validity, embeddings, privacy rights, validation, and context integrity while preserving compatibility with linked-data workflows.</p>
+          <div class="install-line"><code>pip install jsonld-ex</code><button class="copy-button" type="button" data-copy="pip install jsonld-ex">Copy</button></div>
+        </div>
+        <div class="family-modules">
+          <section class="module"><div class="module-head"><h3>jsonld-ex · Python reference</h3><span class="tag">v0.7.4</span></div><p>The full reference implementation, including Subjective Logic, FHIR interoperability, security hardening, temporal operations, and AI/ML metadata.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/jsonld-ex/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/jsonld-ex">GitHub</a><a class="micro-link" href="https://jsonld-ex.github.io/ns">Docs</a></div></section>
+          <section class="module"><div class="module-head"><h3>@jsonld-ex/core · TypeScript port</h3><span class="tag">npm</span></div><p>A feature-complete JavaScript/TypeScript implementation with built-in type declarations and an MCP server.</p><div class="module-links"><a class="micro-link" href="https://www.npmjs.com/package/@jsonld-ex/core">npm</a><a class="micro-link" href="https://github.com/jemsbhai/jsonld-ex/tree/main/packages/js">Source</a></div></section>
+          <section class="module"><div class="module-head"><h3>Research paper</h3><span class="tag">FLAIRS-39</span></div><p>The formal gap analysis and extension proposal behind the framework.</p><div class="module-links"><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141786">DOI</a></div></section>
+        </div>
+      </article>
+
+      <article class="software-family" id="tokenmaster">
+        <div class="software-family-copy">
+          <span class="software-family-number">02 / AGENT CONTEXT</span>
+          <h2>Tokenmaster + ctxmaster</h2>
+          <p>A two-layer toolkit for measuring LLM context budgets, estimating exhaustion, choosing compaction or handoff actions, and rendering a live context gauge.</p>
+          <div class="install-line"><code>pip install tokenmaster ctxmaster</code><button class="copy-button" type="button" data-copy="pip install tokenmaster ctxmaster">Copy</button></div>
+        </div>
+        <div class="family-modules">
+          <section class="module"><div class="module-head"><h3>tokenmaster · Core decision engine</h3><span class="tag">Python · Rust · npm</span></div><p>Normalized token accounting, effective-budget gauges, turns-to-exhaustion prediction, and compaction/handoff policies.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/tokenmaster/">PyPI</a><a class="micro-link" href="https://crates.io/crates/tokenmaster">crate</a><a class="micro-link" href="https://www.npmjs.com/package/tokenmaster">npm</a></div></section>
+          <section class="module"><div class="module-head"><h3>ctxmaster · Visualization layer</h3><span class="tag">Python · Rust · npm</span></div><p>Terminal gauges and renderers for turning context-budget telemetry into a fast operational view.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/ctxmaster/">PyPI</a><a class="micro-link" href="https://crates.io/crates/ctxmaster">crate</a><a class="micro-link" href="https://www.npmjs.com/package/ctxmaster">npm</a></div></section>
+          <section class="module"><div class="module-head"><h3>Shared repository</h3><span class="tag">Monorepo</span></div><p>Language-parity implementations and a unified handoff-fidelity protocol are developed together.</p><div class="module-links"><a class="micro-link" href="https://github.com/jemsbhai/tokenmaster">GitHub</a></div></section>
+        </div>
+      </article>
+
+      <article class="software-family" id="hashrope">
+        <div class="software-family-copy">
+          <span class="software-family-number">03 / DATA STRUCTURES</span>
+          <h2>Hashrope</h2>
+          <p>A balanced rope with polynomial-hash metadata for logarithmic concatenation, splitting, substring hashing, comparison, and compact repetition encoding.</p>
+          <div class="install-line"><code>pip install hashrope</code><button class="copy-button" type="button" data-copy="pip install hashrope">Copy</button></div>
+        </div>
+        <div class="family-modules">
+          <section class="module"><div class="module-head"><h3>hashrope · Core library</h3><span class="tag">Python · Rust</span></div><p>Parallel implementations of the BB[2/7] hash-augmented tree for efficient text and state operations.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/hashrope/">PyPI</a><a class="micro-link" href="https://crates.io/crates/hashrope">crate</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope">GitHub</a></div></section>
+          <section class="module"><div class="module-head"><h3>hashrope-bio · Computational biology</h3><span class="tag">Python · Rust</span></div><p>Genomic region comparison, mutation localization, tandem-repeat analysis, and drug-resistance screening.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/hashrope-bio/">PyPI</a><a class="micro-link" href="https://crates.io/crates/hashrope-bio">crate</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope-bio">GitHub</a></div></section>
+          <section class="module"><div class="module-head"><h3>Agentic context research</h3><span class="tag">Experiments</span></div><p>Sub-linear context routing and dynamic state management for agentic LLMs using hash-augmented ropes.</p><div class="module-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope-paper">Research repo</a></div></section>
+        </div>
+      </article>
+
+      <article class="software-family" id="temporal-trust">
+        <div class="software-family-copy">
+          <span class="software-family-number">04 / TEMPORAL TRUST</span>
+          <h2>Epistemic &amp; temporal stack</h2>
+          <p>A family for reasoning about what is known, how strongly it is believed, when it remains valid, and how that belief should change over time or through chains of agents.</p>
+          <div class="install-line"><code>pip install chronofy trustandverify xrag-temporal</code><button class="copy-button" type="button" data-copy="pip install chronofy trustandverify xrag-temporal">Copy</button></div>
+        </div>
+        <div class="family-modules">
+          <section class="module"><div class="module-head"><h3>Chronofy</h3><span class="tag">Python · npm</span></div><p>Temporal validity and the Temporal-Logical Decay Architecture for time-aware AI and RAG systems.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/chronofy/">PyPI</a><a class="micro-link" href="https://www.npmjs.com/package/chronofy">npm</a><a class="micro-link" href="https://github.com/jemsbhai/chronofy">GitHub</a></div></section>
+          <section class="module"><div class="module-head"><h3>TrustAndVerify + TrustGraph Jac</h3><span class="tag">Agentic verification</span></div><p>Subjective-Logic confidence algebra and a Jac/Jaseci agent walker for verifiable knowledge workflows.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/trustandverify/">PyPI</a><a class="micro-link" href="https://pypi.org/project/trustgraph-jac/">Jac port</a><a class="micro-link" href="https://github.com/jemsbhai/trustandverify">GitHub</a></div></section>
+          <section class="module"><div class="module-head"><h3>X-RAG Temporal + Epistemic Edge</h3><span class="tag">RAG · AIoT</span></div><p>Time-decayed uncertainty for retrieval and air-gapped neuro-symbolic cognition over verified edge state.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/xrag-temporal/">X-RAG</a><a class="micro-link" href="https://pypi.org/project/epistemic-edge/">Epistemic Edge</a></div></section>
+        </div>
+      </article>
+
+      <article class="software-family" id="agent-infrastructure">
+        <div class="software-family-copy">
+          <span class="software-family-number">05 / AGENT INFRASTRUCTURE</span>
+          <h2>MCP-Edge + Pollard</h2>
+          <p>Infrastructure for taking agent protocols beyond desktop tools: onto constrained devices, and into governed, replayable execution structures.</p>
+          <div class="install-line"><code>pip install mcp-edge pollard</code><button class="copy-button" type="button" data-copy="pip install mcp-edge pollard">Copy</button></div>
+        </div>
+        <div class="family-modules">
+          <section class="module"><div class="module-head"><h3>MCP-Edge</h3><span class="tag">Edge · IoT</span></div><p>A bridging gateway, MCP-Lite server, and four-tier taxonomy for extending the Model Context Protocol to constrained devices.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/mcp-edge/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/mcp-edge">GitHub</a></div></section>
+          <section class="module"><div class="module-head"><h3>Pollard</h3><span class="tag">Governance</span></div><p>Governed execution trees for budgeting agent work, enforcing gates, and replaying decisions.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/pollard/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">GitHub</a></div></section>
+        </div>
+      </article>
+
+      <article class="software-family" id="compact-data">
+        <div class="software-family-copy">
+          <span class="software-family-number">06 / COMPACT DATA</span>
+          <h2>Interchange &amp; compression</h2>
+          <p>Compact, integrity-aware data formats and algorithms for moving structured and semantic information across constrained environments.</p>
+          <div class="install-line"><code>pip install cdxf cbor-ld-ex uhc</code><button class="copy-button" type="button" data-copy="pip install cdxf cbor-ld-ex uhc">Copy</button></div>
+        </div>
+        <div class="family-modules">
+          <section class="module"><div class="module-head"><h3>CDXF</h3><span class="tag">Interchange</span></div><p>Compact Data Exchange Format: a universal binary interchange layer for JSON, YAML, XML, and TOML.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/cdxf/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/cdxf">GitHub</a></div></section>
+          <section class="module"><div class="module-head"><h3>CBOR-LD Ex</h3><span class="tag">Python · Rust</span></div><p>Compact Binary Linked Data with semantic reasoning for constrained IoT networks.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/cbor-ld-ex/">PyPI</a><a class="micro-link" href="https://crates.io/crates/cborld-ex">crate</a><a class="micro-link" href="https://github.com/jemsbhai/cbor-ld-ex">GitHub</a></div></section>
+          <section class="module"><div class="module-head"><h3>UHC</h3><span class="tag">Compressed domain</span></div><p>A unified hash-compression engine for hashing directly over LZ77 streams.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/uhc/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/uhc">GitHub</a></div></section>
+        </div>
+      </article>
+
+      <article class="software-family" id="research-tools">
+        <div class="software-family-copy">
+          <span class="software-family-number">07 / RESEARCH TOOLS</span>
+          <h2>Explainability, speech &amp; efficiency</h2>
+          <p>Reusable research frameworks for understanding model decisions, constructing speech corpora, measuring energy, and building efficient edge architectures.</p>
+        </div>
+        <div class="family-modules">
+          <section class="module"><div class="module-head"><h3>Explainiverse</h3><span class="tag">23 XAI methods</span></div><p>A unified explainability framework spanning LIME, SHAP, LRP, TCAV, Grad-CAM variants, cohorts, and more.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/explainiverse/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/explainiverse">GitHub</a></div></section>
+          <section class="module"><div class="module-head"><h3>Corpusgen</h3><span class="tag">Speech</span></div><p>A language-agnostic generator and evaluator for speech corpora with maximal phoneme coverage.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/corpusgen/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">GitHub</a><a class="micro-link" href="https://doi.org/10.5281/zenodo.18881480">DOI</a></div></section>
+          <section class="module"><div class="module-head"><h3>NEXUS + ArcMind</h3><span class="tag">Efficient ML</span></div><p>Physics-grounded energy metrics and a dual-timescale SSM-attention architecture for robotics and IoT language models.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/nexus-ml-metrics/">NEXUS</a><a class="micro-link" href="https://pypi.org/project/arcmind/">ArcMind</a></div></section>
+        </div>
+      </article>
+
+      <article class="software-family" id="applied-tools">
+        <div class="software-family-copy">
+          <span class="software-family-number">08 / APPLIED ML</span>
+          <h2>Practical ML tooling</h2>
+          <p>Focused packages for machine-learning environment repair, multi-spectral codes, and neural data embedding.</p>
+        </div>
+        <div class="family-modules">
+          <section class="module"><div class="module-head"><h3>Compatibillabuddy</h3><span class="tag">ML environments</span></div><p>A hardware-aware agent that diagnoses and repairs incompatible Python machine-learning stacks.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/compatibillabuddy/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/compatibillabuddy">GitHub</a></div></section>
+          <section class="module"><div class="module-head"><h3>MultispecQR</h3><span class="tag">Imaging</span></div><p>Encoding and decoding for RGB, UV, and NIR multi-layer QR codes, with optional ML-based separation.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/multispecqr/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/multispecqr">GitHub</a></div></section>
+          <section class="module"><div class="module-head"><h3>stegaQR</h3><span class="tag">Steganography</span></div><p>Neural steganographic data embedding in QR codes with switchable channel modes.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/stegaQR/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/stegaQR">GitHub</a></div></section>
+        </div>
+      </article>
+    </div>
+
+    <section class="section" aria-labelledby="registries-title">
+      <div class="shell">
+        <div class="section-head"><p class="eyebrow">Registry profiles</p><div><h2 id="registries-title">Every published distribution.</h2><p>Registry profiles remain the source of truth for current versions, release history, and installation files.</p></div></div>
+        <div class="profile-rail">
+          <a href="https://pypi.org/user/jemsbhai/">PyPI profile</a>
+          <a href="https://www.npmjs.com/~jemsbhai">npm profile</a>
+          <a href="https://crates.io/users/jemsbhai">crates.io profile</a>
+          <a href="https://github.com/jemsbhai">GitHub</a>
+          <a href="https://doi.org/10.5281/zenodo.18881480">Zenodo</a>
+          <a href="research.html">Related papers</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid"><div><p class="footer-name">Muntaser Syed</p><p class="footer-meta">AI systems research · Open-source software · <span data-current-year>2026</span></p></div><div class="footer-links"><a href="https://github.com/jemsbhai">GitHub</a><a href="https://pypi.org/user/jemsbhai/">PyPI</a><a href="https://www.npmjs.com/~jemsbhai">npm</a><a href="https://crates.io/users/jemsbhai">crates.io</a><a href="https://top.mlh.com/2020/profiles/muntaser-syed">MLH Top 50</a></div></div>
+  </footer>
+</body>
+</html>
