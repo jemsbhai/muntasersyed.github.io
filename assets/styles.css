@@ -955,6 +955,35 @@ button {
   margin-top: 1rem;
 }
 
+.latest-releases {
+  padding-block: clamp(3.5rem, 6vw, 5.5rem);
+  background: color-mix(in srgb, var(--paper-strong) 45%, transparent);
+}
+
+.release-card {
+  min-height: 250px;
+}
+
+.release-card-featured {
+  background: color-mix(in srgb, var(--teal) 12%, var(--paper-strong));
+  box-shadow: inset 0 4px 0 var(--teal);
+}
+
+.release-card-featured .record-index {
+  color: var(--teal-dark);
+}
+
+.release-version {
+  display: inline-block;
+  margin-left: 0.35rem;
+  color: var(--coral);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  vertical-align: 0.2em;
+}
+
 .profile-rail {
   display: grid;
   grid-template-columns: repeat(6, 1fr);

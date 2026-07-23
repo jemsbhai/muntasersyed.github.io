@@ -41,10 +41,36 @@
 
     <section class="signal-strip" aria-label="Software profile at a glance">
       <div class="shell signals">
-        <div class="signal"><strong>23</strong><span>PyPI projects on profile</span></div>
+        <div class="signal"><strong>22</strong><span>Active PyPI packages</span></div>
         <div class="signal"><strong>4</strong><span>npm packages</span></div>
         <div class="signal"><strong>5</strong><span>Rust crates</span></div>
         <div class="signal"><strong>8</strong><span>Major software families</span></div>
+      </div>
+    </section>
+
+    <section class="section latest-releases" aria-labelledby="latest-releases-title">
+      <div class="shell">
+        <div class="section-head"><p class="eyebrow">Registry sync / <time datetime="2026-07-23">July 23, 2026</time></p><div><h2 id="latest-releases-title">Latest package releases.</h2><p>The newest active releases across the public package profile, with direct links to install details and source.</p></div></div>
+        <div class="package-grid">
+          <article class="package-card release-card release-card-featured">
+            <span class="record-index">LATEST · JUL 23, 2026</span>
+            <h3>Pollard <span class="release-version">v1.2.0</span></h3>
+            <p>A production-stable runtime for budgeted, gated, replayable agent execution trees, with provider adapters and shared-store integrations.</p>
+            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/pollard/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">GitHub</a><a class="micro-link" href="#agent-infrastructure">Details</a></div>
+          </article>
+          <article class="package-card release-card">
+            <span class="record-index">JUL 16, 2026</span>
+            <h3>stegaQR <span class="release-version">v0.1.0</span></h3>
+            <p>Neural steganographic data embedding in QR codes with switchable channel modes.</p>
+            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/stegaQR/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/stegaQR">GitHub</a><a class="micro-link" href="#applied-tools">Details</a></div>
+          </article>
+          <article class="package-card release-card">
+            <span class="record-index">JUL 13, 2026</span>
+            <h3>Tokenmaster + ctxmaster <span class="release-version">v0.1.1</span></h3>
+            <p>Context-budget decision and visualization layers, with parallel Python, Rust, and npm releases.</p>
+            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/tokenmaster/">Tokenmaster</a><a class="micro-link" href="https://pypi.org/project/ctxmaster/">ctxmaster</a><a class="micro-link" href="#tokenmaster">Details</a></div>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -114,13 +140,13 @@
       <article class="software-family" id="agent-infrastructure">
         <div class="software-family-copy">
           <span class="software-family-number">05 / AGENT INFRASTRUCTURE</span>
-          <h2>MCP-Edge + Pollard</h2>
-          <p>MCP-Edge supports constrained devices. Pollard provides governed and replayable execution trees for agents.</p>
-          <div class="install-line"><code>pip install mcp-edge pollard</code><button class="copy-button" type="button" data-copy="pip install mcp-edge pollard">Copy</button></div>
+          <h2>Pollard + MCP-Edge</h2>
+          <p>Pollard provides governed and replayable execution trees for agents. MCP-Edge extends agent infrastructure to constrained devices.</p>
+          <div class="install-line"><code>pip install pollard mcp-edge</code><button class="copy-button" type="button" data-copy="pip install pollard mcp-edge">Copy</button></div>
         </div>
         <div class="family-modules">
+          <section class="module"><div class="module-head"><h3>Pollard</h3><span class="tag">v1.2.0 · Python</span></div><p>A production-stable runtime for budgeting agent work, enforcing versioned action gates, auditing execution trees, and replaying decisions.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/pollard/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">GitHub</a></div></section>
           <section class="module"><div class="module-head"><h3>MCP-Edge</h3><span class="tag">Edge · IoT</span></div><p>A bridging gateway, MCP-Lite server, and four-tier taxonomy for extending the Model Context Protocol to constrained devices.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/mcp-edge/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/mcp-edge">GitHub</a></div></section>
-          <section class="module"><div class="module-head"><h3>Pollard</h3><span class="tag">Governance</span></div><p>Governed execution trees for budgeting agent work, enforcing gates, and replaying decisions.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/pollard/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">GitHub</a></div></section>
           <section class="module"><div class="module-head"><h3>Agentic Defense Lab · AgentCon Miami</h3><span class="tag">Talk lab</span></div><p>An interactive security lab covering MCP, autonomous agents, AI pipelines, attack surfaces, and defensive patterns.</p><div class="module-links"><a class="micro-link" href="https://agentic-defense-lab.lovable.app/">Open lab</a></div></section>
         </div>
       </article>
