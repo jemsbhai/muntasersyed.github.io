@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@type": "CreativeWork",
+      "@id": "https://muntasersyed.com/structured-data/jsonld-ex.jsonld",
+      "name": "JSON-LD Ex metadata for Muntaser Syed's research portfolio",
+      "description": "An experimental JSON-LD Ex representation of the portfolio's author, JSON-LD Ex software, peer-reviewed paper, and public workshop.",
+      "url": "https://muntasersyed.com/structured-data/jsonld-ex.jsonld",
+      "encodingFormat": "application/ld+json",
+      "conformsTo": "https://jsonld-ex.github.io/ns/",
+      "creator": { "@id": "https://muntasersyed.com/#person" },
+      "about": [
+        { "@id": "https://muntasersyed.com/#person" },
+        { "@id": "https://muntasersyed.com/software.html#jsonld-ex-project" },
+        { "@id": "https://doi.org/10.32473/flairs.39.1.141786" },
+        { "@id": "https://muntasersyed.com/projects.html#jsonld-ex-workshop" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://muntasersyed.com/#person",
+      "name": {
+        "@value": "Muntaser Syed",
+        "@confidence": 1.0,
+        "@source": "https://muntasersyed.com/about.html",
+        "@method": "author-maintained profile",
+        "@humanVerified": true
+      },
+      "url": "https://muntasersyed.com/",
+      "sameAs": [
+        "https://orcid.org/0000-0002-4777-6469",
+        "https://github.com/jemsbhai",
+        "https://scholar.google.com/citations?user=4RK-PocAAAAJ"
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://muntasersyed.com/software.html#jsonld-ex-project",
+      "name": {
+        "@value": "JSON-LD Ex — AI/ML Extensions",
+        "@confidence": 1.0,
+        "@source": "https://github.com/jemsbhai/jsonld-ex",
+        "@method": "canonical repository metadata",
+        "@humanVerified": true
+      },
+      "alternateName": "jsonld-ex",
+      "description": {
+        "@value": "Extensions for representing AI confidence, provenance, temporal validity, embeddings, privacy rights, validation, and context integrity while preserving compatibility with linked-data workflows.",
+        "@source": "https://muntasersyed.com/software.html#jsonld-ex",
+        "@method": "author-maintained project description",
+        "@humanVerified": true
+      },
+      "creator": { "@id": "https://muntasersyed.com/#person" },
+      "codeRepository": "https://github.com/jemsbhai/jsonld-ex",
+      "programmingLanguage": ["Python", "TypeScript"],
+      "citation": { "@id": "https://doi.org/10.32473/flairs.39.1.141786" },
+      "hasPart": [
+        {
+          "@type": "SoftwareSourceCode",
+          "name": {
+            "@value": "jsonld-ex · Python reference",
+            "@confidence": 1.0,
+            "@source": "https://pypi.org/project/jsonld-ex/",
+            "@method": "package registry metadata",
+            "@humanVerified": true
+          },
+          "version": {
+            "@value": "0.7.4",
+            "@confidence": 1.0,
+            "@source": "https://pypi.org/project/jsonld-ex/",
+            "@method": "package registry metadata",
+            "@humanVerified": true
+          },
+          "programmingLanguage": "Python",
+          "url": "https://pypi.org/project/jsonld-ex/",
+          "codeRepository": "https://github.com/jemsbhai/jsonld-ex",
+          "documentation": "https://jsonld-ex.github.io/ns/"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": {
+            "@value": "@jsonld-ex/core · TypeScript port",
+            "@confidence": 1.0,
+            "@source": "https://www.npmjs.com/package/@jsonld-ex/core",
+            "@method": "package registry metadata",
+            "@humanVerified": true
+          },
+          "programmingLanguage": "TypeScript",
+          "url": "https://www.npmjs.com/package/@jsonld-ex/core",
+          "codeRepository": "https://github.com/jemsbhai/jsonld-ex/tree/main/packages/js"
+        }
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.32473/flairs.39.1.141786",
+      "name": {
+        "@value": "JSON-LD 1.2 and Beyond: Extensions for Machine Learning Data Exchange",
+        "@confidence": 1.0,
+        "@source": "https://doi.org/10.32473/flairs.39.1.141786",
+        "@method": "publisher record verification",
+        "@humanVerified": true
+      },
+      "author": [
+        { "@id": "https://muntasersyed.com/#person" },
+        { "@type": "Person", "name": "Marius Silaghi" },
+        { "@type": "Person", "name": "Sheikh Abujar" },
+        { "@type": "Person", "name": "Rwaida Alssadi" },
+        { "@type": "Person", "name": "Sharun Akter Khushbu" }
+      ],
+      "datePublished": "2026",
+      "url": "https://doi.org/10.32473/flairs.39.1.141786",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.32473/flairs.39.1.141786"
+      },
+      "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "The International FLAIRS Conference Proceedings 39(1)"
+      }
+    },
+    {
+      "@type": "Event",
+      "@id": "https://muntasersyed.com/projects.html#jsonld-ex-workshop",
+      "name": {
+        "@value": "Making AI Honesty Machine-Readable",
+        "@confidence": 1.0,
+        "@source": "https://gdg.community.dev/events/details/google-gdg-central-florida-presents-making-ai-honesty-machine-readable-a-hands-on-workshop-with-muntaser-syed/",
+        "@method": "organizer event record verification",
+        "@humanVerified": true
+      },
+      "startDate": "2026-06-27",
+      "description": "A hands-on GDG Central Florida workshop using JSON-LD Ex to represent confidence, uncertainty, provenance, and compliance in AI systems.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-central-florida-presents-making-ai-honesty-machine-readable-a-hands-on-workshop-with-muntaser-syed/",
+      "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "JSON-LD Ex workshop materials",
+        "url": "https://github.com/jemsbhai/jsonld-ex-talk"
+      }
+    }
+  ]
+}

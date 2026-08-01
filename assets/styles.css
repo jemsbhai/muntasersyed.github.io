@@ -1021,7 +1021,8 @@ button {
   border-bottom: 1px solid var(--line);
 }
 
-.timeline-item time {
+.timeline-item time,
+.timeline-label {
   font-family: var(--mono);
   font-size: 0.72rem;
   color: var(--coral);

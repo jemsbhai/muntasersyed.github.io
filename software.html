@@ -11,6 +11,291 @@
   <meta property="og:title" content="Open-Source Software | Muntaser Syed">
   <meta property="og:description" content="Research software for Python, Rust, and TypeScript.">
   <meta property="og:url" content="https://muntasersyed.com/software.html">
+  <link rel="alternate" type="application/ld+json;profile=&quot;https://jsonld-ex.github.io/ns/&quot;" href="https://muntasersyed.com/structured-data/jsonld-ex.jsonld" title="Experimental JSON-LD Ex metadata">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://muntasersyed.com/#person",
+        "name": "Muntaser Syed",
+        "url": "https://muntasersyed.com/",
+        "sameAs": [
+          "https://github.com/jemsbhai",
+          "https://pypi.org/user/jemsbhai/",
+          "https://www.npmjs.com/~jemsbhai",
+          "https://crates.io/users/jemsbhai"
+        ]
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://muntasersyed.com/software.html#webpage",
+        "url": "https://muntasersyed.com/software.html",
+        "name": "Open-Source Software | Muntaser Syed",
+        "description": "Python, Rust, and TypeScript software by Muntaser Syed for trustworthy AI, agent infrastructure, edge intelligence, compact data, explainability, and efficient ML.",
+        "isPartOf": { "@id": "https://muntasersyed.com/#website" },
+        "author": { "@id": "https://muntasersyed.com/#person" },
+        "about": [
+          "Trustworthy AI",
+          "Agent infrastructure",
+          "Edge intelligence",
+          "Compact linked data",
+          "Explainable AI",
+          "Efficient machine learning"
+        ],
+        "inLanguage": "en-US",
+        "mainEntity": { "@id": "https://muntasersyed.com/software.html#software-catalog" },
+        "breadcrumb": { "@id": "https://muntasersyed.com/software.html#breadcrumb" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://muntasersyed.com/software.html#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://muntasersyed.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Software", "item": "https://muntasersyed.com/software.html" }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://muntasersyed.com/software.html#software-catalog",
+        "name": "Open-source software by Muntaser Syed",
+        "numberOfItems": 14,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/software.html#jsonld-ex-project",
+              "name": "JSON-LD Ex — AI/ML Extensions",
+              "alternateName": "jsonld-ex",
+              "description": "Extensions for representing AI confidence, provenance, temporal validity, embeddings, privacy rights, validation, and context integrity while preserving compatibility with linked-data workflows.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "codeRepository": "https://github.com/jemsbhai/jsonld-ex",
+              "programmingLanguage": ["Python", "TypeScript"],
+              "citation": { "@id": "https://doi.org/10.32473/flairs.39.1.141786" },
+              "sameAs": [
+                "https://pypi.org/project/jsonld-ex/",
+                "https://www.npmjs.com/package/@jsonld-ex/core",
+                "https://jsonld-ex.github.io/ns/",
+                "https://jsonldex.lovable.app/"
+              ],
+              "hasPart": [
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "jsonld-ex · Python reference",
+                  "version": "0.7.4",
+                  "programmingLanguage": "Python",
+                  "description": "The full reference implementation, including Subjective Logic, FHIR interoperability, security hardening, temporal operations, and AI/ML metadata.",
+                  "codeRepository": "https://github.com/jemsbhai/jsonld-ex",
+                  "url": "https://pypi.org/project/jsonld-ex/",
+                  "sameAs": "https://jsonld-ex.github.io/ns/"
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "@jsonld-ex/core · TypeScript port",
+                  "programmingLanguage": "TypeScript",
+                  "description": "A feature-complete JavaScript/TypeScript implementation with built-in type declarations and an MCP server.",
+                  "codeRepository": "https://github.com/jemsbhai/jsonld-ex/tree/main/packages/js",
+                  "url": "https://www.npmjs.com/package/@jsonld-ex/core",
+                  "sameAs": "https://jsonld-playtime.lovable.app/"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Tokenmaster",
+              "description": "Normalized token accounting, effective-budget gauges, turns-to-exhaustion prediction, and compaction and handoff policies.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": ["Python", "Rust", "TypeScript"],
+              "codeRepository": "https://github.com/jemsbhai/tokenmaster",
+              "url": "https://pypi.org/project/tokenmaster/",
+              "sameAs": ["https://crates.io/crates/tokenmaster", "https://www.npmjs.com/package/tokenmaster"]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "ctxmaster",
+              "description": "Terminal gauges and renderers that present context-budget telemetry.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": ["Python", "Rust", "TypeScript"],
+              "codeRepository": "https://github.com/jemsbhai/tokenmaster",
+              "url": "https://pypi.org/project/ctxmaster/",
+              "sameAs": ["https://crates.io/crates/ctxmaster", "https://www.npmjs.com/package/ctxmaster"]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Hashrope",
+              "description": "A BB[2/7] hash-augmented tree for efficient text and state operations, with Python and Rust implementations.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": ["Python", "Rust"],
+              "codeRepository": "https://github.com/jemsbhai/hashrope",
+              "url": "https://pypi.org/project/hashrope/",
+              "sameAs": "https://crates.io/crates/hashrope"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Chronofy",
+              "version": "0.1.8",
+              "description": "A Temporal-Logical Decay Architecture with temporal embeddings, decay-weighted retrieval, and Signal Temporal Logic validity checks for time-aware RAG.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": ["Python", "TypeScript"],
+              "codeRepository": "https://github.com/jemsbhai/chronofy",
+              "url": "https://pypi.org/project/chronofy/",
+              "citation": "https://arxiv.org/abs/2607.20560",
+              "sameAs": "https://www.npmjs.com/package/chronofy"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Pollard",
+              "version": "1.4.0",
+              "description": "A runtime for budgeting agent work, enforcing versioned action gates, auditing execution trees, and replaying decisions.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/pollard",
+              "url": "https://pypi.org/project/pollard/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "MCP-Edge",
+              "description": "A bridging gateway, MCP-Lite server, and four-tier taxonomy for extending the Model Context Protocol to constrained devices.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/mcp-edge",
+              "url": "https://pypi.org/project/mcp-edge/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "CBOR-LD Ex",
+              "version": "0.2.1",
+              "description": "A reasoning-carrying binary linked-data protocol for constrained IoT networks with a Python reference implementation.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/cbor-ld-ex",
+              "url": "https://pypi.org/project/cbor-ld-ex/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "cborld-ex",
+              "version": "0.1.0",
+              "description": "A byte-compatible no_std Rust implementation of CBOR-LD Ex for embedded, bare-metal, WebAssembly, and ESP32 targets.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": "Rust",
+              "runtimePlatform": ["no_std", "WebAssembly", "ESP32"],
+              "codeRepository": "https://github.com/jemsbhai/cborld-ex",
+              "url": "https://crates.io/crates/cborld-ex"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Explainiverse",
+              "description": "A unified explainability framework spanning 23 model-explanation methods.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/explainiverse",
+              "url": "https://pypi.org/project/explainiverse/",
+              "sameAs": "https://explainiverse-explorer.lovable.app/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Corpusgen",
+              "description": "A language-agnostic generator and evaluator for speech corpora with maximal phoneme coverage.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/corpusgen",
+              "url": "https://pypi.org/project/corpusgen/",
+              "citation": "https://doi.org/10.5281/zenodo.18881480"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Compatibillabuddy",
+              "description": "A hardware-aware agent that diagnoses and repairs incompatible Python machine-learning stacks.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/compatibillabuddy",
+              "url": "https://pypi.org/project/compatibillabuddy/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 13,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "MultispecQR",
+              "description": "Encoding and decoding for RGB, UV, and NIR multi-layer QR codes with optional ML-based separation.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/multispecqr",
+              "url": "https://pypi.org/project/multispecqr/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 14,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "stegaQR",
+              "description": "Neural steganographic data embedding in QR codes with switchable channel modes.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/stegaQR",
+              "url": "https://pypi.org/project/stegaQR/"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "@id": "https://doi.org/10.32473/flairs.39.1.141786",
+        "name": "JSON-LD 1.2 and Beyond: Extensions for Machine Learning Data Exchange",
+        "url": "https://doi.org/10.32473/flairs.39.1.141786"
+      }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
@@ -85,7 +370,7 @@
         <div class="software-family-copy">
           <span class="software-family-number">01 / TRUSTWORTHY DATA</span>
           <h2>JSON-LD Ex</h2>
-          <p>Extensions for representing AI confidence, provenance, temporal validity, embeddings, privacy rights, validation, and context integrity while preserving compatibility with linked-data workflows.</p>
+          <p>Created by Muntaser Syed, JSON-LD Ex is an AI/ML extension framework for representing confidence, provenance, temporal validity, embeddings, privacy rights, validation, and context integrity while preserving compatibility with linked-data workflows.</p>
           <div class="install-line"><code>pip install jsonld-ex</code><button class="copy-button" type="button" data-copy="pip install jsonld-ex">Copy</button></div>
         </div>
         <div class="family-modules">
