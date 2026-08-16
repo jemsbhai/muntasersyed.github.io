@@ -31,16 +31,29 @@
     syncThemeLabel();
   });
 
+  function syncMenuState(open) {
+    if (!menuButton) return;
+    menuButton.setAttribute("aria-expanded", String(open));
+    menuButton.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
+  }
+
   menuButton?.addEventListener("click", function () {
     const open = nav?.classList.toggle("is-open") || false;
-    menuButton.setAttribute("aria-expanded", String(open));
+    syncMenuState(open);
   });
 
   nav?.querySelectorAll("a").forEach(function (link) {
     link.addEventListener("click", function () {
       nav.classList.remove("is-open");
-      menuButton?.setAttribute("aria-expanded", "false");
+      syncMenuState(false);
     });
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key !== "Escape" || !nav?.classList.contains("is-open")) return;
+    nav.classList.remove("is-open");
+    syncMenuState(false);
+    menuButton?.focus();
   });
 
   const filterButtons = Array.from(document.querySelectorAll("[data-filter]"));

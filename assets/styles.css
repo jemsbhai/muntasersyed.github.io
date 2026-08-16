@@ -646,7 +646,8 @@ button {
   padding: clamp(2rem, 5vw, 4rem);
 }
 
-.recognition-primary blockquote {
+.recognition-primary blockquote,
+.recognition-primary h2 {
   margin: 0;
   font-family: var(--serif);
   font-size: clamp(2.2rem, 4vw, 4rem);
@@ -1133,6 +1134,8 @@ button {
     top: 76px;
     right: 0;
     left: 0;
+    width: 100%;
+    justify-self: stretch;
     display: none;
     padding: 1rem 20px 1.4rem;
     flex-direction: column;

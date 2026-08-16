@@ -3,16 +3,21 @@
 Personal research portfolio for Muntaser Syed, published with GitHub Pages.
 
 The site includes a verified publication record, major open-source software
-families, research repositories, both Devpost portfolios, talks, professional
-profiles, and recognition including the MLH Top 50.
+families, research repositories, both Devpost portfolios, a dated speaking
+archive, professional service, selected awards, press, and public profiles.
 
 ## Pages
 
 - `index.html`: overview and featured work
 - `research.html`: deduplicated papers, preprints, and research artifacts
 - `software.html`: major software families and language ports
-- `projects.html`: research repositories, Devpost portfolios, and talks
-- `about.html`: biography, milestones, and profile links
+- `projects.html`: research repositories, source-stage builds, Devpost portfolios, and selected awards
+- `speaking.html`: verified talks, workshops, lectures, podcasts, and teaching materials
+- `about.html`: biography, roles, education, professional service, press, milestones, and profile links
+
+Content and registry records were last reconciled against primary sources on
+August 16, 2026. See `CONTENT_AUDIT.md` for counts, evidence boundaries,
+deliberate holdbacks, and the next refresh checklist.
 
 ## Structured data
 

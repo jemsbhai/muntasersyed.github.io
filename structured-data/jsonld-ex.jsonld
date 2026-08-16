@@ -16,7 +16,7 @@
         { "@id": "https://muntasersyed.com/#person" },
         { "@id": "https://muntasersyed.com/software.html#jsonld-ex-project" },
         { "@id": "https://doi.org/10.32473/flairs.39.1.141786" },
-        { "@id": "https://muntasersyed.com/projects.html#jsonld-ex-workshop" }
+        { "@id": "https://muntasersyed.com/speaking.html#jsonld-ex-workshop" }
       ]
     },
     {
@@ -33,7 +33,8 @@
       "sameAs": [
         "https://orcid.org/0000-0002-4777-6469",
         "https://github.com/jemsbhai",
-        "https://scholar.google.com/citations?user=4RK-PocAAAAJ"
+        "https://scholar.google.com/citations?user=4RK-PocAAAAJ",
+        "https://sessionize.com/muntaser-syed/"
       ]
     },
     {
@@ -88,6 +89,13 @@
             "@method": "package registry metadata",
             "@humanVerified": true
           },
+          "version": {
+            "@value": "0.1.2",
+            "@confidence": 1.0,
+            "@source": "https://www.npmjs.com/package/@jsonld-ex/core",
+            "@method": "package registry metadata",
+            "@humanVerified": true
+          },
           "programmingLanguage": "TypeScript",
           "url": "https://www.npmjs.com/package/@jsonld-ex/core",
           "codeRepository": "https://github.com/jemsbhai/jsonld-ex/tree/main/packages/js"
@@ -125,17 +133,17 @@
     },
     {
       "@type": "Event",
-      "@id": "https://muntasersyed.com/projects.html#jsonld-ex-workshop",
+      "@id": "https://muntasersyed.com/speaking.html#jsonld-ex-workshop",
       "name": {
         "@value": "Making AI Honesty Machine-Readable",
         "@confidence": 1.0,
-        "@source": "https://gdg.community.dev/events/details/google-gdg-central-florida-presents-making-ai-honesty-machine-readable-a-hands-on-workshop-with-muntaser-syed/",
+        "@source": "https://www.meetup.com/gdg-central-florida/events/315206853/",
         "@method": "organizer event record verification",
         "@humanVerified": true
       },
       "startDate": "2026-06-27",
       "description": "A hands-on GDG Central Florida workshop using JSON-LD Ex to represent confidence, uncertainty, provenance, and compliance in AI systems.",
-      "url": "https://gdg.community.dev/events/details/google-gdg-central-florida-presents-making-ai-honesty-machine-readable-a-hands-on-workshop-with-muntaser-syed/",
+      "url": "https://www.meetup.com/gdg-central-florida/events/315206853/",
       "subjectOf": {
         "@type": "CreativeWork",
         "name": "JSON-LD Ex workshop materials",
