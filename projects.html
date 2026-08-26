@@ -51,7 +51,7 @@
         "@type": "ItemList",
         "@id": "https://muntasersyed.com/projects.html#project-catalog",
         "name": "Selected research repositories",
-        "numberOfItems": 13,
+        "numberOfItems": 14,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -203,6 +203,24 @@
               "creator": { "@id": "https://muntasersyed.com/#person" },
               "codeRepository": "https://github.com/jemsbhai/wattwarden"
             }
+          },
+          {
+            "@type": "ListItem",
+            "position": 14,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "TOML Signals",
+              "description": "Reproducible transistor-level energy analysis of 37 signal-processing algorithms, with profiler traces and evaluation artifacts for IEEE MLSP 2026.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/TOMLSignals",
+              "citation": "https://openreview.net/forum?id=jYBcP44EDn",
+              "subjectOf": {
+                "@type": "WebPage",
+                "name": "IEEE MLSP 2026 schedule",
+                "url": "https://neuroneural.net/mlsp2026schedule/"
+              }
+            }
           }
         ]
       }
@@ -229,7 +247,7 @@
     <section class="page-hero">
       <div class="shell page-intro-grid">
         <div><p class="eyebrow"><span class="kicker">Projects</span> / Research and prototypes</p><h1>Research repositories and <em>builds.</em></h1><p class="page-lede">These projects contain research code, experiments, protocols, and applied prototypes. Talks and teaching now have a dedicated archive.</p></div>
-        <aside class="source-note"><strong>Portfolio boundary.</strong> Public repositories link directly; private research is labeled without a broken link, and pre-alpha work is distinguished from released software. Reviewed <time datetime="2026-08-16">August 16, 2026</time>.</aside>
+        <aside class="source-note"><strong>Portfolio boundary.</strong> Public repositories link directly; private research is labeled without a broken link, and pre-alpha work is distinguished from released software. Reviewed <time datetime="2026-08-26">August 26, 2026</time>.</aside>
       </div>
     </section>
 
@@ -242,6 +260,7 @@
           <article class="artifact-card"><span class="record-index">PRIVATE EXPERIMENTS</span><h3>Hashrope paper experiments</h3><p>Private experiments in sub-linear context routing and dynamic state management for agentic LLMs using hash-augmented ropes.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope">Public library</a></div></article>
           <article class="artifact-card"><span class="record-index">PRE-ALPHA · DESIGN ONLY</span><h3>EpistemicDB</h3><p>A future CBOR-LD Ex database design. The public repository currently contains architecture documents; implementation has not begun.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/epistemicdb">Design repository</a></div></article>
           <article class="artifact-card"><span class="record-index">ENERGY METRICS</span><h3>TOML Transformers</h3><p>Transistor-level energy modeling extended to transformer inference and modern sequence architectures.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers">Repository</a><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141781">Paper</a></div></article>
+          <article class="artifact-card"><span class="record-index">PUBLIC RESEARCH ARTIFACT · IEEE MLSP 2026</span><h3>TOML Signals</h3><p>Reproducible transistor-level energy analysis of 37 signal-processing algorithms, with profiler traces and evaluation artifacts for the accepted IEEE MLSP 2026 paper.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/TOMLSignals">Repository</a><a class="micro-link" href="https://openreview.net/forum?id=jYBcP44EDn">OpenReview</a><a class="micro-link" href="https://neuroneural.net/mlsp2026schedule/">Conference schedule</a></div></article>
           <article class="artifact-card"><span class="record-index">PRIVATE RESEARCH · PUBLISHED PAPER</span><h3>IMU-JEPA</h3><p>Private representation-learning experiments for wearable inertial signals and compact posture understanding.</p><div class="item-links"><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141783">Related paper</a></div></article>
           <article class="artifact-card"><span class="record-index">PRIVATE RESEARCH</span><h3>CryptEpi</h3><p>Privacy-preserving epistatic interaction mining using homomorphic encryption.</p></article>
           <article class="artifact-card"><span class="record-index">PRIVATE RESEARCH</span><h3>JEPA-FHIR</h3><p>Research connecting self-supervised representation learning with interoperable healthcare data.</p></article>
@@ -257,6 +276,7 @@
         <div class="package-grid">
           <article class="package-card release-card release-card-featured"><span class="record-index">ACTIVE IMPLEMENTATION · UNRELEASED</span><h3>CorpusKit</h3><p>A production-oriented Corpusgen application and workbench. No registry or production release is claimed yet.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/corpuskit">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">Corpusgen</a></div></article>
           <article class="package-card release-card"><span class="record-index">RESEARCH PREVIEW · PRE-RELEASE</span><h3>WattWarden</h3><p>Energy-governed agents combining TOML-derived energy metrics with Pollard execution controls; setup remains incomplete.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">Pollard</a></div></article>
+          <article class="package-card release-card"><span class="record-index">COLLABORATOR-OWNED · CHALLENGE SUBMISSION</span><h3>Joulehound</h3><p>An Arm-device energy-profiling collaboration for local AI-agent workloads, comparing measured battery telemetry with FLOPs and NEXUS/TOML estimates. The collaborator-owned prototype was submitted to the Arm Create: AI Optimization Challenge; no award or stable release is claimed.</p><div class="item-links"><a class="micro-link" href="https://devpost.com/software/joulehound">Devpost</a><a class="micro-link" href="https://github.com/b-urge/Joulehound">Collaborator-owned repository</a></div></article>
           <article class="package-card release-card"><span class="record-index">READINESS BOUNDARY</span><h3>Scaffolds stay out of the catalog</h3><p>ArmFlex and qrez remain pre-release or pre-alpha scaffolds and are intentionally omitted from the featured software catalog.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai?tab=repositories">All repositories</a></div></article>
         </div>
       </div>
@@ -268,7 +288,7 @@
         <div class="artifact-grid">
           <article class="artifact-card">
             <span class="record-index">TRUST &amp; SEMANTICS</span><h3>Machine-readable knowledge</h3><p>Confidence, provenance, time, verification, storage, and fraud reasoning.</p>
-            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/jsonld-ex">jsonld-ex</a><a class="micro-link" href="https://github.com/jemsbhai/jsonld-ex-experiments">experiments</a><a class="micro-link" href="https://github.com/jemsbhai/subjective-logic-rag">SL-RAG</a><a class="micro-link" href="https://github.com/jemsbhai/trustandverify">trustandverify</a><a class="micro-link" href="https://github.com/jemsbhai/trustgraph-jac">trustgraph-jac</a><a class="micro-link" href="https://github.com/jemsbhai/epistemicdb">epistemicdb</a><a class="micro-link" href="https://github.com/jemsbhai/epistemic-edge">epistemic-edge</a><a class="micro-link" href="https://github.com/jemsbhai/chronofy">chronofy</a><a class="micro-link" href="https://github.com/jemsbhai/slfd">SLFD</a></div>
+            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/jsonld-ex">jsonld-ex</a><a class="micro-link" href="https://github.com/jemsbhai/subjective-logic-rag">SL-RAG</a><a class="micro-link" href="https://github.com/jemsbhai/trustandverify">trustandverify</a><a class="micro-link" href="https://github.com/jemsbhai/trustgraph-jac">trustgraph-jac</a><a class="micro-link" href="https://github.com/jemsbhai/epistemicdb">epistemicdb</a><a class="micro-link" href="https://github.com/jemsbhai/epistemic-edge">epistemic-edge</a><a class="micro-link" href="https://github.com/jemsbhai/chronofy">chronofy</a><a class="micro-link" href="https://github.com/jemsbhai/slfd">SLFD</a></div>
           </article>
           <article class="artifact-card">
             <span class="record-index">AGENTS &amp; CONTEXT</span><h3>Governed AI infrastructure</h3><p>Execution trees, context metering, protocol efficiency, routing, and agent evaluation.</p>
@@ -276,7 +296,7 @@
           </article>
           <article class="artifact-card">
             <span class="record-index">EDGE &amp; EFFICIENCY</span><h3>Compute under constraints</h3><p>Protocols, energy models, sustainable datacenters, compact architectures, and temporal models.</p>
-            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/i3cex">i3cex</a><a class="micro-link" href="https://github.com/jemsbhai/i3cex-i4c">i3cex-i4c</a><a class="micro-link" href="https://github.com/jemsbhai/nexus-ml">nexus-ml</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers">TOML transformers</a><a class="micro-link" href="https://github.com/jemsbhai/arcmind">arcmind</a><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">wattwarden</a></div>
+            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/i3cex">i3cex</a><a class="micro-link" href="https://github.com/jemsbhai/i3cex-i4c">i3cex-i4c</a><a class="micro-link" href="https://github.com/jemsbhai/nexus-ml">nexus-ml</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers">TOML transformers</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLSignals">TOML signals</a><a class="micro-link" href="https://github.com/jemsbhai/arcmind">arcmind</a><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">wattwarden</a></div>
           </article>
           <article class="artifact-card">
             <span class="record-index">HEALTH, BIO &amp; SENSING</span><h3>Health and sensing</h3><p>Wearables, clinical representations, privacy, communication networks, brain interfaces, and speech.</p>
@@ -301,13 +321,13 @@
           <div class="recognition-primary">
             <p class="eyebrow">Primary portfolio / jemsbhai</p>
             <blockquote>49 public projects and 293 hackathon participations.</blockquote>
-            <cite>Counts shown by Devpost at the August 16, 2026 content review.</cite>
+            <cite>Counts shown by Devpost at the August 26, 2026 content review.</cite>
             <p style="margin-top:2rem"><a class="button" href="https://devpost.com/jemsbhai">Open primary portfolio <span aria-hidden="true">↗</span></a></p>
           </div>
           <div class="recognition-primary">
             <p class="eyebrow">Secondary portfolio / msyed2011</p>
-            <blockquote>47 public projects and 77 hackathon participations.</blockquote>
-            <cite>Maintained as a separate archive; projects may overlap.</cite>
+            <blockquote>49 public projects and 79 hackathon participations.</blockquote>
+            <cite>Counts shown by Devpost at the August 26, 2026 content review; projects may overlap.</cite>
             <p style="margin-top:2rem"><a class="button" href="https://devpost.com/msyed2011">Open secondary portfolio <span aria-hidden="true">↗</span></a></p>
           </div>
         </div>
@@ -319,6 +339,7 @@
         <div class="section-head"><p class="eyebrow">Selected awards</p><div><h2 id="awards-title">Applied innovation, independently documented.</h2><p>A concise selection of recent results with organizer or sponsor sources.</p></div></div>
         <div class="timeline">
           <article class="timeline-item"><time datetime="2026-03">2026</time><div><h3>VCONIC TADHack · Professional runner-up</h3><p>Recognized for a VCON enhancement with a MongoDB backend and JSON-LD Ex enrichment.</p><div class="item-links"><a class="micro-link" href="https://blog.tadhack.com/2026/03/30/vconic-tadhack-results/">Official results</a></div></div></article>
+          <article class="timeline-item"><time datetime="2026-03-20">2026</time><div><h3>Google &amp; DeepStation Hackathon · Third place</h3><p>Fresh Fridge, built by the Prompt Pirates team, placed third at the Google &amp; DeepStation Hackathon.</p><div class="item-links"><a class="micro-link" href="https://refreshmiami.com/news/sergeys-surprise-visit-was-a-hackathon-highlight-lets-keep-building-miami/">Independent report</a></div></div></article>
           <article class="timeline-item"><time datetime="2023">2023</time><div><h3>Hack@CEWIT · IoT Security Savvy Award</h3><p>Greenie received the IoT Security Savvy Award at Stony Brook University’s Hack@CEWIT.</p><div class="item-links"><a class="micro-link" href="https://www.stonybrook.edu/commcms/cewit/hackatcewit2023/About/Gallery.php">Official results</a></div></div></article>
           <article class="timeline-item"><time datetime="2023">2023</time><div><h3>TADHack Open · First place</h3><p>Guardian Care, built with Vikki Horne and Candy Torres, received first place and an Enterprise Connect demo opportunity.</p><div class="item-links"><a class="micro-link" href="https://hub.radisys.com/press-release/radisys-congratulates-engage-digital-platform-winners-in-the-2023-tadhack-open-hackathon">Sponsor results</a></div></div></article>
           <article class="timeline-item"><time datetime="2022">2022</time><div><h3>Miami for Everyone · First place</h3><p>The Hive 305 won first place in a civic-technology competition focused on a more inclusive Miami.</p><div class="item-links"><a class="micro-link" href="https://refreshmiami.com/news/miami-for-everyone-shines-a-light-on-tech-community/">Report</a></div></div></article>

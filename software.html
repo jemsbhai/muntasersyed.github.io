@@ -60,7 +60,7 @@
         "@type": "ItemList",
         "@id": "https://muntasersyed.com/software.html#software-catalog",
         "name": "Open-source software by Muntaser Syed",
-        "numberOfItems": 23,
+        "numberOfItems": 24,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -163,6 +163,11 @@
               "url": "https://pypi.org/project/chronofy/",
               "citation": "https://arxiv.org/abs/2607.20560",
               "sameAs": "https://www.npmjs.com/package/chronofy",
+              "subjectOf": {
+                "@type": "DigitalDocument",
+                "name": "IEEE IRI 2026 detailed program",
+                "url": "https://ieee-iri.github.io/resources/documents/IEEE_IRI2026_Detailed_Program_Jul31.pdf"
+              },
               "hasPart": [
                 { "@type": "SoftwareSourceCode", "name": "Chronofy Python", "version": "0.1.9", "programmingLanguage": "Python", "url": "https://pypi.org/project/chronofy/" },
                 { "@type": "SoftwareSourceCode", "name": "Chronofy npm", "version": "0.1.8", "programmingLanguage": "JavaScript", "url": "https://www.npmjs.com/package/chronofy" }
@@ -277,11 +282,12 @@
               "@type": "SoftwareSourceCode",
               "name": "MultispecQR",
               "version": "0.4.1",
-              "description": "Encoding and decoding for RGB, UV, and NIR multi-layer QR codes with optional ML-based separation.",
+              "description": "RGB channel multiplexing for three independent QR payloads, with neural-assisted decoding and a palette mode supporting up to nine layers.",
               "creator": { "@id": "https://muntasersyed.com/#person" },
               "programmingLanguage": "Python",
               "codeRepository": "https://github.com/jemsbhai/multispecqr",
-              "url": "https://pypi.org/project/multispecqr/"
+              "url": "https://pypi.org/project/multispecqr/",
+              "citation": "https://www.icmla-conference.org/icmla26/ss1regularpapers.html"
             }
           },
           {
@@ -362,7 +368,8 @@
               "creator": { "@id": "https://muntasersyed.com/#person" },
               "programmingLanguage": "Python",
               "codeRepository": "https://github.com/jemsbhai/epistemic-edge",
-              "url": "https://pypi.org/project/epistemic-edge/"
+              "url": "https://pypi.org/project/epistemic-edge/",
+              "citation": "https://ieee-iri.github.io/resources/documents/IEEE_IRI2026_Detailed_Program_Jul31.pdf"
             }
           },
           {
@@ -417,6 +424,24 @@
               "codeRepository": "https://github.com/jemsbhai/arcmind",
               "url": "https://pypi.org/project/arcmind/"
             }
+          },
+          {
+            "@type": "ListItem",
+            "position": 24,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "TOML Signals",
+              "description": "Reproducible transistor-level energy analysis of 37 signal-processing algorithms, with profiler traces and evaluation artifacts for IEEE MLSP 2026.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/TOMLSignals",
+              "citation": "https://openreview.net/forum?id=jYBcP44EDn",
+              "subjectOf": {
+                "@type": "WebPage",
+                "name": "IEEE MLSP 2026 schedule",
+                "url": "https://neuroneural.net/mlsp2026schedule/"
+              }
+            }
           }
         ]
       },
@@ -468,7 +493,7 @@
 
     <section class="section latest-releases" aria-labelledby="latest-releases-title">
       <div class="shell">
-        <div class="section-head"><p class="eyebrow">Registry sync / <time datetime="2026-08-16">August 16, 2026</time></p><div><h2 id="latest-releases-title">Latest package releases.</h2><p>The newest releases across the public package profile, with direct links to install details and source.</p></div></div>
+        <div class="section-head"><p class="eyebrow">Registry sync / <time datetime="2026-08-26">August 26, 2026</time></p><div><h2 id="latest-releases-title">Latest package releases.</h2><p>The newest releases across the public package profile, with direct links to install details and source.</p></div></div>
         <div class="package-grid">
           <article class="package-card release-card release-card-featured">
             <span class="record-index">LATEST · AUG 16, 2026</span>
@@ -549,9 +574,10 @@
           <div class="install-line"><code>pip install chronofy trustandverify xrag-temporal</code><button class="copy-button" type="button" data-copy="pip install chronofy trustandverify xrag-temporal">Copy</button></div>
         </div>
         <div class="family-modules">
-          <section class="module"><div class="module-head"><h3>Chronofy</h3><span class="tag">Python 0.1.9 · npm JS 0.1.8</span></div><p>The reference implementation of the Temporal-Logical Decay Architecture: temporal embeddings, decay-weighted retrieval, STL knowledge-validity checks, and data re-acquisition triggers for time-aware RAG.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/chronofy/">PyPI</a><a class="micro-link" href="https://arxiv.org/abs/2607.20560">Paper</a><a class="micro-link" href="https://github.com/jemsbhai/chronofy">GitHub</a><a class="micro-link" href="https://www.npmjs.com/package/chronofy">npm</a></div></section>
+          <section class="module"><div class="module-head"><h3>Chronofy</h3><span class="tag">IRI 2026 · Python 0.1.9 · npm JS 0.1.8</span></div><p>The reference implementation of the Temporal-Logical Decay Architecture: temporal embeddings, decay-weighted retrieval, STL knowledge-validity checks, and data re-acquisition triggers for time-aware RAG. The paper appeared in the IEEE IRI 2026 program.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/chronofy/">PyPI</a><a class="micro-link" href="https://arxiv.org/abs/2607.20560">Paper</a><a class="micro-link" href="https://ieee-iri.github.io/resources/documents/IEEE_IRI2026_Detailed_Program_Jul31.pdf">IRI program</a><a class="micro-link" href="https://github.com/jemsbhai/chronofy">GitHub</a><a class="micro-link" href="https://www.npmjs.com/package/chronofy">npm</a></div></section>
           <section class="module"><div class="module-head"><h3>TrustAndVerify + TrustGraph Jac</h3><span class="tag">0.2.1 · 0.2.0</span></div><p>Subjective-Logic confidence algebra and a Jac/Jaseci agent walker for verifiable knowledge workflows.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/trustandverify/">PyPI</a><a class="micro-link" href="https://pypi.org/project/trustgraph-jac/">Jac port</a><a class="micro-link" href="https://github.com/jemsbhai/trustandverify">GitHub</a></div></section>
-          <section class="module"><div class="module-head"><h3>X-RAG Temporal + Epistemic Edge</h3><span class="tag">0.1.0 · 0.1.0</span></div><p>Time-decayed uncertainty for retrieval and air-gapped neuro-symbolic cognition over verified edge state.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/xrag-temporal/">X-RAG</a><a class="micro-link" href="https://pypi.org/project/epistemic-edge/">Epistemic Edge</a></div></section>
+          <section class="module"><div class="module-head"><h3>X-RAG Temporal</h3><span class="tag">v0.1.0</span></div><p>Time-decayed uncertainty and evidence confidence for retrieval systems.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/xrag-temporal/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/subjective-logic-rag">GitHub</a></div></section>
+          <section class="module"><div class="module-head"><h3>Epistemic Edge</h3><span class="tag">v0.1.0 · IEEE IRI 2026</span></div><p>Air-gapped neuro-symbolic cognition over verified edge state, with Subjective Logic guardrails for LLM-driven IoT actuation. The paper appeared in the IEEE IRI 2026 program.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/epistemic-edge/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/epistemic-edge">GitHub</a><a class="micro-link" href="https://ieee-iri.github.io/resources/documents/IEEE_IRI2026_Detailed_Program_Jul31.pdf">IRI program</a></div></section>
         </div>
       </article>
 
@@ -595,6 +621,7 @@
           <section class="module"><div class="module-head"><h3>Explainiverse</h3><span class="tag">v0.14.0 · audited registry</span></div><p>A unified explainability framework with explicit verified, quarantined, and unverified claim scopes.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/explainiverse/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/explainiverse">GitHub</a><a class="micro-link" href="https://explainiverse-explorer.lovable.app/">Live explorer</a></div></section>
           <section class="module"><div class="module-head"><h3>Corpusgen</h3><span class="tag">v0.1.7 · Speech</span></div><p>A language-agnostic generator and evaluator for speech corpora with maximal phoneme coverage.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/corpusgen/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">GitHub</a><a class="micro-link" href="https://doi.org/10.5281/zenodo.21891821">Version DOI</a></div></section>
           <section class="module"><div class="module-head"><h3>NEXUS + ArcMind</h3><span class="tag">0.0.1 · 0.2.0 alpha</span></div><p>Physics-grounded energy metrics paired with a causal, dual-rate sequence backbone for streaming sensor policies. ArcMind is an alpha research release, not a language or VLA model.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/nexus-ml-metrics/">NEXUS</a><a class="micro-link" href="https://pypi.org/project/arcmind/">ArcMind</a></div></section>
+          <section class="module"><div class="module-head"><h3>TOML Signals</h3><span class="tag">Accepted · IEEE MLSP 2026</span></div><p>Reproducible transistor-level energy analysis for 37 signal-processing algorithms on RTX 4090 and A100 GPUs, including data and profiler traces.</p><div class="module-links"><a class="micro-link" href="https://github.com/jemsbhai/TOMLSignals">GitHub</a><a class="micro-link" href="https://openreview.net/forum?id=jYBcP44EDn">OpenReview</a><a class="micro-link" href="https://neuroneural.net/mlsp2026schedule/">Conference schedule</a></div></section>
         </div>
       </article>
 
@@ -606,7 +633,7 @@
         </div>
         <div class="family-modules">
           <section class="module"><div class="module-head"><h3>Compatibillabuddy</h3><span class="tag">v0.2.1 · ML environments</span></div><p>A hardware-aware agent that diagnoses and repairs incompatible Python machine-learning stacks.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/compatibillabuddy/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/compatibillabuddy">GitHub</a></div></section>
-          <section class="module"><div class="module-head"><h3>MultispecQR</h3><span class="tag">v0.4.1 · Imaging</span></div><p>Encoding and decoding for RGB, UV, and NIR multi-layer QR codes, with optional ML-based separation.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/multispecqr/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/multispecqr">GitHub</a></div></section>
+          <section class="module"><div class="module-head"><h3>MultispecQR</h3><span class="tag">v0.4.1 · IEEE ICMLA 2026</span></div><p>RGB channel multiplexing for three independent QR payloads, with neural-assisted decoding and a palette mode supporting up to nine layers. Its paper was accepted as a regular paper in ICMLA 2026 Special Session 1.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/multispecqr/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/multispecqr">GitHub</a><a class="micro-link" href="https://www.icmla-conference.org/icmla26/ss1regularpapers.html">Accepted-paper list</a></div></section>
           <section class="module"><div class="module-head"><h3>stegaQR</h3><span class="tag">v0.1.0 · Steganography</span></div><p>Neural steganographic data embedding in QR codes with switchable channel modes.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/stegaQR/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/stegaQR">GitHub</a></div></section>
         </div>
       </article>

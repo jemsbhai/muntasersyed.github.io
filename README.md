@@ -16,7 +16,7 @@ archive, professional service, selected awards, press, and public profiles.
 - `about.html`: biography, roles, education, professional service, press, milestones, and profile links
 
 Content and registry records were last reconciled against primary sources on
-August 16, 2026. See `CONTENT_AUDIT.md` for counts, evidence boundaries,
+August 26, 2026. See `CONTENT_AUDIT.md` for counts, evidence boundaries,
 deliberate holdbacks, and the next refresh checklist.
 
 ## Structured data
