@@ -9,8 +9,10 @@
   --teal-dark: #0a4e44;
   --teal-pale: #d9e9e3;
   --coral: #d95532;
+  --coral-text: #ad391e;
   --coral-pale: #f4ddd4;
   --gold: #d7a82a;
+  --contact-accent: #d7a82a;
   --shadow: 0 24px 60px rgba(32, 45, 39, 0.12);
   --serif: "Newsreader", Georgia, "Times New Roman", serif;
   --sans: "Manrope", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -29,8 +31,10 @@
   --teal-dark: #9de0cf;
   --teal-pale: #1b3b32;
   --coral: #ff8969;
+  --coral-text: #ff8969;
   --coral-pale: #41271f;
   --gold: #edc55f;
+  --contact-accent: #765600;
   --shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
 }
 
@@ -40,6 +44,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--sticky-offset, 76px) + 1rem);
 }
 
 body {
@@ -134,7 +139,7 @@ button {
 }
 
 .kicker {
-  color: var(--coral);
+  color: var(--coral-text);
 }
 
 .site-header {
@@ -465,7 +470,7 @@ button {
 
 .theme-number,
 .record-index {
-  color: var(--coral);
+  color: var(--coral-text);
   font-family: var(--mono);
   font-size: 0.72rem;
   font-weight: 700;
@@ -579,12 +584,13 @@ button {
 }
 
 .software-stack {
-  position: relative;
-  min-height: 440px;
+  display: grid;
+  gap: 1.5rem;
+  padding: 0.5rem;
 }
 
 .stack-card {
-  position: absolute;
+  position: relative;
   width: min(85%, 520px);
   min-height: 180px;
   padding: 1.4rem;
@@ -594,21 +600,17 @@ button {
 }
 
 .stack-card:nth-child(1) {
-  top: 0;
-  left: 0;
   transform: rotate(-1.5deg);
 }
 
 .stack-card:nth-child(2) {
-  top: 125px;
-  right: 0;
+  justify-self: end;
   background: var(--teal-pale);
   transform: rotate(1.5deg);
 }
 
 .stack-card:nth-child(3) {
-  bottom: 0;
-  left: 7%;
+  justify-self: center;
   background: var(--coral-pale);
   transform: rotate(-0.5deg);
 }
@@ -685,7 +687,7 @@ button {
 
 .profile-link::after {
   content: "↗";
-  color: var(--coral);
+  color: var(--coral-text);
 }
 
 .page-hero {
@@ -719,7 +721,7 @@ button {
 
 .toolbar {
   position: sticky;
-  top: 76px;
+  top: var(--header-height, 76px);
   z-index: 20;
   padding: 1rem 0;
   border-bottom: 1px solid var(--line);
@@ -767,7 +769,7 @@ button {
 
 .year-label {
   position: sticky;
-  top: 150px;
+  top: calc(var(--sticky-offset, 150px) + 1rem);
   align-self: start;
   margin: 0;
   font-family: var(--serif);
@@ -784,7 +786,8 @@ button {
   border-bottom: 1px solid var(--line);
 }
 
-.catalog-item[hidden] {
+.catalog-item[hidden],
+.catalog-year[hidden] {
   display: none;
 }
 
@@ -840,7 +843,7 @@ button {
 
 .software-family-number {
   font-family: var(--mono);
-  color: var(--coral);
+  color: var(--coral-text);
 }
 
 .software-family h2 {
@@ -977,7 +980,7 @@ button {
 .release-version {
   display: inline-block;
   margin-left: 0.35rem;
-  color: var(--coral);
+  color: var(--coral-text);
   font-family: var(--mono);
   font-size: 0.72rem;
   font-weight: 800;
@@ -1006,7 +1009,7 @@ button {
 
 .profile-rail a::after {
   content: "↗";
-  color: var(--coral);
+  color: var(--coral-text);
   align-self: end;
 }
 
@@ -1026,7 +1029,7 @@ button {
 .timeline-label {
   font-family: var(--mono);
   font-size: 0.72rem;
-  color: var(--coral);
+  color: var(--coral-text);
 }
 
 .timeline-item h3 {
@@ -1131,7 +1134,7 @@ button {
 
   .site-nav {
     position: absolute;
-    top: 76px;
+    top: var(--header-height, 76px);
     right: 0;
     left: 0;
     width: 100%;
@@ -1200,10 +1203,6 @@ button {
   .record-links {
     grid-column: 3;
     justify-content: flex-start;
-  }
-
-  .software-stack {
-    min-height: 480px;
   }
 
   .package-grid,
@@ -1298,16 +1297,8 @@ button {
     display: flex;
   }
 
-  .software-stack {
-    min-height: 580px;
-  }
-
   .stack-card {
     width: 94%;
-  }
-
-  .stack-card:nth-child(2) {
-    top: 165px;
   }
 
   .timeline-item {

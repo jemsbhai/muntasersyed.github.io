@@ -126,13 +126,17 @@
             "item": {
               "@type": "SoftwareSourceCode",
               "name": "ctxmaster",
-              "version": "0.1.2",
-              "description": "Terminal gauges and renderers that present context-budget telemetry. Python is 0.1.2; Rust and npm are 0.1.1.",
+              "description": "Terminal gauges and renderers that present context-budget telemetry.",
               "creator": { "@id": "https://muntasersyed.com/#person" },
               "programmingLanguage": ["Python", "Rust", "TypeScript"],
               "codeRepository": "https://github.com/jemsbhai/tokenmaster",
               "url": "https://pypi.org/project/ctxmaster/",
-              "sameAs": ["https://crates.io/crates/ctxmaster", "https://www.npmjs.com/package/ctxmaster"]
+              "sameAs": ["https://crates.io/crates/ctxmaster", "https://www.npmjs.com/package/ctxmaster"],
+              "hasPart": [
+                { "@type": "SoftwareSourceCode", "name": "ctxmaster Python", "version": "0.1.2", "programmingLanguage": "Python", "url": "https://pypi.org/project/ctxmaster/" },
+                { "@type": "SoftwareSourceCode", "name": "ctxmaster Rust", "version": "0.1.1", "programmingLanguage": "Rust", "url": "https://crates.io/crates/ctxmaster" },
+                { "@type": "SoftwareSourceCode", "name": "ctxmaster npm", "version": "0.1.1", "programmingLanguage": "TypeScript", "url": "https://www.npmjs.com/package/ctxmaster" }
+              ]
             }
           },
           {
@@ -141,13 +145,16 @@
             "item": {
               "@type": "SoftwareSourceCode",
               "name": "Hashrope",
-              "version": "0.2.2",
               "description": "A BB[2/7] hash-augmented tree for efficient text and state operations, with Python and Rust implementations.",
               "creator": { "@id": "https://muntasersyed.com/#person" },
               "programmingLanguage": ["Python", "Rust"],
               "codeRepository": "https://github.com/jemsbhai/hashrope",
               "url": "https://pypi.org/project/hashrope/",
-              "sameAs": "https://crates.io/crates/hashrope"
+              "sameAs": "https://crates.io/crates/hashrope",
+              "hasPart": [
+                { "@type": "SoftwareSourceCode", "name": "Hashrope Python", "version": "0.2.2", "programmingLanguage": "Python", "url": "https://pypi.org/project/hashrope/" },
+                { "@type": "SoftwareSourceCode", "name": "Hashrope Rust", "version": "0.3.1", "programmingLanguage": "Rust", "url": "https://crates.io/crates/hashrope" }
+              ]
             }
           },
           {
@@ -180,7 +187,7 @@
             "item": {
               "@type": "SoftwareSourceCode",
               "name": "Pollard",
-              "version": "1.5.1",
+              "version": "1.6.0",
               "description": "A runtime for budgeting agent work, enforcing versioned action gates, auditing execution trees, and replaying decisions.",
               "creator": { "@id": "https://muntasersyed.com/#person" },
               "programmingLanguage": "Python",
@@ -237,7 +244,7 @@
             "item": {
               "@type": "SoftwareSourceCode",
               "name": "Explainiverse",
-              "version": "0.14.0",
+              "version": "0.15.2",
               "description": "A unified explainability framework with explicit verified, quarantined, and unverified claim scopes.",
               "creator": { "@id": "https://muntasersyed.com/#person" },
               "programmingLanguage": "Python",
@@ -310,13 +317,16 @@
             "item": {
               "@type": "SoftwareSourceCode",
               "name": "hashrope-bio",
-              "version": "0.1.0",
-              "description": "Computational-biology tools built on hash-augmented ropes. The Rust crate is independently versioned at 0.2.0.",
+              "description": "Computational-biology tools built on hash-augmented ropes.",
               "creator": { "@id": "https://muntasersyed.com/#person" },
               "programmingLanguage": ["Python", "Rust"],
               "codeRepository": "https://github.com/jemsbhai/hashrope-bio",
               "url": "https://pypi.org/project/hashrope-bio/",
-              "sameAs": "https://crates.io/crates/hashrope-bio"
+              "sameAs": "https://crates.io/crates/hashrope-bio",
+              "hasPart": [
+                { "@type": "SoftwareSourceCode", "name": "hashrope-bio Python", "version": "0.1.0", "programmingLanguage": "Python", "url": "https://pypi.org/project/hashrope-bio/" },
+                { "@type": "SoftwareSourceCode", "name": "hashrope-bio Rust", "version": "0.2.0", "programmingLanguage": "Rust", "url": "https://crates.io/crates/hashrope-bio" }
+              ]
             }
           },
           {
@@ -457,8 +467,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css?v=20260816">
-  <script src="assets/site.js?v=20260816" defer></script>
+  <link rel="stylesheet" href="assets/styles.css?v=20260906">
+  <script src="assets/site.js?v=20260906" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -493,25 +503,25 @@
 
     <section class="section latest-releases" aria-labelledby="latest-releases-title">
       <div class="shell">
-        <div class="section-head"><p class="eyebrow">Registry sync / <time datetime="2026-08-26">August 26, 2026</time></p><div><h2 id="latest-releases-title">Latest package releases.</h2><p>The newest releases across the public package profile, with direct links to install details and source.</p></div></div>
+        <div class="section-head"><p class="eyebrow">Registry sync / <time datetime="2026-09-06">September 6, 2026</time></p><div><h2 id="latest-releases-title">Latest package releases.</h2><p>The newest releases across the public package profile, with direct links to install details and source.</p></div></div>
         <div class="package-grid">
           <article class="package-card release-card release-card-featured">
-            <span class="record-index">LATEST · AUG 16, 2026</span>
+            <span class="record-index">LATEST · SEP 4, 2026</span>
+            <h3>Explainiverse <span class="release-version">v0.15.2</span></h3>
+            <p>A beta explainability framework with explicit audit scopes. This release is CPU-verified; CUDA hardware validation was not performed.</p>
+            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/explainiverse/0.15.2/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/explainiverse/releases/tag/v0.15.2">Release</a><a class="micro-link" href="#research-tools">Details</a></div>
+          </article>
+          <article class="package-card release-card">
+            <span class="record-index">SEP 1, 2026</span>
+            <h3>Pollard <span class="release-version">v1.6.0</span></h3>
+            <p>Governed execution trees with an opt-in duplicate-recording guard and a credential-free first-run example.</p>
+            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/pollard/1.6.0/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard/releases/tag/v1.6.0">Release</a><a class="micro-link" href="#agent-infrastructure">Details</a></div>
+          </article>
+          <article class="package-card release-card">
+            <span class="record-index">AUG 16, 2026</span>
             <h3>Chronofy <span class="release-version">Python 0.1.9 · npm 0.1.8</span></h3>
             <p>Independently versioned Python and JavaScript releases of the Temporal-Logical Decay Architecture for time-aware RAG.</p>
             <div class="item-links"><a class="micro-link" href="https://pypi.org/project/chronofy/">PyPI</a><a class="micro-link" href="https://www.npmjs.com/package/chronofy">npm</a><a class="micro-link" href="#temporal-trust">Details</a></div>
-          </article>
-          <article class="package-card release-card">
-            <span class="record-index">AUG 11, 2026</span>
-            <h3>Corpusgen <span class="release-version">v0.1.7</span></h3>
-            <p>Language-agnostic speech-corpus generation and evaluation with maximal phoneme coverage.</p>
-            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/corpusgen/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen/releases/tag/v0.1.7">Release</a><a class="micro-link" href="#research-tools">Details</a></div>
-          </article>
-          <article class="package-card release-card">
-            <span class="record-index">AUG 10, 2026</span>
-            <h3>Explainiverse <span class="release-version">v0.14.0</span></h3>
-            <p>An audited explainability registry with explicit verified, quarantined, and unverified claim scopes.</p>
-            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/explainiverse/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/explainiverse">GitHub</a><a class="micro-link" href="#research-tools">Details</a></div>
           </article>
         </div>
       </div>
@@ -589,7 +599,7 @@
           <div class="install-line"><code>pip install pollard mcp-edge</code><button class="copy-button" type="button" data-copy="pip install pollard mcp-edge">Copy</button></div>
         </div>
         <div class="family-modules">
-          <section class="module"><div class="module-head"><h3>Pollard</h3><span class="tag">v1.5.1 · Python</span></div><p>A production-stable runtime for budgeting agent work, enforcing versioned action gates, auditing execution trees, and replaying decisions.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/pollard/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">GitHub</a></div></section>
+          <section class="module"><div class="module-head"><h3>Pollard</h3><span class="tag">v1.6.0 · Python</span></div><p>A production-stable runtime for budgeting agent work, enforcing versioned action gates, auditing execution trees, and replaying decisions.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/pollard/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">GitHub</a></div></section>
           <section class="module"><div class="module-head"><h3>MCP-Edge</h3><span class="tag">v0.2.0 · Edge · IoT</span></div><p>A bridging gateway, MCP-Lite server, and four-tier taxonomy for extending the Model Context Protocol to constrained devices.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/mcp-edge/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/mcp-edge">GitHub</a><a class="micro-link" href="https://doi.org/10.1109/CLOUDSUMMIT68932.2026.00020">Paper</a></div></section>
           <section class="module"><div class="module-head"><h3>Securing MCP Workflows for Agentic AI</h3><span class="tag">AgentCon Miami · Jun 12, 2026</span></div><p>An interactive talk and security lab covering MCP, autonomous agents, AI pipelines, attack surfaces, and defensive patterns.</p><div class="module-links"><a class="micro-link" href="https://globalai.community/e/q7qdn1cp">Event</a><a class="micro-link" href="https://agentic-defense-lab.lovable.app/">Open lab</a><a class="micro-link" href="speaking.html">Speaking record</a></div></section>
         </div>
@@ -618,7 +628,7 @@
           <p>Reusable research frameworks for understanding model decisions, constructing speech corpora, measuring energy, and building efficient edge architectures.</p>
         </div>
         <div class="family-modules">
-          <section class="module"><div class="module-head"><h3>Explainiverse</h3><span class="tag">v0.14.0 · audited registry</span></div><p>A unified explainability framework with explicit verified, quarantined, and unverified claim scopes.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/explainiverse/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/explainiverse">GitHub</a><a class="micro-link" href="https://explainiverse-explorer.lovable.app/">Live explorer</a></div></section>
+          <section class="module"><div class="module-head"><h3>Explainiverse</h3><span class="tag">v0.15.2 · audited registry</span></div><p>A unified explainability framework with explicit verified, quarantined, and unverified claim scopes.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/explainiverse/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/explainiverse">GitHub</a><a class="micro-link" href="https://explainiverse-explorer.lovable.app/">Live explorer</a></div></section>
           <section class="module"><div class="module-head"><h3>Corpusgen</h3><span class="tag">v0.1.7 · Speech</span></div><p>A language-agnostic generator and evaluator for speech corpora with maximal phoneme coverage.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/corpusgen/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">GitHub</a><a class="micro-link" href="https://doi.org/10.5281/zenodo.21891821">Version DOI</a></div></section>
           <section class="module"><div class="module-head"><h3>NEXUS + ArcMind</h3><span class="tag">0.0.1 · 0.2.0 alpha</span></div><p>Physics-grounded energy metrics paired with a causal, dual-rate sequence backbone for streaming sensor policies. ArcMind is an alpha research release, not a language or VLA model.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/nexus-ml-metrics/">NEXUS</a><a class="micro-link" href="https://pypi.org/project/arcmind/">ArcMind</a></div></section>
           <section class="module"><div class="module-head"><h3>TOML Signals</h3><span class="tag">Accepted · IEEE MLSP 2026</span></div><p>Reproducible transistor-level energy analysis for 37 signal-processing algorithms on RTX 4090 and A100 GPUs, including data and profiler traces.</p><div class="module-links"><a class="micro-link" href="https://github.com/jemsbhai/TOMLSignals">GitHub</a><a class="micro-link" href="https://openreview.net/forum?id=jYBcP44EDn">OpenReview</a><a class="micro-link" href="https://neuroneural.net/mlsp2026schedule/">Conference schedule</a></div></section>

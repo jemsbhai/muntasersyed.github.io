@@ -1,9 +1,54 @@
-# Content audit — August 26, 2026
+# Content audit — September 6, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## September 6 refresh
+
+- Rechecked all 22 featured PyPI packages, 4 npm packages, and 5 Rust crates.
+  Updated [Explainiverse to 0.15.2](https://pypi.org/project/explainiverse/0.15.2/)
+  (September 4) and [Pollard to 1.6.0](https://pypi.org/project/pollard/1.6.0/)
+  (September 1). The other featured versions still match their registries.
+  Latest-release cards now list Explainiverse, Pollard, and Chronofy in order.
+- Represented ctxmaster, Hashrope, and hashrope-bio language ports separately
+  in structured data, preserving their independent versions.
+- Added MultiSpecQR's October 5, 11:00 presentation slot, Special Session 1A
+  (SS1-A), from the [official ICMLA page](https://www.icmla-conference.org/icmla26/ss1regularpapers.html)
+  to the research record. The named presenter remains unconfirmed, so this
+  does not establish a personal speaking engagement.
+- Corrected WVLL's name to International Winter Conference on Vision,
+  Language & Learning using its [official homepage](https://wvll.github.io/).
+  The conflicting event dates remain unresolved.
+- No newer arXiv manuscript or matching proceedings DOI was found for the
+  outstanding research records. Scholarly-output and package totals are unchanged.
+- Fixed research filtering, added accessible result feedback, and included
+  TraceCoder in both Accepted and Preprint filters without duplicating its
+  scholarly count. Filters can overlap; the totals below remain deduplicated.
+- Made theme persistence optional when browser storage is blocked, exposed
+  all homepage software-card links, added responsive offsets for deep links,
+  and improved text contrast in both themes.
+- Removed nine unsupported Schema.org `EventCompleted` values. Past event
+  dates remain recorded; no replacement completion status is invented.
+
+The September refresh checked the site's six pages, shared assets, internal
+links, JSON-LD, and responsive behavior. Devpost counts retain their explicit
+August 26 observation dates; they were not re-counted in this refresh.
+
+Validation after the approved changes:
+
+- Chromium checked all six pages at 1440, 768, 390, and 320 pixels without
+  horizontal overflow or broken images.
+- Automated WCAG A/AA checks with axe-core 4.13.0 reported no violations
+  across all six pages in light and dark themes at desktop and mobile widths.
+  These automated checks are not a substitute for a full accessibility review.
+- Browser checks covered filtering and result announcements, blocked storage
+  reads and writes, menu behavior, theme persistence, exposed card links, and
+  unobscured deep links. Firefox also passed filtering and desktop/mobile
+  deep-link checks.
+- Internal references resolve, JSON-LD parses, catalog totals agree with the
+  visible records, and the changed layouts were inspected in screenshots.
 
 ## August 26 research delta
 
@@ -40,6 +85,12 @@ crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
 
 ## Deliberate holdbacks and owner follow-ups
 
+- The public [FLAIRS-40 track site](https://jemsbhai.github.io/flairs40-tracks/)
+  names Muntaser as co-chair, but approval of the specific track needs owner
+  confirmation before inclusion in professional service.
+- The new [1-bit IoT router repository](https://github.com/jemsbhai/1bit-llm-iot-router)
+  contains only a README. It does not establish a released implementation or
+  accepted-paper status; both require further evidence before inclusion.
 - WVLL 2026 currently publishes conflicting November and December dates and a
   stale NVIDIA/“Dr.” bio. The site identifies the program-listed keynote but
   withholds the date until the organizer confirms the event details.

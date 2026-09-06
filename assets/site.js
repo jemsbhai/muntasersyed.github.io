@@ -4,7 +4,12 @@
   const menuButton = document.querySelector("[data-menu-toggle]");
   const nav = document.querySelector("[data-site-nav]");
 
-  const storedTheme = localStorage.getItem("site-theme");
+  let storedTheme = null;
+  try {
+    storedTheme = localStorage.getItem("site-theme");
+  } catch (_) {
+    // Theme persistence is optional when browser storage is unavailable.
+  }
   const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
   if (storedTheme === "dark" || (!storedTheme && prefersDark)) {
     root.dataset.theme = "dark";
@@ -23,12 +28,47 @@
     const dark = root.dataset.theme === "dark";
     if (dark) {
       delete root.dataset.theme;
-      localStorage.setItem("site-theme", "light");
     } else {
       root.dataset.theme = "dark";
-      localStorage.setItem("site-theme", "dark");
     }
     syncThemeLabel();
+    try {
+      localStorage.setItem("site-theme", dark ? "light" : "dark");
+    } catch (_) {
+      // Keep the selected theme for this page even if it cannot be saved.
+    }
+  });
+
+  const header = document.querySelector(".site-header");
+  const toolbar = document.querySelector(".toolbar");
+
+  function syncStickyOffsets() {
+    const headerHeight = header?.getBoundingClientRect().height || 0;
+    const toolbarHeight = toolbar?.getBoundingClientRect().height || 0;
+    root.style.setProperty("--header-height", headerHeight + "px");
+    root.style.setProperty("--sticky-offset", headerHeight + toolbarHeight + "px");
+  }
+
+  syncStickyOffsets();
+  if (typeof ResizeObserver !== "undefined") {
+    const stickyObserver = new ResizeObserver(syncStickyOffsets);
+    if (header) stickyObserver.observe(header);
+    if (toolbar) stickyObserver.observe(toolbar);
+  } else {
+    window.addEventListener("resize", syncStickyOffsets);
+  }
+
+  window.addEventListener("load", function () {
+    syncStickyOffsets();
+    // Re-align the initial deep link after fonts have set the toolbar height.
+    if (!window.location.hash) return;
+    let target;
+    try {
+      target = document.getElementById(decodeURIComponent(window.location.hash.slice(1)));
+    } catch (_) {
+      return;
+    }
+    target?.scrollIntoView({ behavior: "instant" });
   });
 
   function syncMenuState(open) {
@@ -60,6 +100,7 @@
   const search = document.querySelector("[data-search]");
   const items = Array.from(document.querySelectorAll("[data-catalog-item]"));
   const empty = document.querySelector("[data-empty-state]");
+  const resultsStatus = document.querySelector("[data-results-status]");
   let activeFilter = "all";
 
   function updateCatalog() {
@@ -82,6 +123,9 @@
     });
 
     if (empty) empty.hidden = visible !== 0;
+    if (resultsStatus) {
+      resultsStatus.textContent = visible + (visible === 1 ? " result" : " results") + " shown.";
+    }
   }
 
   filterButtons.forEach(function (button) {
@@ -97,6 +141,7 @@
   });
 
   search?.addEventListener("input", updateCatalog);
+  if (items.length) updateCatalog();
 
   document.querySelectorAll("[data-copy]").forEach(function (button) {
     button.addEventListener("click", async function () {
