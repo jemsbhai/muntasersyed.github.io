@@ -1,9 +1,44 @@
-# Content audit — September 6, 2026
+# Content audit — September 7, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## September 7 publication reconciliation
+
+- Added 16 accepted 2026 scholarly records across IEEE CloudCom, ICTAI,
+  WF-IoT, HealthCom, UEMCON, GHTC, AICCSA, ACM AI Summit, and Interspeech.
+  These include full, regular, short, and main-track papers, one extended
+  abstract, and one Show & Tell contribution. None is represented as a
+  published version of record merely because it was accepted.
+- Author lists follow each accepted manuscript or title-specific author
+  record. In particular, Corpusgen's conference contribution has four
+  authors; its software artifact has a different author list.
+- Updated Chronofy and Epistemic Edge to accepted full and short papers,
+  respectively. The official IRI program explicitly maps paper 42 to
+  Chronofy and paper 161 to Epistemic Edge. Accessible proceedings previews
+  are linked; assigned DOIs were not yet resolving at this review.
+- Recorded GHTC acceptance for Environmental Cost and AGENTICS acceptance
+  for Alternative-Based Information Systems. TraceCoder is an accepted short
+  paper with poster presentation. Existing arXiv citations retain their
+  version-specific titles and author order.
+- Identified Counting Constraints as a published poster paper and completed
+  the Springer Distil-BERT chapter title with “a Fine-Tuned Model.”
+- Added the AHFE 2016 accepted abstract and NAECON 2018 accepted poster to
+  historical research/speaking records, separate from published papers.
+  Acceptance or a program listing does not by itself establish delivery.
+- Updated related software/project descriptions, visible totals, filtering
+  categories, standard JSON-LD, and sitemap dates. Acceptance evidence was
+  approved by the owner; private correspondence and working audits are
+  excluded from this public repository.
+
+Validation covered all six pages at 1440, 768, 390, and 320 pixels; internal
+links and anchors; catalog/JSON-LD agreement; filtering; and light/dark
+accessibility. Three initial contrast flags disappeared when checks waited
+for the theme change to render; settled-color checks and screenshots confirmed
+readable links. All 67 distinct regression checks passed across the initial
+run and focused rechecks, including the 24 page/theme/width axe checks.
 
 ## September 6 refresh
 
@@ -67,12 +102,13 @@ Validation after the approved changes:
 
 ## Published state
 
-- Research: 13 published peer-reviewed full papers, 3 accepted/forthcoming
-  papers without a separate public preprint, 5 public preprints, and 1
-  proceedings poster abstract, for 22 scholarly outputs. TraceCoder and
-  Chronofy remain counted as public preprints while their conference status is
-  recorded separately. Earlier versions and duplicate preprint/published pairs
-  are counted once.
+- Research: 38 distinct scholarly outputs: 13 published peer-reviewed
+  papers/chapters (including one poster paper), 23 accepted conference
+  contributions, one preprint without conference acceptance, and one
+  published 2018 poster abstract. Four accepted works also have public
+  preprints, making five public preprints in all. These filters overlap;
+  earlier versions are counted once. Two older presentation acceptances
+  and software artifacts remain outside this scholarly total.
 - Software: 22 featured published PyPI packages, 4 npm packages, and 5 Rust crates.
   `i3cex` is a development release and `facecloak-suite` is a placeholder, so
   neither is included in the featured PyPI total. Package maturity ranges from
@@ -88,21 +124,28 @@ Validation after the approved changes:
 - The public [FLAIRS-40 track site](https://jemsbhai.github.io/flairs40-tracks/)
   names Muntaser as co-chair, but approval of the specific track needs owner
   confirmation before inclusion in professional service.
-- The new [1-bit IoT router repository](https://github.com/jemsbhai/1bit-llm-iot-router)
-  contains only a README. It does not establish a released implementation or
-  accepted-paper status; both require further evidence before inclusion.
+- The [1-bit IoT router](https://github.com/jemsbhai/1bit-llm-iot-router)
+  is confirmed accepted at IEEE WF-IoT 2026 and now has public source code.
+  It is not presented as a stable package release. WF-IoT papers remain
+  accepted while final manuscripts are being prepared.
+- AASN is excluded from the accepted/forthcoming catalog; no current venue
+  is asserted. The unidentified IRI record, NADIM/Chronofy disaster title,
+  Universal Translator, and SQT version relationship remain held until
+  bibliographic identity or status is established.
 - WVLL 2026 currently publishes conflicting November and December dates and a
   stale NVIDIA/“Dr.” bio. The site identifies the program-listed keynote but
   withholds the date until the organizer confirms the event details.
 - Public sources disagree about Ph.D. timing and do not establish conferral.
   The site says “doctoral work” and does not use “Dr.” Pending owner confirmation.
-- TraceCoder’s accepted status follows the author-maintained comment on
+- TraceCoder’s accepted short-paper/poster status is confirmed by the owner’s
+  acceptance record and the author-maintained comment on
   [arXiv:2607.26307](https://arxiv.org/abs/2607.26307). Replace or supplement
   that link with the proceedings record when AGENTICS publishes it.
 - The official programs or accepted-paper lists establish the current status of
-  Chronofy, Epistemic Edge, MultiSpecQR, and TOML Signals, but no IEEE Xplore
-  version-of-record or DOI was found. Replace the program links when proceedings
-  records publish.
+  Chronofy, Epistemic Edge, MultiSpecQR, and TOML Signals. IRI preview metadata
+  assigns DOIs 10.1109/IRI69576.2026.00090 and 10.1109/IRI69576.2026.00017,
+  but neither resolved during this review. Replace preview/program links when
+  final publisher records are available.
 - The repository linked from the Rules Before Oracles arXiv record (`devfitcs/ABAS`)
   returned 404 for a signed-out visitor, so the site does not expose a code link.
 - Thirteen repositories linked by the previous site were private at review time:
