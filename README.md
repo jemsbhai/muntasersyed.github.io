@@ -15,8 +15,8 @@ archive, professional service, selected awards, press, and public profiles.
 - `speaking.html`: verified talks, workshops, lectures, podcasts, and teaching materials
 - `about.html`: biography, roles, education, professional service, press, milestones, and profile links
 
-Publication records were last reconciled on September 7, 2026; the software
-registry review was completed on September 6. See `CONTENT_AUDIT.md` for the refresh scope, counts, evidence boundaries,
+Publication records, press, projects, speaking, and software registries were
+last reviewed on September 15, 2026. See `CONTENT_AUDIT.md` for the refresh scope, counts, evidence boundaries,
 deliberate holdbacks, and the next refresh checklist.
 
 ## Structured data

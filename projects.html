@@ -50,8 +50,8 @@
       {
         "@type": "ItemList",
         "@id": "https://muntasersyed.com/projects.html#project-catalog",
-        "name": "Selected research repositories",
-        "numberOfItems": 14,
+        "name": "Selected research repositories and builds",
+        "numberOfItems": 17,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -190,7 +190,11 @@
               "name": "CorpusKit",
               "description": "A source-stage Corpusgen workbench under active implementation with no registry or production release yet.",
               "creator": { "@id": "https://muntasersyed.com/#person" },
-              "codeRepository": "https://github.com/jemsbhai/corpuskit"
+              "codeRepository": "https://github.com/jemsbhai/corpuskit",
+              "subjectOf": [
+                { "@type": "WebPage", "name": "CorpusKit getting started", "url": "https://github.com/jemsbhai/corpuskit/blob/main/docs/getting-started.md" },
+                { "@type": "WebPage", "name": "CorpusKit 15-minute demo", "url": "https://github.com/jemsbhai/corpuskit/blob/main/docs/product/15-minute-demo.md" }
+              ]
             }
           },
           {
@@ -221,6 +225,41 @@
                 "url": "https://neuroneural.net/mlsp2026schedule/"
               }
             }
+          },
+          {
+            "@type": "ListItem",
+            "position": 15,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "HIPAA compliance algebra",
+              "description": "Manuscript source, experiments, results, and figures for the accepted IEEE HealthCom 2026 paper on privacy-preserving, confidence-aware FHIR R4 exchange.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "codeRepository": "https://github.com/jemsbhai/hipaa-compliance-algebra",
+              "citation": "https://muntasersyed.com/research.html#fhir-compliance-paper"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 16,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Station Steward",
+              "description": "A September 12, 2026 hackathon prototype connecting a real Arduino sensor bench and simulated robotic workcell with Pollard, Chronofy, MCP-Edge, and human task handoffs.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "codeRepository": "https://github.com/jemsbhai/station-steward"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 17,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Dreamland floor projection controller",
+              "description": "Raspberry Pi controller software by Muntaser Syed for floor projection of artwork by Tec (Tec Fase), with looping playback and optional person-detection modes.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/dreamland-rpi"
+            }
           }
         ]
       }
@@ -247,7 +286,7 @@
     <section class="page-hero">
       <div class="shell page-intro-grid">
         <div><p class="eyebrow"><span class="kicker">Projects</span> / Research and prototypes</p><h1>Research repositories and <em>builds.</em></h1><p class="page-lede">These projects contain research code, experiments, protocols, and applied prototypes. Talks and teaching now have a dedicated archive.</p></div>
-        <aside class="source-note"><strong>Portfolio boundary.</strong> Public repositories link directly; private research is labeled without a broken link, and pre-alpha work is distinguished from released software. Reviewed <time datetime="2026-09-06">September 6, 2026</time>.</aside>
+        <aside class="source-note"><strong>Portfolio boundary.</strong> Public repositories link directly; private research is labeled without a broken link, and pre-alpha work is distinguished from released software. Reviewed <time datetime="2026-09-15">September 15, 2026</time>.</aside>
       </div>
     </section>
 
@@ -264,6 +303,7 @@
           <article class="artifact-card"><span class="record-index">PRIVATE RESEARCH · ACCEPTED WF-IOT PAPER</span><h3>IMU-JEPA</h3><p>Private representation-learning experiments for wearable inertial signals. The IMU-JEPA paper was accepted at IEEE WF-IoT 2026; the published FLAIRS neck-posture study is a separate related paper.</p><div class="item-links"><a class="micro-link" href="research.html#imu-jepa-paper">Accepted IMU-JEPA paper</a><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141783">Published neck-posture study</a></div></article>
           <article class="artifact-card"><span class="record-index">PRIVATE RESEARCH</span><h3>CryptEpi</h3><p>Privacy-preserving epistatic interaction mining using homomorphic encryption.</p></article>
           <article class="artifact-card"><span class="record-index">PRIVATE RESEARCH</span><h3>JEPA-FHIR</h3><p>Research connecting self-supervised representation learning with interoperable healthcare data.</p></article>
+          <article class="artifact-card" id="hipaa-compliance-algebra"><span class="record-index">PUBLIC RESEARCH ARTIFACT · IEEE HEALTHCOM 2026</span><h3>HIPAA compliance algebra</h3><p>Manuscript source, experiments, results, and figures for the accepted paper on privacy-preserving, confidence-aware FHIR R4 exchange grounded in Subjective Logic.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hipaa-compliance-algebra">Code &amp; experiments</a><a class="micro-link" href="research.html#fhir-compliance-paper">Accepted paper</a></div></article>
           <article class="artifact-card"><span class="record-index">ALPHA · v0.2.0</span><h3>ArcMind</h3><p>A causal, dual-rate sequence backbone for streaming sensor policies. It is not currently a language model or VLA model.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/arcmind">Repository</a><a class="micro-link" href="https://pypi.org/project/arcmind/">Package</a></div></article>
           <article class="artifact-card"><span class="record-index">MACHINE KNOWLEDGE</span><h3>Subjective Logic RAG</h3><p>Experiments in time-aware uncertainty, evidence confidence, and belief propagation for retrieval systems.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/subjective-logic-rag">Repository</a><a class="micro-link" href="https://pypi.org/project/xrag-temporal/">Package</a></div></article>
         </div>
@@ -272,9 +312,11 @@
 
     <section class="section latest-releases" aria-labelledby="current-builds-title">
       <div class="shell">
-        <div class="section-head"><p class="eyebrow">Current builds / August 2026</p><div><h2 id="current-builds-title">Source-stage projects.</h2><p>Recent public repositories that are substantial enough to follow but are not presented as stable package releases.</p></div></div>
+        <div class="section-head"><p class="eyebrow">Current builds / September 2026</p><div><h2 id="current-builds-title">Source-stage projects.</h2><p>Recent public repositories that are substantial enough to follow but are not presented as stable package releases.</p></div></div>
         <div class="package-grid">
-          <article class="package-card release-card release-card-featured"><span class="record-index">ACTIVE IMPLEMENTATION · UNRELEASED</span><h3>CorpusKit</h3><p>A production-oriented Corpusgen application and workbench. No registry or production release is claimed yet.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/corpuskit">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">Corpusgen</a></div></article>
+          <article class="package-card release-card release-card-featured" id="station-steward"><span class="record-index">HACKATHON PROTOTYPE · SEPTEMBER 12, 2026</span><h3>Station Steward</h3><p>A local agent connecting a real Arduino sensor bench and a simulated robotic workcell through Pollard, Chronofy, MCP-Edge, and human task handoffs. Built for the AI Tinkerers / OpenAI Agents Everywhere hackathon in Miami.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/station-steward">Repository</a><a class="micro-link" href="software.html#agent-infrastructure">Agent infrastructure</a><a class="micro-link" href="software.html#temporal-trust">Temporal stack</a></div></article>
+          <article class="package-card release-card"><span class="record-index">ACTIVE IMPLEMENTATION · UNRELEASED</span><h3>CorpusKit</h3><p>A production-oriented Corpusgen application and workbench. No registry or production release is claimed yet.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/corpuskit">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit/blob/main/docs/getting-started.md">Getting started</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit/blob/main/docs/product/15-minute-demo.md">15-minute demo</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">Corpusgen</a></div></article>
+          <article class="package-card release-card" id="dreamland-controller"><span class="record-index">APPLIED INSTALLATION · CONTROLLER SOFTWARE</span><h3>Dreamland floor projection</h3><p>Raspberry Pi controller software by Muntaser Syed for an overhead projector, with looping playback and optional person detection. Artwork by Tec (Tec Fase).</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/dreamland-rpi">Controller repository</a></div></article>
           <article class="package-card release-card"><span class="record-index">RESEARCH PREVIEW · PRE-RELEASE</span><h3>WattWarden</h3><p>Energy-governed agents combining TOML-derived energy metrics with Pollard execution controls; setup remains incomplete.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">Pollard</a></div></article>
           <article class="package-card release-card"><span class="record-index">COLLABORATOR-OWNED · CHALLENGE SUBMISSION</span><h3>Joulehound</h3><p>An Arm-device energy-profiling collaboration for local AI-agent workloads, comparing measured battery telemetry with FLOPs and NEXUS/TOML estimates. The collaborator-owned prototype was submitted to the Arm Create: AI Optimization Challenge; no award or stable release is claimed.</p><div class="item-links"><a class="micro-link" href="https://devpost.com/software/joulehound">Devpost</a><a class="micro-link" href="https://github.com/b-urge/Joulehound">Collaborator-owned repository</a></div></article>
           <article class="package-card release-card"><span class="record-index">READINESS BOUNDARY</span><h3>Scaffolds stay out of the catalog</h3><p>ArmFlex and qrez remain pre-release or pre-alpha scaffolds and are intentionally omitted from the featured software catalog.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai?tab=repositories">All repositories</a></div></article>
@@ -292,7 +334,7 @@
           </article>
           <article class="artifact-card">
             <span class="record-index">AGENTS &amp; CONTEXT</span><h3>Governed AI infrastructure</h3><p>Execution trees, context metering, protocol efficiency, routing, and agent evaluation.</p>
-            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/pollard">pollard</a><a class="micro-link" href="https://github.com/jemsbhai/tokenmaster">tokenmaster</a><a class="micro-link" href="https://github.com/jemsbhai/mcpmeter">mcpmeter</a><a class="micro-link" href="https://github.com/jemsbhai/mcp-edge">mcp-edge</a><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">wattwarden</a></div>
+            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/pollard">pollard</a><a class="micro-link" href="https://github.com/jemsbhai/tokenmaster">tokenmaster</a><a class="micro-link" href="https://github.com/jemsbhai/mcpmeter">mcpmeter</a><a class="micro-link" href="https://github.com/jemsbhai/mcp-edge">mcp-edge</a><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">wattwarden</a><a class="micro-link" href="https://github.com/jemsbhai/station-steward">station-steward</a></div>
           </article>
           <article class="artifact-card">
             <span class="record-index">EDGE &amp; EFFICIENCY</span><h3>Compute under constraints</h3><p>Protocols, energy models, sustainable datacenters, compact architectures, and temporal models.</p>
@@ -300,7 +342,7 @@
           </article>
           <article class="artifact-card">
             <span class="record-index">HEALTH, BIO &amp; SENSING</span><h3>Health and sensing</h3><p>Wearables, clinical representations, privacy, communication networks, brain interfaces, and speech.</p>
-            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/brain2x">Brain2X</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">corpusgen</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit">corpuskit</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope-bio">hashrope-bio</a><a class="micro-link" href="https://github.com/jemsbhai/careweave">CareWeave</a></div>
+            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/brain2x">Brain2X</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">corpusgen</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit">corpuskit</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope-bio">hashrope-bio</a><a class="micro-link" href="https://github.com/jemsbhai/careweave">CareWeave</a><a class="micro-link" href="https://github.com/jemsbhai/hipaa-compliance-algebra">HIPAA compliance algebra</a></div>
           </article>
           <article class="artifact-card">
             <span class="record-index">DATA &amp; EXPLAINABILITY</span><h3>Data and explainability</h3><p>Compact formats, compressed-domain algorithms, explainability, and structured-data validation.</p>

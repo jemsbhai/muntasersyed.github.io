@@ -1,9 +1,60 @@
-# Content audit — September 7, 2026
+# Content audit — September 15, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## September 15 refresh
+
+- Added Tim Green's September 2 [SmarterArticles analysis](https://smarterarticles.co.uk/the-exported-thirst-how-ai-drinks-water-india-cannot-spare)
+  of the Environmental Cost of Digital Sovereignty paper to the homepage,
+  press section, and research record. The author identifies as a UK-based
+  independent technology writer; this is coverage of the research, not an
+  interview or a claim of coverage by the other outlets his essay cites.
+- Promoted [Chronofy](https://doi.org/10.1109/IRI69576.2026.00090) and
+  [Epistemic Edge](https://doi.org/10.1109/IRI69576.2026.00017) to published
+  IEEE IRI proceedings papers. IEEE registered both DOI records on September 9.
+  Their bibliographic publication date is July 2026, with month precision;
+  the registration date is not presented as the publication date.
+- Reconciled research to 15 published peer-reviewed outputs, 21 accepted
+  contributions, four preprints awaiting publication, and 38 distinct outputs.
+  Earlier arXiv versions remain linked from published work. The preprint
+  filter now explicitly covers work awaiting publication; it does not count
+  published work again merely because an earlier manuscript is on arXiv.
+- Added the organizer-verified [September 17 HuggingFace session](https://luma.com/uuapbq7w)
+  as a scheduled talk at Miami Dade College, 7:30–7:50 p.m. Eastern, with
+  corresponding event metadata. The homepage and speaking page feature it.
+- Added the new public [HIPAA compliance research repository](https://github.com/jemsbhai/hipaa-compliance-algebra)
+  and [Station Steward prototype](https://github.com/jemsbhai/station-steward).
+  Also added the [Dreamland controller](https://github.com/jemsbhai/dreamland-rpi)
+  with artwork credit to Tec/Tec Fase, and linked CorpusKit's setup/demo docs.
+  These source artifacts do not increase package or publication totals.
+- Removed Corpusgen's temporary ISCA validation-book link after it began
+  returning 404. Accepted Show & Tell status and the paper-specific author
+  list are retained; no final ISCA proceedings record was verified.
+- Added TOML Signals' October 1, 1–3 p.m. Eastern poster slot to its research
+  entry, matching the existing speaking record and the current MLSP schedule.
+  A paper schedule alone does not identify the presenting author.
+- Rechecked all 22 featured PyPI packages, four npm packages, and five Rust
+  crates against current registry APIs; all versions still match. The five
+  2026 arXiv manuscripts remain v1. No additional distinct scholarly output
+  was established. All 45 previously linked GitHub repositories were public.
+- Devpost snapshots still show the existing counts, but fresh direct reads
+  were blocked. Their August 26 observation dates are retained.
+- Expanded the WVLL follow-up to cover current keynote status as well as
+  conflicting dates. FLAIRS-40 track approval and social-only award candidates
+  remain outside the confirmed additions.
+
+Validation covered all six pages at 1440, 768, 390, and 320 pixels in both
+themes (48 layout checks), with no horizontal overflow or broken images.
+All 24 axe-core 4.13.0 page/theme/width checks passed for WCAG 2 A/AA and
+WCAG 2.1 AA rules. JSON-LD parses, list totals and positions agree, and all
+120 internal page, fragment, and asset references resolve. Research filters
+return 15 published, 21 accepted, four pending preprints, and 38 total records.
+Search, empty results, new research deep links, mobile navigation, and theme
+controls passed; no page JavaScript errors were observed. Desktop and mobile
+screenshots were reviewed. Detailed test artifacts remain outside this repo.
 
 ## September 7 publication reconciliation
 
@@ -102,12 +153,13 @@ Validation after the approved changes:
 
 ## Published state
 
-- Research: 38 distinct scholarly outputs: 13 published peer-reviewed
-  papers/chapters (including one poster paper), 23 accepted conference
+- Research: 38 distinct scholarly outputs: 15 published peer-reviewed
+  papers/chapters (including one poster paper), 21 accepted conference
   contributions, one preprint without conference acceptance, and one
-  published 2018 poster abstract. Four accepted works also have public
-  preprints, making five public preprints in all. These filters overlap;
-  earlier versions are counted once. Two older presentation acceptances
+  published 2018 poster abstract. Three accepted works also have public
+  preprints, making four preprints awaiting publication in all. These filters
+  overlap; earlier versions of published papers remain linked and are counted
+  once. Two older presentation acceptances
   and software artifacts remain outside this scholarly total.
 - Software: 22 featured published PyPI packages, 4 npm packages, and 5 Rust crates.
   `i3cex` is a development release and `facecloak-suite` is a placeholder, so
@@ -122,8 +174,9 @@ Validation after the approved changes:
 ## Deliberate holdbacks and owner follow-ups
 
 - The public [FLAIRS-40 track site](https://jemsbhai.github.io/flairs40-tracks/)
-  names Muntaser as co-chair, but approval of the specific track needs owner
-  confirmation before inclusion in professional service.
+  names Muntaser as co-chair for Embodied AI Agents, Robotics, and IoT.
+  Track notifications were due September 8; approval of this specific track
+  still needs confirmation before inclusion in professional service.
 - The [1-bit IoT router](https://github.com/jemsbhai/1bit-llm-iot-router)
   is confirmed accepted at IEEE WF-IoT 2026 and now has public source code.
   It is not presented as a stable package release. WF-IoT papers remain
@@ -133,19 +186,23 @@ Validation after the approved changes:
   Universal Translator, and SQT version relationship remain held until
   bibliographic identity or status is established.
 - WVLL 2026 currently publishes conflicting November and December dates and a
-  stale NVIDIA/“Dr.” bio. The site identifies the program-listed keynote but
-  withholds the date until the organizer confirms the event details.
+  stale NVIDIA/“Dr.” bio. Its homepage omits Muntaser from the confirmed and
+  tentative invited-speaker lists while the older program lists his keynote.
+  The site identifies the program-listed keynote but withholds the date until
+  the organizer confirms both the invitation and event details. Omission from
+  another page does not by itself establish cancellation.
 - Public sources disagree about Ph.D. timing and do not establish conferral.
   The site says “doctoral work” and does not use “Dr.” Pending owner confirmation.
 - TraceCoder’s accepted short-paper/poster status is confirmed by the owner’s
   acceptance record and the author-maintained comment on
   [arXiv:2607.26307](https://arxiv.org/abs/2607.26307). Replace or supplement
   that link with the proceedings record when AGENTICS publishes it.
-- The official programs or accepted-paper lists establish the current status of
-  Chronofy, Epistemic Edge, MultiSpecQR, and TOML Signals. IRI preview metadata
-  assigns DOIs 10.1109/IRI69576.2026.00090 and 10.1109/IRI69576.2026.00017,
-  but neither resolved during this review. Replace preview/program links when
-  final publisher records are available.
+- MultiSpecQR and TOML Signals retain their official accepted-paper/program
+  sources pending final proceedings records. The two IRI DOI holdbacks were
+  resolved on September 15 as documented above.
+- Corpusgen retains its accepted Show & Tell status while a stable official
+  paper record is awaited. Its temporary ISCA validation PDF now returns 404;
+  the software Zenodo DOI is not a conference-paper DOI.
 - The repository linked from the Rules Before Oracles arXiv record (`devfitcs/ABAS`)
   returned 404 for a signed-out visitor, so the site does not expose a code link.
 - Thirteen repositories linked by the previous site were private at review time:
