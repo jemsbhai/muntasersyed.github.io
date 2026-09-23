@@ -10,14 +10,14 @@ crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
 - Added Opera Map to the Projects awards and About milestones for 2019, with
   matching Person award metadata on the homepage and About page.
 - San Diego Opera’s [official August 20, 2020 press release](https://sdoperastg.wpengine.com/wp-content/uploads/2022/09/Opera-Hack-Winner-Presentations.pdf)
-  names Muntaser Syed on the team and confirms $13,500 in development funding.
+  names Muntaser Syed on the winning team and describes the project.
   The release describes a July 2019 win; 2020 is the follow-up presentation year.
 - The [original event listing](https://opera-hack.devpost.com/) establishes
   July 27–28, 2019 at Microsoft in La Jolla. Project manager Angel Mannion’s
   [event history](https://opera-innovation.squarespace.com/oi-insights/hacking-opera-in-san-diego)
   confirms this was the inaugural Opera Hack.
 - Copy credits a team win, one of three selected projects, without claiming
-  first place, sole authorship, or a personal $13,500 prize. Removed “recent”
+  first place or sole authorship. Removed “recent”
   from the awards introduction to accommodate the historical entry.
 - Updated sitemap modification dates only for the three affected HTML pages.
 - Validated JSON-LD on all three changed pages and checked both new entries
