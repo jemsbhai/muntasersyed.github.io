@@ -20,8 +20,10 @@
         "@type": "Person",
         "@id": "https://muntasersyed.com/#person",
         "name": "Muntaser Syed",
+        "alternateName": "Muntaser Mansur Syed",
         "url": "https://muntasersyed.com/",
         "sameAs": [
+          "https://huggingface.co/Jemsbhai",
           "https://scholar.google.com/citations?user=4RK-PocAAAAJ",
           "https://orcid.org/0000-0002-4777-6469",
           "https://github.com/jemsbhai",
@@ -806,6 +808,11 @@
               "creativeWorkStatus": "Accepted full paper for IEEE ICTAI 2026",
               "genre": "Full paper",
               "description": "Introduces a persistent data structure for managing large-language-model context.",
+              "subjectOf": {
+                "@type": "SoftwareSourceCode",
+                "name": "Hashrope paper experiments",
+                "codeRepository": "https://github.com/jemsbhai/hashrope-paper"
+              },
               "isPartOf": {
                 "@type": "CreativeWork",
                 "name": "IEEE ICTAI 2026"
@@ -1141,8 +1148,16 @@
                   "name": "Fariha Jaigirdar"
                 }
               ],
-              "url": "https://muntasersyed.com/research.html#corpusgen-interspeech",
-              "creativeWorkStatus": "Accepted Show & Tell for Interspeech 2026",
+              "url": "https://www.isca-archive.org/interspeech_2026/syed26_interspeech.html",
+              "datePublished": "2026",
+              "pageStart": "5916",
+              "pageEnd": "5917",
+              "encoding": {
+                "@type": "MediaObject",
+                "encodingFormat": "application/pdf",
+                "contentUrl": "https://www.isca-archive.org/interspeech_2026/syed26_interspeech.pdf"
+              },
+              "creativeWorkStatus": "Published Show & Tell contribution in Interspeech 2026 proceedings",
               "genre": "Show & Tell contribution",
               "description": "Demonstrates an open-source toolkit for designing multilingual speech corpora with optimized phoneme coverage.",
               "isPartOf": {
@@ -1242,18 +1257,18 @@
           <h1>Research and <em>publications.</em></h1>
           <p class="page-lede">This page lists published and accepted research, preprints, historical abstracts and posters, and open-source research artifacts.</p>
         </div>
-        <aside class="source-note"><strong>Verification standard.</strong> Records are matched using proceedings, publisher metadata, author acceptance records, preprints, and author lists. Earlier versions are consolidated; accepted work is distinguished from published work. Catalog reviewed <time datetime="2026-09-15">September 15, 2026</time>.</aside>
+        <aside class="source-note"><strong>Verification standard.</strong> Records are matched using proceedings, publisher metadata, author acceptance records, preprints, and author lists. Earlier versions are consolidated; accepted work is distinguished from published work. Catalog reviewed <time datetime="2026-09-28">September 28, 2026</time>.</aside>
       </div>
     </section>
 
     <section class="signal-strip" aria-label="Scholarly record at a glance">
       <div class="shell signals">
-        <div class="signal"><strong>15</strong><span>Published peer-reviewed</span></div>
-        <div class="signal"><strong>21</strong><span>Accepted / forthcoming</span></div>
+        <div class="signal"><strong>16</strong><span>Published contributions</span></div>
+        <div class="signal"><strong>20</strong><span>Accepted / forthcoming</span></div>
         <div class="signal"><strong>4</strong><span>Preprints awaiting publication</span></div>
         <div class="signal"><strong>38</strong><span>Scholarly outputs</span></div>
       </div>
-      <p class="shell source-note">Counts overlap: three of the four preprints awaiting publication also have conference acceptances. Earlier manuscripts linked from published records are excluded from the preprint count and filter. The 38 distinct scholarly outputs comprise 15 published peer-reviewed works (including one poster paper), 21 accepted contributions, one standalone preprint, and the published 2018 poster abstract. Historical presentation acceptances and software artifacts appear separately below.</p>
+      <p class="shell source-note">Counts overlap: three of the four preprints awaiting publication also have conference acceptances. Earlier manuscripts linked from published records are excluded from the preprint count and filter. The 38 distinct scholarly outputs comprise 16 published contributions (15 peer-reviewed papers or chapters, including one poster paper, plus the two-page Corpusgen Show &amp; Tell contribution), 20 accepted contributions, one standalone preprint, and the published 2018 poster abstract. Historical presentation acceptances and software artifacts appear separately below.</p>
     </section>
 
     <section class="section" aria-labelledby="directions-title">
@@ -1277,7 +1292,7 @@
       <div class="shell toolbar-inner">
         <div class="filters">
           <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All</button>
-          <button class="filter-button" type="button" data-filter="peer" aria-pressed="false">Peer reviewed</button>
+          <button class="filter-button" type="button" data-filter="published" aria-pressed="false">Published contributions</button>
           <button class="filter-button" type="button" data-filter="accepted" aria-pressed="false">Accepted</button>
           <button class="filter-button" type="button" data-filter="preprint" aria-pressed="false">Preprints awaiting publication</button>
           <button class="filter-button" type="button" data-filter="poster" aria-pressed="false">Posters &amp; abstracts</button>
@@ -1316,7 +1331,7 @@
               <p class="authors"><strong>Muntaser Syed</strong>; Ameerah Alsulami; Marius Silaghi</p>
               <p class="venue">IEEE ICTAI 2026 · Full paper</p>
               <p class="summary">Introduces a persistent data structure for managing large-language-model context.</p>
-              <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope">Code</a></div>
+              <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope">Library</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope-paper">Experiments</a></div>
             </article>
             <article class="catalog-item" id="stegaqr-ictai" data-catalog-item data-category="accepted edge">
               <div class="catalog-item-head"><h2>StegaQR: Learned Private Data Embedding in Standard-Decodable QR Codes</h2><span class="tag">Accepted full paper · IEEE ICTAI 2026</span></div>
@@ -1382,12 +1397,12 @@
               <p class="venue">ACM AI Summit 2026 · Extended abstract · Poster presentation</p>
               <p class="summary">Presents a vision for grounding machine-learning energy assessment in physical computation costs beyond operation counts.</p>
             </article>
-            <article class="catalog-item" id="corpusgen-interspeech" data-catalog-item data-category="accepted edge health">
-              <div class="catalog-item-head"><h2>corpusgen: An Open-Source Toolkit for Phoneme-Coverage-Optimized Speech Corpus Design Across Languages</h2><span class="tag">Accepted Show &amp; Tell · Interspeech 2026</span></div>
+            <article class="catalog-item" id="corpusgen-interspeech" data-catalog-item data-category="published edge health">
+              <div class="catalog-item-head"><h2>corpusgen: An Open-Source Toolkit for Phoneme-Coverage-Optimized Speech Corpus Design Across Languages</h2><span class="tag">Published Show &amp; Tell · Interspeech 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi; Sharun Akter Khushbu; Fariha Jaigirdar</p>
-              <p class="venue">Interspeech 2026 · Show &amp; Tell contribution</p>
+              <p class="venue">Interspeech 2026 · Show &amp; Tell contribution · pages 5916–5917</p>
               <p class="summary">Demonstrates an open-source toolkit for designing multilingual speech corpora with optimized phoneme coverage.</p>
-              <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">Code</a></div>
+              <div class="item-links"><a class="micro-link" href="https://www.isca-archive.org/interspeech_2026/syed26_interspeech.html">ISCA Archive</a><a class="micro-link" href="https://www.isca-archive.org/interspeech_2026/syed26_interspeech.pdf">Paper PDF</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">Code</a></div>
             </article>
             <article class="catalog-item" id="llm-ergonomics-paper" data-catalog-item data-category="accepted health">
               <div class="catalog-item-head"><h2>Ergonomic Assessment of LLM-Assisted Work among Bangladeshi Technology Users: A Multi-Instrument Survey Study</h2><span class="tag">Accepted · IEEE GHTC 2026</span></div>
@@ -1421,6 +1436,7 @@
               <p class="venue">IEEE ICMLA 2026 · Paper presentation scheduled for October 5, 2026, at 11:00 · Special Session 1A (SS1-A)</p>
               <p class="summary">Combines three independent QR payloads through RGB channel multiplexing and uses neural-assisted decoding, with a palette mode supporting up to nine layers.</p>
               <div class="item-links"><a class="micro-link" href="https://www.icmla-conference.org/icmla26/ss1regularpapers.html">Official accepted-paper list</a><a class="micro-link" href="https://github.com/jemsbhai/multispecqr">Code</a></div>
+              <div class="item-links" aria-label="MultiSpecQR models and datasets"><a class="micro-link" href="https://huggingface.co/Jemsbhai/multispecqr-rgb">RGB model</a><a class="micro-link" href="https://huggingface.co/Jemsbhai/multispecqr-palette6">6-layer model</a><a class="micro-link" href="https://huggingface.co/Jemsbhai/multispecqr-palette8">8-layer model</a><a class="micro-link" href="https://huggingface.co/Jemsbhai/multispecqr-palette9">9-layer model</a><a class="micro-link" href="https://huggingface.co/datasets/Jemsbhai/multispecqr-rgb-dataset">RGB dataset</a><a class="micro-link" href="https://huggingface.co/datasets/Jemsbhai/multispecqr-palette6-dataset">6-layer dataset</a></div>
             </article>
             <article class="catalog-item" data-catalog-item data-category="accepted preprint poster trust">
               <div class="catalog-item-head"><h2>TraceCoder: Explainable and Auditable Code Generation with Position-Key Snippet Versioning</h2><span class="tag">Accepted short paper · AGENTICS 2026</span></div>
@@ -1429,14 +1445,14 @@
               <p class="summary">Introduces an auditable code-generation workflow that preserves benchmark-driven repair history, explains how failures shaped individual snippets, and uses stable fractional position keys to track evolving code without disrupting surrounding lines.</p>
               <div class="item-links"><a class="micro-link" href="https://arxiv.org/abs/2607.26307">arXiv</a></div>
             </article>
-            <article class="catalog-item" id="chronofy-paper" data-catalog-item data-category="peer trust">
+            <article class="catalog-item" id="chronofy-paper" data-catalog-item data-category="published trust">
               <div class="catalog-item-head"><h2>Chronofy: A Temporal-Logical Decay Architecture for Information Validity in Time-Aware Retrieval-Augmented Generation</h2><span class="tag">Published full paper · IEEE IRI 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi; Sheikh Abujar; Sharun Akter</p>
               <p class="venue">2026 IEEE International Conference on Information Reuse and Integration for Data Science (IRI) · Full paper · pages 454–459 · Earlier manuscript: arXiv:2607.20560</p>
               <p class="summary">Introduces a three-layer neuro-symbolic architecture that preserves fact age in temporal embeddings, applies learnable decay during retrieval, and verifies the validity of retrieved evidence with Signal Temporal Logic to reduce temporal hallucination and trigger data re-acquisition when context is stale.</p>
               <div class="item-links"><a class="micro-link" href="https://doi.org/10.1109/IRI69576.2026.00090">DOI</a><a class="micro-link" href="https://ieeexplore.ieee.org/document/11676706/">IEEE</a><a class="micro-link" href="https://arxiv.org/abs/2607.20560">arXiv</a><a class="micro-link" href="https://ieee-iri.github.io/resources/documents/IEEE_IRI2026_Detailed_Program_Jul31.pdf">IRI program</a><a class="micro-link" href="https://pypi.org/project/chronofy/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/chronofy">Code</a></div>
             </article>
-            <article class="catalog-item" id="epistemic-edge-paper" data-catalog-item data-category="peer trust edge">
+            <article class="catalog-item" id="epistemic-edge-paper" data-catalog-item data-category="published trust edge">
               <div class="catalog-item-head"><h2>Epistemic Edge: Subjective Logic Guardrails for LLM-Driven IoT Actuation</h2><span class="tag">Published short paper · IEEE IRI 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi</p>
               <p class="venue">2026 IEEE International Conference on Information Reuse and Integration for Data Science (IRI) · Short paper · pages 37–40</p>
@@ -1457,35 +1473,35 @@
               <p class="summary">Introduces an agentic simulator for measuring justification coverage, diversity, and adversarial robustness in large-scale deliberative polling systems.</p>
               <div class="item-links"><a class="micro-link" href="https://arxiv.org/abs/2606.11692">arXiv</a></div>
             </article>
-            <article class="catalog-item" data-catalog-item data-category="peer edge">
+            <article class="catalog-item" data-catalog-item data-category="published edge">
               <div class="catalog-item-head"><h2>MCP-Edge: Extending the Model Context Protocol to Constrained IoT Devices</h2><span class="tag">Peer reviewed</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Sheikh Abujar; Sharun Akter</p>
               <p class="venue">2026 IEEE Cloud Summit · Washington, DC · June 25–26, 2026 · pages 80–85</p>
               <p class="summary">Extends the Model Context Protocol to constrained IoT devices through a tiered architecture spanning MCP-Lite endpoints, gateways, and full protocol clients.</p>
               <div class="item-links"><a class="micro-link" href="https://doi.org/10.1109/CLOUDSUMMIT68932.2026.00020">DOI</a><a class="micro-link" href="https://ieeexplore.ieee.org/document/11627353/">IEEE</a><a class="micro-link" href="https://github.com/jemsbhai/mcp-edge">Code</a></div>
             </article>
-            <article class="catalog-item" data-catalog-item data-category="peer trust edge">
+            <article class="catalog-item" data-catalog-item data-category="published trust edge">
               <div class="catalog-item-head"><h2>JSON-LD 1.2 and Beyond: Extensions for Machine Learning Data Exchange</h2><span class="tag">Peer reviewed</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi; Sheikh Abujar; Rwaida Alssadi; Sharun Akter Khushbu</p>
               <p class="venue">The International FLAIRS Conference Proceedings 39(1) · Marco Island, Florida · May 17–20, 2026</p>
               <p class="summary">A systematic gap analysis and backward-compatible extension set for representing confidence, provenance, temporal scope, embeddings, integrity, and validation in AI-generated linked data.</p>
               <div class="item-links"><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141786">DOI</a><a class="micro-link" href="https://github.com/jemsbhai/jsonld-ex">Code</a><a class="micro-link" href="https://pypi.org/project/jsonld-ex/">PyPI</a></div>
             </article>
-            <article class="catalog-item" data-catalog-item data-category="peer edge">
+            <article class="catalog-item" data-catalog-item data-category="published edge">
               <div class="catalog-item-head"><h2>TOML: Transistor Operations for Machine Learning: A Physics-Grounded Energy Efficiency Framework</h2><span class="tag">Peer reviewed</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi; Sheikh Abujar; Sharun Akter Khushbu</p>
               <p class="venue">The International FLAIRS Conference Proceedings 39(1) · Marco Island, Florida · May 17–20, 2026</p>
               <p class="summary">Extends transistor-level energy modeling to multiple machine-learning architectures and introduces metrics for switching, memory-compute balance, and capability-normalized efficiency.</p>
               <div class="item-links"><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141781">DOI</a><a class="micro-link" href="https://github.com/jemsbhai/nexus-ml">Code</a></div>
             </article>
-            <article class="catalog-item" data-catalog-item data-category="peer poster trust health">
+            <article class="catalog-item" data-catalog-item data-category="published poster trust health">
               <div class="catalog-item-head"><h2>Counting Constraints in POMDPs based on PID Controllers</h2><span class="tag">Published poster paper</span></div>
               <p class="authors">Garrett Gmeiner; Patrick Quinn; Asmaa Alqurashi; Prem Pochiraju; Mirajul Islam; Jackson Contreras; Sajina Pathak; Rwaida Alssadi; Sumana Boyapalli; Raghavendra Mallesha; Vijay Uppalapati; Javier Laboy-Jusino; Nikiraj Konwar; <strong>Muntaser Syed</strong>; Marius Silaghi</p>
               <p class="venue">The International FLAIRS Conference Proceedings 39(1) · Marco Island, Florida · May 17–20, 2026</p>
               <p class="summary">A Bayesian architecture for incorporating uncertain event-count constraints into POMDP decision processes, integrating probabilistic counts with PID-style control.</p>
               <div class="item-links"><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141592">DOI</a></div>
             </article>
-            <article class="catalog-item" data-catalog-item data-category="peer edge health">
+            <article class="catalog-item" data-catalog-item data-category="published edge health">
               <div class="catalog-item-head"><h2>Real-Time Neck Posture Classification Using a Lightweight Wearable IMU Pendant</h2><span class="tag">Peer reviewed</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Alfred Sjöqvist; Noah Sedlik; Tsing Liu</p>
               <p class="venue">The International FLAIRS Conference Proceedings 39(1) · Marco Island, Florida · May 17–20, 2026</p>
@@ -1498,7 +1514,7 @@
         <section class="catalog-year" data-year-group>
           <h3 class="year-label">2025</h3>
           <div class="catalog-items">
-            <article class="catalog-item" data-catalog-item data-category="peer health">
+            <article class="catalog-item" data-catalog-item data-category="published health">
               <div class="catalog-item-head"><h2>Counting Doors by Integrating POMDP Models and PID Controllers</h2><span class="tag">Peer reviewed</span></div>
               <p class="authors">Rwaida Alssadi; Sara Zuiran; Jolie Elliott; Phi Duong; Chinedum Ajabor; Alwaleed Alsaleemi; Samuel Boddepalli; Vamshi Gattikoppula; Pavan Manigandla; Akram Alghanmi; <strong>Muntaser Syed</strong>; Samaher Damanhori; Marius Silaghi</p>
               <p class="venue">38th Florida Conference on Recent Advances in Robotics · Full paper · May 9, 2025</p>
@@ -1511,7 +1527,7 @@
         <section class="catalog-year" data-year-group>
           <h3 class="year-label">2023</h3>
           <div class="catalog-items">
-            <article class="catalog-item" data-catalog-item data-category="peer health">
+            <article class="catalog-item" data-catalog-item data-category="published health">
               <div class="catalog-item-head"><h2>Comparative Evaluation of Transfer Learning for Classification of Brain Tumor Using MRI</h2><span class="tag">Peer reviewed</span></div>
               <p class="authors">Abu Kaisar Mohammad Masum; Nusrat Badhon; S. M. Saiful Islam Badhon; Nushrat Jahan Ria; Sheikh Abujar; <strong>Muntaser Mansur Syed</strong>; Naveed Mahmud</p>
               <p class="venue">2023 International Conference on Machine Learning and Applications (ICMLA) · December 15, 2023 · pages 697–702</p>
@@ -1524,28 +1540,28 @@
         <section class="catalog-year" data-year-group>
           <h3 class="year-label">2022</h3>
           <div class="catalog-items">
-            <article class="catalog-item" data-catalog-item data-category="peer trust">
+            <article class="catalog-item" data-catalog-item data-category="published trust">
               <div class="catalog-item-head"><h2>An Insight into the Intricacies of Lingual Paraphrasing Pragmatic Discourse on the Purpose of Synonyms</h2><span class="tag">Journal article</span></div>
               <p class="authors">Jabir Al Nahian; Abu Kaisar Mohammad Masum; <strong>Muntaser Mansur Syed</strong>; Sheikh Abujar</p>
               <p class="venue">Bulletin of Electrical Engineering and Informatics 11(5) · October 1, 2022 · pages 2958–2967</p>
               <p class="summary">Examines neural paraphrasing and synonym choice with attention to semantic preservation, fluency, and pragmatic discourse.</p>
               <div class="item-links"><a class="micro-link" href="https://doi.org/10.11591/eei.v11i5.3485">DOI</a></div>
             </article>
-            <article class="catalog-item" data-catalog-item data-category="peer edge health">
+            <article class="catalog-item" data-catalog-item data-category="published edge health">
               <div class="catalog-item-head"><h2>Multi-Dimensional Spectral Process for Cepstral Feature Engineering &amp; Formant Coding</h2><span class="tag">Journal article</span></div>
               <p class="authors">Ahmad Z. Hasanain; <strong>Muntaser M. Syed</strong>; Veton Z. Këpuska; Marius C. Silaghi</p>
               <p class="venue">Journal of Electrical Electronics Engineering 1(1) · August 15, 2022 · pages 1–20</p>
               <p class="summary">Introduces a multi-dimensional speech feature approach and the Speech Quefrency Transform for joint analysis of pitch, formants, and spectral structure.</p>
               <div class="item-links"><a class="micro-link" href="https://www.opastpublishers.com/peer-review/multidimensional-spectral-process-for-cepstral-feature-engineering-formant-coding-4070.html">Publisher</a><a class="micro-link" href="https://www.opastpublishers.com/open-access-articles/multidimensional-spectral-process-for-cepstral-feature-engineering--formant-coding.pdf">PDF</a></div>
             </article>
-            <article class="catalog-item" data-catalog-item data-category="peer health">
+            <article class="catalog-item" data-catalog-item data-category="published health">
               <div class="catalog-item-head"><h2>Medical Imaging a Transfer Learning Process with Multimodal CNN: Dermis-Disorder</h2><span class="tag">Book chapter</span></div>
               <p class="authors">Sumaia Shimu; Lingkon Chandra Debnath; Md. Mahadi Hasan Sany; Mumenunnessa Keya; Sharun Akter Khushbu; Sheak Rashed Haider Noori; <strong>Muntaser Mansur Syed</strong></p>
               <p class="venue">Third International Conference on Image Processing and Capsule Networks · Lecture Notes in Networks and Systems · July 29, 2022 · pages 556–573</p>
               <p class="summary">Applies multimodal convolutional transfer learning to the classification of dermatological disorders from medical imagery.</p>
               <div class="item-links"><a class="micro-link" href="https://doi.org/10.1007/978-3-031-12413-6_44">DOI</a></div>
             </article>
-            <article class="catalog-item" data-catalog-item data-category="peer trust health">
+            <article class="catalog-item" data-catalog-item data-category="published trust health">
               <div class="catalog-item-head"><h2>Exploring Public Attitude Towards Children by Leveraging Emoji to Track Out Sentiment Using Distil-BERT a Fine-Tuned Model</h2><span class="tag">Book chapter</span></div>
               <p class="authors">Uchchhwas Saha; Md. Shihab Mahmud; Mumenunnessa Keya; Effat Ara Easmin Lucky; Sharun Akter Khushbu; Sheak Rashed Haider Noori; <strong>Muntaser Mansur Syed</strong></p>
               <p class="venue">Third International Conference on Image Processing and Capsule Networks · Lecture Notes in Networks and Systems · July 29, 2022 · pages 332–346</p>
@@ -1558,7 +1574,7 @@
         <section class="catalog-year" data-year-group>
           <h3 class="year-label">2019</h3>
           <div class="catalog-items">
-            <article class="catalog-item" data-catalog-item data-category="peer trust">
+            <article class="catalog-item" data-catalog-item data-category="published trust">
               <div class="catalog-item-head"><h2>Towards Enhanced Comprehension of Human Errors in Cybersecurity Attacks</h2><span class="tag">Book chapter</span></div>
               <p class="authors">Mohammad Algarni; Saad Almesalm; <strong>Muntaser Syed</strong></p>
               <p class="venue">Advances in Human Error, Reliability, Resilience, and Performance · AISC 778 · 2019 · pages 163–175</p>
@@ -1571,7 +1587,7 @@
         <section class="catalog-year" data-year-group>
           <h3 class="year-label">2018</h3>
           <div class="catalog-items">
-            <article class="catalog-item" data-catalog-item data-category="peer health edge">
+            <article class="catalog-item" data-catalog-item data-category="published health edge">
               <div class="catalog-item-head"><h2>Models and Framework for Supporting Humanoid Robot Planning &amp; Exploration</h2><span class="tag">Conference paper</span></div>
               <p class="authors">Ahmad Hasanain; Troy Weekes; Michael Person; Kepinski Paul; Yonghui Chang; Aaron Rothman; Zhu Rui; Rajaa Rahil; <strong>Muntaser Syed</strong>; Chris Wodd; Marius Silaghi</p>
               <p class="venue">31st Florida Conference on Recent Advances in Robotics · May 10–11, 2018 · pages 1–5</p>
@@ -1614,6 +1630,7 @@
           <a href="https://www.researchgate.net/profile/Muntaser-Syed">ResearchGate</a>
           <a href="https://arxiv.org/search/?query=Muntaser+Syed&amp;searchtype=author">arXiv</a>
           <a href="https://github.com/jemsbhai">GitHub</a>
+          <a href="https://huggingface.co/Jemsbhai">Hugging Face</a>
           <a href="https://www.linkedin.com/in/muntasersyed">LinkedIn</a>
         </div>
       </div>

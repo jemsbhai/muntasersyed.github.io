@@ -29,10 +29,12 @@
         "@method": "author-maintained profile",
         "@humanVerified": true
       },
+      "alternateName": "Muntaser Mansur Syed",
       "url": "https://muntasersyed.com/",
       "sameAs": [
         "https://orcid.org/0000-0002-4777-6469",
         "https://github.com/jemsbhai",
+        "https://huggingface.co/Jemsbhai",
         "https://scholar.google.com/citations?user=4RK-PocAAAAJ",
         "https://sessionize.com/muntaser-syed/"
       ]

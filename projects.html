@@ -20,8 +20,10 @@
         "@type": "Person",
         "@id": "https://muntasersyed.com/#person",
         "name": "Muntaser Syed",
+        "alternateName": "Muntaser Mansur Syed",
         "url": "https://muntasersyed.com/",
         "sameAs": [
+          "https://huggingface.co/Jemsbhai",
           "https://github.com/jemsbhai",
           "https://devpost.com/jemsbhai",
           "https://devpost.com/msyed2011"
@@ -51,7 +53,7 @@
         "@type": "ItemList",
         "@id": "https://muntasersyed.com/projects.html#project-catalog",
         "name": "Selected research repositories and builds",
-        "numberOfItems": 17,
+        "numberOfItems": 19,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -83,9 +85,10 @@
             "item": {
               "@type": "SoftwareSourceCode",
               "name": "Hashrope paper experiments",
-              "description": "Sub-linear context routing and dynamic state management for agentic LLMs using hash-augmented ropes.",
+              "description": "Public manuscript and experiment workspace for the accepted IEEE ICTAI 2026 paper, Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management.",
               "creator": { "@id": "https://muntasersyed.com/#person" },
-              "sameAs": "https://github.com/jemsbhai/hashrope"
+              "codeRepository": "https://github.com/jemsbhai/hashrope-paper",
+              "citation": "https://muntasersyed.com/research.html#hashrope-ictai"
             }
           },
           {
@@ -260,6 +263,36 @@
               "programmingLanguage": "Python",
               "codeRepository": "https://github.com/jemsbhai/dreamland-rpi"
             }
+          },
+          {
+            "@type": "ListItem",
+            "position": 18,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "mlpowermeter",
+              "description": "Source-stage instrumentation and experimental protocols for measuring and predicting ML energy use with TOML. Scientific results are not yet claimed.",
+              "creator": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/mlpowermeter",
+              "creativeWorkStatus": "Research in progress"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 19,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Epicormic research workspace",
+              "description": "Research in progress on provider drift detection and containment in governed AI systems. Experiments and manuscript planning remain in preparation; no publication or completed study is claimed.",
+              "creator": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/epicormic-paper",
+              "creativeWorkStatus": "Research in progress"
+            }
           }
         ]
       }
@@ -286,7 +319,7 @@
     <section class="page-hero">
       <div class="shell page-intro-grid">
         <div><p class="eyebrow"><span class="kicker">Projects</span> / Research and prototypes</p><h1>Research repositories and <em>builds.</em></h1><p class="page-lede">These projects contain research code, experiments, protocols, and applied prototypes. Talks and teaching now have a dedicated archive.</p></div>
-        <aside class="source-note"><strong>Portfolio boundary.</strong> Public repositories link directly; private research is labeled without a broken link, and pre-alpha work is distinguished from released software. Reviewed <time datetime="2026-09-15">September 15, 2026</time>.</aside>
+        <aside class="source-note"><strong>Portfolio boundary.</strong> Public repositories link directly; private research is labeled without a broken link, and pre-alpha work is distinguished from released software. Reviewed <time datetime="2026-09-28">September 28, 2026</time>.</aside>
       </div>
     </section>
 
@@ -296,7 +329,7 @@
         <div class="artifact-grid">
           <article class="artifact-card"><span class="record-index">SEMANTIC IOT</span><h3>CBOR-LD Ex</h3><p>Reasoning-carrying binary linked data for constrained networks, with a Python reference implementation and byte-compatible, <code>no_std</code> Rust core.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/cbor-ld-ex">Python</a><a class="micro-link" href="https://github.com/jemsbhai/cborld-ex">Rust</a><a class="micro-link" href="software.html#compact-data">Project details</a><a class="micro-link" href="research.html#cborld-ex-paper">Accepted IEEE WF-IoT paper</a></div></article>
           <article class="artifact-card"><span class="record-index">PRE-ALPHA · DRAFT SPEC</span><h3>I3C-EX</h3><p>An independent research protocol for edge AI/ML over MIPI I3C Basic v1.2. The separate I4C track is currently a placeholder.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/i3cex">I3C-EX</a><a class="micro-link" href="https://github.com/jemsbhai/i3cex-i4c">I4C placeholder</a></div></article>
-          <article class="artifact-card"><span class="record-index">PRIVATE EXPERIMENTS</span><h3>Hashrope paper experiments</h3><p>Private experiments in sub-linear context routing and dynamic state management for agentic LLMs using hash-augmented ropes.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope">Public library</a></div></article>
+          <article class="artifact-card"><span class="record-index">PUBLIC EXPERIMENTS · ACCEPTED IEEE ICTAI PAPER</span><h3>Hashrope paper experiments</h3><p>Public manuscript and experiment workspace for <em>Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management</em>, accepted at IEEE ICTAI 2026.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope-paper">Experiments</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope">Library</a><a class="micro-link" href="research.html#hashrope-ictai">Accepted paper</a></div></article>
           <article class="artifact-card"><span class="record-index">PRE-ALPHA · DESIGN ONLY</span><h3>EpistemicDB</h3><p>A future CBOR-LD Ex database design. The public repository currently contains architecture documents; implementation has not begun.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/epistemicdb">Design repository</a></div></article>
           <article class="artifact-card"><span class="record-index">ENERGY METRICS</span><h3>TOML Transformers</h3><p>Transistor-level energy modeling extended to transformer inference and modern sequence architectures.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers">Repository</a><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141781">Paper</a></div></article>
           <article class="artifact-card"><span class="record-index">PUBLIC RESEARCH ARTIFACT · IEEE MLSP 2026</span><h3>TOML Signals</h3><p>Reproducible transistor-level energy analysis of 37 signal-processing algorithms, with profiler traces and evaluation artifacts for the accepted IEEE MLSP 2026 paper.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/TOMLSignals">Repository</a><a class="micro-link" href="https://openreview.net/forum?id=jYBcP44EDn">OpenReview</a><a class="micro-link" href="https://neuroneural.net/mlsp2026schedule/">Conference schedule</a></div></article>
@@ -317,6 +350,8 @@
           <article class="package-card release-card release-card-featured" id="station-steward"><span class="record-index">HACKATHON PROTOTYPE · SEPTEMBER 12, 2026</span><h3>Station Steward</h3><p>A local agent connecting a real Arduino sensor bench and a simulated robotic workcell through Pollard, Chronofy, MCP-Edge, and human task handoffs. Built for the AI Tinkerers / OpenAI Agents Everywhere hackathon in Miami.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/station-steward">Repository</a><a class="micro-link" href="software.html#agent-infrastructure">Agent infrastructure</a><a class="micro-link" href="software.html#temporal-trust">Temporal stack</a></div></article>
           <article class="package-card release-card"><span class="record-index">ACTIVE IMPLEMENTATION · UNRELEASED</span><h3>CorpusKit</h3><p>A production-oriented Corpusgen application and workbench. No registry or production release is claimed yet.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/corpuskit">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit/blob/main/docs/getting-started.md">Getting started</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit/blob/main/docs/product/15-minute-demo.md">15-minute demo</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">Corpusgen</a></div></article>
           <article class="package-card release-card" id="dreamland-controller"><span class="record-index">APPLIED INSTALLATION · CONTROLLER SOFTWARE</span><h3>Dreamland floor projection</h3><p>Raspberry Pi controller software by Muntaser Syed for an overhead projector, with looping playback and optional person detection. Artwork by Tec (Tec Fase).</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/dreamland-rpi">Controller repository</a></div></article>
+          <article class="package-card release-card" id="mlpowermeter"><span class="record-index">SOURCE STAGE · INSTRUMENTATION</span><h3>mlpowermeter</h3><p>Measurement tools and experimental protocols for predicting ML energy use with TOML. Instrumentation validation is in progress; scientific results are not yet claimed.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/mlpowermeter">Research repository</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLSignals">Related TOML Signals study</a></div></article>
+          <article class="package-card release-card" id="epicormic-research"><span class="record-index">RESEARCH IN PROGRESS</span><h3>Epicormic research workspace</h3><p>Experiment and manuscript preparation for provider drift detection and containment in governed AI systems. The study is still being prepared, with no acceptance or completed results claimed.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/epicormic-paper">Research repository</a><a class="micro-link" href="software.html#agent-infrastructure">Published alpha package</a></div></article>
           <article class="package-card release-card"><span class="record-index">RESEARCH PREVIEW · PRE-RELEASE</span><h3>WattWarden</h3><p>Energy-governed agents combining TOML-derived energy metrics with Pollard execution controls; setup remains incomplete.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">Pollard</a></div></article>
           <article class="package-card release-card"><span class="record-index">COLLABORATOR-OWNED · CHALLENGE SUBMISSION</span><h3>Joulehound</h3><p>An Arm-device energy-profiling collaboration for local AI-agent workloads, comparing measured battery telemetry with FLOPs and NEXUS/TOML estimates. The collaborator-owned prototype was submitted to the Arm Create: AI Optimization Challenge; no award or stable release is claimed.</p><div class="item-links"><a class="micro-link" href="https://devpost.com/software/joulehound">Devpost</a><a class="micro-link" href="https://github.com/b-urge/Joulehound">Collaborator-owned repository</a></div></article>
           <article class="package-card release-card"><span class="record-index">READINESS BOUNDARY</span><h3>Scaffolds stay out of the catalog</h3><p>ArmFlex and qrez remain pre-release or pre-alpha scaffolds and are intentionally omitted from the featured software catalog.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai?tab=repositories">All repositories</a></div></article>
@@ -334,11 +369,11 @@
           </article>
           <article class="artifact-card">
             <span class="record-index">AGENTS &amp; CONTEXT</span><h3>Governed AI infrastructure</h3><p>Execution trees, context metering, protocol efficiency, routing, and agent evaluation.</p>
-            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/pollard">pollard</a><a class="micro-link" href="https://github.com/jemsbhai/tokenmaster">tokenmaster</a><a class="micro-link" href="https://github.com/jemsbhai/mcpmeter">mcpmeter</a><a class="micro-link" href="https://github.com/jemsbhai/mcp-edge">mcp-edge</a><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">wattwarden</a><a class="micro-link" href="https://github.com/jemsbhai/station-steward">station-steward</a></div>
+            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/pollard">pollard</a><a class="micro-link" href="https://github.com/jemsbhai/tokenmaster">tokenmaster</a><a class="micro-link" href="https://github.com/jemsbhai/mcpmeter">mcpmeter</a><a class="micro-link" href="https://github.com/jemsbhai/mcp-edge">mcp-edge</a><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">wattwarden</a><a class="micro-link" href="https://github.com/jemsbhai/station-steward">station-steward</a><a class="micro-link" href="https://github.com/jemsbhai/pollard-jev">pollard-jev</a><a class="micro-link" href="https://github.com/jemsbhai/epicormic">epicormic</a><a class="micro-link" href="https://github.com/jemsbhai/epicormic-paper">epicormic research</a></div>
           </article>
           <article class="artifact-card">
             <span class="record-index">EDGE &amp; EFFICIENCY</span><h3>Compute under constraints</h3><p>Protocols, energy models, sustainable datacenters, compact architectures, and temporal models.</p>
-            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/i3cex">i3cex</a><a class="micro-link" href="https://github.com/jemsbhai/i3cex-i4c">i3cex-i4c</a><a class="micro-link" href="https://github.com/jemsbhai/nexus-ml">nexus-ml</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers">TOML transformers</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLSignals">TOML signals</a><a class="micro-link" href="https://github.com/jemsbhai/arcmind">arcmind</a><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">wattwarden</a></div>
+            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/i3cex">i3cex</a><a class="micro-link" href="https://github.com/jemsbhai/i3cex-i4c">i3cex-i4c</a><a class="micro-link" href="https://github.com/jemsbhai/nexus-ml">nexus-ml</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers">TOML transformers</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLSignals">TOML signals</a><a class="micro-link" href="https://github.com/jemsbhai/arcmind">arcmind</a><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">wattwarden</a><a class="micro-link" href="https://github.com/jemsbhai/mlpowermeter">mlpowermeter</a></div>
           </article>
           <article class="artifact-card">
             <span class="record-index">HEALTH, BIO &amp; SENSING</span><h3>Health and sensing</h3><p>Wearables, clinical representations, privacy, communication networks, brain interfaces, and speech.</p>
@@ -346,7 +381,7 @@
           </article>
           <article class="artifact-card">
             <span class="record-index">DATA &amp; EXPLAINABILITY</span><h3>Data and explainability</h3><p>Compact formats, compressed-domain algorithms, explainability, and structured-data validation.</p>
-            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope">hashrope</a><a class="micro-link" href="https://github.com/jemsbhai/cbor-ld-ex">cbor-ld-ex</a><a class="micro-link" href="https://github.com/jemsbhai/cborld-ex">cborld-ex</a><a class="micro-link" href="https://github.com/jemsbhai/cdxf">CDXF</a><a class="micro-link" href="https://github.com/jemsbhai/uhc">UHC</a><a class="micro-link" href="https://github.com/jemsbhai/explainiverse">explainiverse</a><a class="micro-link" href="https://github.com/jemsbhai/explainiverse-studio">studio</a><a class="micro-link" href="https://github.com/jemsbhai/richresults">richresults</a></div>
+            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope">hashrope</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope-paper">hashrope experiments</a><a class="micro-link" href="https://github.com/jemsbhai/cbor-ld-ex">cbor-ld-ex</a><a class="micro-link" href="https://github.com/jemsbhai/cborld-ex">cborld-ex</a><a class="micro-link" href="https://github.com/jemsbhai/cdxf">CDXF</a><a class="micro-link" href="https://github.com/jemsbhai/uhc">UHC</a><a class="micro-link" href="https://github.com/jemsbhai/explainiverse">explainiverse</a><a class="micro-link" href="https://github.com/jemsbhai/explainiverse-studio">studio</a><a class="micro-link" href="https://github.com/jemsbhai/richresults">richresults</a></div>
           </article>
           <article class="artifact-card">
             <span class="record-index">FULL ACCOUNT</span><h3>All public repositories</h3><p>For workshop materials, applied prototypes, archived experiments, and new work not yet classified here.</p>

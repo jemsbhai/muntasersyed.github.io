@@ -1,9 +1,64 @@
-# Content audit — September 23, 2026
+# Content audit — September 28, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## September 28 refresh
+
+- Added [pollard-jev 0.12](https://pypi.org/project/pollard-jev/0.12/) and
+  [epicormic 0.1.0](https://pypi.org/project/epicormic/0.1.0/), both functional
+  alpha releases published September 27. Updated
+  [StegaQR to 0.2.0](https://pypi.org/project/stegaQR/0.2.0/) (September 25),
+  including its default interleaved placement and native decoding for older images.
+- Checked all 26 owned PyPI projects, four npm packages, and five Rust crates.
+  The other 30 previously featured registry entries are unchanged. With the
+  existing prerelease/placeholder exclusions, the catalog now features 24 PyPI
+  packages in eight software families. Software JSON-LD has 26 top-level works;
+  that count is distinct from package-registry entries and language ports.
+- Added the organizer-confirmed [October 8 AiSalon Miami keynote](https://luma.com/AI-Salon-October-Miami-2026),
+  “The Power of No.” The 6–9 p.m. Eastern window belongs to the overall event,
+  not the individual keynote. It replaces the expired September 17 feature.
+- Marked the September 17 Hugging Face session as delivered. The speaker
+  confirmed a standing-room-only audience. DeepStation's
+  [September 21 recap](https://www.linkedin.com/posts/deepstationai_deepstation-is-excited-to-share-the-post-event-activity-7507809905546821632-UT_f)
+  independently describes the live demonstration. Linked the recap, slides,
+  Colab exercise, and [materials](https://github.com/jemsbhai/bringing-the-heat).
+- Added the August 26 CBOR-LD Ex demonstration at the fifth Miami Hardware
+  Meetup using the organizer event and post-event recap.
+- Added FLAIRS-40 special-track co-chair service after the
+  [official conference roster](https://www.flairs-40.info/special-tracks)
+  linked the [canonical track site](https://embodiedaicfp.github.io/).
+  The prior approval holdback is resolved. Added the independently credited
+  [Deco Portals volunteer contribution](https://lincolnroad.com/deco-portals/).
+- Promoted Corpusgen's existing Show & Tell record to a published proceedings
+  contribution using the [official ISCA page](https://www.isca-archive.org/interspeech_2026/syed26_interspeech.html)
+  and PDF, pp. 5916–5917. Preserved the four conference-paper authors and the
+  separate software DOI. The paper page supplies no individual DOI and only
+  year-precision publication metadata. ISCA currently has a certificate issue;
+  the page and PDF were inspected with that access limitation recorded.
+- Research remains 38 distinct outputs: 16 published contributions, 20 accepted
+  contributions, one standalone preprint, and one published poster abstract.
+  Four preprints await publication, including three accepted works. Renamed the
+  published filter to make the two-page Show & Tell contribution explicit
+  without implying that every published item is a full paper or chapter.
+- Restored public Hashrope experiment links, added mlpowermeter and the
+  Epicormic research workspace as source-stage projects, and kept unpublished
+  drafts outside publication totals. Linked all four MultiSpecQR model
+  repositories and both datasets on Hugging Face. Added the verified publication
+  name variant and Hugging Face identity link to Person metadata across the site.
+- Live OpenAlex searches now return one matching ORCID-linked profile. The
+  earlier author split was not reproduced; the follow-up is coverage and
+  deduplication rather than an assumed unresolved merge.
+
+Validation covered all six pages at 1440, 768, 390, and 320 pixels in both
+themes: 48 layout checks with no horizontal overflow or broken images. All
+24 automated axe-core WCAG A/AA checks passed. JSON-LD list counts and
+positions agree, all 129 internal references resolve, and the research filters
+return 38 total, 16 published, 20 accepted, and four pending preprints.
+Search, empty results, deep links, mobile navigation, and theme controls passed
+without page JavaScript errors. Updated sections were visually reviewed.
 
 ## September 23 Opera Map addition
 
@@ -172,15 +227,15 @@ Validation after the approved changes:
 
 ## Published state
 
-- Research: 38 distinct scholarly outputs: 15 published peer-reviewed
-  papers/chapters (including one poster paper), 21 accepted conference
-  contributions, one preprint without conference acceptance, and one
-  published 2018 poster abstract. Three accepted works also have public
+- Research: 38 distinct scholarly outputs: 16 published contributions
+  (papers, chapters, a poster paper, and a two-page Show & Tell contribution),
+  20 accepted conference contributions, one preprint without conference
+  acceptance, and one published 2018 poster abstract. Three accepted works also have public
   preprints, making four preprints awaiting publication in all. These filters
   overlap; earlier versions of published papers remain linked and are counted
   once. Two older presentation acceptances
   and software artifacts remain outside this scholarly total.
-- Software: 22 featured published PyPI packages, 4 npm packages, and 5 Rust crates.
+- Software: 24 featured published PyPI packages, 4 npm packages, and 5 Rust crates.
   `i3cex` is a development release and `facecloak-suite` is a placeholder, so
   neither is included in the featured PyPI total. Package maturity ranges from
   pre-alpha through production/stable and is not implied by this count.
@@ -192,10 +247,6 @@ Validation after the approved changes:
 
 ## Deliberate holdbacks and owner follow-ups
 
-- The public [FLAIRS-40 track site](https://jemsbhai.github.io/flairs40-tracks/)
-  names Muntaser as co-chair for Embodied AI Agents, Robotics, and IoT.
-  Track notifications were due September 8; approval of this specific track
-  still needs confirmation before inclusion in professional service.
 - The [1-bit IoT router](https://github.com/jemsbhai/1bit-llm-iot-router)
   is confirmed accepted at IEEE WF-IoT 2026 and now has public source code.
   It is not presented as a stable package release. WF-IoT papers remain
@@ -219,13 +270,10 @@ Validation after the approved changes:
 - MultiSpecQR and TOML Signals retain their official accepted-paper/program
   sources pending final proceedings records. The two IRI DOI holdbacks were
   resolved on September 15 as documented above.
-- Corpusgen retains its accepted Show & Tell status while a stable official
-  paper record is awaited. Its temporary ISCA validation PDF now returns 404;
-  the software Zenodo DOI is not a conference-paper DOI.
 - The repository linked from the Rules Before Oracles arXiv record (`devfitcs/ABAS`)
   returned 404 for a signed-out visitor, so the site does not expose a code link.
-- Thirteen repositories linked by the previous site were private at review time:
-  `cryptepi`, `explainiverse-explorer`, `hashrope-paper`,
+- Twelve repositories linked by the previous site remain held from the earlier review:
+  `cryptepi`, `explainiverse-explorer`,
   `healthSLnetwrokslicer`, `IEEEHealth-pharma`, `imujepa`, `jepa-fhir`,
   `kvrm-paper`, `oneura-ictai2026`, `thermocline`, `TimeCMAPlus`, `trilstm`,
   and `uhc-visualizer`. Re-add links only after
@@ -234,8 +282,9 @@ Validation after the approved changes:
   and says it must not be public. Its portfolio link was removed; the owner
   should review the repository’s visibility and contents directly.
 - ORCID contains namesake records, duplicates, and misclassified service. Clean
-  the profile manually before using its displayed count. OpenAlex also splits
-  the author record across two profiles and should be merged.
+  the profile before using its displayed count. Recheck OpenAlex coverage and
+  deduplication; the previously observed author split was not reproduced on
+  September 28.
 - Recent awards supported only by social posts remain outside the curated awards
   section. Fresh Fridge was added only after an independent result report named
   the team, placement, and participants.

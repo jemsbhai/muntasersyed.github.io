@@ -16,7 +16,7 @@ archive, professional service, selected awards, press, and public profiles.
 - `about.html`: biography, roles, education, professional service, press, milestones, and profile links
 
 Publication records, press, projects, speaking, and software registries were
-last reviewed on September 15, 2026. See `CONTENT_AUDIT.md` for the refresh scope, counts, evidence boundaries,
+last reviewed on September 28, 2026. See `CONTENT_AUDIT.md` for the refresh scope, counts, evidence boundaries,
 deliberate holdbacks, and the next refresh checklist.
 
 ## Structured data

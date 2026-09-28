@@ -20,12 +20,14 @@
         "@type": "Person",
         "@id": "https://muntasersyed.com/#person",
         "name": "Muntaser Syed",
+        "alternateName": "Muntaser Mansur Syed",
         "url": "https://muntasersyed.com/",
         "sameAs": [
           "https://github.com/jemsbhai",
           "https://pypi.org/user/jemsbhai/",
           "https://www.npmjs.com/~jemsbhai",
-          "https://crates.io/users/jemsbhai"
+          "https://crates.io/users/jemsbhai",
+          "https://huggingface.co/Jemsbhai"
         ]
       },
       {
@@ -60,7 +62,7 @@
         "@type": "ItemList",
         "@id": "https://muntasersyed.com/software.html#software-catalog",
         "name": "Open-source software by Muntaser Syed",
-        "numberOfItems": 24,
+        "numberOfItems": 26,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -260,12 +262,13 @@
               "@type": "SoftwareSourceCode",
               "name": "Corpusgen",
               "version": "0.1.7",
-              "description": "A language-agnostic generator and evaluator for speech corpora with maximal phoneme coverage.",
+              "description": "A language-agnostic generator and evaluator for speech corpora with maximal phoneme coverage, with an associated published Show & Tell contribution in the Interspeech 2026 proceedings.",
               "creator": { "@id": "https://muntasersyed.com/#person" },
               "programmingLanguage": "Python",
               "codeRepository": "https://github.com/jemsbhai/corpusgen",
               "url": "https://pypi.org/project/corpusgen/",
-              "citation": ["https://doi.org/10.5281/zenodo.21891821", "https://muntasersyed.com/research.html#corpusgen-interspeech"]
+              "identifier": { "@type": "PropertyValue", "propertyID": "Software version DOI", "value": "10.5281/zenodo.21891821" },
+              "citation": "https://www.isca-archive.org/interspeech_2026/syed26_interspeech.html"
             }
           },
           {
@@ -303,8 +306,10 @@
             "item": {
               "@type": "SoftwareSourceCode",
               "name": "stegaQR",
-              "version": "0.1.0",
-              "description": "Neural steganographic data embedding in QR codes with switchable channel modes.",
+              "@id": "https://muntasersyed.com/software.html#stegaqr",
+              "version": "0.2.0",
+              "creativeWorkStatus": "Alpha",
+              "description": "Neural private-payload embedding in standard-decodable QR codes, with a bundled model, error correction, and interleaved bit placement. Images created with 0.1.0 require native placement when decoded.",
               "creator": { "@id": "https://muntasersyed.com/#person" },
               "programmingLanguage": "Python",
               "codeRepository": "https://github.com/jemsbhai/stegaQR",
@@ -453,6 +458,41 @@
                 "url": "https://neuroneural.net/mlsp2026schedule/"
               }
             }
+          },
+          {
+            "@type": "ListItem",
+            "position": 25,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/software.html#pollard-jev",
+              "name": "pollard-jev",
+              "version": "0.12",
+              "creativeWorkStatus": "Alpha",
+              "description": "A Pollard companion for typed robotics and IoT decisions, with observation-validity checks, bounded simulated actions, audit records, and reproducible local OpenJev benchmarks.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/pollard-jev",
+              "url": "https://pypi.org/project/pollard-jev/",
+              "datePublished": "2026-09-23",
+              "dateModified": "2026-09-27"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 26,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/software.html#epicormic",
+              "name": "epicormic",
+              "version": "0.1.0",
+              "creativeWorkStatus": "Alpha",
+              "description": "Statistical provider-drift monitoring for Pollard-governed AI systems, with reproducible evidence records and controls that gate subsequent model and tool calls.",
+              "creator": { "@id": "https://muntasersyed.com/#person" },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/epicormic",
+              "url": "https://pypi.org/project/epicormic/",
+              "datePublished": "2026-09-27"
+            }
           }
         ]
       },
@@ -495,7 +535,7 @@
 
     <section class="signal-strip" aria-label="Software profile at a glance">
       <div class="shell signals">
-        <div class="signal"><strong>22</strong><span>Featured PyPI packages</span></div>
+        <div class="signal"><strong>24</strong><span>Featured PyPI packages</span></div>
         <div class="signal"><strong>4</strong><span>npm packages</span></div>
         <div class="signal"><strong>5</strong><span>Rust crates</span></div>
         <div class="signal"><strong>8</strong><span>Major software families</span></div>
@@ -504,25 +544,25 @@
 
     <section class="section latest-releases" aria-labelledby="latest-releases-title">
       <div class="shell">
-        <div class="section-head"><p class="eyebrow">Registry sync / <time datetime="2026-09-15">September 15, 2026</time></p><div><h2 id="latest-releases-title">Latest package releases.</h2><p>The newest releases across the public package profile, with direct links to install details and source.</p></div></div>
+        <div class="section-head"><p class="eyebrow">Registry sync / <time datetime="2026-09-28">September 28, 2026</time></p><div><h2 id="latest-releases-title">Latest package releases.</h2><p>The newest releases across the public package profile, with direct links to install details and source.</p></div></div>
         <div class="package-grid">
           <article class="package-card release-card release-card-featured">
-            <span class="record-index">LATEST · SEP 4, 2026</span>
-            <h3>Explainiverse <span class="release-version">v0.15.2</span></h3>
-            <p>A beta explainability framework with explicit audit scopes. This release is CPU-verified; CUDA hardware validation was not performed.</p>
-            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/explainiverse/0.15.2/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/explainiverse/releases/tag/v0.15.2">Release</a><a class="micro-link" href="#research-tools">Details</a></div>
+            <span class="record-index">LATEST · SEP 27, 2026</span>
+            <h3>pollard-jev <span class="release-version">v0.12 · Alpha</span></h3>
+            <p>Typed robotics and IoT decisions with Pollard, bounded simulated actions, and reproducible local OpenJev benchmarks.</p>
+            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/pollard-jev/0.12/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard-jev/blob/main/CHANGELOG.md">Changelog</a><a class="micro-link" href="#pollard-jev">Details</a></div>
           </article>
           <article class="package-card release-card">
-            <span class="record-index">SEP 1, 2026</span>
-            <h3>Pollard <span class="release-version">v1.6.0</span></h3>
-            <p>Governed execution trees with an opt-in duplicate-recording guard and a credential-free first-run example.</p>
-            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/pollard/1.6.0/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard/releases/tag/v1.6.0">Release</a><a class="micro-link" href="#agent-infrastructure">Details</a></div>
+            <span class="record-index">SEP 27, 2026</span>
+            <h3>epicormic <span class="release-version">v0.1.0 · Alpha</span></h3>
+            <p>Statistical provider-drift monitoring, reproducible evidence records, and controls for subsequent model and tool calls.</p>
+            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/epicormic/0.1.0/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/epicormic">GitHub</a><a class="micro-link" href="#epicormic">Details</a></div>
           </article>
           <article class="package-card release-card">
-            <span class="record-index">AUG 16, 2026</span>
-            <h3>Chronofy <span class="release-version">Python 0.1.9 · npm 0.1.8</span></h3>
-            <p>Independently versioned Python and JavaScript releases of the Temporal-Logical Decay Architecture for time-aware RAG.</p>
-            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/chronofy/">PyPI</a><a class="micro-link" href="https://www.npmjs.com/package/chronofy">npm</a><a class="micro-link" href="#temporal-trust">Details</a></div>
+            <span class="record-index">SEP 25, 2026</span>
+            <h3>stegaQR <span class="release-version">v0.2.0 · Alpha</span></h3>
+            <p>Private-payload embedding in QR codes with interleaved error-correction bits. Legacy images remain decodable using native placement.</p>
+            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/stegaQR/0.2.0/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/stegaQR">GitHub</a><a class="micro-link" href="#stegaqr">Details</a></div>
           </article>
         </div>
       </div>
@@ -573,7 +613,7 @@
         <div class="family-modules">
           <section class="module"><div class="module-head"><h3>hashrope · Core library</h3><span class="tag">Python 0.2.2 · Rust 0.3.1</span></div><p>Parallel implementations of the BB[2/7] hash-augmented tree for efficient text and state operations.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/hashrope/">PyPI</a><a class="micro-link" href="https://crates.io/crates/hashrope">crate</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope">GitHub</a><a class="micro-link" href="https://uhc-visualizer.lovable.app/">Live visualizer</a></div></section>
           <section class="module"><div class="module-head"><h3>hashrope-bio · Computational biology</h3><span class="tag">Python 0.1.0 · Rust 0.2.0</span></div><p>Genomic region comparison, mutation localization, tandem-repeat analysis, and drug-resistance screening.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/hashrope-bio/">PyPI</a><a class="micro-link" href="https://crates.io/crates/hashrope-bio">crate</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope-bio">GitHub</a></div></section>
-          <section class="module"><div class="module-head"><h3>Agentic context research</h3><span class="tag">Private experiments</span></div><p>Sub-linear context routing and dynamic state management for agentic LLMs using hash-augmented ropes.</p></section>
+          <section class="module"><div class="module-head"><h3>Agentic context research</h3><span class="tag">Research experiments</span></div><p>Experiments for the accepted IEEE ICTAI 2026 paper on persistent editing, branching, prefix identification, and repetition encoding for LLM context management.</p><div class="module-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope-paper">Experiments</a></div></section>
         </div>
       </article>
 
@@ -595,12 +635,15 @@
       <article class="software-family" id="agent-infrastructure">
         <div class="software-family-copy">
           <span class="software-family-number">05 / AGENT INFRASTRUCTURE</span>
-          <h2>Pollard + MCP-Edge</h2>
-          <p>Pollard provides governed and replayable execution trees for agents. MCP-Edge extends agent infrastructure to constrained devices. The <a href="projects.html#station-steward">Station Steward hackathon prototype</a> combines both with Chronofy, Arduino telemetry, and human task handoffs.</p>
+          <h2>Governed agents &amp; edge systems</h2>
+          <p>Pollard provides governed and replayable execution trees for agents. Its companions add typed robotics decisions and provider-drift monitoring; MCP-Edge connects constrained devices. The <a href="projects.html#station-steward">Station Steward hackathon prototype</a> combines Pollard and MCP-Edge with Chronofy, Arduino telemetry, and human task handoffs.</p>
           <div class="install-line"><code>pip install pollard mcp-edge</code><button class="copy-button" type="button" data-copy="pip install pollard mcp-edge">Copy</button></div>
+          <div class="install-line"><code>pip install pollard-jev epicormic</code><button class="copy-button" type="button" data-copy="pip install pollard-jev epicormic">Copy</button></div>
         </div>
         <div class="family-modules">
           <section class="module"><div class="module-head"><h3>Pollard</h3><span class="tag">v1.6.0 · Python</span></div><p>A production-stable runtime for budgeting agent work, enforcing versioned action gates, auditing execution trees, and replaying decisions.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/pollard/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">GitHub</a></div></section>
+          <section class="module" id="pollard-jev"><div class="module-head"><h3>pollard-jev</h3><span class="tag">v0.12 · Alpha</span></div><p>A Pollard companion for typed robotics and IoT decisions, with observation-validity checks, bounded simulated actions, audit records, and reproducible local OpenJev benchmarks. Hardware integration and recorded-sensor validation remain future work.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/pollard-jev/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard-jev">GitHub</a><a class="micro-link" href="https://github.com/jemsbhai/pollard-jev/blob/main/docs/BENCHMARKING.md">Benchmarks &amp; limits</a></div></section>
+          <section class="module" id="epicormic"><div class="module-head"><h3>epicormic</h3><span class="tag">v0.1.0 · Alpha</span></div><p>Statistical provider-drift monitoring for Pollard-governed AI systems, with reproducible evidence records and controls that gate subsequent model and tool calls. Its verdicts distinguish stable, warning, drift, and unknown states.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/epicormic/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/epicormic">GitHub</a><a class="micro-link" href="https://github.com/jemsbhai/epicormic/blob/main/docs/limitations.md">Scope &amp; limits</a></div></section>
           <section class="module"><div class="module-head"><h3>MCP-Edge</h3><span class="tag">v0.2.0 · Edge · IoT</span></div><p>A bridging gateway, MCP-Lite server, and four-tier taxonomy for extending the Model Context Protocol to constrained devices.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/mcp-edge/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/mcp-edge">GitHub</a><a class="micro-link" href="https://doi.org/10.1109/CLOUDSUMMIT68932.2026.00020">Paper</a></div></section>
           <section class="module"><div class="module-head"><h3>Securing MCP Workflows for Agentic AI</h3><span class="tag">AgentCon Miami · Jun 12, 2026</span></div><p>An interactive talk and security lab covering MCP, autonomous agents, AI pipelines, attack surfaces, and defensive patterns.</p><div class="module-links"><a class="micro-link" href="https://globalai.community/e/q7qdn1cp">Event</a><a class="micro-link" href="https://agentic-defense-lab.lovable.app/">Open lab</a><a class="micro-link" href="speaking.html">Speaking record</a></div></section>
         </div>
@@ -630,7 +673,7 @@
         </div>
         <div class="family-modules">
           <section class="module"><div class="module-head"><h3>Explainiverse</h3><span class="tag">v0.15.2 · audited registry</span></div><p>A unified explainability framework with explicit verified, quarantined, and unverified claim scopes.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/explainiverse/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/explainiverse">GitHub</a><a class="micro-link" href="https://explainiverse-explorer.lovable.app/">Live explorer</a></div></section>
-          <section class="module"><div class="module-head"><h3>Corpusgen</h3><span class="tag">v0.1.7 · Speech</span></div><p>A language-agnostic generator and evaluator for speech corpora with maximal phoneme coverage. An associated Show &amp; Tell paper was accepted at Interspeech 2026.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/corpusgen/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">GitHub</a><a class="micro-link" href="https://doi.org/10.5281/zenodo.21891821">Version DOI</a><a class="micro-link" href="research.html#corpusgen-interspeech">Accepted Show &amp; Tell paper</a></div></section>
+          <section class="module"><div class="module-head"><h3>Corpusgen</h3><span class="tag">v0.1.7 · Speech</span></div><p>A language-agnostic generator and evaluator for speech corpora with maximal phoneme coverage. Its Show &amp; Tell contribution is published in the Interspeech 2026 proceedings, pp. 5916–5917.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/corpusgen/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">GitHub</a><a class="micro-link" href="https://doi.org/10.5281/zenodo.21891821">Software version DOI</a><a class="micro-link" href="https://www.isca-archive.org/interspeech_2026/syed26_interspeech.html">ISCA Archive</a><a class="micro-link" href="https://www.isca-archive.org/interspeech_2026/syed26_interspeech.pdf">Paper PDF</a><a class="micro-link" href="research.html#corpusgen-interspeech">Published Show &amp; Tell contribution</a></div></section>
           <section class="module"><div class="module-head"><h3>NEXUS + ArcMind</h3><span class="tag">0.0.1 · 0.2.0 alpha</span></div><p>Physics-grounded energy metrics paired with a causal, dual-rate sequence backbone for streaming sensor policies. ArcMind is an alpha research release, not a language or VLA model.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/nexus-ml-metrics/">NEXUS</a><a class="micro-link" href="https://pypi.org/project/arcmind/">ArcMind</a></div></section>
           <section class="module"><div class="module-head"><h3>TOML Signals</h3><span class="tag">Accepted · IEEE MLSP 2026</span></div><p>Reproducible transistor-level energy analysis for 37 signal-processing algorithms on RTX 4090 and A100 GPUs, including data and profiler traces.</p><div class="module-links"><a class="micro-link" href="https://github.com/jemsbhai/TOMLSignals">GitHub</a><a class="micro-link" href="https://openreview.net/forum?id=jYBcP44EDn">OpenReview</a><a class="micro-link" href="https://neuroneural.net/mlsp2026schedule/">Conference schedule</a></div></section>
         </div>
@@ -645,7 +688,8 @@
         <div class="family-modules">
           <section class="module"><div class="module-head"><h3>Compatibillabuddy</h3><span class="tag">v0.2.1 · ML environments</span></div><p>A hardware-aware agent that diagnoses and repairs incompatible Python machine-learning stacks.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/compatibillabuddy/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/compatibillabuddy">GitHub</a></div></section>
           <section class="module"><div class="module-head"><h3>MultispecQR</h3><span class="tag">v0.4.1 · IEEE ICMLA 2026</span></div><p>RGB channel multiplexing for three independent QR payloads, with neural-assisted decoding and a palette mode supporting up to nine layers. Its paper was accepted as a regular paper in ICMLA 2026 Special Session 1.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/multispecqr/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/multispecqr">GitHub</a><a class="micro-link" href="https://www.icmla-conference.org/icmla26/ss1regularpapers.html">Accepted-paper list</a></div></section>
-          <section class="module"><div class="module-head"><h3>stegaQR</h3><span class="tag">v0.1.0 · Steganography</span></div><p>Neural steganographic data embedding in QR codes with switchable channel modes.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/stegaQR/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/stegaQR">GitHub</a></div></section>
+          <section class="module"><div class="module-head"><h3>MultiSpecQR models &amp; datasets</h3><span class="tag">Hugging Face</span></div><p>Published model checkpoints for RGB and palette modes, plus RGB and palette-6 datasets.</p><div class="module-links"><a class="micro-link" href="https://huggingface.co/Jemsbhai/multispecqr-rgb">RGB model</a><a class="micro-link" href="https://huggingface.co/Jemsbhai/multispecqr-palette6">Palette 6 model</a><a class="micro-link" href="https://huggingface.co/Jemsbhai/multispecqr-palette8">Palette 8 model</a><a class="micro-link" href="https://huggingface.co/Jemsbhai/multispecqr-palette9">Palette 9 model</a><a class="micro-link" href="https://huggingface.co/datasets/Jemsbhai/multispecqr-rgb-dataset">RGB dataset</a><a class="micro-link" href="https://huggingface.co/datasets/Jemsbhai/multispecqr-palette6-dataset">Palette 6 dataset</a></div></section>
+          <section class="module" id="stegaqr"><div class="module-head"><h3>stegaQR</h3><span class="tag">v0.2.0 · Alpha</span></div><p>Neural private-payload embedding in standard-decodable QR codes, with a bundled model, error correction, and interleaved bit placement. Decode images created with 0.1.0 using <code>--placement native</code>. The robust operating point has a visible color tint.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/stegaQR/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/stegaQR">GitHub</a></div></section>
         </div>
       </article>
     </div>
@@ -672,6 +716,7 @@
           <a href="https://www.npmjs.com/~jemsbhai">npm profile</a>
           <a href="https://crates.io/users/jemsbhai">crates.io profile</a>
           <a href="https://github.com/jemsbhai">GitHub</a>
+          <a href="https://huggingface.co/Jemsbhai">Hugging Face</a>
           <a href="https://doi.org/10.5281/zenodo.18881479">Zenodo</a>
           <a href="research.html">Related papers</a>
         </div>
