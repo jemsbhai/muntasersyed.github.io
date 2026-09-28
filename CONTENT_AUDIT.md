@@ -51,6 +51,21 @@ crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
 - Live OpenAlex searches now return one matching ORCID-linked profile. The
   earlier author split was not reproduced; the follow-up is coverage and
   deduplication rather than an assumed unresolved merge.
+- Refreshed the public GitHub biography, website, pinned projects, and profile
+  README. Updated the Hashrope paper README to its accepted title and status.
+  Refreshed Sessionize's biography and employer link, preserved the separately
+  labeled Florida Tech link, and published the Hugging Face and Pollard offerings.
+- Labeled the old Hugging Face DistilBERT Space as an archived demo, preserving
+  its app code and runtime configuration. The main Hugging Face profile biography
+  and website update still require the owner's password confirmation.
+- Cleaned the ORCID record using verified publisher metadata: added missing
+  proceedings, preprints, the 2018 poster abstract, and the current Corpusgen
+  software release; corrected work types, dates, identifiers, and truncated
+  contributor lists; grouped duplicate sources while preserving provenance.
+  Moved FLAIRS-39 committee service into professional activities. Six confirmed
+  misattributions and the replaced service-as-paper row were set to Only me,
+  retaining reversibility. The website's scholarly count remains independent
+  of ORCID's record, version, and software totals.
 
 Validation covered all six pages at 1440, 768, 390, and 320 pixels in both
 themes: 48 layout checks with no horizontal overflow or broken images. All
@@ -281,10 +296,13 @@ Validation after the approved changes:
 - The public `jsonld-ex-experiments` README describes the repository as private
   and says it must not be public. Its portfolio link was removed; the owner
   should review the repository’s visibility and contents directly.
-- ORCID contains namesake records, duplicates, and misclassified service. Clean
-  the profile before using its displayed count. Recheck OpenAlex coverage and
-  deduplication; the previously observed author split was not reproduced on
-  September 28.
+- The main ORCID cleanup was applied on September 28. The sinonasal-masses
+  authorship, Universal Translator identity, and conflicting SQT author/version
+  metadata remain unresolved. Some organization-owned source records retain
+  their imported types; corrected owner copies are preferred where available.
+  Do not use ORCID's displayed count as the website's scholarly-output count.
+  Recheck OpenAlex coverage and deduplication; the previously observed author
+  split was not reproduced on September 28.
 - Recent awards supported only by social posts remain outside the curated awards
   section. Fresh Fridge was added only after an independent result report named
   the team, placement, and participants.
