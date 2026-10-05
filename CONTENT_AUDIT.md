@@ -1,9 +1,56 @@
-# Content audit — September 28, 2026
+# Content audit — October 5, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## October 5 speaking refresh
+
+- Added 11 dated archive entries: Tampa Devs' Machine Learning 101
+  (September 20, 2022), the IEEE Cruise Conference Chat GPT talk
+  (October 2023), four NOAA/NASA events and Princeton Open Hackathon
+  (2024), AI Revolution and the Melbourne, Florida ACM lecture (2025),
+  and the Google Ecosystem workshop and April 30 AI Masterclass (2026).
+- The owner confirms both NOAA/NCAR/NREL events: the February 6–7 AI for
+  Science Bootcamp and February 21–29 Open Hackathon. The owner also
+  confirms both NASA events: the June 5–7 End-to-End LLM Bootcamp and
+  September 10 / September 17–19 GPU Hackathon. Organizer records establish
+  event dates; personal participation is confirmed by the speaker. Individual
+  session titles and times are not inferred from whole-event programs.
+- Princeton is described as technical moderation and mentoring for several
+  teams. Added the same contribution to About's community-service record;
+  the archive does not assign an invented lecture title to that role.
+- The Google workshop was delivered at Miami Dade College on February 11,
+  2026. The owner links delivery to the last substantial commit. The
+  [latest notebook update](https://github.com/jemsbhai/google-agentic-workshop/commit/f986a3122e0d69141feda1f3467df5b8276c6005)
+  and preceding bugfix both have February 11 author and committer dates.
+  Linked the curriculum from the dated archive and a new materials card.
+- The ACM lecture's November 7 date is documented in its repository; the
+  owner confirms an ACM chapter in Melbourne, Florida. No specific campus
+  or official chapter name is assumed. The cruise date retains month
+  precision. The Tampa 2022 entry describes an announced speaker listing,
+  with no claim that an independent delivery recap was found.
+- Added AI Revolution's organizer session record and the April 30
+  masterclass's event page and delivery recap. Added the firsthand Vibe Days
+  recap to its existing entry. Changed the expired MLSP wording to a past
+  program listing without asserting who personally presented the poster.
+- Expanded standard speaking metadata to all 39 visible archive entries,
+  retaining existing session times and featured-work records. Multi-date
+  NASA and Princeton events have explicit subevent dates. Princeton uses
+  contributor metadata; month-only records do not invent a day. This count
+  includes mentoring, announced/program-listed entries, and grouped author
+  sessions, so it is not a delivered-talk total.
+- Added a 2024 archive link from Projects and updated sitemap modification
+  dates for the three changed HTML pages. Other catalogs retain their
+  September 28 review date.
+
+Validation matched all 39 visible entries to structured titles, dates, sources,
+and anchors; all six pages' JSON-LD lists parse with consistent counts and
+positions. All 121 internal references resolve. Reviewed the speaking archive
+at 1280px and 390px, including the new multi-date rows and Google workshop;
+About and Projects also have no horizontal overflow at 390px. The Projects
+link opens the new 2024 section. Official NOAA/NASA date records were rechecked.
 
 ## September 28 refresh
 
