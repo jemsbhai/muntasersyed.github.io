@@ -15,10 +15,10 @@ archive, professional service, selected awards, press, and public profiles.
 - `speaking.html`: verified talks, workshops, lectures, podcasts, and teaching materials
 - `about.html`: biography, roles, education, professional service, press, milestones, and profile links
 
-Speaking and related mentoring records were updated on October 5, 2026.
-Publication records, press, projects, and software registries were last reviewed
-on September 28, 2026. See `CONTENT_AUDIT.md` for the refresh scope, counts, evidence boundaries,
-deliberate holdbacks, and the next refresh checklist.
+Speaking, related mentoring records, and software registries were updated on
+October 5, 2026. Publication records, press, and the project catalog were last
+reviewed on September 28, 2026. See `CONTENT_AUDIT.md` for the refresh scope,
+counts, evidence boundaries, deliberate holdbacks, and the next refresh checklist.
 
 ## Structured data
 

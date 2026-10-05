@@ -5,6 +5,32 @@ This file records the maintenance boundary behind the public site. The August
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
 
+## October 5 software refresh
+
+- Checked all 26 owned PyPI projects, four npm packages, and five Rust crates
+  against live registry APIs and ownership inventories. Only pollard-jev changed
+  since September 28; the other 34 registry versions are unchanged, and no new
+  owned packages were found.
+- Updated [pollard-jev to 0.13](https://pypi.org/project/pollard-jev/0.13/),
+  published October 5. The release adds optional inputs for numerical boundaries
+  and action priority; JSON remains the default input. Updated the homepage,
+  software cards, release date/link, structured version, and modification date.
+- Preserved Alpha status and the hardware-integration and recorded-sensor
+  limitations. Development-case results do not establish fresh held-out
+  validation or physical-device performance.
+- Counts remain 24 featured PyPI packages, four npm packages, five Rust crates,
+  eight software families, and 26 top-level structured software works. The
+  existing i3cex prerelease and facecloak-suite placeholder remain excluded.
+  Eight source-stage repositories still have no published GitHub releases;
+  experiment and camera-ready tags remain source snapshots.
+- Advanced the registry review date and sitemap dates for Home and Software.
+  The September 28 audit below retains its historical release versions.
+
+Validation confirmed all six pages' JSON-LD list counts and positions and all
+121 internal references. Home and Software passed browser checks at 1440px,
+390px, and 320px with no horizontal overflow, broken images, or page errors.
+The updated release cards were visually reviewed at mobile width.
+
 ## October 5 speaking refresh
 
 - Added 11 dated archive entries: Tampa Devs' Machine Learning 101
@@ -42,8 +68,8 @@ crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
   includes mentoring, announced/program-listed entries, and grouped author
   sessions, so it is not a delivered-talk total.
 - Added a 2024 archive link from Projects and updated sitemap modification
-  dates for the three changed HTML pages. Other catalogs retain their
-  September 28 review date.
+  dates for the three changed HTML pages. Research, publication records,
+  and the project catalog retain their September 28 review date.
 
 Validation matched all 39 visible entries to structured titles, dates, sources,
 and anchors; all six pages' JSON-LD lists parse with consistent counts and
