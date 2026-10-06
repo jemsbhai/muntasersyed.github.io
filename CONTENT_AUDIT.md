@@ -1,9 +1,52 @@
-# Content audit — October 5, 2026
+# Content audit — October 6, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## October 6 media archive
+
+- Added `media.html` with 20 distinct stories and interviews from 2018–2026:
+  seven reporting/interview records, eight university news records, and five
+  guest reports, announcements, or organizer/sponsor records. The five existing
+  press stories remain represented; 15 records expand the dedicated archive.
+- Added Media to all seven primary navigation menus and a direct archive link
+  on the homepage. About retains its existing highlights, adds Pittsburgh's
+  ZeroDK feature, and links to the complete media archive.
+- Added three selected highlights and a searchable chronological archive with
+  category filters. All 20 records remain readable without JavaScript.
+- Preserved original publication dates and coarse date precision: Brevard Live
+  is January 2021, Florida Tech Magazine is Spring 2020, and Stantec is 2020.
+  Stantec's March 9–10 dates identify the event, not a publication day.
+- The Hechinger Report original and Washington Post syndication are one story,
+  with two source links and the original publisher identified in metadata.
+  Publisher reprints of the Florida Tech stories do not add to the story count.
+- Penn State is a brief collaboration mention, without an Imagine Cup finalist
+  claim. Fresh Fridge is labeled a guest report by organizer Grant Kurz;
+  BroadwayWorld is an industry announcement, and Pi Network/Redis/Stantec are
+  labeled sponsor or organizer coverage.
+- Robot Love coverage describes art/technology collaboration without repeating
+  an inaccurate professor title. Dreamland coverage establishes inclusion in
+  the collaborator list, without assigning an individual software contribution.
+- Recovered working original-publisher archives for the two Brevard Business
+  News stories: [Robot Love, January 25, 2021](https://brevardbusinessnews.com/wp-content/uploads/2022/12/BBN-012521.pdf#page=19)
+  and [Dreamland, May 23, 2022](https://brevardbusinessnews.com/wp-content/uploads/2022/11/BBN-052322.pdf#page=21).
+  Relevant PDF pages were rendered and visually checked.
+- Added CollectionPage, BreadcrumbList, and a 20-entry ItemList using standard
+  Schema.org terms. Updated the sitemap, README, stylesheet cache key, and
+  navigation breakpoint to accommodate the seventh menu item.
+
+Validation covered all seven pages at 1440, 1101, 1024, 768, 390, and 320 pixels
+in both themes: 84 layout checks passed with no horizontal overflow, broken
+images, or header collisions. Twelve automated axe-core WCAG A/AA checks passed
+on Home, About, and Media. Archive filters, combined search, empty/reset states,
+deep links, mobile navigation, Escape, theme switching, and the no-JavaScript
+archive passed without page errors. Rendered desktop/mobile archive and About
+highlights were reviewed. All 144 local references resolve; structured lists,
+positions, dates, titles, and archive counts agree. Nineteen primary source URLs
+returned HTTP 200 in the generic link check; Stetson returned 403 to that checker
+and was separately verified through the web reader.
 
 ## October 5 software refresh
 

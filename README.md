@@ -13,11 +13,13 @@ archive, professional service, selected awards, press, and public profiles.
 - `software.html`: major software families and language ports
 - `projects.html`: research repositories, source-stage builds, Devpost portfolios, and selected awards
 - `speaking.html`: verified talks, workshops, lectures, podcasts, and teaching materials
+- `media.html`: dated media coverage, interviews, university news, and organizer or sponsor reports
 - `about.html`: biography, roles, education, professional service, press, milestones, and profile links
 
 Speaking, related mentoring records, and software registries were updated on
-October 5, 2026. Publication records, press, and the project catalog were last
-reviewed on September 28, 2026. See `CONTENT_AUDIT.md` for the refresh scope,
+October 5, 2026. Media coverage and interviews were reviewed and expanded on
+October 6, 2026. Publication records and the project catalog were last reviewed
+on September 28, 2026. See `CONTENT_AUDIT.md` for the refresh scope,
 counts, evidence boundaries, deliberate holdbacks, and the next refresh checklist.
 
 ## Structured data
