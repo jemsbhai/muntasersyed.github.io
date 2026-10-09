@@ -5,6 +5,13 @@ This file records the maintenance boundary behind the public site. The August
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
 
+## October 9 publication-label simplification
+
+- Simplified the requested paper-category labels across Home, Research,
+  Software, and their structured data, and aligned this maintenance record.
+- Preserved paper titles, authors, venues, acceptance/publication status,
+  full-paper labels, poster details, source URLs, and GHTC award recognition.
+
 ## October 9 GHTC award recognition
 
 - Added the Reviewers Choice Award at IEEE GHTC 2026 to the Projects awards
@@ -279,18 +286,18 @@ screenshots were reviewed. Detailed test artifacts remain outside this repo.
 
 - Added 16 accepted 2026 scholarly records across IEEE CloudCom, ICTAI,
   WF-IoT, HealthCom, UEMCON, GHTC, AICCSA, ACM AI Summit, and Interspeech.
-  These include full, regular, short, and main-track papers, one extended
-  abstract, and one Show & Tell contribution. None is represented as a
-  published version of record merely because it was accepted.
+  These include full and main-track papers, other conference papers, one
+  extended abstract, and one Show & Tell contribution. None is represented
+  as a published version of record merely because it was accepted.
 - Author lists follow each accepted manuscript or title-specific author
   record. In particular, Corpusgen's conference contribution has four
   authors; its software artifact has a different author list.
-- Updated Chronofy and Epistemic Edge to accepted full and short papers,
-  respectively. The official IRI program explicitly maps paper 42 to
+- Updated Chronofy to an accepted full paper and Epistemic Edge to an
+  accepted paper. The official IRI program explicitly maps paper 42 to
   Chronofy and paper 161 to Epistemic Edge. Accessible proceedings previews
   are linked; assigned DOIs were not yet resolving at this review.
 - Recorded GHTC acceptance for Environmental Cost and AGENTICS acceptance
-  for Alternative-Based Information Systems. TraceCoder is an accepted short
+  for Alternative-Based Information Systems. TraceCoder is an accepted
   paper with poster presentation. Existing arXiv citations retain their
   version-specific titles and author order.
 - Identified Counting Constraints as a published poster paper and completed
@@ -408,7 +415,7 @@ Validation after the approved changes:
   another page does not by itself establish cancellation.
 - Public sources disagree about Ph.D. timing and do not establish conferral.
   The site says “doctoral work” and does not use “Dr.” Pending owner confirmation.
-- TraceCoder’s accepted short-paper/poster status is confirmed by the owner’s
+- TraceCoder’s accepted paper/poster status is confirmed by the owner’s
   acceptance record and the author-maintained comment on
   [arXiv:2607.26307](https://arxiv.org/abs/2607.26307). Replace or supplement
   that link with the proceedings record when AGENTICS publishes it.
