@@ -1,9 +1,23 @@
-# Content audit — October 6, 2026
+# Content audit — October 9, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## October 9 GHTC award recognition
+
+- Added the Reviewers Choice Award at IEEE GHTC 2026 to the Projects awards
+  section and the existing Environmental Cost of Digital Sovereignty paper
+  entry on Research, with the exact Research on the Broader Impacts of
+  Engineering Efforts track attribution and all five coauthors preserved.
+- The award name, track, paper title, and author list were checked against the
+  owner's conference certificate. The certificate image is not published.
+- This is a track-specific Reviewers Choice Award, not an overall best-paper
+  award. No award is attributed to the other GHTC ergonomics paper.
+- The homepage is unchanged. The paper remains accepted/forthcoming pending
+  a proceedings record; publication counts are unchanged. Matching standard
+  Schema.org award metadata and the two affected sitemap dates were updated.
 
 ## October 6 media archive
 
