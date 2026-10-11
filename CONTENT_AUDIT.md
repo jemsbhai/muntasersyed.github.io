@@ -1,9 +1,63 @@
-# Content audit — October 9, 2026
+# Content audit — October 11, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## October 11 content refresh
+
+- Reconciled the October 9 GHTC award and publication-label updates from the
+  published branch with the preserved October 6 media draft.
+- The owner confirmed delivery of the October 8 AiSalon keynote, October 1
+  MLSP poster, and October 5 ICMLA MultiSpecQR presentation. Updated Home,
+  Speaking, Research, and matching structured data to past-tense presentation
+  wording. Added the ICMLA session to Speaking, bringing its catalog to 40.
+  No individual AiSalon start time is asserted.
+- Checked all 35 previously owned registry entries and current ownership
+  inventories. Pollard Python advanced from 1.6.0 to 1.6.1; Hashrope Rust
+  advanced from 0.3.1 to 0.3.2. Added the new Pollard ports: npm `pollardai`
+  0.2.0 and Rust `pollardai` 0.2.1. These ports target the Python 1.6.0 runtime
+  scope; Python 1.6.1 team APIs are not attributed to the ports.
+- The current inventory is 26 owned PyPI projects, five npm packages, and six
+  Rust crates. Featuring the new ports yields 24 featured PyPI packages,
+  five npm packages, and six crates. The catalog still has 26 top-level
+  software works in eight families; ports remain nested implementations.
+- A targeted proceedings follow-up found no confirmed new version-of-record
+  entry for TOML Signals, MultiSpecQR, or TraceCoder. Acceptance status and
+  the 38-output research total remain unchanged. This is a selected-status
+  follow-up, not a new audit of every publication.
+- Featured the existing track-specific GHTC Reviewers Choice Award on Home.
+  The owner confirmed that roles, affiliations, and doctoral status remain
+  unchanged. Removed audit-process language from the public biography and
+  added the October presentation milestone.
+- Approved the 48-entry media archive for publication, including all 28
+  additions reviewed on October 6. Personal mentions, project-only coverage,
+  university news, and organizer or sponsor reports retain their attribution.
+- Updated page modification dates, the sitemap, and README for this refresh.
+
+Verification before publication:
+
+- All seven pages passed 48 desktop/mobile layout checks in both themes,
+  including 320px layouts. No horizontal overflow or broken images occurred.
+  Twenty-eight automated WCAG A/AA checks reported no violations; these do
+  not replace a complete manual accessibility review.
+- Research and media filters, search, empty/reset states, mobile navigation,
+  theme persistence, and deep links passed. All 164 local file/fragment
+  references resolved; JSON-LD parsed, list counts and positions agreed, and
+  no page JavaScript errors were observed. Updated sections were inspected
+  in desktop and mobile screenshots.
+- The media archive retained 48 unique primary source URLs. Fresh direct
+  requests returned 200 for 38; six rejected automated access, two Business
+  Wire requests timed out, and two Symbl pages returned server errors.
+  Existing evidence and fresh principal-source spot-checks found no blocking
+  attribution or date issue. Added an organizer-results link to corroborate
+  the intermittently unavailable Symbl wrap-up; it is not an article mirror.
+- The media draft's 12 layouts, four accessibility checks, and behavior checks
+  were rerun; its separate review artifact also passed two layouts and two
+  accessibility checks. The nine new project-only entries still omit personal
+  mention metadata. Checks and screenshots are in `refresh-2026-10-11/`
+  outside the website repository.
 
 ## October 9 publication-label simplification
 
@@ -25,6 +79,67 @@ crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
 - The homepage is unchanged. The paper remains accepted/forthcoming pending
   a proceedings record; publication counts are unchanged. Matching standard
   Schema.org award metadata and the two affected sitemap dates were updated.
+
+## October 6 deeper media audit — approved October 11
+
+The owner requested an expansive search and review before pushing. Prepared
+as a local draft on October 6, this expansion was approved for publication
+on October 11. It expands the previous 20-entry archive to 48 entries.
+
+- Prepared 28 additional coverage entries, producing an archive of
+  48: 16 reporting, interview, or industry-discussion entries; eight university
+  news entries; and 24 organizer, sponsor, or industry-announcement entries.
+  These are archive entries, not a count of independent news stories.
+- Nineteen additions explicitly name or profile Muntaser. Nine cover a project
+  without naming him; their descriptions say so, and team records establish
+  his connection. Their structured data describes the project rather than
+  asserting that the article mentions him personally.
+- New named coverage includes INQUIRER's FreShip report, the San Diego
+  Union-Tribune's Opera Map report, The Pitt News' ZeroDK feature, No Jitter's
+  Ciphertext report, and Major League Hacking's 2020 profile. No Jitter's
+  author has an Enterprise Connect affiliation; it is trade reporting.
+- Added clearly labeled results and features for Vehicle Safe, City Assistant,
+  Covid Advisor, RescueR, Bender, Guardian Care, and the vCon enhancement.
+  RescueR and Guardian Care have distinct articles from different publishers
+  about the same events. WebRTC Live discusses RescueR; it is not an interview
+  with Muntaser.
+- Project coverage includes TechSpot and TechCult on FreShip, OPERA America
+  Magazine on Opera Map, 8base on HealthTrak, FlytBase on VASHR, Davis Vanguard
+  on Viral Watch, Brevard Live on Dreamland, and T-Mobile on ShipShop.
+  The ShipShop showcase is undated and grouped by its documented 2019 event
+  year; no publication date is asserted. MLH similarly uses its cohort year.
+- Preserved the original March 28, 2023 Radisys release date despite later
+  publisher-mirror headers. The Symbl RescueR feature uses February 4, 2022,
+  supported by the primary index and author's February 17 companion article;
+  the companion is an access fallback for the intermittently unavailable page.
+- Grouped the March 30 SacHacks recap and April 3 republication. The vCon
+  showcase/results, publisher reprints, opera announcements, international
+  FreShip adaptations, and other short follow-ups are related links. Dedicated
+  articles remain separate when they have distinct content and provenance.
+- Text-scanned all 932 accessible Brevard Business News PDFs from 2008–2026,
+  118 Brevard Live issues from 2017–2026, and 70 linked Florida Tech magazine
+  and research PDFs. Every file was extracted successfully. Image-only text,
+  unlinked archives, deleted pages, and private material remain outside that
+  extraction guarantee. Also searched name variants, Team Zero/TeamZero,
+  100 distinct public Devpost projects, Salus/FreshFit, and paper-title families.
+- FreshFit remains unidentified. Salus/CHF Buddy AI and DashR have project or
+  team-authored records but no verified external report. Later GMedChain team
+  coverage does not establish Muntaser's participation in that later result.
+  A GRIT Popup event listing is a lead pending an original article or recording.
+  A ZDNet-attributed FreShip mirror remains held because its original byline
+  and date are unverified. Automated research summaries remain supplementary.
+- Local review artifacts and source evidence are saved outside the repository
+  in `media-deep-audit-2026-10-06/`. The selected highlights feature
+  the environmental-cost essay, INQUIRER, and the Union-Tribune.
+
+Validation passed 12 media-page layouts at six widths in both themes, plus
+desktop and mobile layouts for the local review artifact. Six automated
+axe-core WCAG A/AA checks reported no violations. Filters, search, empty and
+reset states, four deep-link widths, menu behavior, theme switching, the
+48-entry no-JavaScript archive, and review filters/preview link passed. All
+146 local references resolve. JSON-LD counts, positions, unique source URLs,
+and the nine project-only relationships agree with the visible records. An
+independent source review found no blocking attribution or date issues.
 
 ## October 6 media archive
 
@@ -124,7 +239,7 @@ The updated release cards were visually reviewed at mobile width.
 - Added AI Revolution's organizer session record and the April 30
   masterclass's event page and delivery recap. Added the firsthand Vibe Days
   recap to its existing entry. Changed the expired MLSP wording to a past
-  program listing without asserting who personally presented the poster.
+  program listing without asserting the poster's presenter at that review.
 - Expanded standard speaking metadata to all 39 visible archive entries,
   retaining existing session times and featured-work records. Multi-date
   NASA and Princeton events have explicit subevent dates. Princeton uses
@@ -387,7 +502,7 @@ Validation after the approved changes:
   overlap; earlier versions of published papers remain linked and are counted
   once. Two older presentation acceptances
   and software artifacts remain outside this scholarly total.
-- Software: 24 featured published PyPI packages, 4 npm packages, and 5 Rust crates.
+- Software: 24 featured published PyPI packages, 5 npm packages, and 6 Rust crates.
   `i3cex` is a development release and `facecloak-suite` is a placeholder, so
   neither is included in the featured PyPI total. Package maturity ranges from
   pre-alpha through production/stable and is not implied by this count.
@@ -396,6 +511,9 @@ Validation after the approved changes:
 - Speaking: dated entries require an organizer, conference, institutional, or
   public scheduling record. Material-only repositories are kept in a separate
   teaching archive.
+- Media: 48 archive entries, including 16 reporting/interview/industry-discussion
+  entries, eight university news entries, and 24 organizer/sponsor/industry
+  announcements. These counts do not imply 48 independent news stories.
 
 ## Deliberate holdbacks and owner follow-ups
 
@@ -414,7 +532,8 @@ Validation after the approved changes:
   the organizer confirms both the invitation and event details. Omission from
   another page does not by itself establish cancellation.
 - Public sources disagree about Ph.D. timing and do not establish conferral.
-  The site says “doctoral work” and does not use “Dr.” Pending owner confirmation.
+  The owner confirmed on October 11 that doctoral status remains unchanged;
+  the site retains “doctoral work” and does not use “Dr.”
 - TraceCoder’s accepted paper/poster status is confirmed by the owner’s
   acceptance record and the author-maintained comment on
   [arXiv:2607.26307](https://arxiv.org/abs/2607.26307). Replace or supplement
