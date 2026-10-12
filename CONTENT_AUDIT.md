@@ -1,9 +1,22 @@
-# Content audit — October 11, 2026
+# Content audit — October 12, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## October 12 Applied AI Summit addition
+
+- Added the owner-approved speaker graphic and upcoming Applied AI Summit
+  session to Speaking, with a featured section and dated archive entry.
+- The [official public schedule](https://appliedaisummit.org/schedule/)
+  confirms “From drift alert to drift refusal: fail-closed containment of
+  provider change in governed AI systems,” Thursday, October 15, 2026,
+  3:00–3:30 p.m. US Eastern (19:00–19:30 UTC), online, in Day 3 AI Governance.
+  It lists Muntaser Syed as Researcher at Florida Institute of Technology.
+- The 41-item Speaking catalog, event metadata, page modification date,
+  and Speaking sitemap date were updated. This was a targeted addition;
+  the October 11 archive review and unrelated page content are unchanged.
 
 ## October 11 content refresh
 
