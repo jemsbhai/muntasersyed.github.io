@@ -5,6 +5,20 @@ This file records the maintenance boundary behind the public site. The August
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
 
+## October 15 Applied AI Summit post-event update
+
+- The owner confirmed that the summit has ended. Replaced the stale upcoming
+  labels in Speaking's featured session, archive entry, and JSON-LD description
+  with a dated session record. Removed this event's explicit scheduled-status
+  field; its original start and end dates remain in the structured data.
+- Rechecked the [official schedule](https://appliedaisummit.org/schedule/): the
+  talk title, October 15 date, 3:00–3:30 p.m. US Eastern window, Day 3 AI Governance
+  track, and listed Florida Institute of Technology affiliation remain accurate.
+  The entry records the program listing without asserting personal delivery.
+- No session-specific public recording or slides were verified. Preserved the
+  official schedule link and speaker graphic. The 46-entry archive count and
+  October 15 page/sitemap modification dates remain current.
+
 ## October 15 content refresh
 
 - Fast-forwarded the local checkout to the published branch before editing,
