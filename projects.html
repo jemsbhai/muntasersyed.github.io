@@ -11,6 +11,11 @@
   <meta property="og:title" content="Projects and Innovation | Muntaser Syed">
   <meta property="og:description" content="Open research, source-stage builds, and applied prototypes in AI systems.">
   <meta property="og:url" content="https://muntasersyed.com/projects.html">
+  <meta property="og:image" content="https://images.ctfassets.net/kv878odoqyd1/7yhyBrSwM8N2uvDmMaczhM/fbefac391b0dafc29a60be6cb48baea9/muntaser-syed.jpg?h=700&amp;w=560&amp;fit=fill&amp;f=face">
+  <meta property="og:image:alt" content="Portrait of Muntaser Syed">
+  <meta name="twitter:image" content="https://images.ctfassets.net/kv878odoqyd1/7yhyBrSwM8N2uvDmMaczhM/fbefac391b0dafc29a60be6cb48baea9/muntaser-syed.jpg?h=700&amp;w=560&amp;fit=fill&amp;f=face">
+  <meta name="twitter:image:alt" content="Portrait of Muntaser Syed">
+  <meta name="twitter:card" content="summary">
   <link rel="alternate" type="application/ld+json;profile=&quot;https://jsonld-ex.github.io/ns/&quot;" href="https://muntasersyed.com/structured-data/jsonld-ex.jsonld" title="Experimental JSON-LD Ex metadata">
   <script type="application/ld+json">
   {
@@ -35,6 +40,7 @@
         "@id": "https://muntasersyed.com/projects.html#webpage",
         "url": "https://muntasersyed.com/projects.html",
         "name": "Projects and Innovation | Muntaser Syed",
+        "dateModified": "2026-10-15",
         "description": "Research repositories, current source-stage builds, hackathon portfolios, and applied AI projects by Muntaser Syed.",
         "isPartOf": { "@id": "https://muntasersyed.com/#website" },
         "author": { "@id": "https://muntasersyed.com/#person" },
@@ -54,7 +60,7 @@
         "@type": "ItemList",
         "@id": "https://muntasersyed.com/projects.html#project-catalog",
         "name": "Selected research repositories and builds",
-        "numberOfItems": 19,
+        "numberOfItems": 21,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -89,7 +95,7 @@
               "description": "Public manuscript and experiment workspace for the accepted IEEE ICTAI 2026 paper, Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management.",
               "creator": { "@id": "https://muntasersyed.com/#person" },
               "codeRepository": "https://github.com/jemsbhai/hashrope-paper",
-              "citation": "https://muntasersyed.com/research.html#hashrope-ictai"
+              "citation": ["https://muntasersyed.com/research.html#hashrope-ictai", "https://arxiv.org/abs/2610.16144"]
             }
           },
           {
@@ -109,10 +115,10 @@
             "item": {
               "@type": "SoftwareSourceCode",
               "name": "TOML Transformers",
-              "description": "Transistor-level energy modeling extended to transformer inference and modern sequence architectures.",
+              "description": "Transformer-inference energy modeling that separates prefill and decode and tests cross-architecture transfer, with public measurements and manuscript source for the accepted IEEE UEMCON 2026 paper.",
               "creator": { "@id": "https://muntasersyed.com/#person" },
               "codeRepository": "https://github.com/jemsbhai/TOMLTransformers",
-              "citation": "https://doi.org/10.32473/flairs.39.1.141781"
+              "citation": ["https://muntasersyed.com/research.html#toml-transformers-paper", "https://github.com/jemsbhai/TOMLTransformers/blob/master/paper/main.tex", "https://doi.org/10.32473/flairs.39.1.141781"]
             }
           },
           {
@@ -121,7 +127,8 @@
             "item": {
               "@type": "SoftwareSourceCode",
               "name": "IMU-JEPA",
-              "description": "Representation-learning experiments for wearable inertial signals and compact posture understanding.",
+              "description": "Public representation-learning code and experiments for wearable inertial signals, associated with the accepted IEEE WF-IoT 2026 IMU-JEPA paper.",
+              "codeRepository": "https://github.com/jemsbhai/imujepa",
               "creator": { "@id": "https://muntasersyed.com/#person" },
               "citation": ["https://muntasersyed.com/research.html#imu-jepa-paper", "https://doi.org/10.32473/flairs.39.1.141783"]
             }
@@ -132,7 +139,9 @@
             "item": {
               "@type": "SoftwareSourceCode",
               "name": "CryptEpi",
-              "description": "Privacy-preserving epistatic interaction mining using homomorphic encryption.",
+              "description": "A public research prototype for privacy-preserving epistatic interaction mining using homomorphic encryption.",
+              "codeRepository": "https://github.com/jemsbhai/cryptepi",
+              "creativeWorkStatus": "Research prototype",
               "creator": { "@id": "https://muntasersyed.com/#person" }
             }
           },
@@ -192,12 +201,13 @@
             "item": {
               "@type": "SoftwareSourceCode",
               "name": "CorpusKit",
-              "description": "A source-stage Corpusgen workbench under active implementation with no registry or production release yet.",
+              "description": "An alpha Corpusgen web workbench with local Docker setup, versioned corpus workflows, durable jobs, and reproducibility records. Under active implementation, with no registry or production release yet.",
               "creator": { "@id": "https://muntasersyed.com/#person" },
               "codeRepository": "https://github.com/jemsbhai/corpuskit",
               "subjectOf": [
                 { "@type": "WebPage", "name": "CorpusKit getting started", "url": "https://github.com/jemsbhai/corpuskit/blob/main/docs/getting-started.md" },
-                { "@type": "WebPage", "name": "CorpusKit 15-minute demo", "url": "https://github.com/jemsbhai/corpuskit/blob/main/docs/product/15-minute-demo.md" }
+                { "@type": "WebPage", "name": "CorpusKit 15-minute demo", "url": "https://github.com/jemsbhai/corpuskit/blob/main/docs/product/15-minute-demo.md" },
+                { "@type": "WebPage", "name": "CorpusKit capability matrix", "url": "https://github.com/jemsbhai/corpuskit/blob/main/docs/product/capability-matrix.md" }
               ]
             }
           },
@@ -207,9 +217,11 @@
             "item": {
               "@type": "SoftwareSourceCode",
               "name": "WattWarden",
-              "description": "A pre-release research preview for energy-governed agents using TOML metrics and Pollard execution controls.",
+              "description": "An unreleased experimental prototype for energy-governed agents, with Arm cloud and phone experiments, provisioning tools, and Pollard execution controls. Server energy is predicted; phone energy is measured through battery telemetry.",
               "creator": { "@id": "https://muntasersyed.com/#person" },
-              "codeRepository": "https://github.com/jemsbhai/wattwarden"
+              "codeRepository": "https://github.com/jemsbhai/wattwarden",
+              "creativeWorkStatus": "Unreleased experimental prototype",
+              "subjectOf": { "@type": "WebPage", "name": "WattWarden challenge submission", "url": "https://devpost.com/software/wattwarden" }
             }
           },
           {
@@ -294,6 +306,66 @@
               "codeRepository": "https://github.com/jemsbhai/epicormic-paper",
               "creativeWorkStatus": "Research in progress"
             }
+          },
+          {
+            "@type": "ListItem",
+            "position": 20,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/projects.html#gatehouse",
+              "name": "Gatehouse",
+              "description": "A collaborative vendor-review and onboarding prototype. Muntaser Syed contributed Pollard evidence ledgers, action/refusal records, seals, telemetry, and offline replay; Katherine Burge built the agent fleets and cloud deployment.",
+              "creator": [
+                {
+                  "@id": "https://muntasersyed.com/#person"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Katherine Burge"
+                }
+              ],
+              "creativeWorkStatus": "Hackathon prototype",
+              "codeRepository": "https://github.com/b-urge/gatehouse",
+              "subjectOf": {
+                "@type": "WebPage",
+                "name": "Gatehouse hackathon submission",
+                "url": "https://devpost.com/software/gatehouse-qh9ml4"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 21,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/projects.html#grid-hazard",
+              "name": "Grid Hazard / FieldSight",
+              "description": "A ShellHacks 2026 team prototype combining infrastructure coordination with simulated rover, crawler, and arm inspections. Demonstrations use synthetic records and separately tested components; the complete workflow has not been validated as a live autonomous deployment.",
+              "creator": [
+                {
+                  "@id": "https://muntasersyed.com/#person"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Diego Gimenez Garcia"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Matias Gonzalez"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Adriana Mendez"
+                }
+              ],
+              "creativeWorkStatus": "Hackathon prototype",
+              "codeRepository": "https://github.com/gimenezdiego002/Grid-Hazard-Rover/tree/relay/inspection-system",
+              "subjectOf": {
+                "@type": "WebPage",
+                "name": "Grid Hazard hackathon submission",
+                "url": "https://devpost.com/software/grid-hazard"
+              }
+            }
           }
         ]
       }
@@ -320,7 +392,7 @@
     <section class="page-hero">
       <div class="shell page-intro-grid">
         <div><p class="eyebrow"><span class="kicker">Projects</span> / Research and prototypes</p><h1>Research repositories and <em>builds.</em></h1><p class="page-lede">These projects contain research code, experiments, protocols, and applied prototypes. Talks and teaching now have a dedicated archive.</p></div>
-        <aside class="source-note"><strong>Portfolio boundary.</strong> Public repositories link directly; private research is labeled without a broken link, and pre-alpha work is distinguished from released software. Reviewed <time datetime="2026-09-28">September 28, 2026</time>.</aside>
+        <aside class="source-note"><strong>Portfolio boundary.</strong> Public repositories link directly; private research is labeled without a broken link, and pre-alpha work is distinguished from released software. Reviewed <time datetime="2026-10-15">October 15, 2026</time>.</aside>
       </div>
     </section>
 
@@ -330,12 +402,12 @@
         <div class="artifact-grid">
           <article class="artifact-card"><span class="record-index">SEMANTIC IOT</span><h3>CBOR-LD Ex</h3><p>Reasoning-carrying binary linked data for constrained networks, with a Python reference implementation and byte-compatible, <code>no_std</code> Rust core.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/cbor-ld-ex">Python</a><a class="micro-link" href="https://github.com/jemsbhai/cborld-ex">Rust</a><a class="micro-link" href="software.html#compact-data">Project details</a><a class="micro-link" href="research.html#cborld-ex-paper">Accepted IEEE WF-IoT paper</a></div></article>
           <article class="artifact-card"><span class="record-index">PRE-ALPHA · DRAFT SPEC</span><h3>I3C-EX</h3><p>An independent research protocol for edge AI/ML over MIPI I3C Basic v1.2. The separate I4C track is currently a placeholder.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/i3cex">I3C-EX</a><a class="micro-link" href="https://github.com/jemsbhai/i3cex-i4c">I4C placeholder</a></div></article>
-          <article class="artifact-card"><span class="record-index">PUBLIC EXPERIMENTS · ACCEPTED IEEE ICTAI PAPER</span><h3>Hashrope paper experiments</h3><p>Public manuscript and experiment workspace for <em>Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management</em>, accepted at IEEE ICTAI 2026.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope-paper">Experiments</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope">Library</a><a class="micro-link" href="research.html#hashrope-ictai">Accepted paper</a></div></article>
+          <article class="artifact-card"><span class="record-index">PUBLIC EXPERIMENTS · ACCEPTED IEEE ICTAI PAPER</span><h3>Hashrope paper experiments</h3><p>Public manuscript and experiment workspace for <em>Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management</em>, accepted at IEEE ICTAI 2026.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope-paper">Experiments</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope">Library</a><a class="micro-link" href="research.html#hashrope-ictai">Accepted paper</a><a class="micro-link" href="https://arxiv.org/abs/2610.16144">Preprint</a></div></article>
           <article class="artifact-card"><span class="record-index">PRE-ALPHA · DESIGN ONLY</span><h3>EpistemicDB</h3><p>A future CBOR-LD Ex database design. The public repository currently contains architecture documents; implementation has not begun.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/epistemicdb">Design repository</a></div></article>
-          <article class="artifact-card"><span class="record-index">ENERGY METRICS</span><h3>TOML Transformers</h3><p>Transistor-level energy modeling extended to transformer inference and modern sequence architectures.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers">Repository</a><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141781">Paper</a></div></article>
+          <article class="artifact-card" id="toml-transformers"><span class="record-index">PUBLIC MANUSCRIPT · ACCEPTED IEEE UEMCON PAPER</span><h3>TOML Transformers</h3><p>Transformer-inference energy modeling that separates prefill and decode and tests cross-architecture transfer. The accepted IEEE UEMCON 2026 paper has public manuscript source, frozen GPU measurements, and reproducibility artifacts.</p><div class="item-links"><a class="micro-link" href="research.html#toml-transformers-paper">Accepted paper</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers/blob/master/paper/main.tex">Manuscript source</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers">Experiments</a><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141781">Foundational TOML paper</a></div></article>
           <article class="artifact-card"><span class="record-index">PUBLIC RESEARCH ARTIFACT · IEEE MLSP 2026</span><h3>TOML Signals</h3><p>Reproducible transistor-level energy analysis of 37 signal-processing algorithms, with profiler traces and evaluation artifacts for the accepted IEEE MLSP 2026 paper.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/TOMLSignals">Repository</a><a class="micro-link" href="https://openreview.net/forum?id=jYBcP44EDn">OpenReview</a><a class="micro-link" href="https://neuroneural.net/mlsp2026schedule/">Conference schedule</a></div></article>
-          <article class="artifact-card"><span class="record-index">PRIVATE RESEARCH · ACCEPTED WF-IOT PAPER</span><h3>IMU-JEPA</h3><p>Private representation-learning experiments for wearable inertial signals. The IMU-JEPA paper was accepted at IEEE WF-IoT 2026; the published FLAIRS neck-posture study is a separate related paper.</p><div class="item-links"><a class="micro-link" href="research.html#imu-jepa-paper">Accepted IMU-JEPA paper</a><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141783">Published neck-posture study</a></div></article>
-          <article class="artifact-card"><span class="record-index">PRIVATE RESEARCH</span><h3>CryptEpi</h3><p>Privacy-preserving epistatic interaction mining using homomorphic encryption.</p></article>
+          <article class="artifact-card" id="imu-jepa"><span class="record-index">PUBLIC EXPERIMENTS · ACCEPTED WF-IOT PAPER</span><h3>IMU-JEPA</h3><p>Public representation-learning code and experiments for wearable inertial signals. The IMU-JEPA paper was accepted at IEEE WF-IoT 2026; the published FLAIRS neck-posture study is a separate related paper.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/imujepa">Code &amp; experiments</a><a class="micro-link" href="research.html#imu-jepa-paper">Accepted IMU-JEPA paper</a><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141783">Published neck-posture study</a></div></article>
+          <article class="artifact-card" id="cryptepi"><span class="record-index">PUBLIC RESEARCH PROTOTYPE</span><h3>CryptEpi</h3><p>Privacy-preserving epistatic interaction mining using homomorphic encryption. Public prototype code is available; no accepted paper or completed manuscript is claimed.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/cryptepi">Research repository</a></div></article>
           <article class="artifact-card"><span class="record-index">PRIVATE RESEARCH</span><h3>JEPA-FHIR</h3><p>Research connecting self-supervised representation learning with interoperable healthcare data.</p></article>
           <article class="artifact-card" id="hipaa-compliance-algebra"><span class="record-index">PUBLIC RESEARCH ARTIFACT · IEEE HEALTHCOM 2026</span><h3>HIPAA compliance algebra</h3><p>Manuscript source, experiments, results, and figures for the accepted paper on privacy-preserving, confidence-aware FHIR R4 exchange grounded in Subjective Logic.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hipaa-compliance-algebra">Code &amp; experiments</a><a class="micro-link" href="research.html#fhir-compliance-paper">Accepted paper</a></div></article>
           <article class="artifact-card"><span class="record-index">ALPHA · v0.2.0</span><h3>ArcMind</h3><p>A causal, dual-rate sequence backbone for streaming sensor policies. It is not currently a language model or VLA model.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/arcmind">Repository</a><a class="micro-link" href="https://pypi.org/project/arcmind/">Package</a></div></article>
@@ -346,14 +418,16 @@
 
     <section class="section latest-releases" aria-labelledby="current-builds-title">
       <div class="shell">
-        <div class="section-head"><p class="eyebrow">Current builds / September 2026</p><div><h2 id="current-builds-title">Source-stage projects.</h2><p>Recent public repositories that are substantial enough to follow but are not presented as stable package releases.</p></div></div>
+        <div class="section-head"><p class="eyebrow">Current builds / October 2026</p><div><h2 id="current-builds-title">Source-stage projects.</h2><p>Recent public repositories that are substantial enough to follow but are not presented as stable package releases.</p></div></div>
         <div class="package-grid">
           <article class="package-card release-card release-card-featured" id="station-steward"><span class="record-index">HACKATHON PROTOTYPE · SEPTEMBER 12, 2026</span><h3>Station Steward</h3><p>A local agent connecting a real Arduino sensor bench and a simulated robotic workcell through Pollard, Chronofy, MCP-Edge, and human task handoffs. Built for the AI Tinkerers / OpenAI Agents Everywhere hackathon in Miami.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/station-steward">Repository</a><a class="micro-link" href="software.html#agent-infrastructure">Agent infrastructure</a><a class="micro-link" href="software.html#temporal-trust">Temporal stack</a></div></article>
-          <article class="package-card release-card"><span class="record-index">ACTIVE IMPLEMENTATION · UNRELEASED</span><h3>CorpusKit</h3><p>A production-oriented Corpusgen application and workbench. No registry or production release is claimed yet.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/corpuskit">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit/blob/main/docs/getting-started.md">Getting started</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit/blob/main/docs/product/15-minute-demo.md">15-minute demo</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">Corpusgen</a></div></article>
+          <article class="package-card release-card" id="gatehouse"><span class="record-index">COLLABORATION · HACKATHON PROTOTYPE</span><h3>Gatehouse</h3><p>A vendor-review and onboarding prototype built with Katherine Burge. Muntaser contributed Pollard evidence ledgers, action/refusal records, seals, telemetry, and offline replay; Katherine built the agent fleets and cloud deployment.</p><div class="item-links"><a class="micro-link" href="https://devpost.com/software/gatehouse-qh9ml4">Project &amp; contributions</a><a class="micro-link" href="https://github.com/b-urge/gatehouse">Collaborator-owned repository</a><a class="micro-link" href="software.html#pollard">Pollard</a></div></article>
+          <article class="package-card release-card" id="grid-hazard"><span class="record-index">TEAM COLLABORATION · SHELLHACKS 2026</span><h3>Grid Hazard / FieldSight</h3><p>A team prototype combining infrastructure coordination with simulated rover, crawler, and arm inspections. Demonstrations use synthetic records and separately tested components; the complete workflow has not been validated as a live autonomous deployment.</p><div class="item-links"><a class="micro-link" href="https://devpost.com/software/grid-hazard">Project &amp; team</a><a class="micro-link" href="https://github.com/gimenezdiego002/Grid-Hazard-Rover/tree/relay/inspection-system">Inspection source</a><a class="micro-link" href="https://shellhacks-relay-robotics.vercel.app/">Browser simulator</a></div></article>
+          <article class="package-card release-card" id="corpuskit"><span class="record-index">ALPHA APPLICATION · UNRELEASED</span><h3>CorpusKit</h3><p>A Corpusgen web workbench with local Docker setup, versioned corpus workflows, durable jobs, and reproducibility records. It remains under active implementation, with no registry or production release yet.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/corpuskit">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit/blob/main/docs/getting-started.md">Getting started</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit/blob/main/docs/product/15-minute-demo.md">15-minute demo</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit/blob/main/docs/product/capability-matrix.md">Capabilities</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">Corpusgen</a></div></article>
           <article class="package-card release-card" id="dreamland-controller"><span class="record-index">APPLIED INSTALLATION · CONTROLLER SOFTWARE</span><h3>Dreamland floor projection</h3><p>Raspberry Pi controller software by Muntaser Syed for an overhead projector, with looping playback and optional person detection. Artwork by Tec (Tec Fase).</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/dreamland-rpi">Controller repository</a></div></article>
           <article class="package-card release-card" id="mlpowermeter"><span class="record-index">SOURCE STAGE · INSTRUMENTATION</span><h3>mlpowermeter</h3><p>Measurement tools and experimental protocols for predicting ML energy use with TOML. Instrumentation validation is in progress; scientific results are not yet claimed.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/mlpowermeter">Research repository</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLSignals">Related TOML Signals study</a></div></article>
           <article class="package-card release-card" id="epicormic-research"><span class="record-index">RESEARCH IN PROGRESS</span><h3>Epicormic research workspace</h3><p>Experiment and manuscript preparation for provider drift detection and containment in governed AI systems. The study is still being prepared, with no acceptance or completed results claimed.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/epicormic-paper">Research repository</a><a class="micro-link" href="software.html#agent-infrastructure">Published alpha package</a></div></article>
-          <article class="package-card release-card"><span class="record-index">RESEARCH PREVIEW · PRE-RELEASE</span><h3>WattWarden</h3><p>Energy-governed agents combining TOML-derived energy metrics with Pollard execution controls; setup remains incomplete.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">Pollard</a></div></article>
+          <article class="package-card release-card" id="wattwarden"><span class="record-index">EXPERIMENTAL PROTOTYPE · UNRELEASED</span><h3>WattWarden</h3><p>Energy-governed agents with provisioning tools, Pollard execution controls, and documented Arm cloud and phone experiments. Server energy is predicted by the TOML model; phone energy is measured through battery telemetry.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/wattwarden/blob/main/LOGBOOK.md">Experimental logbook</a><a class="micro-link" href="https://devpost.com/software/wattwarden">Challenge submission</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">Pollard</a></div></article>
           <article class="package-card release-card"><span class="record-index">COLLABORATOR-OWNED · CHALLENGE SUBMISSION</span><h3>Joulehound</h3><p>An Arm-device energy-profiling collaboration for local AI-agent workloads, comparing measured battery telemetry with FLOPs and NEXUS/TOML estimates. The collaborator-owned prototype was submitted to the Arm Create: AI Optimization Challenge; no award or stable release is claimed.</p><div class="item-links"><a class="micro-link" href="https://devpost.com/software/joulehound">Devpost</a><a class="micro-link" href="https://github.com/b-urge/Joulehound">Collaborator-owned repository</a></div></article>
           <article class="package-card release-card"><span class="record-index">READINESS BOUNDARY</span><h3>Scaffolds stay out of the catalog</h3><p>ArmFlex and qrez remain pre-release or pre-alpha scaffolds and are intentionally omitted from the featured software catalog.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai?tab=repositories">All repositories</a></div></article>
         </div>
@@ -378,7 +452,7 @@
           </article>
           <article class="artifact-card">
             <span class="record-index">HEALTH, BIO &amp; SENSING</span><h3>Health and sensing</h3><p>Wearables, clinical representations, privacy, communication networks, brain interfaces, and speech.</p>
-            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/brain2x">Brain2X</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">corpusgen</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit">corpuskit</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope-bio">hashrope-bio</a><a class="micro-link" href="https://github.com/jemsbhai/careweave">CareWeave</a><a class="micro-link" href="https://github.com/jemsbhai/hipaa-compliance-algebra">HIPAA compliance algebra</a></div>
+            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/imujepa">IMU-JEPA</a><a class="micro-link" href="https://github.com/jemsbhai/cryptepi">CryptEpi</a><a class="micro-link" href="https://github.com/jemsbhai/brain2x">Brain2X</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">corpusgen</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit">corpuskit</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope-bio">hashrope-bio</a><a class="micro-link" href="https://github.com/jemsbhai/careweave">CareWeave</a><a class="micro-link" href="https://github.com/jemsbhai/hipaa-compliance-algebra">HIPAA compliance algebra</a></div>
           </article>
           <article class="artifact-card">
             <span class="record-index">DATA &amp; EXPLAINABILITY</span><h3>Data and explainability</h3><p>Compact formats, compressed-domain algorithms, explainability, and structured-data validation.</p>
@@ -399,13 +473,13 @@
           <div class="recognition-primary">
             <p class="eyebrow">Primary portfolio / jemsbhai</p>
             <blockquote>49 public projects and 293 hackathon participations.</blockquote>
-            <cite>Counts shown by Devpost at the August 26, 2026 content review.</cite>
+            <cite>Counts shown by Devpost at the October 15, 2026 content review.</cite>
             <p style="margin-top:2rem"><a class="button" href="https://devpost.com/jemsbhai">Open primary portfolio <span aria-hidden="true">↗</span></a></p>
           </div>
           <div class="recognition-primary">
             <p class="eyebrow">Secondary portfolio / msyed2011</p>
-            <blockquote>49 public projects and 79 hackathon participations.</blockquote>
-            <cite>Counts shown by Devpost at the August 26, 2026 content review; projects may overlap.</cite>
+            <blockquote>51 public projects and 82 hackathon participations.</blockquote>
+            <cite>Counts shown by Devpost at the October 15, 2026 content review; projects may overlap.</cite>
             <p style="margin-top:2rem"><a class="button" href="https://devpost.com/msyed2011">Open secondary portfolio <span aria-hidden="true">↗</span></a></p>
           </div>
         </div>
@@ -427,7 +501,7 @@
           </article>
           <article class="timeline-item"><time datetime="2026-03">2026</time><div><h3>VCONIC TADHack · Professional runner-up</h3><p>Recognized for a VCON enhancement with a MongoDB backend and JSON-LD Ex enrichment.</p><div class="item-links"><a class="micro-link" href="https://blog.tadhack.com/2026/03/30/vconic-tadhack-results/">Official results</a></div></div></article>
           <article class="timeline-item"><time datetime="2026-03-20">2026</time><div><h3>Google &amp; DeepStation Hackathon · Third place</h3><p>Fresh Fridge, built by the Prompt Pirates team, placed third at the Google &amp; DeepStation Hackathon.</p><div class="item-links"><a class="micro-link" href="https://refreshmiami.com/news/sergeys-surprise-visit-was-a-hackathon-highlight-lets-keep-building-miami/">Independent report</a></div></div></article>
-          <article class="timeline-item"><time datetime="2023">2023</time><div><h3>Hack@CEWIT · IoT Security Savvy Award</h3><p>Greenie received the IoT Security Savvy Award at Stony Brook University’s Hack@CEWIT.</p><div class="item-links"><a class="micro-link" href="https://www.stonybrook.edu/commcms/cewit/hackatcewit2023/About/Gallery.php">Official results</a></div></div></article>
+          <article class="timeline-item"><time datetime="2023">2023</time><div><h3>Hack@CEWIT · IoT Security Savvy Award</h3><p>Greenie received the IoT Security Savvy Award at Stony Brook University’s Hack@CEWIT.</p><div class="item-links"><a class="micro-link" href="https://devpost.com/software/greenie-dktq3x">Award record</a><a class="micro-link" href="https://hack-cewit-2023.devpost.com/project-gallery">Organizer gallery</a></div></div></article>
           <article class="timeline-item"><time datetime="2023">2023</time><div><h3>TADHack Open · First place</h3><p>Guardian Care, built with Vikki Horne and Candy Torres, received first place and an Enterprise Connect demo opportunity.</p><div class="item-links"><a class="micro-link" href="https://hub.radisys.com/press-release/radisys-congratulates-engage-digital-platform-winners-in-the-2023-tadhack-open-hackathon">Sponsor results</a></div></div></article>
           <article class="timeline-item"><time datetime="2022">2022</time><div><h3>Miami for Everyone · First place</h3><p>The Hive 305 won first place in a civic-technology competition focused on a more inclusive Miami.</p><div class="item-links"><a class="micro-link" href="https://refreshmiami.com/news/miami-for-everyone-shines-a-light-on-tech-community/">Report</a></div></div></article>
           <article class="timeline-item" id="opera-map"><time datetime="2019-07">2019</time><div><h3>Inaugural Opera Hack · Opera Map winner</h3><p>Member of the Opera Map team, one of three winners at San Diego Opera’s inaugural Opera Hack, held July 27–28, 2019 at Microsoft in La Jolla. Opera Map is a database using 360° photogrammetry for theatrical design, planning, and production rentals.</p><div class="item-links"><a class="micro-link" href="https://sdoperastg.wpengine.com/wp-content/uploads/2022/09/Opera-Hack-Winner-Presentations.pdf">Official results (PDF)</a><a class="micro-link" href="https://opera-hack.devpost.com/">Event details</a></div></div></article>

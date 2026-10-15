@@ -16,11 +16,11 @@ archive, professional service, selected awards, press, and public profiles.
 - `media.html`: dated media coverage, interviews, university news, and organizer or sponsor reports
 - `about.html`: biography, roles, education, professional service, press, milestones, and profile links
 
-Software releases, October presentations, the biography, and the 48-entry
-media archive were refreshed on October 11, 2026. The GHTC award was added on
-October 9 and is now featured on the homepage. The full publication and
-project-catalog review was September 28; selected publication statuses were
-rechecked October 11. See `CONTENT_AUDIT.md` for the refresh scope,
+All seven pages were refreshed after a full content audit on October 15, 2026.
+The site now includes 41 distinct scholarly outputs, 21 selected project
+artifacts, 46 speaking or program-listed author engagements, and 48 media
+entries. Pollard and Hashrope have public arXiv manuscripts; WVLL is recorded
+as a delivered December 2024 keynote. See `CONTENT_AUDIT.md` for the refresh scope,
 counts, evidence boundaries, deliberate holdbacks, and the next refresh checklist.
 
 ## Structured data

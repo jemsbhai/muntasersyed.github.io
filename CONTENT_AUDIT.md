@@ -1,9 +1,81 @@
-# Content audit — October 12, 2026
+# Content audit — October 15, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## October 15 content refresh
+
+- Fast-forwarded the local checkout to the published branch before editing,
+  preserving the Applied AI Summit session, graphic, and layout. Its October
+  15, 3:00–3:30 p.m. Eastern session remains scheduled at this morning's check.
+- Added three distinct accepted contributions: transformer inference energy
+  modeling at UEMCON, privacy-preserving healthcare RAG at HealthCom's WCIHS
+  workshop, and AASN at AGENTICS. The owner confirmed that the healthcare RAG
+  paper and the ICTAI similarity-search paper are separate works. AASN's
+  official public abstract and author record resolve its acceptance holdback;
+  its full text still requires organizer login.
+- Added the October 12 Pollard and Hashrope arXiv versions to their existing
+  records, preserving one count per work. The research catalog now has 41
+  distinct outputs, 23 accepted contributions, and six pending arXiv preprints.
+  Added Humaid Alshamsi to the NADIM disaster-verification paper, its official
+  workshop source, the 2022 speech article's DOI, StegaQR's repository PDF,
+  and HIPAA's manuscript source. Repository manuscripts are not described as
+  final proceedings versions. The unrelated TOML Signals template PDF is not
+  linked as a paper.
+- Added official HealthCom, UEMCON, GHTC, WF-IoT, and AGENTICS program evidence
+  to Research. Speaking gained four grouped author-session records and the
+  historical WVLL keynote, bringing the archive to 46. Session windows do not
+  establish individual presentation times or delivery. AGENTICS names Rwaida
+  Alssadi as presenter, so those papers are not added as Muntaser's talks.
+- The owner confirmed that the WVLL conference was December 18–19, 2024 and
+  that he delivered the keynote. Replaced the pending 2026 treatment with a
+  past 2024 engagement and aligned About's WVLL service/milestone. The exact
+  keynote day is not asserted. The organizer's biography is historical and
+  does not change the site's current Insight Global, former NVIDIA, or
+  doctoral-work wording.
+- Linked the now-public IMU-JEPA and CryptEpi repositories; CryptEpi remains
+  a research prototype without a confirmed acceptance or complete manuscript.
+  Updated WattWarden's implemented experimental work and CorpusKit's alpha
+  workflows. Added the Gatehouse and Grid Hazard collaborations with team
+  attribution and prototype limitations, bringing selected project artifacts
+  to 21. The secondary Devpost profile is 51 projects / 82 hackathons; the
+  primary remains 49 / 293, observed separately on October 15.
+- Registry versions remain unchanged after verification: 24 featured PyPI
+  packages, five npm packages, six crates, and 26 top-level software works.
+  Featured the new arXiv papers on Home and connected the relevant research,
+  software, and project cards. TOML Transformers now distinguishes its own
+  manuscript from the foundational FLAIRS paper.
+- Replaced the broken CEWIT gallery with the organizer's Devpost gallery and
+  Greenie award record. Gave working Symbl corroboration links priority while
+  retaining the intermittent originals. Added the vCon project's technical
+  review as a related source; the media archive remains 48 entries.
+- Added portrait-based social previews to all seven pages, Media to Home's
+  page relationships, and modification dates to Software and Projects.
+  Aligned affected dates, sitemap entries, README, and current holdbacks.
+
+External-profile follow-ups remain separate from this website refresh:
+reconcile the new works and arXiv versions on ORCID/OpenAlex, complete the
+Hugging Face biography/link update, and update IMU-JEPA's own README status.
+No external profile or project repository was changed.
+
+Verification before publication:
+
+- All seven pages passed 56 layout checks at 1440, 768, 390, and 320 pixels
+  in light and dark themes, without horizontal overflow or broken images.
+  Twenty-eight automated WCAG A/AA checks reported no violations.
+- All 186 local file/fragment references resolved. JSON-LD parsed, list counts
+  and positions agreed, and unique anchors were checked. Research and media
+  filters, search, empty/reset states, mobile navigation, and theme persistence
+  passed without page JavaScript errors.
+- Eight desktop/mobile navigation checks confirmed that the three new paper
+  links and WVLL archive link land below the sticky controls. Changed sections
+  were inspected in screenshots. Independent content reviews checked new
+  authors, dates, source labels, project attribution, and current summaries.
+- Checks and screenshots are saved in `refresh-2026-10-15/` outside the site
+  repository. Automated accessibility checks do not replace a full manual
+  accessibility review.
 
 ## October 12 Applied AI Summit addition
 
@@ -507,11 +579,11 @@ Validation after the approved changes:
 
 ## Published state
 
-- Research: 38 distinct scholarly outputs: 16 published contributions
+- Research: 41 distinct scholarly outputs: 16 published contributions
   (papers, chapters, a poster paper, and a two-page Show & Tell contribution),
-  20 accepted conference contributions, one preprint without conference
-  acceptance, and one published 2018 poster abstract. Three accepted works also have public
-  preprints, making four preprints awaiting publication in all. These filters
+  23 accepted conference contributions, one preprint without conference
+  acceptance, and one published 2018 poster abstract. Five accepted works also have public
+  arXiv preprints, making six preprints awaiting publication in all. These filters
   overlap; earlier versions of published papers remain linked and are counted
   once. Two older presentation acceptances
   and software artifacts remain outside this scholarly total.
@@ -519,10 +591,11 @@ Validation after the approved changes:
   `i3cex` is a development release and `facecloak-suite` is a placeholder, so
   neither is included in the featured PyPI total. Package maturity ranges from
   pre-alpha through production/stable and is not implied by this count.
-- Projects: public repositories link directly. Private repositories are either
+- Projects: 21 selected artifacts. Public repositories link directly. Private repositories are either
   labeled as private research without a link or omitted from the public index.
-- Speaking: dated entries require an organizer, conference, institutional, or
-  public scheduling record. Material-only repositories are kept in a separate
+- Speaking: 46 engagements, including grouped author sessions. Dates use
+  organizer, conference, institutional, public scheduling, or explicit owner
+  confirmation. Material-only repositories are kept in a separate
   teaching archive.
 - Media: 48 archive entries, including 16 reporting/interview/industry-discussion
   entries, eight university news entries, and 24 organizer/sponsor/industry
@@ -533,32 +606,30 @@ Validation after the approved changes:
 - The [1-bit IoT router](https://github.com/jemsbhai/1bit-llm-iot-router)
   is confirmed accepted at IEEE WF-IoT 2026 and now has public source code.
   It is not presented as a stable package release. WF-IoT papers remain
-  accepted while final manuscripts are being prepared.
-- AASN is excluded from the accepted/forthcoming catalog; no current venue
-  is asserted. The unidentified IRI record, NADIM/Chronofy disaster title,
+  accepted until final proceedings records are established.
+- AASN is now included with its official AGENTICS program/abstract source;
+  a public full-paper download and final proceedings record remain pending.
+  The unidentified IRI record, NADIM/Chronofy disaster title,
   Universal Translator, and SQT version relationship remain held until
   bibliographic identity or status is established.
-- WVLL 2026 currently publishes conflicting November and December dates and a
-  stale NVIDIA/“Dr.” bio. Its homepage omits Muntaser from the confirmed and
-  tentative invited-speaker lists while the older program lists his keynote.
-  The site identifies the program-listed keynote but withholds the date until
-  the organizer confirms both the invitation and event details. Omission from
-  another page does not by itself establish cancellation.
+- WVLL's live pages contain conflicting current-event dates and an old bio.
+  The owner confirmed the delivered keynote belongs to December 18–19, 2024.
+  The historical record is resolved; no new WVLL invitation is asserted.
 - Public sources disagree about Ph.D. timing and do not establish conferral.
   The owner confirmed on October 11 that doctoral status remains unchanged;
   the site retains “doctoral work” and does not use “Dr.”
-- TraceCoder’s accepted paper/poster status is confirmed by the owner’s
-  acceptance record and the author-maintained comment on
-  [arXiv:2607.26307](https://arxiv.org/abs/2607.26307). Replace or supplement
-  that link with the proceedings record when AGENTICS publishes it.
+- TraceCoder’s accepted paper/poster status is now also supported by its
+  official AGENTICS program entry, alongside the owner’s acceptance record
+  and [arXiv:2607.26307](https://arxiv.org/abs/2607.26307). Add the final
+  proceedings record when available.
 - MultiSpecQR and TOML Signals retain their official accepted-paper/program
   sources pending final proceedings records. The two IRI DOI holdbacks were
   resolved on September 15 as documented above.
 - The repository linked from the Rules Before Oracles arXiv record (`devfitcs/ABAS`)
   returned 404 for a signed-out visitor, so the site does not expose a code link.
-- Twelve repositories linked by the previous site remain held from the earlier review:
-  `cryptepi`, `explainiverse-explorer`,
-  `healthSLnetwrokslicer`, `IEEEHealth-pharma`, `imujepa`, `jepa-fhir`,
+- Ten repositories linked by the previous site remain held from the earlier review:
+  `explainiverse-explorer`,
+  `healthSLnetwrokslicer`, `IEEEHealth-pharma`, `jepa-fhir`,
   `kvrm-paper`, `oneura-ictai2026`, `thermocline`, `TimeCMAPlus`, `trilstm`,
   and `uhc-visualizer`. Re-add links only after
   confirming public visibility.
