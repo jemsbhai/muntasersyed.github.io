@@ -799,7 +799,8 @@ button {
 }
 
 .catalog-item h2,
-.catalog-item h3 {
+.catalog-item h3,
+.catalog-item h4 {
   max-width: 820px;
   margin: 0;
   font-family: var(--serif);

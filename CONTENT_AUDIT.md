@@ -1,9 +1,84 @@
-# Content audit — October 15, 2026
+# Content audit — October 21, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## October 21 comprehensive re-audit
+
+- Reconciled recent and targeted historical author correspondence against
+  official conference programs, public manuscripts, publisher records,
+  package registries, repository visibility, speaking records, and media.
+  Private correspondence, attachments, review text, and backup videos remain
+  outside this public repository.
+- Added three accepted contributions: CDXF at ComComAp, CryptEpi at ICDM's
+  TML4DM workshop, and Veracity-Aware Machine Learning Data Exchange in CIC's
+  Application Track. Research now has 44 distinct outputs and 26 accepted
+  contributions. No new version of record was established after rechecking
+  all 41 previous records and the three additions; eight arXiv identities
+  retain their existing versions and six pending-preprint records remain.
+- Corrected all four WF-IoT papers to the October 26 virtual/video block,
+  08:00–20:00 Dubai time. This is a shared session window, not four individual
+  presentation times. Added CloudCom's October 29 pre-recorded contribution
+  and third author, Rwaida Alssadi. Added Hashrope's November 2, 11:30 a.m.
+  ICTAI presentation in Royal Palm 1; the other ICTAI works retain their
+  actual listed presenters. Removed the grouped UEMCON entry from Speaking
+  after a confirmed presenter substitution, while preserving both papers.
+  Speaking now has 47 entries, with historical program listings distinguished
+  from confirmed personal delivery.
+- Added a homepage calendar covering WF-IoT, CloudCom, ICTAI, CIC, CryptEpi,
+  CDXF, and the FLAIRS-40 call for papers. CIC's November 5, 10:00–12:00
+  session time follows the preliminary program without its inconsistent
+  daylight-saving abbreviation. Workshop dates and individual slots that
+  remain unannounced are not inferred.
+- Updated Pollard Python to 1.6.2 and added geniekit 0.1.0, an alpha package
+  for GENIE BPC clinicogenomic cohort harmonization. Its patient-level data
+  requires separate authorization. The npm/Rust ports retain their own
+  versions and Python 1.6.0 compatibility target. All 37 previously known
+  registry entries plus geniekit were checked; 25 PyPI packages, five npm
+  packages, and six crates are featured across 27 top-level software works.
+- Added Drug Integrity Algebra experiments, healthcare RAG experiments,
+  geniekit, and the Dewin/envlab team prototype, bringing Projects to 25.
+  Rechecked all 49 previously linked repository roots. IEEEHealth-pharma is
+  now public; the nine other held links remain unavailable publicly. Code
+  maturity, licensing, missing dependencies, and accepted author lists remain
+  explicit. Devpost's separate counts remain 49/293 and 51/82, observed
+  October 21. The linked Hugging Face inventory has no new release.
+- Added verified ComComAp committee service, WcAISR reviewing, Frontiers'
+  public reviewer credit, and FLAIRS-40 program-committee service. The
+  FLAIRS-40 track now includes its January 22 abstract and February 1 paper
+  deadlines, both at 23:59 Anywhere on Earth, ahead of May 24–27, 2027.
+  Reviewer credit is not counted as authorship.
+- Rechecked the 48 primary media links and searched for new reporting and
+  event coverage. No additional item met the archive's attribution boundary;
+  automated research summaries and link roundups were not counted as new
+  reporting. Enriched the existing July 2025 masterclass with organizer
+  evidence without adding a duplicate engagement.
+- Linked mobile menu buttons to their controlled navigation, corrected the
+  research heading hierarchy, and aligned page dates, stylesheet cache keys,
+  the sitemap, counts, and current holdbacks. Detailed source evidence and
+  private working notes are in `reaudit-2026-10-21/` outside this repository.
+
+Verification before publication:
+
+- All seven updated pages passed 56 responsive checks at 320, 390, 768, and
+  1280 pixels in light and dark themes. No horizontal overflow, broken images,
+  or page console errors were observed. Updated sections were inspected in
+  desktop and mobile screenshots.
+- All 203 internal file/fragment references resolve. JSON-LD parses, catalog
+  counts and list positions agree, and anchors are unique. Research's
+  Accepted filter returns 26 records; search, empty/reset states, media
+  filtering, theme behavior, mobile navigation, Escape focus return, and
+  new deep links passed functional checks.
+- Reviewed navigation accessibility relationships, heading structure, result
+  announcements, and visual readability. No fresh automated axe audit was
+  run; these checks do not replace a full manual accessibility review.
+- Checked 335 existing external URLs and 22 new ones. Access-blocked registry
+  and publisher responses were distinguished from removed pages using
+  public browser views and corroborating sources. Existing intermittent
+  Symbl links retain their labeled alternatives; no new confirmed dead link
+  was introduced.
 
 ## October 15 Applied AI Summit post-event update
 
@@ -593,21 +668,22 @@ Validation after the approved changes:
 
 ## Published state
 
-- Research: 41 distinct scholarly outputs: 16 published contributions
+- Research: 44 distinct scholarly outputs: 16 published contributions
   (papers, chapters, a poster paper, and a two-page Show & Tell contribution),
-  23 accepted conference contributions, one preprint without conference
+  26 accepted conference contributions, one preprint without conference
   acceptance, and one published 2018 poster abstract. Five accepted works also have public
   arXiv preprints, making six preprints awaiting publication in all. These filters
   overlap; earlier versions of published papers remain linked and are counted
   once. Two older presentation acceptances
   and software artifacts remain outside this scholarly total.
-- Software: 24 featured published PyPI packages, 5 npm packages, and 6 Rust crates.
+- Software: 25 featured published PyPI packages, 5 npm packages, and 6 Rust crates,
+  represented as 27 top-level works with language ports nested separately.
   `i3cex` is a development release and `facecloak-suite` is a placeholder, so
   neither is included in the featured PyPI total. Package maturity ranges from
   pre-alpha through production/stable and is not implied by this count.
-- Projects: 21 selected artifacts. Public repositories link directly. Private repositories are either
+- Projects: 25 selected artifacts. Public repositories link directly. Private repositories are either
   labeled as private research without a link or omitted from the public index.
-- Speaking: 46 engagements, including grouped author sessions. Dates use
+- Speaking: 47 engagements, including grouped author sessions. Dates use
   organizer, conference, institutional, public scheduling, or explicit owner
   confirmation. Material-only repositories are kept in a separate
   teaching archive.
@@ -641,9 +717,9 @@ Validation after the approved changes:
   resolved on September 15 as documented above.
 - The repository linked from the Rules Before Oracles arXiv record (`devfitcs/ABAS`)
   returned 404 for a signed-out visitor, so the site does not expose a code link.
-- Ten repositories linked by the previous site remain held from the earlier review:
+- Nine repositories linked by the previous site remain held from the earlier review:
   `explainiverse-explorer`,
-  `healthSLnetwrokslicer`, `IEEEHealth-pharma`, `jepa-fhir`,
+  `healthSLnetwrokslicer`, `jepa-fhir`,
   `kvrm-paper`, `oneura-ictai2026`, `thermocline`, `TimeCMAPlus`, `trilstm`,
   and `uhc-visualizer`. Re-add links only after
   confirming public visibility.

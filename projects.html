@@ -40,7 +40,7 @@
         "@id": "https://muntasersyed.com/projects.html#webpage",
         "url": "https://muntasersyed.com/projects.html",
         "name": "Projects and Innovation | Muntaser Syed",
-        "dateModified": "2026-10-15",
+        "dateModified": "2026-10-21",
         "description": "Research repositories, current source-stage builds, hackathon portfolios, and applied AI projects by Muntaser Syed.",
         "isPartOf": { "@id": "https://muntasersyed.com/#website" },
         "author": { "@id": "https://muntasersyed.com/#person" },
@@ -60,7 +60,7 @@
         "@type": "ItemList",
         "@id": "https://muntasersyed.com/projects.html#project-catalog",
         "name": "Selected research repositories and builds",
-        "numberOfItems": 21,
+        "numberOfItems": 25,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -137,13 +137,16 @@
             "@type": "ListItem",
             "position": 7,
             "item": {
-              "@type": "SoftwareSourceCode",
-              "name": "CryptEpi",
-              "description": "A public research prototype for privacy-preserving epistatic interaction mining using homomorphic encryption.",
-              "codeRepository": "https://github.com/jemsbhai/cryptepi",
-              "creativeWorkStatus": "Research prototype",
-              "creator": { "@id": "https://muntasersyed.com/#person" }
-            }
+                      "@type": "SoftwareSourceCode",
+                      "name": "CryptEpi",
+                      "description": "A research prototype for privacy-preserving epistasis detection using GPU-accelerated homomorphic encryption, associated with the accepted IEEE ICDM 2026 TML4DM workshop paper.",
+                      "codeRepository": "https://github.com/jemsbhai/cryptepi",
+                      "creativeWorkStatus": "Research prototype",
+                      "creator": {
+                        "@id": "https://muntasersyed.com/#person"
+                      },
+                      "citation": "https://muntasersyed.com/research.html#cryptepi-paper"
+                    }
           },
           {
             "@type": "ListItem",
@@ -366,6 +369,68 @@
                 "url": "https://devpost.com/software/grid-hazard"
               }
             }
+          },
+          {
+            "@type": "ListItem",
+            "position": 22,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/projects.html#drug-integrity",
+              "name": "Drug Integrity Algebra",
+              "description": "Public simulation code, experiments, and manuscript source for the accepted IEEE HealthCom 2026 paper on pharmaceutical supply-chain evidence and uncertainty.",
+              "codeRepository": "https://github.com/jemsbhai/IEEEHealth-pharma",
+              "creator": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "citation": "https://muntasersyed.com/research.html#drug-integrity-paper"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 23,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/projects.html#healthcare-rag",
+              "name": "Healthcare RAG experiments",
+              "description": "Experimental healthcare retrieval-augmented generation using two-server additive secret sharing. The public workspace accompanies the accepted WCIHS / IEEE HealthCom 2026 paper; its companion cryptographic package is not yet public.",
+              "codeRepository": "https://github.com/jemsbhai/herpbHealth",
+              "creator": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "citation": "https://muntasersyed.com/research.html#healthcare-rag-paper"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 24,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/projects.html#geniekit-project",
+              "name": "geniekit",
+              "description": "Python tools for harmonizing six GENIE BPC clinicogenomic cohorts, deriving lines of therapy, and producing aggregate summaries with disclosure controls. An alpha release that ships metadata and synthetic-data tools; patient-level data require separate authorized access.",
+              "codeRepository": "https://github.com/jemsbhai/geniekit",
+              "creator": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "version": "0.1.0",
+              "creativeWorkStatus": "Alpha",
+              "url": "https://pypi.org/project/geniekit/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 25,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/projects.html#dewin",
+              "name": "Dewin / envlab",
+              "description": "An October 2026 hardware-hackathon collaboration connecting a mobile exposure timeline with nearby air and water sensor readings, plus a check-in kiosk. The prototype uses hobby-grade sensors and shared demo access; its measurements do not establish health or drinking-water safety.",
+              "codeRepository": "https://github.com/jemsbhai/envlab",
+              "contributor": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "creativeWorkStatus": "Hackathon prototype"
+            }
           }
         ]
       }
@@ -375,7 +440,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css?v=20261006">
+  <link rel="stylesheet" href="assets/styles.css?v=20261021">
   <script src="assets/site.js?v=20260906" defer></script>
 </head>
 <body>
@@ -383,8 +448,8 @@
   <header class="site-header">
     <div class="shell masthead">
       <a class="brand" href="index.html" aria-label="Muntaser Syed, home"><span class="brand-mark" aria-hidden="true">MS</span><span class="brand-text">Muntaser Syed</span></a>
-      <nav class="site-nav" data-site-nav aria-label="Primary navigation"><a href="index.html">Home</a><a href="research.html">Research</a><a href="software.html">Software</a><a href="projects.html" aria-current="page">Projects</a><a href="speaking.html">Speaking</a><a href="media.html">Media</a><a href="about.html">About</a></nav>
-      <div class="header-actions"><button class="icon-button" type="button" data-theme-toggle aria-label="Use dark theme">◐</button><button class="menu-button" type="button" data-menu-toggle aria-expanded="false" aria-label="Open navigation">Menu</button></div>
+      <nav class="site-nav" id="site-navigation" data-site-nav aria-label="Primary navigation"><a href="index.html">Home</a><a href="research.html">Research</a><a href="software.html">Software</a><a href="projects.html" aria-current="page">Projects</a><a href="speaking.html">Speaking</a><a href="media.html">Media</a><a href="about.html">About</a></nav>
+      <div class="header-actions"><button class="icon-button" type="button" data-theme-toggle aria-label="Use dark theme">◐</button><button class="menu-button" type="button" data-menu-toggle aria-controls="site-navigation" aria-expanded="false" aria-label="Open navigation">Menu</button></div>
     </div>
   </header>
 
@@ -392,7 +457,7 @@
     <section class="page-hero">
       <div class="shell page-intro-grid">
         <div><p class="eyebrow"><span class="kicker">Projects</span> / Research and prototypes</p><h1>Research repositories and <em>builds.</em></h1><p class="page-lede">These projects contain research code, experiments, protocols, and applied prototypes. Talks and teaching now have a dedicated archive.</p></div>
-        <aside class="source-note"><strong>Portfolio boundary.</strong> Public repositories link directly; private research is labeled without a broken link, and pre-alpha work is distinguished from released software. Reviewed <time datetime="2026-10-15">October 15, 2026</time>.</aside>
+        <aside class="source-note"><strong>Portfolio boundary.</strong> Public repositories link directly; private research is labeled without a broken link, and pre-alpha work is distinguished from released software. Reviewed <time datetime="2026-10-21">October 21, 2026</time>.</aside>
       </div>
     </section>
 
@@ -400,6 +465,9 @@
       <div class="shell">
         <div class="section-head"><p class="eyebrow">Research repositories</p><div><h2 id="research-repos-title">Selected research repositories.</h2><p>This section covers protocols, architectures, evaluation frameworks, and paper experiments.</p></div></div>
         <div class="artifact-grid">
+          <article class="artifact-card" id="drug-integrity"><span class="record-index">PUBLIC RESEARCH ARTIFACT · IEEE HEALTHCOM 2026</span><h3>Drug Integrity Algebra</h3><p>Public simulation code, experiments, and manuscript source for the accepted IEEE HealthCom 2026 paper on pharmaceutical supply-chain evidence and uncertainty.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/IEEEHealth-pharma">Code &amp; experiments</a><a class="micro-link" href="research.html#drug-integrity-paper">Accepted paper</a></div></article>
+          <article class="artifact-card" id="healthcare-rag"><span class="record-index">PUBLIC EXPERIMENTAL CODE · IEEE HEALTHCOM WORKSHOP</span><h3>Healthcare RAG experiments</h3><p>Experimental healthcare retrieval-augmented generation using two-server additive secret sharing. The public workspace accompanies the accepted WCIHS / IEEE HealthCom 2026 paper; its companion cryptographic package is not yet public.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/herpbHealth">Experimental code</a><a class="micro-link" href="research.html#healthcare-rag-paper">Accepted workshop paper</a></div></article>
+          <article class="artifact-card" id="geniekit-project"><span class="record-index">PUBLISHED ALPHA · PYTHON 0.1.0</span><h3>geniekit</h3><p>Python tools for harmonizing six GENIE BPC clinicogenomic cohorts, deriving lines of therapy, and producing aggregate summaries with disclosure controls. An alpha release that ships metadata and synthetic-data tools; patient-level data require separate authorized access.</p><div class="item-links"><a class="micro-link" href="software.html#geniekit">Package &amp; details</a><a class="micro-link" href="https://github.com/jemsbhai/geniekit">Repository</a></div></article>
           <article class="artifact-card"><span class="record-index">SEMANTIC IOT</span><h3>CBOR-LD Ex</h3><p>Reasoning-carrying binary linked data for constrained networks, with a Python reference implementation and byte-compatible, <code>no_std</code> Rust core.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/cbor-ld-ex">Python</a><a class="micro-link" href="https://github.com/jemsbhai/cborld-ex">Rust</a><a class="micro-link" href="software.html#compact-data">Project details</a><a class="micro-link" href="research.html#cborld-ex-paper">Accepted IEEE WF-IoT paper</a></div></article>
           <article class="artifact-card"><span class="record-index">PRE-ALPHA · DRAFT SPEC</span><h3>I3C-EX</h3><p>An independent research protocol for edge AI/ML over MIPI I3C Basic v1.2. The separate I4C track is currently a placeholder.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/i3cex">I3C-EX</a><a class="micro-link" href="https://github.com/jemsbhai/i3cex-i4c">I4C placeholder</a></div></article>
           <article class="artifact-card"><span class="record-index">PUBLIC EXPERIMENTS · ACCEPTED IEEE ICTAI PAPER</span><h3>Hashrope paper experiments</h3><p>Public manuscript and experiment workspace for <em>Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management</em>, accepted at IEEE ICTAI 2026.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope-paper">Experiments</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope">Library</a><a class="micro-link" href="research.html#hashrope-ictai">Accepted paper</a><a class="micro-link" href="https://arxiv.org/abs/2610.16144">Preprint</a></div></article>
@@ -407,7 +475,7 @@
           <article class="artifact-card" id="toml-transformers"><span class="record-index">PUBLIC MANUSCRIPT · ACCEPTED IEEE UEMCON PAPER</span><h3>TOML Transformers</h3><p>Transformer-inference energy modeling that separates prefill and decode and tests cross-architecture transfer. The accepted IEEE UEMCON 2026 paper has public manuscript source, frozen GPU measurements, and reproducibility artifacts.</p><div class="item-links"><a class="micro-link" href="research.html#toml-transformers-paper">Accepted paper</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers/blob/master/paper/main.tex">Manuscript source</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers">Experiments</a><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141781">Foundational TOML paper</a></div></article>
           <article class="artifact-card"><span class="record-index">PUBLIC RESEARCH ARTIFACT · IEEE MLSP 2026</span><h3>TOML Signals</h3><p>Reproducible transistor-level energy analysis of 37 signal-processing algorithms, with profiler traces and evaluation artifacts for the accepted IEEE MLSP 2026 paper.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/TOMLSignals">Repository</a><a class="micro-link" href="https://openreview.net/forum?id=jYBcP44EDn">OpenReview</a><a class="micro-link" href="https://neuroneural.net/mlsp2026schedule/">Conference schedule</a></div></article>
           <article class="artifact-card" id="imu-jepa"><span class="record-index">PUBLIC EXPERIMENTS · ACCEPTED WF-IOT PAPER</span><h3>IMU-JEPA</h3><p>Public representation-learning code and experiments for wearable inertial signals. The IMU-JEPA paper was accepted at IEEE WF-IoT 2026; the published FLAIRS neck-posture study is a separate related paper.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/imujepa">Code &amp; experiments</a><a class="micro-link" href="research.html#imu-jepa-paper">Accepted IMU-JEPA paper</a><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141783">Published neck-posture study</a></div></article>
-          <article class="artifact-card" id="cryptepi"><span class="record-index">PUBLIC RESEARCH PROTOTYPE</span><h3>CryptEpi</h3><p>Privacy-preserving epistatic interaction mining using homomorphic encryption. Public prototype code is available; no accepted paper or completed manuscript is claimed.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/cryptepi">Research repository</a></div></article>
+          <article class="artifact-card" id="cryptepi"><span class="record-index">RESEARCH PROTOTYPE · ACCEPTED IEEE ICDM WORKSHOP PAPER</span><h3>CryptEpi</h3><p>Privacy-preserving epistasis detection using GPU-accelerated homomorphic encryption, accepted at IEEE ICDM 2026’s TML4DM workshop. Public research code is available; final proceedings are pending.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/cryptepi">Research repository</a><a class="micro-link" href="research.html#cryptepi-paper">Accepted workshop paper</a></div></article>
           <article class="artifact-card"><span class="record-index">PRIVATE RESEARCH</span><h3>JEPA-FHIR</h3><p>Research connecting self-supervised representation learning with interoperable healthcare data.</p></article>
           <article class="artifact-card" id="hipaa-compliance-algebra"><span class="record-index">PUBLIC RESEARCH ARTIFACT · IEEE HEALTHCOM 2026</span><h3>HIPAA compliance algebra</h3><p>Manuscript source, experiments, results, and figures for the accepted paper on privacy-preserving, confidence-aware FHIR R4 exchange grounded in Subjective Logic.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hipaa-compliance-algebra">Code &amp; experiments</a><a class="micro-link" href="research.html#fhir-compliance-paper">Accepted paper</a></div></article>
           <article class="artifact-card"><span class="record-index">ALPHA · v0.2.0</span><h3>ArcMind</h3><p>A causal, dual-rate sequence backbone for streaming sensor policies. It is not currently a language model or VLA model.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/arcmind">Repository</a><a class="micro-link" href="https://pypi.org/project/arcmind/">Package</a></div></article>
@@ -420,6 +488,7 @@
       <div class="shell">
         <div class="section-head"><p class="eyebrow">Current builds / October 2026</p><div><h2 id="current-builds-title">Source-stage projects.</h2><p>Recent public repositories that are substantial enough to follow but are not presented as stable package releases.</p></div></div>
         <div class="package-grid">
+          <article class="package-card release-card" id="dewin"><span class="record-index">TEAM COLLABORATION · HARDWARE PROTOTYPE</span><h3>Dewin / envlab</h3><p>An October 2026 hardware-hackathon collaboration connecting a mobile exposure timeline with nearby air and water sensor readings, plus a check-in kiosk. The prototype uses hobby-grade sensors and shared demo access; its measurements do not establish health or drinking-water safety.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/envlab">Repository &amp; team components</a></div></article>
           <article class="package-card release-card release-card-featured" id="station-steward"><span class="record-index">HACKATHON PROTOTYPE · SEPTEMBER 12, 2026</span><h3>Station Steward</h3><p>A local agent connecting a real Arduino sensor bench and a simulated robotic workcell through Pollard, Chronofy, MCP-Edge, and human task handoffs. Built for the AI Tinkerers / OpenAI Agents Everywhere hackathon in Miami.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/station-steward">Repository</a><a class="micro-link" href="software.html#agent-infrastructure">Agent infrastructure</a><a class="micro-link" href="software.html#temporal-trust">Temporal stack</a></div></article>
           <article class="package-card release-card" id="gatehouse"><span class="record-index">COLLABORATION · HACKATHON PROTOTYPE</span><h3>Gatehouse</h3><p>A vendor-review and onboarding prototype built with Katherine Burge. Muntaser contributed Pollard evidence ledgers, action/refusal records, seals, telemetry, and offline replay; Katherine built the agent fleets and cloud deployment.</p><div class="item-links"><a class="micro-link" href="https://devpost.com/software/gatehouse-qh9ml4">Project &amp; contributions</a><a class="micro-link" href="https://github.com/b-urge/gatehouse">Collaborator-owned repository</a><a class="micro-link" href="software.html#pollard">Pollard</a></div></article>
           <article class="package-card release-card" id="grid-hazard"><span class="record-index">TEAM COLLABORATION · SHELLHACKS 2026</span><h3>Grid Hazard / FieldSight</h3><p>A team prototype combining infrastructure coordination with simulated rover, crawler, and arm inspections. Demonstrations use synthetic records and separately tested components; the complete workflow has not been validated as a live autonomous deployment.</p><div class="item-links"><a class="micro-link" href="https://devpost.com/software/grid-hazard">Project &amp; team</a><a class="micro-link" href="https://github.com/gimenezdiego002/Grid-Hazard-Rover/tree/relay/inspection-system">Inspection source</a><a class="micro-link" href="https://shellhacks-relay-robotics.vercel.app/">Browser simulator</a></div></article>
@@ -452,7 +521,7 @@
           </article>
           <article class="artifact-card">
             <span class="record-index">HEALTH, BIO &amp; SENSING</span><h3>Health and sensing</h3><p>Wearables, clinical representations, privacy, communication networks, brain interfaces, and speech.</p>
-            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/imujepa">IMU-JEPA</a><a class="micro-link" href="https://github.com/jemsbhai/cryptepi">CryptEpi</a><a class="micro-link" href="https://github.com/jemsbhai/brain2x">Brain2X</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">corpusgen</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit">corpuskit</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope-bio">hashrope-bio</a><a class="micro-link" href="https://github.com/jemsbhai/careweave">CareWeave</a><a class="micro-link" href="https://github.com/jemsbhai/hipaa-compliance-algebra">HIPAA compliance algebra</a></div>
+            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/imujepa">IMU-JEPA</a><a class="micro-link" href="https://github.com/jemsbhai/cryptepi">CryptEpi</a><a class="micro-link" href="https://github.com/jemsbhai/brain2x">Brain2X</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">corpusgen</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit">corpuskit</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope-bio">hashrope-bio</a><a class="micro-link" href="https://github.com/jemsbhai/careweave">CareWeave</a><a class="micro-link" href="https://github.com/jemsbhai/hipaa-compliance-algebra">HIPAA compliance algebra</a><a class="micro-link" href="https://github.com/jemsbhai/IEEEHealth-pharma">Drug Integrity Algebra</a><a class="micro-link" href="https://github.com/jemsbhai/herpbHealth">Healthcare RAG</a><a class="micro-link" href="https://github.com/jemsbhai/geniekit">geniekit</a><a class="micro-link" href="https://github.com/jemsbhai/envlab">Dewin</a></div>
           </article>
           <article class="artifact-card">
             <span class="record-index">DATA &amp; EXPLAINABILITY</span><h3>Data and explainability</h3><p>Compact formats, compressed-domain algorithms, explainability, and structured-data validation.</p>
@@ -473,13 +542,13 @@
           <div class="recognition-primary">
             <p class="eyebrow">Primary portfolio / jemsbhai</p>
             <blockquote>49 public projects and 293 hackathon participations.</blockquote>
-            <cite>Counts shown by Devpost at the October 15, 2026 content review.</cite>
+            <cite>Counts shown by Devpost at the October 21, 2026 content review.</cite>
             <p style="margin-top:2rem"><a class="button" href="https://devpost.com/jemsbhai">Open primary portfolio <span aria-hidden="true">↗</span></a></p>
           </div>
           <div class="recognition-primary">
             <p class="eyebrow">Secondary portfolio / msyed2011</p>
             <blockquote>51 public projects and 82 hackathon participations.</blockquote>
-            <cite>Counts shown by Devpost at the October 15, 2026 content review; projects may overlap.</cite>
+            <cite>Counts shown by Devpost at the October 21, 2026 content review; projects may overlap.</cite>
             <p style="margin-top:2rem"><a class="button" href="https://devpost.com/msyed2011">Open secondary portfolio <span aria-hidden="true">↗</span></a></p>
           </div>
         </div>

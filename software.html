@@ -40,7 +40,7 @@
         "@id": "https://muntasersyed.com/software.html#webpage",
         "url": "https://muntasersyed.com/software.html",
         "name": "Open-Source Software | Muntaser Syed",
-        "dateModified": "2026-10-15",
+        "dateModified": "2026-10-21",
         "description": "Python, Rust, and TypeScript software by Muntaser Syed for trustworthy AI, agent infrastructure, edge intelligence, compact data, explainability, and efficient ML.",
         "isPartOf": { "@id": "https://muntasersyed.com/#website" },
         "author": { "@id": "https://muntasersyed.com/#person" },
@@ -68,7 +68,7 @@
         "@type": "ItemList",
         "@id": "https://muntasersyed.com/software.html#software-catalog",
         "name": "Open-source software by Muntaser Syed",
-        "numberOfItems": 26,
+        "numberOfItems": 27,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -207,9 +207,9 @@
                 {
                   "@type": "SoftwareSourceCode",
                   "name": "Pollard Python",
-                  "version": "1.6.1",
+                  "version": "1.6.2",
                   "programmingLanguage": "Python",
-                  "description": "Governed execution trees with agent teams, inherited budget and tool-permission scopes, checkpoints, recorded result dependencies, and durable approvals.",
+                  "description": "Governed execution trees with agent teams, inherited scopes, checkpoints, durable approvals, and optional Codex CLI task integration with recorded usage and strict replay.",
                   "codeRepository": "https://github.com/jemsbhai/pollard",
                   "url": "https://pypi.org/project/pollard/"
                 },
@@ -431,14 +431,17 @@
             "@type": "ListItem",
             "position": 20,
             "item": {
-              "@type": "SoftwareSourceCode",
-              "name": "CDXF",
-              "version": "0.1.3",
-              "creator": { "@id": "https://muntasersyed.com/#person" },
-              "programmingLanguage": "Python",
-              "codeRepository": "https://github.com/jemsbhai/cdxf",
-              "url": "https://pypi.org/project/cdxf/"
-            }
+                      "@type": "SoftwareSourceCode",
+                      "name": "CDXF",
+                      "version": "0.1.3",
+                      "creator": {
+                        "@id": "https://muntasersyed.com/#person"
+                      },
+                      "programmingLanguage": "Python",
+                      "codeRepository": "https://github.com/jemsbhai/cdxf",
+                      "url": "https://pypi.org/project/cdxf/",
+                      "citation": "https://muntasersyed.com/research.html#cdxf-paper"
+                    }
           },
           {
             "@type": "ListItem",
@@ -532,6 +535,25 @@
               "url": "https://pypi.org/project/epicormic/",
               "datePublished": "2026-09-27"
             }
+          },
+          {
+            "@type": "ListItem",
+            "position": 27,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/software.html#geniekit",
+              "name": "geniekit",
+              "version": "0.1.0",
+              "creativeWorkStatus": "Alpha",
+              "description": "Python tools for harmonizing six GENIE BPC clinicogenomic cohorts, deriving lines of therapy, and producing aggregate summaries with disclosure controls. An alpha release that ships metadata and synthetic-data tools; patient-level data require separate authorized access.",
+              "creator": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/geniekit",
+              "url": "https://pypi.org/project/geniekit/",
+              "datePublished": "2026-10-17"
+            }
           }
         ]
       },
@@ -547,7 +569,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css?v=20261006">
+  <link rel="stylesheet" href="assets/styles.css?v=20261021">
   <script src="assets/site.js?v=20260906" defer></script>
 </head>
 <body>
@@ -555,8 +577,8 @@
   <header class="site-header">
     <div class="shell masthead">
       <a class="brand" href="index.html" aria-label="Muntaser Syed, home"><span class="brand-mark" aria-hidden="true">MS</span><span class="brand-text">Muntaser Syed</span></a>
-      <nav class="site-nav" data-site-nav aria-label="Primary navigation"><a href="index.html">Home</a><a href="research.html">Research</a><a href="software.html" aria-current="page">Software</a><a href="projects.html">Projects</a><a href="speaking.html">Speaking</a><a href="media.html">Media</a><a href="about.html">About</a></nav>
-      <div class="header-actions"><button class="icon-button" type="button" data-theme-toggle aria-label="Use dark theme">◐</button><button class="menu-button" type="button" data-menu-toggle aria-expanded="false" aria-label="Open navigation">Menu</button></div>
+      <nav class="site-nav" id="site-navigation" data-site-nav aria-label="Primary navigation"><a href="index.html">Home</a><a href="research.html">Research</a><a href="software.html" aria-current="page">Software</a><a href="projects.html">Projects</a><a href="speaking.html">Speaking</a><a href="media.html">Media</a><a href="about.html">About</a></nav>
+      <div class="header-actions"><button class="icon-button" type="button" data-theme-toggle aria-label="Use dark theme">◐</button><button class="menu-button" type="button" data-menu-toggle aria-controls="site-navigation" aria-expanded="false" aria-label="Open navigation">Menu</button></div>
     </div>
   </header>
 
@@ -574,7 +596,7 @@
 
     <section class="signal-strip" aria-label="Software profile at a glance">
       <div class="shell signals">
-        <div class="signal"><strong>24</strong><span>Featured PyPI packages</span></div>
+        <div class="signal"><strong>25</strong><span>Featured PyPI packages</span></div>
         <div class="signal"><strong>5</strong><span>npm packages</span></div>
         <div class="signal"><strong>6</strong><span>Rust crates</span></div>
         <div class="signal"><strong>8</strong><span>Major software families</span></div>
@@ -583,25 +605,25 @@
 
     <section class="section latest-releases" aria-labelledby="latest-releases-title">
       <div class="shell">
-        <div class="section-head"><p class="eyebrow">Registry sync / <time datetime="2026-10-15">October 15, 2026</time></p><div><h2 id="latest-releases-title">Latest package releases.</h2><p>The newest releases across the public package profile, with direct links to install details and source.</p></div></div>
+        <div class="section-head"><p class="eyebrow">Registry sync / <time datetime="2026-10-21">October 21, 2026</time></p><div><h2 id="latest-releases-title">Latest package releases.</h2><p>The newest releases across the public package profile, with direct links to install details and source.</p></div></div>
         <div class="package-grid">
           <article class="package-card release-card release-card-featured">
-            <span class="record-index">LATEST · OCT 9, 2026</span>
-            <h3>Pollard <span class="release-version">Python 1.6.1</span></h3>
-            <p>Adds governed agent teams, inherited budgets and tool permissions, checkpoints, result dependencies, and durable approvals.</p>
-            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/pollard/1.6.1/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard/releases/tag/v1.6.1">Release notes</a><a class="micro-link" href="#pollard">Details</a></div>
+            <span class="record-index">LATEST · OCT 17, 2026</span>
+            <h3>geniekit <span class="release-version">Python 0.1.0 · Alpha</span></h3>
+            <p>Harmonizes six GENIE BPC clinicogenomic cohorts, derives lines of therapy, and produces aggregate summaries with disclosure controls. Ships metadata and synthetic-data tools; patient data require separate authorized access.</p>
+            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/geniekit/0.1.0/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/geniekit">Source</a><a class="micro-link" href="#geniekit">Details</a></div>
+          </article>
+          <article class="package-card release-card">
+            <span class="record-index">OCT 15, 2026</span>
+            <h3>Pollard <span class="release-version">Python 1.6.2</span></h3>
+            <p>Adds optional Codex CLI integration with bounded task execution, recorded usage, duplicate refusal, and strict replay.</p>
+            <div class="item-links"><a class="micro-link" href="https://pypi.org/project/pollard/1.6.2/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard/releases/tag/v1.6.2">Release notes</a><a class="micro-link" href="#pollard">Details</a></div>
           </article>
           <article class="package-card release-card">
             <span class="record-index">OCT 8, 2026</span>
             <h3>pollardai <span class="release-version">npm 0.2.0 · Rust 0.2.1</span></h3>
             <p>Experimental native ports with persistent stores, shared budgets, streaming, and replay. Each follows its own version line and targets Python Pollard 1.6.0 behavior.</p>
             <div class="item-links"><a class="micro-link" href="https://www.npmjs.com/package/pollardai/v/0.2.0">npm</a><a class="micro-link" href="https://crates.io/crates/pollardai/0.2.1">crate</a><a class="micro-link" href="#pollard-typescript">Details</a></div>
-          </article>
-          <article class="package-card release-card">
-            <span class="record-index">OCT 8, 2026</span>
-            <h3>Hashrope <span class="release-version">Rust 0.3.2</span></h3>
-            <p>Adds an optional arbitrary-precision API for Python-compatible hash profiles, compressed ropes, and sliding windows.</p>
-            <div class="item-links"><a class="micro-link" href="https://crates.io/crates/hashrope/0.3.2">crate</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope/blob/rust-v0.3.2/packages/rust/PARITY.md">Compatibility</a><a class="micro-link" href="#hashrope">Details</a></div>
           </article>
         </div>
       </div>
@@ -680,7 +702,7 @@
           <div class="install-line"><code>pip install pollard-jev epicormic</code><button class="copy-button" type="button" data-copy="pip install pollard-jev epicormic">Copy</button></div>
         </div>
         <div class="family-modules">
-          <section class="module" id="pollard"><div class="module-head"><h3>Pollard · Python</h3><span class="tag">v1.6.1</span></div><p>A runtime for budgeting agent work, enforcing versioned action gates, auditing execution trees, and replaying decisions. Python 1.6.1 adds agent teams with inherited budgets and tool permissions, checkpoints, recorded result dependencies, and durable approvals.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/pollard/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">GitHub</a><a class="micro-link" href="https://github.com/jemsbhai/pollard/blob/v1.6.1/docs/teams.md">Team guide</a><a class="micro-link" href="https://arxiv.org/abs/2610.16145">Preprint</a><a class="micro-link" href="research.html#pollard-ictai">Accepted paper</a></div></section>
+          <section class="module" id="pollard"><div class="module-head"><h3>Pollard · Python</h3><span class="tag">v1.6.2</span></div><p>A runtime for budgeting agent work, enforcing versioned action gates, auditing execution trees, and replaying decisions. Python 1.6.2 adds optional Codex CLI integration with bounded task execution, recorded usage, duplicate refusal, and strict replay. Agent teams retain inherited budgets, permissions, checkpoints, and durable approvals.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/pollard/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">GitHub</a><a class="micro-link" href="https://github.com/jemsbhai/pollard/blob/v1.6.2/docs/teams.md">Team guide</a><a class="micro-link" href="https://github.com/jemsbhai/pollard/blob/v1.6.2/docs/codex-cli.md">Codex integration</a><a class="micro-link" href="https://arxiv.org/abs/2610.16145">Preprint</a><a class="micro-link" href="research.html#pollard-ictai">Accepted paper</a></div></section>
           <section class="module" id="pollard-typescript"><div class="module-head"><h3>pollardai · TypeScript</h3><span class="tag">v0.2.0 · Experimental</span></div><p>A native Node.js/TypeScript runtime with streaming, replay, persistent stores, shared budgets, provider adapters, and audit tools. Its independent release line targets Python Pollard 1.6.0 behavior.</p><div class="module-links"><a class="micro-link" href="https://www.npmjs.com/package/pollardai">npm</a><a class="micro-link" href="https://github.com/jemsbhai/pollard/tree/main/packages/npm">Source</a><a class="micro-link" href="https://github.com/jemsbhai/pollard/blob/pollardai-v0.2.0/docs/npm-parity.md">Compatibility</a></div></section>
           <section class="module" id="pollard-rust"><div class="module-head"><h3>pollardai · Rust</h3><span class="tag">v0.2.1 · Experimental</span></div><p>A native Rust runtime with eight storage backends, shared budgets, async streaming, replay, and audit tools. Its independent release line targets Python Pollard 1.6.0 behavior.</p><div class="module-links"><a class="micro-link" href="https://crates.io/crates/pollardai">crate</a><a class="micro-link" href="https://github.com/jemsbhai/pollard/tree/main/crates/pollardai">Source</a><a class="micro-link" href="https://github.com/jemsbhai/pollard/releases/tag/pollardai-rust-v0.2.1">Release notes</a></div></section>
           <section class="module" id="pollard-jev"><div class="module-head"><h3>pollard-jev</h3><span class="tag">v0.13 · Alpha</span></div><p>A Pollard companion for typed robotics and IoT decisions, with observation-validity checks, bounded simulated actions, audit records, and reproducible local OpenJev benchmarks. Hardware integration and recorded-sensor validation remain future work.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/pollard-jev/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/pollard-jev">GitHub</a><a class="micro-link" href="https://github.com/jemsbhai/pollard-jev/blob/main/docs/BENCHMARKING.md">Benchmarks &amp; limits</a></div></section>
@@ -702,17 +724,18 @@
           <section class="module"><div class="module-head"><h3>cbor-ld-ex · Python reference</h3><span class="tag">v0.2.1 · Python 3.10+</span></div><p>The full protocol implementation: CBOR Tag 60000 annotations, constrained opinion quantization, temporal decay, cumulative fusion, MQTT and CoAP transport, security metadata, provenance chains, streaming, and batch compression.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/cbor-ld-ex/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/cbor-ld-ex">GitHub</a></div></section>
           <section class="module"><div class="module-head"><h3>cborld-ex · Rust implementation</h3><span class="tag">v0.1.0 · no_std</span></div><p>A byte-compatible implementation for embedded, bare-metal, WASM, and ESP32 targets. Its feature tiers support full standard-library use, allocator-only environments, digest verification, or a heap-free core wire format.</p><div class="module-links"><a class="micro-link" href="https://crates.io/crates/cborld-ex">crate</a><a class="micro-link" href="https://github.com/jemsbhai/cborld-ex">GitHub</a></div></section>
           <section class="module"><div class="module-head"><h3>Protocol architecture &amp; evaluation</h3><span class="tag">IEEE WF-IoT 2026 · Accepted paper</span></div><p>Tier 1 sensors add a 4-byte opinion; Tier 2 gateways fuse and temporally decay evidence; Tier 3 services append tamper-evident provenance. Across four real IoT datasets, the accepted study reports 4.1× compression over JSON-LD for Intel telemetry and 100% IEEE 802.15.4 frame fit while retaining self-description.</p><div class="module-links"><a class="micro-link" href="research.html#cborld-ex-paper">Accepted paper</a></div></section>
-          <section class="module"><div class="module-head"><h3>Related compact-data tools</h3><span class="tag">CDXF 0.1.3 · UHC 0.1.6</span></div><p>CDXF provides universal binary interchange across JSON, YAML, XML, and TOML. UHC hashes directly over LZ77 streams for compressed-domain processing.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/cdxf/">CDXF</a><a class="micro-link" href="https://github.com/jemsbhai/cdxf">CDXF code</a><a class="micro-link" href="https://pypi.org/project/uhc/">UHC</a><a class="micro-link" href="https://github.com/jemsbhai/uhc">UHC code</a></div></section>
+          <section class="module"><div class="module-head"><h3>Related compact-data tools</h3><span class="tag">CDXF 0.1.3 · UHC 0.1.6</span></div><p>CDXF provides universal binary interchange across JSON, YAML, XML, and TOML; its paper is accepted at IEEE ComComAp 2026. UHC hashes directly over LZ77 streams for compressed-domain processing.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/cdxf/">CDXF</a><a class="micro-link" href="https://github.com/jemsbhai/cdxf">CDXF code</a><a class="micro-link" href="research.html#cdxf-paper">Accepted CDXF paper</a><a class="micro-link" href="https://pypi.org/project/uhc/">UHC</a><a class="micro-link" href="https://github.com/jemsbhai/uhc">UHC code</a></div></section>
         </div>
       </article>
 
       <article class="software-family" id="research-tools">
         <div class="software-family-copy">
           <span class="software-family-number">07 / RESEARCH TOOLS</span>
-          <h2>Explainability, speech &amp; efficiency</h2>
-          <p>Reusable research frameworks for understanding model decisions, constructing speech corpora, measuring energy, and building efficient edge architectures.</p>
+          <h2>Research toolkits</h2>
+          <p>Reusable research frameworks for understanding model decisions, constructing speech corpora, harmonizing clinicogenomic cohorts, measuring energy, and building efficient edge architectures.</p>
         </div>
         <div class="family-modules">
+          <section class="module" id="geniekit"><div class="module-head"><h3>geniekit</h3><span class="tag">v0.1.0 · Alpha</span></div><p>Python tools for harmonizing six GENIE BPC clinicogenomic cohorts, deriving lines of therapy, and producing aggregate summaries with disclosure controls. An alpha release that ships metadata and synthetic-data tools; patient-level data require separate authorized access.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/geniekit/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/geniekit">GitHub</a><a class="micro-link" href="https://github.com/jemsbhai/geniekit/blob/main/NOTICE.md">Data provenance</a></div></section>
           <section class="module"><div class="module-head"><h3>Explainiverse</h3><span class="tag">v0.15.2 · audited registry</span></div><p>A unified explainability framework with explicit verified, quarantined, and unverified claim scopes.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/explainiverse/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/explainiverse">GitHub</a><a class="micro-link" href="https://explainiverse-explorer.lovable.app/">Live explorer</a></div></section>
           <section class="module"><div class="module-head"><h3>Corpusgen</h3><span class="tag">v0.1.7 · Speech</span></div><p>A language-agnostic generator and evaluator for speech corpora with maximal phoneme coverage. Its Show &amp; Tell contribution is published in the Interspeech 2026 proceedings, pp. 5916–5917.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/corpusgen/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">GitHub</a><a class="micro-link" href="https://doi.org/10.5281/zenodo.21891821">Software version DOI</a><a class="micro-link" href="https://www.isca-archive.org/interspeech_2026/syed26_interspeech.html">ISCA Archive</a><a class="micro-link" href="https://www.isca-archive.org/interspeech_2026/syed26_interspeech.pdf">Paper PDF</a><a class="micro-link" href="research.html#corpusgen-interspeech">Published Show &amp; Tell contribution</a></div></section>
           <section class="module"><div class="module-head"><h3>NEXUS + ArcMind</h3><span class="tag">0.0.1 · 0.2.0 alpha</span></div><p>Physics-grounded energy metrics paired with a causal, dual-rate sequence backbone for streaming sensor policies. ArcMind is an alpha research release, not a language or VLA model.</p><div class="module-links"><a class="micro-link" href="https://pypi.org/project/nexus-ml-metrics/">NEXUS</a><a class="micro-link" href="https://pypi.org/project/arcmind/">ArcMind</a></div></section>

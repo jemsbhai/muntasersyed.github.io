@@ -16,11 +16,12 @@ archive, professional service, selected awards, press, and public profiles.
 - `media.html`: dated media coverage, interviews, university news, and organizer or sponsor reports
 - `about.html`: biography, roles, education, professional service, press, milestones, and profile links
 
-All seven pages were refreshed after a full content audit on October 15, 2026.
-The site now includes 41 distinct scholarly outputs, 21 selected project
-artifacts, 46 speaking or program-listed author engagements, and 48 media
-entries. Pollard and Hashrope have public arXiv manuscripts; WVLL is recorded
-as a delivered December 2024 keynote. See `CONTENT_AUDIT.md` for the refresh scope,
+All seven pages were refreshed after a full content audit on October 21, 2026.
+The site now includes 44 distinct scholarly outputs, 25 selected project
+artifacts, 47 speaking or program-listed author engagements, and 48 media
+entries. The software catalog features 25 PyPI packages, five npm packages,
+and six Rust crates across 27 top-level works. Home highlights upcoming
+conference contributions and the FLAIRS-40 call for papers. See `CONTENT_AUDIT.md` for the refresh scope,
 counts, evidence boundaries, deliberate holdbacks, and the next refresh checklist.
 
 ## Structured data
