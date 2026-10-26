@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Speaking, Workshops and Lectures | Muntaser Syed</title>
-  <meta name="description" content="Verified talks, workshops, lectures, and public teaching materials by Muntaser Syed on trustworthy AI, agent systems, MCP, JSON-LD, and software engineering.">
+  <meta name="description" content="Talks, workshops, recorded research presentations, and software demos by Muntaser Syed on trustworthy AI, agent systems, and efficient machine learning.">
   <meta name="theme-color" content="#f4f1e8">
   <link rel="canonical" href="https://muntasersyed.com/speaking.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Speaking, Workshops and Lectures | Muntaser Syed">
-  <meta property="og:description" content="Verified public speaking and teaching in trustworthy AI, agent systems, MCP, JSON-LD, and software engineering.">
+  <meta property="og:description" content="Selected recordings, public speaking, and teaching in trustworthy AI, agent systems, and efficient machine learning.">
   <meta property="og:url" content="https://muntasersyed.com/speaking.html">
   <meta property="og:image" content="https://images.ctfassets.net/kv878odoqyd1/7yhyBrSwM8N2uvDmMaczhM/fbefac391b0dafc29a60be6cb48baea9/muntaser-syed.jpg?h=700&amp;w=560&amp;fit=fill&amp;f=face">
   <meta property="og:image:alt" content="Portrait of Muntaser Syed">
@@ -39,7 +39,7 @@
         "@id": "https://muntasersyed.com/speaking.html#webpage",
         "url": "https://muntasersyed.com/speaking.html",
         "name": "Speaking, Workshops and Lectures | Muntaser Syed",
-        "description": "Verified talks, workshops, lectures, and public teaching materials by Muntaser Syed.",
+        "description": "Talks, workshops, lectures, selected research presentations, software demos, and public teaching materials by Muntaser Syed.",
         "isPartOf": {
           "@id": "https://muntasersyed.com/#website"
         },
@@ -49,14 +49,19 @@
         "about": {
           "@id": "https://muntasersyed.com/#person"
         },
-        "mainEntity": {
-          "@id": "https://muntasersyed.com/speaking.html#engagements"
-        },
+        "mainEntity": [
+          {
+            "@id": "https://muntasersyed.com/speaking.html#engagements"
+          },
+          {
+            "@id": "https://muntasersyed.com/speaking.html#selected-recordings"
+          }
+        ],
         "inLanguage": "en-US",
         "breadcrumb": {
           "@id": "https://muntasersyed.com/speaking.html#breadcrumb"
         },
-        "dateModified": "2026-10-21"
+        "dateModified": "2026-10-26"
       },
       {
         "@type": "BreadcrumbList",
@@ -1257,6 +1262,87 @@
             }
           }
         ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://muntasersyed.com/speaking.html#selected-recordings",
+        "name": "Selected recordings",
+        "numberOfItems": 3,
+        "itemListOrder": "https://schema.org/ItemListUnordered",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://muntasersyed.com/speaking.html#recording-corpuskit"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://muntasersyed.com/speaking.html#recording-aasn"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "https://muntasersyed.com/speaking.html#recording-cloudcom"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://muntasersyed.com/speaking.html#recording-corpuskit",
+        "name": "CorpusKit: Speech Corpus Design Workbench",
+        "description": "A walkthrough of the alpha CorpusKit application built on Corpusgen, demonstrating phoneme coverage evaluation and sentence selection.",
+        "url": "https://www.youtube.com/watch?v=m1guE38mbIo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/m1guE38mbIo/maxresdefault.jpg",
+        "uploadDate": "2026-09-28",
+        "duration": "PT3M45S",
+        "inLanguage": "en",
+        "creator": {
+          "@id": "https://muntasersyed.com/#person"
+        },
+        "about": {
+          "@id": "https://muntasersyed.com/projects.html#corpuskit"
+        }
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://muntasersyed.com/speaking.html#recording-aasn",
+        "name": "AASN: Automated Multi-Agent Synthesis — AGENTICS 2026",
+        "description": "Recorded paper presentation by Muntaser Syed for AGENTICS 2026, explaining compositional agent DNA, automated multi-agent synthesis, and experimental evaluation.",
+        "url": "https://www.youtube.com/watch?v=Yp1Vl18FXlA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Yp1Vl18FXlA/maxresdefault.jpg",
+        "uploadDate": "2026-10-26",
+        "duration": "PT21M21S",
+        "inLanguage": "en",
+        "creator": {
+          "@id": "https://muntasersyed.com/#person"
+        },
+        "about": {
+          "@id": "https://muntasersyed.com/research.html#aasn-paper"
+        }
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://muntasersyed.com/speaking.html#recording-cloudcom",
+        "name": "GPU Energy Attribution for Containerized ML — CloudCom 2026",
+        "description": "Recorded paper presentation by Muntaser Syed for IEEE CloudCom 2026, explaining transistor-level energy attribution, thermal effects, and shared-GPU experiments.",
+        "url": "https://www.youtube.com/watch?v=7BM5ym9Hp4A",
+        "thumbnailUrl": "https://i.ytimg.com/vi/7BM5ym9Hp4A/maxresdefault.jpg",
+        "uploadDate": "2026-10-16",
+        "duration": "PT29M33S",
+        "inLanguage": "en",
+        "creator": {
+          "@id": "https://muntasersyed.com/#person"
+        },
+        "about": {
+          "@id": "https://muntasersyed.com/research.html#container-energy-cloudcom"
+        }
       }
     ]
   }
@@ -1264,7 +1350,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css?v=20261021">
+  <link rel="stylesheet" href="assets/styles.css?v=20261026">
   <script src="assets/site.js?v=20260906" defer></script>
 </head>
 <body>
@@ -1282,6 +1368,50 @@
       <div class="shell page-intro-grid">
         <div><p class="eyebrow"><span class="kicker">Speaking</span> / Talks · workshops · lectures</p><h1>Ideas taught in <em>public.</em></h1><p class="page-lede">I speak and teach about trustworthy AI, agent security, Model Context Protocol systems, semantic data, energy-efficient machine learning, and human-centered AI-assisted development.</p></div>
         <aside class="source-note"><strong>Archive sources.</strong> Dates and roles are checked against public records and speaker confirmation. Linked repositories provide teaching materials where a public event page is unavailable. Reviewed <time datetime="2026-10-21">October 21, 2026</time>. Program-listed author sessions distinguish coauthored contributions from personal presentations.</aside>
+      </div>
+    </section>
+
+    <section class="section latest-releases" id="selected-recordings" aria-labelledby="selected-recordings-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">Watch / Research &amp; software</p>
+          <div><h2 id="selected-recordings-title">Selected recordings.</h2><p>Recorded paper presentations and a hands-on software demo, with links to the work behind each video.</p></div>
+        </div>
+        <div class="artifact-grid recordings-grid">
+          <article class="artifact-card recording-card" id="recording-corpuskit">
+            <a class="recording-preview" href="https://www.youtube.com/watch?v=m1guE38mbIo" aria-label="Watch CorpusKit: Speech Corpus Design Workbench on YouTube, 3 minutes 45 seconds">
+              <img src="https://i.ytimg.com/vi/m1guE38mbIo/maxresdefault.jpg" width="1280" height="720" alt="" loading="lazy" decoding="async">
+              <span class="recording-play" aria-hidden="true">&#9654;</span><span class="recording-duration" aria-hidden="true">3:45</span>
+            </a>
+            <span class="record-index">SOFTWARE DEMO · ALPHA</span>
+            <h3>CorpusKit: Speech Corpus Design Workbench</h3>
+            <p>Evaluate phoneme coverage and select sentences in CorpusKit, the alpha web workbench built on Corpusgen.</p>
+            <p class="recording-meta">Muntaser Syed · Uploaded <time datetime="2026-09-28">Sep 28, 2026</time></p>
+            <div class="item-links"><a class="micro-link" href="https://www.youtube.com/watch?v=m1guE38mbIo">Watch demo ↗</a><a class="micro-link" href="projects.html#corpuskit">Project &amp; code</a><a class="micro-link" href="research.html#corpusgen-interspeech">Corpusgen paper</a></div>
+          </article>
+          <article class="artifact-card recording-card" id="recording-aasn">
+            <a class="recording-preview" href="https://www.youtube.com/watch?v=Yp1Vl18FXlA" aria-label="Watch AASN: Automated Multi-Agent Synthesis on YouTube, 21 minutes 21 seconds">
+              <img src="https://i.ytimg.com/vi/Yp1Vl18FXlA/maxresdefault.jpg" width="1280" height="720" alt="" loading="lazy" decoding="async">
+              <span class="recording-play" aria-hidden="true">&#9654;</span><span class="recording-duration" aria-hidden="true">21:21</span>
+            </a>
+            <span class="record-index">PAPER PRESENTATION · AGENTICS 2026</span>
+            <h3>AASN: Automated Multi-Agent Synthesis</h3>
+            <p>How compositional agent DNA supports automated multi-agent synthesis and discovery, with an overview of the experimental evaluation.</p>
+            <p class="recording-meta">Recorded by Muntaser Syed for AGENTICS 2026 · Uploaded <time datetime="2026-10-26">Oct 26, 2026</time></p>
+            <div class="item-links"><a class="micro-link" href="https://www.youtube.com/watch?v=Yp1Vl18FXlA">Watch presentation ↗</a><a class="micro-link" href="research.html#aasn-paper">Paper &amp; authors</a></div>
+          </article>
+          <article class="artifact-card recording-card" id="recording-cloudcom">
+            <a class="recording-preview" href="https://www.youtube.com/watch?v=7BM5ym9Hp4A" aria-label="Watch GPU Energy Attribution for Containerized ML on YouTube, 29 minutes 33 seconds">
+              <img src="https://i.ytimg.com/vi/7BM5ym9Hp4A/maxresdefault.jpg" width="1280" height="720" alt="" loading="lazy" decoding="async">
+              <span class="recording-play" aria-hidden="true">&#9654;</span><span class="recording-duration" aria-hidden="true">29:33</span>
+            </a>
+            <span class="record-index">PAPER PRESENTATION · CLOUDCOM 2026</span>
+            <h3>GPU Energy Attribution for Containerized ML</h3>
+            <p>Why utilization alone can misattribute shared-GPU energy, and how transistor-level modeling accounts for workload and thermal effects.</p>
+            <p class="recording-meta">Recorded by Muntaser Syed for IEEE CloudCom 2026 · Uploaded <time datetime="2026-10-16">Oct 16, 2026</time></p>
+            <div class="item-links"><a class="micro-link" href="https://www.youtube.com/watch?v=7BM5ym9Hp4A">Watch presentation ↗</a><a class="micro-link" href="research.html#container-energy-cloudcom">Paper &amp; authors</a><a class="micro-link" href="#cloudcom-author-session-2026">Session details</a></div>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -1331,7 +1461,7 @@
         <div class="section-head"><p class="eyebrow">2026 engagements</p><div><h2 id="talks-2026-title">Conference talks and workshops.</h2><p>Scheduled and delivered sessions, plus program-listed coauthored contributions, documented by conference records, organizers, teaching materials, and speaker confirmation.</p></div></div>
         <div class="timeline">
           <article class="timeline-item" id="hashrope-ictai-2026"><time datetime="2026-11-02">Nov 2<br>2026</time><div><h3>Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management</h3><p>Upcoming full-paper presentation at IEEE ICTAI 2026 in Boca Raton. The final program lists me at <strong>11:30 a.m. Eastern, Session 12A, Royal Palm 1</strong>.</p><p>Hashrope brings persistent context editing, branching, prefix identity checks, and repetition encoding into one data structure.</p><div class="item-links"><a class="micro-link" href="https://ictai.computer.org/2026/">Conference</a><a class="micro-link" href="research.html#hashrope-ictai">Paper</a><a class="micro-link" href="https://arxiv.org/abs/2610.16144">arXiv</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope">Code</a></div></div></article>
-          <article class="timeline-item" id="cloudcom-author-session-2026"><time datetime="2026-10-29">Oct 29<br>2026</time><div><h3>Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads</h3><p>Coauthored with Marius Silaghi and Rwaida Alssadi; listed in IEEE CloudCom 2026’s <strong>Cloud Computing: Sustainability, Efficiency, and Security</strong> session, Main Track — Alésia Room, Paris.</p><p>The program marks the paper as a <strong>pre-recorded video presentation</strong>. The shared session runs <strong>14:00–15:30 Paris time (CET)</strong>; no individual paper time is listed.</p><div class="item-links"><a class="micro-link" href="https://www.cloudcom2026.org/program">Official program</a><a class="micro-link" href="research.html#container-energy-cloudcom">Paper</a></div></div></article>
+          <article class="timeline-item" id="cloudcom-author-session-2026"><time datetime="2026-10-29">Oct 29<br>2026</time><div><h3>Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads</h3><p>Coauthored with Marius Silaghi and Rwaida Alssadi; listed in IEEE CloudCom 2026’s <strong>Cloud Computing: Sustainability, Efficiency, and Security</strong> session, Main Track — Alésia Room, Paris.</p><p>The program marks the paper as a <strong>pre-recorded video presentation</strong>. The shared session runs <strong>14:00–15:30 Paris time (CET)</strong>; no individual paper time is listed.</p><div class="item-links"><a class="micro-link" href="https://www.cloudcom2026.org/program">Official program</a><a class="micro-link" href="research.html#container-energy-cloudcom">Paper</a><a class="micro-link" href="https://www.youtube.com/watch?v=7BM5ym9Hp4A">Watch presentation</a></div></div></article>
           <article class="timeline-item" id="wfiot-author-sessions-2026"><time datetime="2026-10-26">Oct 26<br>2026</time><div><h3>IEEE WF-IoT 2026 virtual author contributions</h3><p>Four coauthored papers are now listed in <strong>Virtual / Video Presentations</strong>: CBOR-LD-Ex, Compliance Algebra for IoT Energy Data Governance, IMU-JEPA, and Zero-Shot Attack-Family Generalization with 1-Bit LLM Routers.</p><p>The updated program groups all four into the <strong>October 26, 08:00–20:00</strong> block. This replaces their earlier room and poster-session listings. The block is not an individual presentation time, and the program does not name individual presenters.</p><div class="item-links"><a class="micro-link" href="https://edas.info/web/ieeewf-iot2026/program.html#S1571061726">Updated official program</a><a class="micro-link" href="research.html#cborld-ex-paper">CBOR-LD-Ex</a><a class="micro-link" href="research.html#compliance-algebra-iot">Compliance Algebra</a><a class="micro-link" href="research.html#imu-jepa-paper">IMU-JEPA</a><a class="micro-link" href="research.html#onebit-iot-paper">1-Bit LLM Routers</a></div></div></article>
           <article class="timeline-item" id="healthcom-author-sessions-2026"><time datetime="2026-10-19">Oct 19–21<br>2026</time><div><h3>IEEE HealthCom 2026 author sessions</h3><p>Three coauthored contributions listed in the October 19–21 program at the Yeshiva Museum in New York. The program lists session windows and does not name the individual presenters.</p><p><strong>October 19, 14:30–15:45:</strong> FHIR R4 / HIPAA compliance algebra, Main Track Poster Session 1, Great Hall.</p><p><strong>October 20, 14:30–15:45:</strong> Drug Integrity Algebra, Main Track Poster Session 3, Great Hall.</p><p><strong>October 21, 10:15–11:30:</strong> Privacy-Preserving Retrieval-Augmented Generation for Healthcare, Workshop 5 (WCIHS 2026), Kovno Room. All times are as listed in the conference program.</p><div class="item-links"><a class="micro-link" href="https://healthcom2026.ieee-healthcom.org/sites/default/files/downloads/2026-10/ieee_healthcom_2026_detailed-prg-oct-06.pdf">Official program</a><a class="micro-link" href="research.html#fhir-compliance-paper">FHIR / HIPAA paper</a><a class="micro-link" href="research.html#drug-integrity-paper">Drug Integrity paper</a><a class="micro-link" href="research.html#healthcare-rag-paper">Healthcare RAG paper</a></div></div></article>
           <article class="timeline-item" id="drift-refusal-2026"><time datetime="2026-10-15">Oct 15<br>2026</time><div><h3>From drift alert to drift refusal: fail-closed containment of provider change in governed AI systems</h3><p>Online session listed in the Applied AI Summit Day 3 AI Governance program on Thursday, October 15, 2026, 3:00–3:30 p.m. US Eastern (19:00–19:30 UTC). The official program listed Muntaser Syed as Researcher at Florida Institute of Technology.</p><div class="item-links"><a class="micro-link" href="https://appliedaisummit.org/schedule/">Official schedule</a><a class="micro-link" href="#applied-ai-summit-2026">Session and speaker graphic</a></div></div></article>

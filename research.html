@@ -41,7 +41,7 @@
         "url": "https://muntasersyed.com/research.html",
         "name": "Research and Publications | Muntaser Syed",
         "description": "A verified, deduplicated catalog of publications, preprints, and research artifacts by Muntaser Syed.",
-        "dateModified": "2026-10-21",
+        "dateModified": "2026-10-26",
         "isPartOf": { "@id": "https://muntasersyed.com/#website" },
         "author": { "@id": "https://muntasersyed.com/#person" },
         "about": [
@@ -811,12 +811,15 @@
                 "@type": "CreativeWork",
                 "name": "IEEE CloudCom 2026"
               },
-              "subjectOf": {
-                "@type": "CreativeWork",
-                "name": "Official conference program",
-                "url": "https://www.cloudcom2026.org/program",
-                "description": "Scheduled October 29, 2:00–3:30 p.m. Paris time (CET), Cloud Computing: Sustainability, Efficiency, and Security, Alésia Room; pre-recorded video in a shared session window. Individual presenter not specified."
-              }
+              "subjectOf": [
+                {
+                  "@type": "CreativeWork",
+                  "name": "Official conference program",
+                  "url": "https://www.cloudcom2026.org/program",
+                  "description": "Scheduled October 29, 2:00–3:30 p.m. Paris time (CET), Cloud Computing: Sustainability, Efficiency, and Security, Alésia Room; pre-recorded video in a shared session window. Individual presenter not specified."
+                },
+                { "@id": "https://muntasersyed.com/speaking.html#recording-cloudcom" }
+              ]
             }
           },
           {
@@ -1282,6 +1285,7 @@
               "@type": "ScholarlyArticle",
               "@id": "https://muntasersyed.com/research.html#corpusgen-interspeech",
               "name": "corpusgen: An Open-Source Toolkit for Phoneme-Coverage-Optimized Speech Corpus Design Across Languages",
+              "subjectOf": { "@id": "https://muntasersyed.com/speaking.html#recording-corpuskit" },
               "author": [
                 {
                   "@id": "https://muntasersyed.com/#person"
@@ -1526,12 +1530,15 @@
                 "@type": "CreativeWork",
                 "name": "AGENTICS 2026"
               },
-              "subjectOf": {
-                "@type": "CreativeWork",
-                "name": "Official conference program",
-                "url": "https://www.insticc.org/node/TechnicalProgram/ijcci/2026/presentationDetails/152457",
-                "description": "AGENTICS 2026 · Paper · Scheduled online in AGENTICS26-1O, October 28, 12:15–13:30 (session time), A305–Shannon · Listed speaker: Rwaida Alssadi"
-              },
+              "subjectOf": [
+                {
+                  "@type": "CreativeWork",
+                  "name": "Official conference program",
+                  "url": "https://www.insticc.org/node/TechnicalProgram/ijcci/2026/presentationDetails/152457",
+                  "description": "AGENTICS 2026 · Paper · Scheduled online in AGENTICS26-1O, October 28, 12:15–13:30 (session time), A305–Shannon · Listed speaker: Rwaida Alssadi"
+                },
+                { "@id": "https://muntasersyed.com/speaking.html#recording-aasn" }
+              ],
               "identifier": {
                 "@type": "PropertyValue",
                 "propertyID": "Conference paper ID",
@@ -1774,14 +1781,14 @@
               <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi; Rwaida Alssadi; Mohammed Alghamdi; Ali Alqarni; Akram Al Ghanmi</p>
               <p class="venue">AGENTICS 2026 · Paper · Scheduled online in AGENTICS26-1O, October 28, 12:15–13:30 (session time), A305–Shannon · Listed speaker: Rwaida Alssadi</p>
               <p class="summary">Studies automated synthesis and discovery of multi-agent systems through compositional agent DNA.</p>
-              <div class="item-links"><a class="micro-link" href="https://www.insticc.org/node/TechnicalProgram/ijcci/2026/presentationDetails/152457">Program / abstract</a></div>
+              <div class="item-links"><a class="micro-link" href="https://www.insticc.org/node/TechnicalProgram/ijcci/2026/presentationDetails/152457">Program / abstract</a><a class="micro-link" href="https://www.youtube.com/watch?v=Yp1Vl18FXlA">Watch author presentation</a></div>
             </article>
             <article class="catalog-item" id="container-energy-cloudcom" data-catalog-item data-category="accepted edge">
               <div class="catalog-item-head"><h4>Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads</h4><span class="tag">Accepted · IEEE CloudCom 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi; Rwaida Alssadi</p>
               <p class="venue">IEEE CloudCom 2026 · Conference paper · Scheduled October 29, 2:00–3:30 p.m. Paris time (CET), Cloud Computing: Sustainability, Efficiency, and Security, Alésia Room; pre-recorded video in a shared session window. Individual presenter not specified.</p>
               <p class="summary">Studies transistor-level energy attribution for machine-learning workloads running in containers.</p>
-              <div class="item-links"><a class="micro-link" href="https://www.cloudcom2026.org/program">Official program</a></div>
+              <div class="item-links"><a class="micro-link" href="https://www.cloudcom2026.org/program">Official program</a><a class="micro-link" href="https://www.youtube.com/watch?v=7BM5ym9Hp4A">Watch presentation</a></div>
             </article>
             <article class="catalog-item" id="pollard-ictai" data-catalog-item data-category="accepted preprint trust">
               <div class="catalog-item-head"><h4>Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay</h4><span class="tag">Accepted paper · IEEE ICTAI 2026</span></div>
@@ -1871,7 +1878,7 @@
               <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi; Sharun Akter Khushbu; Fariha Jaigirdar</p>
               <p class="venue">Interspeech 2026 · Show &amp; Tell contribution · pages 5916–5917</p>
               <p class="summary">Demonstrates an open-source toolkit for designing multilingual speech corpora with optimized phoneme coverage.</p>
-              <div class="item-links"><a class="micro-link" href="https://www.isca-archive.org/interspeech_2026/syed26_interspeech.html">ISCA Archive</a><a class="micro-link" href="https://www.isca-archive.org/interspeech_2026/syed26_interspeech.pdf">Paper PDF</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">Code</a></div>
+              <div class="item-links"><a class="micro-link" href="https://www.isca-archive.org/interspeech_2026/syed26_interspeech.html">ISCA Archive</a><a class="micro-link" href="https://www.isca-archive.org/interspeech_2026/syed26_interspeech.pdf">Paper PDF</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">Code</a><a class="micro-link" href="https://www.youtube.com/watch?v=m1guE38mbIo">CorpusKit demo</a></div>
             </article>
             <article class="catalog-item" id="llm-ergonomics-paper" data-catalog-item data-category="accepted health">
               <div class="catalog-item-head"><h4>Ergonomic Assessment of LLM-Assisted Work among Bangladeshi Technology Users: A Multi-Instrument Survey Study</h4><span class="tag">Accepted · IEEE GHTC 2026</span></div>

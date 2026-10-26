@@ -960,6 +960,71 @@ button {
   margin-top: 1rem;
 }
 
+.recording-card {
+  min-width: 0;
+}
+
+.recording-preview {
+  position: relative;
+  display: block;
+  margin-bottom: 1.25rem;
+  aspect-ratio: 16 / 9;
+  background: var(--ink);
+  color: #fff;
+}
+
+.recording-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.recording-play,
+.recording-duration {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+}
+
+.recording-play {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  width: 3.25rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.recording-preview:hover .recording-play,
+.recording-preview:focus-visible .recording-play {
+  background: #126b5d;
+}
+
+.recording-duration {
+  right: 0.4rem;
+  bottom: 0.4rem;
+  padding: 0.1rem 0.35rem;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+}
+
+.recording-card h3 {
+  margin: 0.75rem 0;
+}
+
+.recording-card .recording-meta {
+  margin: 1rem 0;
+  font-size: 0.72rem;
+}
+
+.recording-card .item-links {
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+
 .latest-releases {
   padding-block: clamp(3.5rem, 6vw, 5.5rem);
   background: color-mix(in srgb, var(--paper-strong) 45%, transparent);

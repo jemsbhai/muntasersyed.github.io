@@ -12,9 +12,13 @@ archive, professional service, selected awards, press, and public profiles.
 - `research.html`: deduplicated papers, preprints, and research artifacts
 - `software.html`: major software families and language ports
 - `projects.html`: research repositories, source-stage builds, Devpost portfolios, and selected awards
-- `speaking.html`: verified talks, workshops, lectures, podcasts, and teaching materials
+- `speaking.html`: selected recordings, verified talks, workshops, lectures, podcasts, and teaching materials
 - `media.html`: dated media coverage, interviews, university news, and organizer or sponsor reports
 - `about.html`: biography, roles, education, professional service, press, milestones, and profile links
+
+Three selected recordings were added on October 26, 2026: AASN and CloudCom
+paper presentations, plus a CorpusKit alpha demo. The Speaking collection is
+linked from Home and the related research, project, and software entries.
 
 All seven pages were refreshed after a full content audit on October 21, 2026.
 The site now includes 44 distinct scholarly outputs, 25 selected project

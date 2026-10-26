@@ -1,9 +1,46 @@
-# Content audit — October 21, 2026
+# Content audit — October 26, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## October 26 selected recordings
+
+- Added the three owner-supplied YouTube recordings to a Selected recordings
+  collection near the top of Speaking: the CorpusKit alpha demo (3:45), AASN
+  presentation for AGENTICS 2026 (21:21), and GPU energy-attribution
+  presentation for IEEE CloudCom 2026 (29:33). Titles, upload dates,
+  durations, descriptions, and thumbnails were checked against the videos.
+- Added a homepage collection link and contextual video links alongside the
+  AASN, CloudCom, and Corpusgen papers, the CorpusKit project, the Corpusgen
+  software module, and the CloudCom author-session entry. The owner explicitly
+  authorized sharing these unlisted recordings on the public website.
+- Recorded presentations are distinguished from confirmed live conference
+  delivery. AASN's program-listed speaker remains Rwaida Alssadi; the video
+  credits Muntaser Syed as its presenter. CorpusKit remains an alpha application,
+  and its demo is not labeled as the Interspeech conference recording.
+- Added a separate three-item recording list and VideoObject metadata, with
+  references from the related research/software entities. The 47 engagement,
+  44 scholarly-output, and 25 project counts are unchanged. Updated modification
+  dates and sitemap entries only for the five pages with content changes.
+- Used linked, lazy-loaded thumbnails with accessible play-link names and
+  visible durations. Playback opens on YouTube. The cards follow the existing
+  responsive grid and light/dark themes.
+
+Verification before publication:
+
+- The existing static validator passes: 209 internal file/fragment links
+  resolve, IDs are unique, JSON-LD parses, and list counts/positions agree.
+- Browser checks at 1280, 390, and 320 pixels found no horizontal overflow;
+  all three recording thumbnails loaded. Inspected desktop light and narrow
+  mobile dark layouts and found no browser errors on the updated Speaking page.
+- Followed Home to Selected recordings, then CorpusKit's project card to the
+  correct YouTube video. Checked all three recording destinations and related
+  paper/project links. An independent review corrected one overly broad link
+  label before publication.
+- Screenshots and verification output are retained outside the repository in
+  `recordings-2026-10-26/`.
 
 ## October 21 comprehensive re-audit
 
