@@ -5,6 +5,22 @@ This file records the maintenance boundary behind the public site. The August
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
 
+## October 26 ICTAI presentations
+
+- Muntaser confirmed that he is presenting all four ICTAI papers: Hashrope,
+  Pollard, StegaQR, and Exact Privacy-Preserving Similarity Search via Two-Server
+  Additive Secret Sharing. Applied his presenter information throughout Home,
+  Speaking, and Research, including the event and paper metadata.
+- Checked the [official program](https://ictai.computer.org/2026/wp-content/uploads/sites/7/2026/10/ICTAI-Conference-Program.pdf),
+  pages 1–2: Hashrope is November 2 at 11:30 a.m., Session 12A, Royal Palm 1;
+  Pollard is November 3 at 10:10 a.m., Session 21C, Royal Palm 3; StegaQR is
+  November 3 at 1:45 p.m., Session 23A, Royal Palm 1; similarity search is
+  November 3 at 4:30 p.m., Session 24C, Royal Palm 3. Times are Eastern.
+- Expanded the ICTAI archive entry into a four-presentation schedule and added
+  links from all four research entries. Preserved the existing Hashrope anchor.
+  The speaking archive still contains 49 engagements. This update supersedes
+  the earlier ICTAI presenter information below.
+
 ## October 26 portfolio voice rule
 
 - Standardized public work labels as papers, presentations, and talks across

@@ -25,6 +25,10 @@ accepted November 21 online talk at IEEE Smart City USA and the October 22
 Hacktoberfest Orlando speaker listing. The Smart City USA talk is linked from
 Home and its related environmental-cost research.
 
+The ICTAI schedule now includes Muntaser's four presentations on November 2–3:
+Hashrope, Pollard, StegaQR, and Exact Privacy-Preserving Similarity Search.
+Home, Speaking, and all four Research entries link to the presentation schedule.
+
 All seven pages were refreshed after a full content audit on October 21, 2026.
 The site now includes 44 distinct scholarly outputs, 25 selected project
 artifacts, 49 speaking and research presentations, and 48 media

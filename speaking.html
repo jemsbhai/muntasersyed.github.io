@@ -18,7 +18,7 @@
   <meta name="twitter:card" content="summary">
   <link rel="alternate" type="application/ld+json;profile=&quot;https://jsonld-ex.github.io/ns/&quot;" href="https://muntasersyed.com/structured-data/jsonld-ex.jsonld" title="JSON-LD Ex metadata">
   <script type="application/ld+json">
-  {
+    {
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -125,17 +125,19 @@
             "position": 2,
             "item": {
               "@type": "Event",
-              "@id": "https://muntasersyed.com/speaking.html#hashrope-ictai-2026",
-              "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management",
-              "description": "Upcoming IEEE ICTAI 2026 paper presentation by Muntaser Syed at 11:30 on November 2 in Session 12A, Royal Palm 1.",
-              "startDate": "2026-11-02T11:30:00-05:00",
-              "url": "https://ictai.computer.org/2026/",
+              "@id": "https://muntasersyed.com/speaking.html#ictai-presentations-2026",
+              "name": "IEEE ICTAI 2026 presentations",
+              "description": "Four paper presentations by Muntaser Syed at IEEE ICTAI 2026 in Boca Raton: Hashrope, Pollard, StegaQR, and Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing.",
+              "startDate": "2026-11-02",
+              "endDate": "2026-11-03",
+              "url": "https://ictai.computer.org/2026/wp-content/uploads/sites/7/2026/10/ICTAI-Conference-Program.pdf",
               "performer": {
                 "@id": "https://muntasersyed.com/#person"
               },
+              "eventStatus": "https://schema.org/EventScheduled",
               "location": {
                 "@type": "Place",
-                "name": "Royal Palm 1, Boca Raton, Florida"
+                "name": "Boca Raton, Florida"
               },
               "superEvent": {
                 "@type": "Event",
@@ -144,12 +146,104 @@
                 "endDate": "2026-11-04",
                 "url": "https://ictai.computer.org/2026/"
               },
-              "workFeatured": {
-                "@type": "ScholarlyArticle",
-                "@id": "https://muntasersyed.com/research.html#hashrope-ictai",
-                "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management"
-              },
-              "eventStatus": "https://schema.org/EventScheduled"
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "@id": "https://muntasersyed.com/speaking.html#hashrope-ictai-2026",
+                  "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management",
+                  "description": "Paper presentation by Muntaser Syed at IEEE ICTAI 2026. November 2, 11:30 a.m. Eastern, Session 12A, Royal Palm 1.",
+                  "startDate": "2026-11-02T11:30:00-05:00",
+                  "performer": {
+                    "@id": "https://muntasersyed.com/#person"
+                  },
+                  "location": {
+                    "@type": "Place",
+                    "name": "Royal Palm 1, Boca Raton, Florida"
+                  },
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "url": "https://ictai.computer.org/2026/wp-content/uploads/sites/7/2026/10/ICTAI-Conference-Program.pdf#page=1",
+                  "superEvent": {
+                    "@id": "https://muntasersyed.com/speaking.html#ictai-presentations-2026"
+                  },
+                  "workFeatured": {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#hashrope-ictai",
+                    "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management"
+                  }
+                },
+                {
+                  "@type": "Event",
+                  "@id": "https://muntasersyed.com/speaking.html#pollard-ictai-2026",
+                  "name": "Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay",
+                  "description": "Paper presentation by Muntaser Syed at IEEE ICTAI 2026. November 3, 10:10 a.m. Eastern, Session 21C, Royal Palm 3.",
+                  "startDate": "2026-11-03T10:10:00-05:00",
+                  "performer": {
+                    "@id": "https://muntasersyed.com/#person"
+                  },
+                  "location": {
+                    "@type": "Place",
+                    "name": "Royal Palm 3, Boca Raton, Florida"
+                  },
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "url": "https://ictai.computer.org/2026/wp-content/uploads/sites/7/2026/10/ICTAI-Conference-Program.pdf#page=2",
+                  "superEvent": {
+                    "@id": "https://muntasersyed.com/speaking.html#ictai-presentations-2026"
+                  },
+                  "workFeatured": {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#pollard-ictai",
+                    "name": "Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay"
+                  }
+                },
+                {
+                  "@type": "Event",
+                  "@id": "https://muntasersyed.com/speaking.html#stegaqr-ictai-2026",
+                  "name": "StegaQR: Learned Private Data Embedding in Standard-Decodable QR Codes",
+                  "description": "Paper presentation by Muntaser Syed at IEEE ICTAI 2026. November 3, 1:45 p.m. Eastern, Session 23A, Royal Palm 1.",
+                  "startDate": "2026-11-03T13:45:00-05:00",
+                  "performer": {
+                    "@id": "https://muntasersyed.com/#person"
+                  },
+                  "location": {
+                    "@type": "Place",
+                    "name": "Royal Palm 1, Boca Raton, Florida"
+                  },
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "url": "https://ictai.computer.org/2026/wp-content/uploads/sites/7/2026/10/ICTAI-Conference-Program.pdf#page=2",
+                  "superEvent": {
+                    "@id": "https://muntasersyed.com/speaking.html#ictai-presentations-2026"
+                  },
+                  "workFeatured": {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#stegaqr-ictai",
+                    "name": "StegaQR: Learned Private Data Embedding in Standard-Decodable QR Codes"
+                  }
+                },
+                {
+                  "@type": "Event",
+                  "@id": "https://muntasersyed.com/speaking.html#private-similarity-ictai-2026",
+                  "name": "Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing",
+                  "description": "Paper presentation by Muntaser Syed at IEEE ICTAI 2026. November 3, 4:30 p.m. Eastern, Session 24C, Royal Palm 3.",
+                  "startDate": "2026-11-03T16:30:00-05:00",
+                  "performer": {
+                    "@id": "https://muntasersyed.com/#person"
+                  },
+                  "location": {
+                    "@type": "Place",
+                    "name": "Royal Palm 3, Boca Raton, Florida"
+                  },
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "url": "https://ictai.computer.org/2026/wp-content/uploads/sites/7/2026/10/ICTAI-Conference-Program.pdf#page=2",
+                  "superEvent": {
+                    "@id": "https://muntasersyed.com/speaking.html#ictai-presentations-2026"
+                  },
+                  "workFeatured": {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#private-similarity-ictai",
+                    "name": "Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing"
+                  }
+                }
+              ]
             }
           },
           {
@@ -1458,7 +1552,7 @@
         <div class="artifact-grid">
           <article class="artifact-card"><span class="record-index">OCT 26 · PRESENTATIONS</span><h3>IEEE WF-IoT</h3><p>Four paper presentations on compact linked data, compliance algebra, wearable learning, and 1-bit IoT routers.</p><div class="item-links"><a class="micro-link" href="#wfiot-author-sessions-2026">Papers and program</a></div></article>
           <article class="artifact-card"><span class="record-index">OCT 29 · PRESENTATION</span><h3>IEEE CloudCom</h3><p>Presenting transistor-level energy attribution for containerized ML workloads in the sustainability, efficiency, and security session.</p><div class="item-links"><a class="micro-link" href="#cloudcom-author-session-2026">Session details</a></div></article>
-          <article class="artifact-card"><span class="record-index">NOV 2 · SCHEDULED TALK</span><h3>Hashrope at IEEE ICTAI</h3><p>A paper presentation on persistent LLM context management, scheduled for 11:30 a.m. Eastern in Boca Raton.</p><div class="item-links"><a class="micro-link" href="#hashrope-ictai-2026">Talk and paper</a></div></article>
+          <article class="artifact-card"><span class="record-index">NOV 2–3 · PRESENTATIONS</span><h3>Four papers at IEEE ICTAI</h3><p>I’m presenting Hashrope, Pollard, StegaQR, and our privacy-preserving similarity-search paper in Boca Raton.</p><div class="item-links"><a class="micro-link" href="#ictai-presentations-2026">Four presentations</a></div></article>
           <article class="artifact-card"><span class="record-index">NOV 21 · ACCEPTED ONLINE TALK</span><h3>IEEE Smart City USA</h3><p>The water and carbon cost of sovereign AI: how siting and cooling choices affect urban AI infrastructure.</p><div class="item-links"><a class="micro-link" href="#smart-city-usa-2026">Talk and research</a></div></article>
         </div>
       </div>
@@ -1499,7 +1593,7 @@
         <div class="section-head"><p class="eyebrow">2026 engagements</p><div><h2 id="talks-2026-title">Conference talks and workshops.</h2><p>Conference talks, workshops, and research presentations.</p></div></div>
         <div class="timeline">
           <article class="timeline-item" id="smart-city-usa-2026"><time datetime="2026-11-21">Nov 21<br>2026</time><div><h3>Where you train and deploy your AI model matters: The Water and Carbon Cost of Sovereign AI</h3><p>Accepted technical talk at the <strong>2026 IEEE Smart City USA Conference</strong>, held online on November 21.</p><p>Drawing on our environmental-cost research, the talk compares modeled water, energy, and carbon impacts of hypothetical AI deployments across the UAE, Bangladesh, India, and Kenya, connecting siting and cooling choices to urban infrastructure decisions.</p><div class="item-links"><a class="micro-link" href="https://ieeesmartcityconference.org/">Conference</a><a class="micro-link" href="https://sessionize.com/s/muntaser-syed/where-you-train-and-deploy-your-ai-model-matters-t/193572">Talk details</a><a class="micro-link" href="research.html#environmental-cost-paper">Related research</a><a class="micro-link" href="https://arxiv.org/abs/2607.13443">arXiv</a></div></div></article>
-          <article class="timeline-item" id="hashrope-ictai-2026"><time datetime="2026-11-02">Nov 2<br>2026</time><div><h3>Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management</h3><p>I’m presenting our paper at IEEE ICTAI 2026 in Boca Raton on November 2 at <strong>11:30 a.m. Eastern, Session 12A, Royal Palm 1</strong>.</p><p>Hashrope brings persistent context editing, branching, prefix identity checks, and repetition encoding into one data structure.</p><div class="item-links"><a class="micro-link" href="https://ictai.computer.org/2026/">Conference</a><a class="micro-link" href="research.html#hashrope-ictai">Paper</a><a class="micro-link" href="https://arxiv.org/abs/2610.16144">arXiv</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope">Code</a></div></div></article>
+          <article class="timeline-item" id="ictai-presentations-2026"><time datetime="2026-11-02">Nov 2–3<br>2026</time><div><h3>IEEE ICTAI 2026 presentations</h3><p>I’m presenting four papers at IEEE ICTAI 2026 in Boca Raton. All times are Eastern.</p><p id="hashrope-ictai-2026"><strong>November 2, 11:30 a.m.:</strong> <a href="research.html#hashrope-ictai">Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management</a> · Session 12A, Royal Palm 1.</p><p id="pollard-ictai-2026"><strong>November 3, 10:10 a.m.:</strong> <a href="research.html#pollard-ictai">Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay</a> · Session 21C, Royal Palm 3.</p><p id="stegaqr-ictai-2026"><strong>November 3, 1:45 p.m.:</strong> <a href="research.html#stegaqr-ictai">StegaQR: Learned Private Data Embedding in Standard-Decodable QR Codes</a> · Session 23A, Royal Palm 1.</p><p id="private-similarity-ictai-2026"><strong>November 3, 4:30 p.m.:</strong> <a href="research.html#private-similarity-ictai">Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing</a> · Session 24C, Royal Palm 3.</p><div class="item-links"><a class="micro-link" href="https://ictai.computer.org/2026/wp-content/uploads/sites/7/2026/10/ICTAI-Conference-Program.pdf">Conference program</a><a class="micro-link" href="https://ictai.computer.org/2026/">Conference</a></div></div></article>
           <article class="timeline-item" id="cloudcom-author-session-2026"><time datetime="2026-10-29">Oct 29<br>2026</time><div><h3>Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads</h3><p>I’m presenting our paper, coauthored with Marius Silaghi and Rwaida Alssadi, in IEEE CloudCom 2026’s <strong>Cloud Computing: Sustainability, Efficiency, and Security</strong> session, Main Track — Alésia Room, Paris.</p><p>The session runs <strong>14:00–15:30 Paris time (CET)</strong>.</p><div class="item-links"><a class="micro-link" href="https://www.cloudcom2026.org/program">Official program</a><a class="micro-link" href="research.html#container-energy-cloudcom">Paper</a><a class="micro-link" href="https://www.youtube.com/watch?v=7BM5ym9Hp4A">Watch presentation</a></div></div></article>
           <article class="timeline-item" id="wfiot-author-sessions-2026"><time datetime="2026-10-26">Oct 26<br>2026</time><div><h3>IEEE WF-IoT 2026 presentations</h3><p>Four paper presentations at <strong>IEEE WF-IoT 2026</strong> on October 26: CBOR-LD-Ex, Compliance Algebra for IoT Energy Data Governance, IMU-JEPA, and Zero-Shot Attack-Family Generalization with 1-Bit LLM Routers.</p><div class="item-links"><a class="micro-link" href="https://edas.info/web/ieeewf-iot2026/program.html#S1571061726">Official program</a><a class="micro-link" href="research.html#cborld-ex-paper">CBOR-LD-Ex</a><a class="micro-link" href="research.html#compliance-algebra-iot">Compliance Algebra</a><a class="micro-link" href="research.html#imu-jepa-paper">IMU-JEPA</a><a class="micro-link" href="research.html#onebit-iot-paper">1-Bit LLM Routers</a></div></div></article>
           <article class="timeline-item" id="hacktoberfest-orlando-2026"><time datetime="2026-10-22">Oct 22<br>2026</time><div><h3>Hacktoberfest 2026 Orlando</h3><p>Speaker alongside Dwane Hemmings at Orlando Devs’ meetup on practical open-source contributions and tools, with a preview of Central Florida DevFest. The event took place at Worth in Winter Park, Florida.</p><div class="item-links"><a class="micro-link" href="https://www.meetup.com/orlandodevs/events/316782113/">Organizer event</a></div></div></article>
