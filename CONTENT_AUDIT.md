@@ -5,6 +5,13 @@ This file records the maintenance boundary behind the public site. The August
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
 
+## October 26 CloudCom wording
+
+- At the owner's request, simplified CloudCom's Home, Speaking, and Research
+  entries and matching metadata to “presenting” or “presentation.” Removed
+  delivery-format qualifiers while preserving the date, session window,
+  coauthors, research links, and presentation video.
+
 ## October 26 Sessionize and speaking update
 
 - Reconciled the live Sessionize profile with the website. Its new sovereign-AI
@@ -104,7 +111,7 @@ Verification before publication:
   retain their existing versions and six pending-preprint records remain.
 - Corrected all four WF-IoT papers to the October 26 virtual/video block,
   08:00–20:00 Dubai time. This is a shared session window, not four individual
-  presentation times. Added CloudCom's October 29 pre-recorded contribution
+  presentation times. Added CloudCom's October 29 presentation
   and third author, Rwaida Alssadi. Added Hashrope's November 2, 11:30 a.m.
   ICTAI presentation in Royal Palm 1; the other ICTAI works retain their
   actual listed presenters. Removed the grouped UEMCON entry from Speaking
