@@ -5,6 +5,17 @@ This file records the maintenance boundary behind the public site. The August
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
 
+## October 26 portfolio voice rule
+
+- Saved the owner's standing editorial rule in `AGENTS.md`: use direct,
+  confident personal-portfolio language for his authorship, presentations,
+  projects, and service. Apply this rule to all future updates.
+- Removed distancing and verification boilerplate from public page copy and
+  metadata across Home, Speaking, Research, Media, and About. WF-IoT now uses
+  “presentations” consistently, with October 26 as the presentation date.
+- Retained the paper titles, full author lists, dates, links, and catalog counts.
+  This editorial direction supersedes earlier public-copy guidance in this log.
+
 ## October 26 CloudCom wording
 
 - At the owner's request, simplified CloudCom's Home, Speaking, and Research
