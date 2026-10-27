@@ -20,9 +20,14 @@ Three selected recordings were added on October 26, 2026: AASN and CloudCom
 paper presentations, plus a CorpusKit alpha demo. The Speaking collection is
 linked from Home and the related research, project, and software entries.
 
+Sessionize and organizer records were checked on October 26, 2026. Added the
+accepted November 21 online talk at IEEE Smart City USA and the October 22
+Hacktoberfest Orlando speaker listing. The Smart City USA talk is linked from
+Home and its related environmental-cost research; its individual time is pending.
+
 All seven pages were refreshed after a full content audit on October 21, 2026.
 The site now includes 44 distinct scholarly outputs, 25 selected project
-artifacts, 47 speaking or program-listed author engagements, and 48 media
+artifacts, 49 speaking or program-listed speaker/author engagements, and 48 media
 entries. The software catalog features 25 PyPI packages, five npm packages,
 and six Rust crates across 27 top-level works. Home highlights upcoming
 conference contributions and the FLAIRS-40 call for papers. See `CONTENT_AUDIT.md` for the refresh scope,

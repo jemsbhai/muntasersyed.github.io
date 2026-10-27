@@ -5,6 +5,53 @@ This file records the maintenance boundary behind the public site. The August
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
 
+## October 26 Sessionize and speaking update
+
+- Reconciled the live Sessionize profile with the website. Its new sovereign-AI
+  session was missing; the other six public session topics already had coverage.
+- Added “Where you train and deploy your AI model matters: The Water and Carbon
+  Cost of Sovereign AI” at the **2026 IEEE Smart City USA Conference**, November
+  21, online. The speaker dashboard showed accepted status and participation
+  already confirmed on October 26. Its Scheduled field was blank, so no
+  individual start time or duration is asserted.
+- The [conference website](https://ieeesmartcityconference.org/) and the
+  [Sessionize event metadata](https://sessionize.com/ieee-smart-cities-dallas-2026/)
+  agree on November 21 and online attendance. Older CFP body text mentions a
+  hybrid format; the current organizer website and dashboard establish the
+  online format used here. The [public session abstract](https://sessionize.com/s/muntaser-syed/where-you-train-and-deploy-your-ai-model-matters-t/193572)
+  provides the title and topic. The site's summary explicitly describes modeled
+  impacts of hypothetical deployments.
+- Added the [October 22 Hacktoberfest 2026 Orlando listing](https://www.meetup.com/orlandodevs/events/316782113/),
+  which names Muntaser Syed and Dwane Hemmings as speakers at Worth in Winter Park.
+  The entry preserves the organizer-listed role without inferring an individual
+  talk title, personal delivery, or a separate DevFest speaking invitation. The
+  6:30–9 p.m. Eastern range in structured data describes the whole meetup.
+- Updated the Home and Speaking upcoming cards, linked the Smart City talk to
+  the existing environmental-cost paper in both directions, and expanded the
+  speaker-catalog description to include sustainable AI infrastructure.
+  Speaking now contains 49 engagements; research and recording counts are
+  unchanged. Updated JSON-LD positions and current counts. Home, Speaking,
+  Research, and their sitemap entries already carry the October 26 date.
+- Unaccepted submissions are excluded from the calendar. Authenticated session
+  details and review correspondence are not copied into the public repository.
+
+Local verification:
+
+- Rechecked both additions against the live organizer and Sessionize sources
+  before publication. The event dates, online format, exact session title,
+  modeled-research summary, and Hacktoberfest speaker attribution agree with
+  the supporting records; no unresolved factual questions remain.
+- Static validation passes for all seven pages: 213 internal file/fragment
+  references resolve, IDs are unique, and JSON-LD counts and positions agree.
+  All 49 visible speaking entries match their metadata, including the two new
+  titles and dates; the Smart City entry uses a date without an invented time.
+- Checked the desktop Home calendar and followed the new talk link into
+  Speaking. The desktop homepage has no horizontal overflow. Screenshots and
+  validation results are in `sessionize-audit-2026-10-26/` outside the repository.
+- Responsive browser verification was interrupted by a browser-control timeout;
+  the publication-time retry and native browser fallback were also unavailable.
+  Mobile visual verification remains incomplete. No styles or scripts changed.
+
 ## October 26 selected recordings
 
 - Added the three owner-supplied YouTube recordings to a Selected recordings
@@ -720,7 +767,7 @@ Validation after the approved changes:
   pre-alpha through production/stable and is not implied by this count.
 - Projects: 25 selected artifacts. Public repositories link directly. Private repositories are either
   labeled as private research without a link or omitted from the public index.
-- Speaking: 47 engagements, including grouped author sessions. Dates use
+- Speaking: 49 engagements, including organizer-listed speakers and grouped author sessions. Dates use
   organizer, conference, institutional, public scheduling, or explicit owner
   confirmation. Material-only repositories are kept in a separate
   teaching archive.
