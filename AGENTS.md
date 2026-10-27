@@ -9,6 +9,11 @@
 - Describe conference work as papers, talks, or presentations. Do not emphasize
   delivery formats such as pre-recorded or virtual as qualifications of the work.
   Include practical attendance information only when useful to the reader.
+- Use “paper,” “presentation,” and “talk” consistently in public copy and
+  metadata. Do not label work as posters, short papers, full papers, abstracts,
+  or similar ranked categories. Describe the work and its substance directly.
+- Remove language that downplays the work, including defensive status notes,
+  evidence-boundary disclaimers, and editorial assessments of its significance.
 - Keep source-checking commentary and uncertainty-management boilerplate out
   of public page copy and metadata. Omit unavailable details rather than adding
   disclaimers about them. Preserve accurate titles, author lists, dates, links,

@@ -7,6 +7,13 @@ crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
 
 ## October 26 portfolio voice rule
 
+- Standardized public work labels as papers, presentations, and talks across
+  page copy, filters, and metadata. Removed ranked format distinctions and
+  remaining defensive descriptions from the portfolio, including Projects
+  and Software. Saved the naming rule in `AGENTS.md` for future updates.
+- Checked all seven pages and their metadata for the removed labels. Catalog
+  filters resolve, all 213 internal links pass, and work titles, author lists,
+  dates, versions, links, IDs, and catalog counts remain intact.
 - Saved the owner's standing editorial rule in `AGENTS.md`: use direct,
   confident personal-portfolio language for his authorship, presentations,
   projects, and service. Apply this rule to all future updates.

@@ -7,7 +7,7 @@
       "@type": "CreativeWork",
       "@id": "https://muntasersyed.com/structured-data/jsonld-ex.jsonld",
       "name": "JSON-LD Ex metadata for Muntaser Syed's research portfolio",
-      "description": "An experimental JSON-LD Ex representation of the portfolio's author, JSON-LD Ex software, peer-reviewed paper, and public workshop.",
+      "description": "A JSON-LD Ex representation of the portfolio's author, JSON-LD Ex software, peer-reviewed paper, and public workshop.",
       "url": "https://muntasersyed.com/structured-data/jsonld-ex.jsonld",
       "encodingFormat": "application/ld+json",
       "conformsTo": "https://jsonld-ex.github.io/ns/",
