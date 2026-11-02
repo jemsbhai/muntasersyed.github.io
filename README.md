@@ -32,11 +32,14 @@ Home, Speaking, and all four Research entries link to the presentation schedule.
 All seven pages were refreshed after a full content audit on October 21, 2026.
 The site now includes 44 distinct scholarly outputs, 25 selected project
 artifacts, 49 speaking and research presentations, and 48 media
-entries. The software catalog features 25 PyPI packages, five npm packages,
+entries. The software catalog features 25 PyPI packages, six npm packages,
 and six Rust crates across 27 top-level works. Home highlights upcoming
 conference presentations and the FLAIRS-40 call for papers. See `CONTENT_AUDIT.md`
 for the refresh history and source references. `AGENTS.md` records the standing
 rule: present the work confidently as papers, presentations, and talks.
+
+Hashrope now links to its interactive demo from Home, Research, and Software.
+The core library entries cover Python, JavaScript, Rust, and Java 0.3.4.
 
 ## Structured data
 

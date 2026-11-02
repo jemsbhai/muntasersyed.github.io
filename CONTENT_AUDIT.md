@@ -1,9 +1,18 @@
-# Content audit — October 26, 2026
+# Content audit — November 2, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## November 2 Hashrope demo and package update
+
+- Added the Hashrope interactive demo to Home, Research, the core library links,
+  and the Software interactive materials collection.
+- Verified core package version 0.3.4 through the live PyPI, npm, crates.io,
+  and Maven Central registry metadata. Added JavaScript and Java package links
+  and structured implementations; the catalog now features six npm packages.
+- Updated page modification dates and sitemap entries for the three edited pages.
 
 ## October 26 ICTAI presentations
 
