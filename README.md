@@ -16,30 +16,34 @@ archive, professional service, selected awards, press, and public profiles.
 - `media.html`: dated media coverage, interviews, university news, and organizer or sponsor reports
 - `about.html`: biography, roles, education, professional service, press, milestones, and profile links
 
-Three selected recordings were added on October 26, 2026: AASN and CloudCom
-paper presentations, plus a CorpusKit demo. The Speaking collection is
-linked from Home and the related research, project, and software entries.
+The November 5, 2026 refresh adds 19 presentation decks across the relevant
+Speaking, Research, Software, and Projects entries, with paper, repository,
+package, and recording links. Conference groups expose individual paper
+anchors so each set of materials is easy to find.
 
-Sessionize and organizer records were checked on October 26, 2026. Added the
-accepted November 21 online talk at IEEE Smart City USA and the October 22
-Hacktoberfest Orlando speaker listing. The Smart City USA talk is linked from
-Home and its related environmental-cost research.
+The research catalog contains 46 distinct scholarly outputs: 19 published
+works and 25 accepted works. Six works also have preprints; these categories
+overlap. Two October 22 journal papers were added, and MultiSpecQR now links
+to its published IEEE proceedings paper.
 
-The ICTAI schedule now includes Muntaser's four presentations on November 2–3:
-Hashrope, Pollard, StegaQR, and Exact Privacy-Preserving Similarity Search.
-Home, Speaking, and all four Research entries link to the presentation schedule.
+The site includes 29 selected project artifacts, 50 speaking engagements and
+presentation entries, and 48 media entries. The software catalog covers 27
+top-level works and 38 package distributions: 25 PyPI packages, six npm
+packages, six Rust crates, and one Maven artifact. Registry versions were
+checked on November 5, including Epicormic 0.2.0 and Hashrope Bio 0.3.4.
 
-All seven pages were refreshed after a full content audit on October 21, 2026.
-The site now includes 44 distinct scholarly outputs, 25 selected project
-artifacts, 49 speaking and research presentations, and 48 media
-entries. The software catalog features 25 PyPI packages, six npm packages,
-and six Rust crates across 27 top-level works. Home highlights upcoming
-conference presentations and the FLAIRS-40 call for papers. See `CONTENT_AUDIT.md`
-for the refresh history and source references. `AGENTS.md` records the standing
-rule: present the work confidently as papers, presentations, and talks.
+Past conference presentations now appear with their materials in the archive.
+The calendar retains the November 12 TML4DM workshop, November 21 IEEE Smart
+City USA talk, December ComComAp conference, and FLAIRS-40 call for papers.
+Three selected recordings cover AASN, CloudCom, and a CorpusKit demo.
 
-Hashrope now links to its interactive demo from Home, Research, and Software.
-The core library entries cover Python, JavaScript, Rust, and Java 0.3.4.
+Hashrope links to its interactive demo and Python, JavaScript, Rust, and Java
+0.3.4 releases. SQT-IoT links to its slides; no public repository is listed.
+The Applied AI Summit presentation retains the site's established talk title.
+
+See `CONTENT_AUDIT.md` for refresh history and source references. `AGENTS.md`
+records the standing preference to present the work confidently as papers,
+presentations, and talks.
 
 ## Structured data
 

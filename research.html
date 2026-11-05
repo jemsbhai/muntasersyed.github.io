@@ -41,7 +41,7 @@
         "url": "https://muntasersyed.com/research.html",
         "name": "Research and Publications | Muntaser Syed",
         "description": "Publications, preprints, and research artifacts by Muntaser Syed.",
-        "dateModified": "2026-11-02",
+        "dateModified": "2026-11-05",
         "isPartOf": { "@id": "https://muntasersyed.com/#website" },
         "author": { "@id": "https://muntasersyed.com/#person" },
         "about": [
@@ -68,7 +68,7 @@
         "@type": "ItemList",
         "@id": "https://muntasersyed.com/research.html#publications",
         "name": "Scholarly outputs by Muntaser Syed",
-        "numberOfItems": 44,
+        "numberOfItems": 46,
         "itemListOrder": "https://schema.org/ItemListUnordered",
         "itemListElement": [
           {
@@ -239,9 +239,20 @@
                   "name": "Official conference program",
                   "url": "https://ieeeghtc.org/technical-paper-presentations-schedule-2026/",
                   "description": "IEEE GHTC 2026 · Accepted paper · Session 7B: Socio-Technical Approaches in Engineering, October 9, 1–2:30 p.m., Room C120B · Preprint: arXiv:2607.13443 · July 15, 2026"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1TrzsYUS6ouBemCOs1dYjce4mYAftQHFZ/edit?usp=sharing",
+                  "name": "The Environmental Cost of Digital Sovereignty: Water, Energy, and Emissions Impacts of Sovereign AI Infrastructure in the Global South — IEEE GHTC 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/1TrzsYUS6ouBemCOs1dYjce4mYAftQHFZ/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#environmental-cost-paper"
+                  }
                 }
               ],
-              "genre": "Conference paper"
+              "genre": "Conference paper",
+              "@id": "https://muntasersyed.com/research.html#environmental-cost-paper"
             }
           },
           {
@@ -732,22 +743,63 @@
               "@type": "ScholarlyArticle",
               "name": "MultiSpecQR: Multi-Spectral QR Code Encoding and Neural Network-Assisted Decoding via Color Channel Multiplexing",
               "author": [
-                { "@id": "https://muntasersyed.com/#person" },
-                { "@type": "Person", "name": "Marius Silaghi" },
-                { "@type": "Person", "name": "Mohammed Alghamdi" }
+                {
+                  "@id": "https://muntasersyed.com/#person"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Marius Silaghi"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Mohammed Alghamdi"
+                }
               ],
-              "creativeWorkStatus": "Accepted paper for IEEE ICMLA 2026",
-              "subjectOf": {
-                "@type": "WebPage",
-                "name": "IEEE ICMLA 2026 Special Session 1 papers",
-                "url": "https://www.icmla-conference.org/icmla26/ss1regularpapers.html"
-              },
+              "creativeWorkStatus": "Published paper in IEEE ICMLA 2026 proceedings",
+              "subjectOf": [
+                {
+                  "@type": "WebPage",
+                  "name": "IEEE ICMLA 2026 Special Session 1 papers",
+                  "url": "https://www.icmla-conference.org/icmla26/ss1regularpapers.html"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1LwrP67_kbdc-FbjcnuCFlhDdBX7yY5Kr/edit?usp=sharing",
+                  "name": "MultiSpecQR: Multi-Spectral QR Code Encoding and Neural Network-Assisted Decoding via Color Channel Multiplexing — IEEE ICMLA 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/1LwrP67_kbdc-FbjcnuCFlhDdBX7yY5Kr/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#multispecqr-paper"
+                  }
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "MultiSpecQR: Multi-Spectral QR Code Encoding and Neural Network-Assisted Decoding via Color Channel Multiplexing — code",
+                  "codeRepository": "https://github.com/jemsbhai/multispecqr"
+                }
+              ],
               "publication": {
                 "@type": "PublicationEvent",
                 "name": "IEEE ICMLA 2026 Special Session 1A (SS1-A)",
                 "description": "Paper presented on October 5, 2026, at 11:00 in Special Session 1A (SS1-A).",
                 "startDate": "2026-10-05",
                 "url": "https://www.icmla-conference.org/icmla26/ss1regularpapers.html"
+              },
+              "@id": "https://muntasersyed.com/research.html#multispecqr-paper",
+              "datePublished": "2026-10",
+              "url": "https://ieeexplore.ieee.org/document/11760888/",
+              "sameAs": "https://doi.org/10.1109/ICMLA69890.2026.00221",
+              "identifier": {
+                "@type": "PropertyValue",
+                "propertyID": "DOI",
+                "value": "10.1109/ICMLA69890.2026.00221"
+              },
+              "pageStart": "1123",
+              "pageEnd": "1129",
+              "genre": "Paper",
+              "isPartOf": {
+                "@type": "CreativeWork",
+                "name": "2026 25th International Conference on Machine Learning and Applications (ICMLA)"
               }
             }
           },
@@ -818,7 +870,24 @@
                   "url": "https://www.cloudcom2026.org/program",
                   "description": "Presentation on October 29 in Cloud Computing: Sustainability, Efficiency, and Security, Alésia Room; session 2:00–3:30 p.m. Paris time (CET)."
                 },
-                { "@id": "https://muntasersyed.com/speaking.html#recording-cloudcom" }
+                {
+                  "@id": "https://muntasersyed.com/speaking.html#recording-cloudcom"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1ghms7xBHB-rclfHfJRDMLhNtGDuqV4H5/edit?usp=sharing",
+                  "name": "Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads — IEEE CloudCom 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/1ghms7xBHB-rclfHfJRDMLhNtGDuqV4H5/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#container-energy-cloudcom"
+                  }
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads — code",
+                  "codeRepository": "https://github.com/jemsbhai/TOMLCloud"
+                }
               ]
             }
           },
@@ -841,7 +910,7 @@
               "url": "https://muntasersyed.com/research.html#pollard-ictai",
               "creativeWorkStatus": "Accepted paper for IEEE ICTAI 2026",
               "genre": "Paper",
-              "description": "Presents governed semantic execution trees for controlling and replaying AI agent work across frameworks. Scheduled November 3, 10:10 a.m. Eastern, Session 21C, Royal Palm 3; Presenter: Muntaser Syed.",
+              "description": "Presents governed semantic execution trees for controlling and replaying AI agent work across frameworks. Presented November 3, 10:10 a.m. Eastern, Session 21C, Royal Palm 3; Presenter: Muntaser Syed.",
               "isPartOf": {
                 "@type": "CreativeWork",
                 "name": "IEEE ICTAI 2026"
@@ -857,7 +926,24 @@
                   "propertyID": "arXiv",
                   "value": "2610.16145"
                 }
-              }
+              },
+              "subjectOf": [
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1e604yMBf24acaQI1UIJw_0B_Fq7zc_IuAh1ELziU-94/edit?usp=sharing",
+                  "name": "Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay — IEEE ICTAI 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/1e604yMBf24acaQI1UIJw_0B_Fq7zc_IuAh1ELziU-94/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#pollard-ictai"
+                  }
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay — code",
+                  "codeRepository": "https://github.com/jemsbhai/pollard"
+                }
+              ]
             }
           },
           {
@@ -883,12 +969,29 @@
               "url": "https://muntasersyed.com/research.html#hashrope-ictai",
               "creativeWorkStatus": "Accepted paper for IEEE ICTAI 2026",
               "genre": "Paper",
-              "description": "Introduces a persistent data structure for managing large-language-model context. Scheduled November 2, 11:30 a.m. Eastern, Session 12A, Royal Palm 1; Presenter: Muntaser Syed.",
-              "subjectOf": {
-                "@type": "SoftwareSourceCode",
-                "name": "Hashrope paper experiments",
-                "codeRepository": "https://github.com/jemsbhai/hashrope-paper"
-              },
+              "description": "Introduces a persistent data structure for managing large-language-model context. Presented November 2, 11:30 a.m. Eastern, Session 12A, Royal Palm 1; Presenter: Muntaser Syed.",
+              "subjectOf": [
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "Hashrope paper experiments",
+                  "codeRepository": "https://github.com/jemsbhai/hashrope-paper"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing",
+                  "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management — IEEE ICTAI 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#hashrope-ictai"
+                  }
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management — code",
+                  "codeRepository": "https://github.com/jemsbhai/hashrope"
+                }
+              ],
               "isPartOf": {
                 "@type": "CreativeWork",
                 "name": "IEEE ICTAI 2026"
@@ -921,21 +1024,42 @@
                 {
                   "@type": "Person",
                   "name": "Marius Silaghi"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Mohammed Alghamdi"
                 }
               ],
               "url": "https://muntasersyed.com/research.html#stegaqr-ictai",
               "creativeWorkStatus": "Accepted paper for IEEE ICTAI 2026",
               "genre": "Paper",
-              "description": "Explores learned private-data embedding in QR codes that remain decodable by standard readers. Scheduled November 3, 1:45 p.m. Eastern, Session 23A, Royal Palm 1; Presenter: Muntaser Syed.",
+              "description": "Explores learned private-data embedding in QR codes that remain decodable by standard readers. Presented November 3, 1:45 p.m. Eastern, Session 23A, Royal Palm 1; Presenter: Muntaser Syed.",
               "isPartOf": {
                 "@type": "CreativeWork",
                 "name": "IEEE ICTAI 2026"
               },
-              "subjectOf": {
-                "@type": "DigitalDocument",
-                "name": "StegaQR manuscript",
-                "url": "https://github.com/jemsbhai/stegaQR/blob/e4ab348bca7233f6bd6fd30b23c4fd397c01d2e0/paper/main.pdf"
-              }
+              "subjectOf": [
+                {
+                  "@type": "DigitalDocument",
+                  "name": "StegaQR manuscript",
+                  "url": "https://github.com/jemsbhai/stegaQR/blob/main/paper/main.pdf"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1H5sl9ycs7kndZJUwMABVxFdzbmrtMzXP/edit?usp=sharing",
+                  "name": "StegaQR: Learned Private Data Embedding in Standard-Decodable QR Codes — IEEE ICTAI 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/1H5sl9ycs7kndZJUwMABVxFdzbmrtMzXP/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#stegaqr-ictai"
+                  }
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "StegaQR: Learned Private Data Embedding in Standard-Decodable QR Codes — code",
+                  "codeRepository": "https://github.com/jemsbhai/stegaQR"
+                }
+              ]
             }
           },
           {
@@ -961,11 +1085,28 @@
               "url": "https://muntasersyed.com/research.html#private-similarity-ictai",
               "creativeWorkStatus": "Accepted paper for IEEE ICTAI 2026",
               "genre": "Paper",
-              "description": "Examines two-server additive secret sharing for privacy-preserving similarity search. Scheduled November 3, 4:30 p.m. Eastern, Session 24C, Royal Palm 3; Presenter: Muntaser Syed.",
+              "description": "Examines two-server additive secret sharing for privacy-preserving similarity search. Presented November 3, 4:30 p.m. Eastern, Session 24C, Royal Palm 3; Presenter: Muntaser Syed.",
               "isPartOf": {
                 "@type": "CreativeWork",
                 "name": "IEEE ICTAI 2026"
-              }
+              },
+              "subjectOf": [
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1nTrWj23F4hEgQFL0PHWERbULjJ3cAP1P/edit?usp=sharing",
+                  "name": "Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing — IEEE ICTAI 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/1nTrWj23F4hEgQFL0PHWERbULjJ3cAP1P/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#private-similarity-ictai"
+                  }
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing — code",
+                  "codeRepository": "https://github.com/jemsbhai/herpb"
+                }
+              ]
             }
           },
           {
@@ -996,12 +1137,29 @@
                 "@type": "CreativeWork",
                 "name": "IEEE WF-IoT 2026"
               },
-              "subjectOf": {
-                "@type": "CreativeWork",
-                "name": "Official conference program",
-                "url": "https://edas.info/web/ieeewf-iot2026/program.html",
-                "description": "IEEE WF-IoT 2026 · Conference presentation · October 26"
-              }
+              "subjectOf": [
+                {
+                  "@type": "CreativeWork",
+                  "name": "Official conference program",
+                  "url": "https://edas.info/web/ieeewf-iot2026/program.html",
+                  "description": "IEEE WF-IoT 2026 · Conference presentation · October 26"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing",
+                  "name": "CBOR-LD-Ex: Compact Linked Data with Reasoning Metadata for Constrained IoT Networks — IEEE WF-IoT 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#cborld-ex-paper"
+                  }
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "CBOR-LD-Ex: Compact Linked Data with Reasoning Metadata for Constrained IoT Networks — code",
+                  "codeRepository": "https://github.com/jemsbhai/cbor-ld-ex"
+                }
+              ]
             }
           },
           {
@@ -1043,6 +1201,16 @@
                   "name": "Official conference program",
                   "url": "https://edas.info/web/ieeewf-iot2026/program.html",
                   "description": "IEEE WF-IoT 2026 · Conference presentation · October 26"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1ie_s1uaemO6Gt5ZT9QsTosgJyT4GxZuB/edit?usp=sharing",
+                  "name": "IMU-JEPA: Comparing Latent Prediction and Signal Reconstruction for Self-Supervised Wearable Sensor Representation Learning — IEEE WF-IoT 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/1ie_s1uaemO6Gt5ZT9QsTosgJyT4GxZuB/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#imu-jepa-paper"
+                  }
                 }
               ]
             }
@@ -1075,12 +1243,29 @@
                 "@type": "CreativeWork",
                 "name": "IEEE WF-IoT 2026"
               },
-              "subjectOf": {
-                "@type": "CreativeWork",
-                "name": "Official conference program",
-                "url": "https://edas.info/web/ieeewf-iot2026/program.html",
-                "description": "IEEE WF-IoT 2026 · Conference presentation · October 26"
-              }
+              "subjectOf": [
+                {
+                  "@type": "CreativeWork",
+                  "name": "Official conference program",
+                  "url": "https://edas.info/web/ieeewf-iot2026/program.html",
+                  "description": "IEEE WF-IoT 2026 · Conference presentation · October 26"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1RpcIAc8u_hiiGDKNWui5MF-huFUU1_Af/edit?usp=sharing",
+                  "name": "Zero-Shot Attack-Family Generalization with 1-Bit LLM Routers at the IoT Edge — IEEE WF-IoT 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/1RpcIAc8u_hiiGDKNWui5MF-huFUU1_Af/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#onebit-iot-paper"
+                  }
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "Zero-Shot Attack-Family Generalization with 1-Bit LLM Routers at the IoT Edge — code",
+                  "codeRepository": "https://github.com/jemsbhai/1bit-llm-iot-router"
+                }
+              ]
             }
           },
           {
@@ -1111,12 +1296,24 @@
                 "@type": "CreativeWork",
                 "name": "IEEE WF-IoT 2026"
               },
-              "subjectOf": {
-                "@type": "CreativeWork",
-                "name": "Official conference program",
-                "url": "https://edas.info/web/ieeewf-iot2026/program.html",
-                "description": "IEEE WF-IoT 2026 · Conference presentation · October 26"
-              }
+              "subjectOf": [
+                {
+                  "@type": "CreativeWork",
+                  "name": "Official conference program",
+                  "url": "https://edas.info/web/ieeewf-iot2026/program.html",
+                  "description": "IEEE WF-IoT 2026 · Conference presentation · October 26"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1YvYY_Qu6DYu9FgPplnCg08RpYsm75pWo/edit?usp=sharing",
+                  "name": "Compliance Algebra for IoT Energy Data Governance: Detecting Silent Failures in Smart Meter Pipelines — IEEE WF-IoT 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/1YvYY_Qu6DYu9FgPplnCg08RpYsm75pWo/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#compliance-algebra-iot"
+                  }
+                }
+              ]
             }
           },
           {
@@ -1144,7 +1341,7 @@
                 }
               ],
               "url": "https://muntasersyed.com/research.html#drug-integrity-paper",
-              "creativeWorkStatus": "Accepted main-track paper for IEEE HealthCom 2026",
+              "creativeWorkStatus": "Accepted paper for IEEE HealthCom 2026",
               "genre": "Main-track paper",
               "description": "Models uncertain pharmaceutical supply-chain evidence with Subjective Logic to assess drug integrity across connected stages.",
               "isPartOf": {
@@ -1185,7 +1382,7 @@
                 }
               ],
               "url": "https://muntasersyed.com/research.html#fhir-compliance-paper",
-              "creativeWorkStatus": "Accepted main-track paper for IEEE HealthCom 2026",
+              "creativeWorkStatus": "Accepted paper for IEEE HealthCom 2026",
               "genre": "Main-track paper",
               "description": "Proposes uncertainty-aware compliance operators for FHIR R4 exchange and evaluates privacy-preserving aggregation of compliance evidence.",
               "subjectOf": [
@@ -1236,12 +1433,24 @@
                 "@type": "CreativeWork",
                 "name": "IEEE UEMCON 2026"
               },
-              "subjectOf": {
-                "@type": "CreativeWork",
-                "name": "Official conference program",
-                "url": "https://ieee-uemcon.org/wp-content/uploads/2026/10/IEEE-UEMCON-Schedule-4.pdf#page=18",
-                "description": "IEEE UEMCON 2026 · Conference paper · October 8, 10:45–11:00 a.m. EDT, Session 11: Embedded Systems & IoT"
-              }
+              "subjectOf": [
+                {
+                  "@type": "CreativeWork",
+                  "name": "Official conference program",
+                  "url": "https://ieee-uemcon.org/wp-content/uploads/2026/10/IEEE-UEMCON-Schedule-4.pdf#page=18",
+                  "description": "IEEE UEMCON 2026 · Conference paper · October 8, 10:45–11:00 a.m. EDT, Session 11: Embedded Systems & IoT"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1f0AOEoHGmMMrmLzgFv01MUWep-9olo8v/edit?usp=sharing",
+                  "name": "SQT-IoT: A Bandwidth-Efficient Speech Codec for IoT Edge Communications — IEEE UEMCON 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/1f0AOEoHGmMMrmLzgFv01MUWep-9olo8v/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#sqt-iot-paper"
+                  }
+                }
+              ]
             }
           },
           {
@@ -1353,12 +1562,24 @@
                 "@type": "CreativeWork",
                 "name": "IEEE GHTC 2026"
               },
-              "subjectOf": {
-                "@type": "CreativeWork",
-                "name": "Official conference program",
-                "url": "https://ieeeghtc.org/technical-paper-presentations-schedule-2026/",
-                "description": "IEEE GHTC 2026 · Conference paper · Session 7B: Socio-Technical Approaches in Engineering, October 9, 1–2:30 p.m., Room C120B"
-              }
+              "subjectOf": [
+                {
+                  "@type": "CreativeWork",
+                  "name": "Official conference program",
+                  "url": "https://ieeeghtc.org/technical-paper-presentations-schedule-2026/",
+                  "description": "IEEE GHTC 2026 · Conference paper · Session 7B: Socio-Technical Approaches in Engineering, October 9, 1–2:30 p.m., Room C120B"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1TGqNwZpWn31X5ujYOUv-mATiMo9JOlID/edit?usp=sharing",
+                  "name": "Ergonomic Assessment of LLM-Assisted Work among Bangladeshi Technology Users: A Multi-Instrument Survey Study — IEEE GHTC 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/1TGqNwZpWn31X5ujYOUv-mATiMo9JOlID/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#llm-ergonomics-paper"
+                  }
+                }
+              ]
             }
           },
           {
@@ -1432,6 +1653,21 @@
                   "@type": "SoftwareSourceCode",
                   "name": "TOML Transformers camera-ready manuscript source",
                   "codeRepository": "https://github.com/jemsbhai/TOMLTransformers/blob/477885c45d6e4247c128ce82ed0add9d7f31f0b6/paper/main.tex"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1dep2099RU3P4HpY8mgt9TlH2qrUhj1Ux/edit?usp=sharing",
+                  "name": "Transistor-Level Energy Modeling of Transformer Inference: Prefill/Decode Phase Separation and Cross-Architecture Transfer — IEEE UEMCON 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/1dep2099RU3P4HpY8mgt9TlH2qrUhj1Ux/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#toml-transformers-paper"
+                  }
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "Transistor-Level Energy Modeling of Transformer Inference: Prefill/Decode Phase Separation and Cross-Architecture Transfer — code",
+                  "codeRepository": "https://github.com/jemsbhai/TOMLTransformers"
                 }
               ],
               "identifier": {
@@ -1471,18 +1707,35 @@
               ],
               "url": "https://muntasersyed.com/research.html#healthcare-rag-paper",
               "creativeWorkStatus": "Accepted for WCIHS 2026 workshop at IEEE HealthCom 2026",
-              "genre": "Workshop paper",
+              "genre": "Paper",
               "description": "Studies privacy-preserving healthcare retrieval-augmented generation using two-server secret sharing with information-theoretic guarantees.",
               "isPartOf": {
                 "@type": "CreativeWork",
                 "name": "WCIHS 2026 workshop at IEEE HealthCom 2026"
               },
-              "subjectOf": {
-                "@type": "CreativeWork",
-                "name": "Official conference program",
-                "url": "https://healthcom2026.ieee-healthcom.org/sites/default/files/downloads/2026-10/ieee_healthcom_2026_detailed-prg-oct-06.pdf#page=13",
-                "description": "WCIHS 2026 workshop · IEEE HealthCom 2026 · Workshop 5, October 21, 10:15–11:30, Kovno Room"
-              },
+              "subjectOf": [
+                {
+                  "@type": "CreativeWork",
+                  "name": "Official conference program",
+                  "url": "https://healthcom2026.ieee-healthcom.org/sites/default/files/downloads/2026-10/ieee_healthcom_2026_detailed-prg-oct-06.pdf#page=13",
+                  "description": "WCIHS 2026 workshop · IEEE HealthCom 2026 · Workshop 5, October 21, 10:15–11:30, Kovno Room"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1-Z5gf3K-ygiILtUAsE-RZSQi6SATdeHH/edit?usp=sharing",
+                  "name": "Privacy-Preserving Retrieval-Augmented Generation for Healthcare: Two-Server Secret Sharing with Information-Theoretic Guarantees — IEEE HealthCom 2026 / WCIHS slides",
+                  "url": "https://docs.google.com/presentation/d/1-Z5gf3K-ygiILtUAsE-RZSQi6SATdeHH/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#healthcare-rag-paper"
+                  }
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "Privacy-Preserving Retrieval-Augmented Generation for Healthcare: Two-Server Secret Sharing with Information-Theoretic Guarantees — code",
+                  "codeRepository": "https://github.com/jemsbhai/herpbHealth"
+                }
+              ],
               "isBasedOn": {
                 "@type": "SoftwareSourceCode",
                 "name": "Public experimental repository",
@@ -1537,7 +1790,24 @@
                   "url": "https://www.insticc.org/node/TechnicalProgram/ijcci/2026/presentationDetails/152457",
                   "description": "AGENTICS 2026 · Paper · AGENTICS26-1O, October 28, 12:15–13:30, A305–Shannon · Presenter: Rwaida Alssadi"
                 },
-                { "@id": "https://muntasersyed.com/speaking.html#recording-aasn" }
+                {
+                  "@id": "https://muntasersyed.com/speaking.html#recording-aasn"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/11asoBqAxG3MHWlUEuHAGDutZ62ycA7qy/edit?usp=sharing",
+                  "name": "AASN: Automated Multi-Agent Synthesis and Discovery via Compositional Agent DNA — AGENTICS 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/11asoBqAxG3MHWlUEuHAGDutZ62ycA7qy/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#aasn-paper"
+                  }
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "AASN: Automated Multi-Agent Synthesis and Discovery via Compositional Agent DNA — code",
+                  "codeRepository": "https://github.com/jemsbhai/aasn"
+                }
               ],
               "identifier": {
                 "@type": "PropertyValue",
@@ -1603,19 +1873,26 @@
                 }
               ],
               "url": "https://muntasersyed.com/research.html#cryptepi-paper",
-              "creativeWorkStatus": "Accepted workshop paper · IEEE ICDM 2026",
-              "genre": "Workshop paper",
+              "creativeWorkStatus": "Accepted paper · IEEE ICDM 2026",
+              "genre": "Paper",
               "description": "Studies privacy-preserving detection of gene interactions using GPU-accelerated homomorphic encryption.",
               "isPartOf": {
                 "@type": "CreativeWork",
                 "name": "TML4DM 2026 workshop at IEEE ICDM 2026"
               },
-              "subjectOf": {
-                "@type": "WebPage",
-                "name": "Workshop",
-                "url": "https://trustworthy-ai.com.au/events/workshops/icdm-workshop-2026",
-                "description": "TML4DM 2026 workshop · IEEE ICDM 2026 · November 12–15 conference, Shenyang, China · Workshop schedule to be announced"
-              }
+              "subjectOf": [
+                {
+                  "@type": "WebPage",
+                  "name": "Workshop",
+                  "url": "https://trustworthy-ai.com.au/events/workshops/icdm-workshop-2026",
+                  "description": "TML4DM 2026 workshop · IEEE ICDM 2026 · November 12, Shenyang, China · Paris room · Workshop times use China Standard Time (UTC+8)"
+                },
+                {
+                  "@type": "WebPage",
+                  "name": "Official ICDM workshop program",
+                  "url": "https://icdm2026.neu.edu.cn/Program/"
+                }
+              ]
             }
           },
           {
@@ -1639,18 +1916,128 @@
                 }
               ],
               "url": "https://muntasersyed.com/research.html#veracity-cic",
-              "creativeWorkStatus": "Accepted application-track paper for IEEE CIC 2026",
-              "genre": "Application-track conference paper",
+              "creativeWorkStatus": "Accepted paper for IEEE CIC 2026",
+              "genre": "Paper",
               "description": "Grounds machine-learning data exchange in Subjective Logic to represent and propagate confidence in JSON-LD workflows.",
               "isPartOf": {
                 "@type": "CreativeWork",
                 "name": "IEEE CIC 2026"
               },
-              "subjectOf": {
-                "@type": "WebPage",
-                "name": "Conference program",
-                "url": "https://assets.ieee-cs.org/common/resources/2026/Technical+Program_overview_IEEE_TPS-CogMI-CIC-RISC+2026_Oct20v4.pdf#page=15",
-                "description": "IEEE CIC 2026 · Application-track paper · November 5, 10:00–12:00, CIC Application Session 1: Intelligent Data Systems, Cedar/Pine"
+              "subjectOf": [
+                {
+                  "@type": "WebPage",
+                  "name": "Conference program",
+                  "url": "https://assets.ieee-cs.org/common/resources/2026/Technical+Program_overview_IEEE_TPS-CogMI-CIC-RISC+2026_Oct20v4.pdf#page=15",
+                  "description": "IEEE CIC 2026 · Paper · November 5, 10:00–12:00, CIC Application Session 1: Intelligent Data Systems, Cedar/Pine"
+                },
+                {
+                  "@type": "CreativeWork",
+                  "@id": "https://docs.google.com/presentation/d/1Ar6e4PSd9q5L9WwBUrVKpodg0hSV7Obx/edit?usp=sharing",
+                  "name": "Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic — IEEE CIC 2026 slides",
+                  "url": "https://docs.google.com/presentation/d/1Ar6e4PSd9q5L9WwBUrVKpodg0hSV7Obx/edit?usp=sharing",
+                  "genre": "Presentation slides",
+                  "about": {
+                    "@id": "https://muntasersyed.com/research.html#veracity-cic"
+                  }
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic — code",
+                  "codeRepository": "https://github.com/jemsbhai/jsonld-ex"
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "name": "Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic — experiments",
+                  "codeRepository": "https://github.com/jemsbhai/jsonld-ex-experiments"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 45,
+            "item": {
+              "@type": "ScholarlyArticle",
+              "@id": "https://muntasersyed.com/research.html#learning-before-memorising-paper",
+              "name": "Learning before memorising: How far does early stopping protect multilayer perceptrons from label noise?",
+              "author": [
+                {
+                  "@id": "https://muntasersyed.com/#person"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Hidayath Ali Baig Mohammed"
+                }
+              ],
+              "datePublished": "2026-10-22",
+              "url": "https://journal.hmjournals.com/index.php/JAIMLNN/article/view/6671",
+              "sameAs": "https://doi.org/10.55529/jaimlnn.62.84.97",
+              "identifier": {
+                "@type": "PropertyValue",
+                "propertyID": "DOI",
+                "value": "10.55529/jaimlnn.62.84.97"
+              },
+              "creativeWorkStatus": "Published paper",
+              "genre": "Paper",
+              "pageStart": "84",
+              "pageEnd": "97",
+              "description": "Evaluates early stopping under random and structured label noise, showing how noise patterns shape the gap between learning and memorisation in multilayer perceptrons.",
+              "isPartOf": {
+                "@type": "PublicationIssue",
+                "issueNumber": "2",
+                "isPartOf": {
+                  "@type": "PublicationVolume",
+                  "volumeNumber": "6",
+                  "isPartOf": {
+                    "@type": "Periodical",
+                    "name": "Journal of Artificial Intelligence, Machine Learning and Neural Network",
+                    "issn": "2799-1172"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 46,
+            "item": {
+              "@type": "ScholarlyArticle",
+              "@id": "https://muntasersyed.com/research.html#sms-spam-robustness-paper",
+              "name": "Numbers keep the spam out: Robustness of word- and character-level SMS spam filters to obfuscation and good-word attacks",
+              "author": [
+                {
+                  "@id": "https://muntasersyed.com/#person"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Salahddine Krit"
+                }
+              ],
+              "datePublished": "2026-10-22",
+              "url": "https://journal.hmjournals.com/index.php/JAIMLNN/article/view/6670",
+              "sameAs": "https://doi.org/10.55529/jaimlnn.62.73.83",
+              "identifier": {
+                "@type": "PropertyValue",
+                "propertyID": "DOI",
+                "value": "10.55529/jaimlnn.62.73.83"
+              },
+              "creativeWorkStatus": "Published paper",
+              "genre": "Paper",
+              "pageStart": "73",
+              "pageEnd": "83",
+              "description": "Tests word- and character-based SMS spam filters against targeted text obfuscation and good-word attacks, examining the role of non-lexical cues and defensive training.",
+              "isPartOf": {
+                "@type": "PublicationIssue",
+                "issueNumber": "2",
+                "isPartOf": {
+                  "@type": "PublicationVolume",
+                  "volumeNumber": "6",
+                  "isPartOf": {
+                    "@type": "Periodical",
+                    "name": "Journal of Artificial Intelligence, Machine Learning and Neural Network",
+                    "issn": "2799-1172"
+                  }
+                }
               }
             }
           }
@@ -1685,18 +2072,18 @@
           <h1>Research and <em>publications.</em></h1>
           <p class="page-lede">My published and accepted papers, preprints, conference presentations, and open-source research.</p>
         </div>
-        <aside class="source-note"><strong>Research sources.</strong> Explore papers, preprints, and conference materials through the linked publishers, repositories, and official programs. Reviewed <time datetime="2026-10-21">October 21, 2026</time>.</aside>
+        <aside class="source-note"><strong>Research sources.</strong> Explore papers, preprints, and conference materials through the linked publishers, repositories, and official programs. Reviewed <time datetime="2026-11-05">November 5, 2026</time>.</aside>
       </div>
     </section>
 
     <section class="signal-strip" aria-label="Scholarly record at a glance">
       <div class="shell signals">
-        <div class="signal"><strong>16</strong><span>Published papers</span></div>
-        <div class="signal"><strong>26</strong><span>Accepted / forthcoming</span></div>
+        <div class="signal"><strong>19</strong><span>Published papers</span></div>
+        <div class="signal"><strong>25</strong><span>Accepted / forthcoming</span></div>
         <div class="signal"><strong>6</strong><span>Preprints</span></div>
-        <div class="signal"><strong>44</strong><span>Scholarly outputs</span></div>
+        <div class="signal"><strong>46</strong><span>Scholarly outputs</span></div>
       </div>
-      <p class="shell source-note">The catalog contains 44 scholarly outputs. Five of the six arXiv preprints are also accepted conference papers, so the filters include both statuses. Published papers link to earlier manuscripts where available.</p>
+      <p class="shell source-note">The catalog contains 46 scholarly outputs. Five of the six arXiv preprints are also accepted conference papers, so the filters include both statuses. Published papers link to earlier manuscripts where available.</p>
     </section>
 
     <section class="section" aria-labelledby="directions-title">
@@ -1741,12 +2128,26 @@
         <section class="catalog-year" data-year-group>
           <h3 class="year-label">2026</h3>
           <div class="catalog-items">
+            <article class="catalog-item" id="learning-before-memorising-paper" data-catalog-item data-category="published trust">
+              <div class="catalog-item-head"><h4>Learning before memorising: How far does early stopping protect multilayer perceptrons from label noise?</h4><span class="tag">Published paper · JAIMLNN 2026</span></div>
+              <p class="authors"><strong>Muntaser Syed</strong>; Hidayath Ali Baig Mohammed</p>
+              <p class="venue">Journal of Artificial Intelligence, Machine Learning and Neural Network 6(2) · October 22, 2026 · pages 84–97</p>
+              <p class="summary">Evaluates early stopping under random and structured label noise, showing how noise patterns shape the gap between learning and memorisation in multilayer perceptrons.</p>
+              <div class="item-links"><a class="micro-link" href="https://doi.org/10.55529/jaimlnn.62.84.97">DOI</a><a class="micro-link" href="https://journal.hmjournals.com/index.php/JAIMLNN/article/view/6671">Paper</a></div>
+            </article>
+            <article class="catalog-item" id="sms-spam-robustness-paper" data-catalog-item data-category="published trust">
+              <div class="catalog-item-head"><h4>Numbers keep the spam out: Robustness of word- and character-level SMS spam filters to obfuscation and good-word attacks</h4><span class="tag">Published paper · JAIMLNN 2026</span></div>
+              <p class="authors"><strong>Muntaser Syed</strong>; Salahddine Krit</p>
+              <p class="venue">Journal of Artificial Intelligence, Machine Learning and Neural Network 6(2) · October 22, 2026 · pages 73–83</p>
+              <p class="summary">Tests word- and character-based SMS spam filters against targeted text obfuscation and good-word attacks, examining the role of non-lexical cues and defensive training.</p>
+              <div class="item-links"><a class="micro-link" href="https://doi.org/10.55529/jaimlnn.62.73.83">DOI</a><a class="micro-link" href="https://journal.hmjournals.com/index.php/JAIMLNN/article/view/6670">Paper</a></div>
+            </article>
             <article class="catalog-item" id="veracity-cic" data-catalog-item data-category="accepted trust">
-              <div class="catalog-item-head"><h4>Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic</h4><span class="tag">Accepted application paper · IEEE CIC 2026</span></div>
+              <div class="catalog-item-head"><h4>Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic</h4><span class="tag">Accepted paper · IEEE CIC 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Sheikh Abujar; Marius Silaghi</p>
-              <p class="venue">IEEE CIC 2026 · Application-track paper · November 5, 10:00–12:00, CIC Application Session 1: Intelligent Data Systems, Cedar/Pine</p>
+              <p class="venue">IEEE CIC 2026 · Paper · November 5, 10:00–12:00, CIC Application Session 1: Intelligent Data Systems, Cedar/Pine</p>
               <p class="summary">Grounds machine-learning data exchange in Subjective Logic to represent and propagate confidence in JSON-LD workflows.</p>
-              <div class="item-links"><a class="micro-link" href="https://assets.ieee-cs.org/common/resources/2026/Technical+Program_overview_IEEE_TPS-CogMI-CIC-RISC+2026_Oct20v4.pdf#page=15">Conference program</a><a class="micro-link" href="https://cic.ieee-cs.org/2026/">Conference</a><a class="micro-link" href="software.html#jsonld-ex">Related JSON-LD Ex software</a></div>
+              <div class="item-links"><a class="micro-link" href="https://assets.ieee-cs.org/common/resources/2026/Technical+Program_overview_IEEE_TPS-CogMI-CIC-RISC+2026_Oct20v4.pdf#page=15">Conference program</a><a class="micro-link" href="https://cic.ieee-cs.org/2026/">Conference</a><a class="micro-link" href="software.html#jsonld-ex">Related JSON-LD Ex software</a><a class="micro-link" href="https://docs.google.com/presentation/d/1Ar6e4PSd9q5L9WwBUrVKpodg0hSV7Obx/edit?usp=sharing">Slides</a><a class="micro-link" href="speaking.html#veracity-cic-2026">Presentation</a><a class="micro-link" href="https://github.com/jemsbhai/jsonld-ex">Code</a><a class="micro-link" href="https://github.com/jemsbhai/jsonld-ex-experiments">Experiments</a></div>
             </article>
             <article class="catalog-item" id="cdxf-paper" data-catalog-item data-category="accepted trust edge">
               <div class="catalog-item-head"><h4>CDXF: A Universal Binary Interchange Format for Lossless Metadata Preservation in AI Data Pipelines</h4><span class="tag">Accepted paper · IEEE ComComAp 2026</span></div>
@@ -1756,105 +2157,105 @@
               <div class="item-links"><a class="micro-link" href="https://comcomap.net/2026/">Conference</a><a class="micro-link" href="https://github.com/jemsbhai/cdxf">Code</a><a class="micro-link" href="https://pypi.org/project/cdxf/">PyPI</a></div>
             </article>
             <article class="catalog-item" id="cryptepi-paper" data-catalog-item data-category="accepted trust health">
-              <div class="catalog-item-head"><h4>Privacy-Preserving Epistasis Detection via GPU-Accelerated Homomorphic Encryption</h4><span class="tag">Accepted workshop paper · IEEE ICDM 2026</span></div>
+              <div class="catalog-item-head"><h4>Privacy-Preserving Epistasis Detection via GPU-Accelerated Homomorphic Encryption</h4><span class="tag">Accepted paper · IEEE ICDM 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Ameerah Alsulami; Marius Silaghi</p>
-              <p class="venue">TML4DM 2026 workshop · IEEE ICDM 2026 · November 12–15 conference, Shenyang, China · Workshop schedule to be announced</p>
+              <p class="venue">TML4DM 2026 workshop · IEEE ICDM 2026 · November 12, Shenyang, China · Paris room · Workshop times use China Standard Time (UTC+8)</p>
               <p class="summary">Studies privacy-preserving detection of gene interactions using GPU-accelerated homomorphic encryption.</p>
-              <div class="item-links"><a class="micro-link" href="https://trustworthy-ai.com.au/events/workshops/icdm-workshop-2026">Workshop</a><a class="micro-link" href="https://github.com/jemsbhai/cryptepi">Research code</a></div>
+              <div class="item-links"><a class="micro-link" href="https://trustworthy-ai.com.au/events/workshops/icdm-workshop-2026">Workshop</a><a class="micro-link" href="https://icdm2026.neu.edu.cn/Program/">Workshop program</a><a class="micro-link" href="https://github.com/jemsbhai/cryptepi">Research code</a></div>
             </article>
             <article class="catalog-item" id="toml-transformers-paper" data-catalog-item data-category="accepted edge">
               <div class="catalog-item-head"><h4>Transistor-Level Energy Modeling of Transformer Inference: Prefill/Decode Phase Separation and Cross-Architecture Transfer</h4><span class="tag">Accepted · IEEE UEMCON 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius C. Silaghi</p>
               <p class="venue">IEEE UEMCON 2026 · Conference paper · October 8, 2:15–2:30 p.m. EDT, Session 14: Embedded Systems / Core AI &amp; Energy-Sustainability · Presenter: Vincent Occhiogrosso.</p>
               <p class="summary">Models the energy of transformer inference by separating prefill and decode phases and studying transfer across architectures.</p>
-              <div class="item-links"><a class="micro-link" href="https://ieee-uemcon.org/wp-content/uploads/2026/10/IEEE-UEMCON-Schedule-4.pdf#page=22">Official program</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers/blob/477885c45d6e4247c128ce82ed0add9d7f31f0b6/paper/main.tex">Manuscript source</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers">Code / experiments</a></div>
+              <div class="item-links"><a class="micro-link" href="https://ieee-uemcon.org/wp-content/uploads/2026/10/IEEE-UEMCON-Schedule-4.pdf#page=22">Official program</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers/blob/477885c45d6e4247c128ce82ed0add9d7f31f0b6/paper/main.tex">Manuscript source</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers">Code / experiments</a><a class="micro-link" href="https://docs.google.com/presentation/d/1dep2099RU3P4HpY8mgt9TlH2qrUhj1Ux/edit?usp=sharing">Slides</a></div>
             </article>
             <article class="catalog-item" id="healthcare-rag-paper" data-catalog-item data-category="accepted trust health">
-              <div class="catalog-item-head"><h4>Privacy-Preserving Retrieval-Augmented Generation for Healthcare: Two-Server Secret Sharing with Information-Theoretic Guarantees</h4><span class="tag">Accepted workshop paper · IEEE HealthCom 2026</span></div>
+              <div class="catalog-item-head"><h4>Privacy-Preserving Retrieval-Augmented Generation for Healthcare: Two-Server Secret Sharing with Information-Theoretic Guarantees</h4><span class="tag">Accepted paper · IEEE HealthCom 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Ameerah Alsulami; Mahasen Enam; Nidadavolu Venkat Durga Sai Siva Vara Prasad Raju; Marius C. Silaghi</p>
               <p class="venue">WCIHS 2026 workshop · IEEE HealthCom 2026 · Workshop 5, October 21, 10:15–11:30, Kovno Room</p>
               <p class="summary">Studies privacy-preserving healthcare retrieval-augmented generation using two-server secret sharing with information-theoretic guarantees.</p>
-              <div class="item-links"><a class="micro-link" href="https://healthcom2026.ieee-healthcom.org/sites/default/files/downloads/2026-10/ieee_healthcom_2026_detailed-prg-oct-06.pdf#page=13">Official program</a><a class="micro-link" href="https://github.com/jemsbhai/herpbHealth">Experimental code</a></div>
+              <div class="item-links"><a class="micro-link" href="https://healthcom2026.ieee-healthcom.org/sites/default/files/downloads/2026-10/ieee_healthcom_2026_detailed-prg-oct-06.pdf#page=13">Official program</a><a class="micro-link" href="https://github.com/jemsbhai/herpbHealth">Experimental code</a><a class="micro-link" href="https://docs.google.com/presentation/d/1-Z5gf3K-ygiILtUAsE-RZSQi6SATdeHH/edit?usp=sharing">Slides</a><a class="micro-link" href="speaking.html#healthcare-rag-healthcom-2026">Presentation</a></div>
             </article>
             <article class="catalog-item" id="aasn-paper" data-catalog-item data-category="accepted trust">
               <div class="catalog-item-head"><h4>AASN: Automated Multi-Agent Synthesis and Discovery via Compositional Agent DNA</h4><span class="tag">Accepted paper · AGENTICS 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi; Rwaida Alssadi; Mohammed Alghamdi; Ali Alqarni; Akram Al Ghanmi</p>
               <p class="venue">AGENTICS 2026 · Paper · AGENTICS26-1O, October 28, 12:15–13:30, A305–Shannon · Presenter: Rwaida Alssadi</p>
               <p class="summary">Studies automated synthesis and discovery of multi-agent systems through compositional agent DNA.</p>
-              <div class="item-links"><a class="micro-link" href="https://www.insticc.org/node/TechnicalProgram/ijcci/2026/presentationDetails/152457">Program</a><a class="micro-link" href="https://www.youtube.com/watch?v=Yp1Vl18FXlA">Watch author presentation</a></div>
+              <div class="item-links"><a class="micro-link" href="https://www.insticc.org/node/TechnicalProgram/ijcci/2026/presentationDetails/152457">Program</a><a class="micro-link" href="https://www.youtube.com/watch?v=Yp1Vl18FXlA">Watch author presentation</a><a class="micro-link" href="https://docs.google.com/presentation/d/11asoBqAxG3MHWlUEuHAGDutZ62ycA7qy/edit?usp=sharing">Slides</a><a class="micro-link" href="speaking.html#recording-aasn">Presentation</a><a class="micro-link" href="https://github.com/jemsbhai/aasn">Code</a></div>
             </article>
             <article class="catalog-item" id="container-energy-cloudcom" data-catalog-item data-category="accepted edge">
               <div class="catalog-item-head"><h4>Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads</h4><span class="tag">Accepted · IEEE CloudCom 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi; Rwaida Alssadi</p>
               <p class="venue">IEEE CloudCom 2026 · Conference presentation · October 29, Cloud Computing: Sustainability, Efficiency, and Security, Alésia Room · Session: 2:00–3:30 p.m. Paris time (CET)</p>
               <p class="summary">Studies transistor-level energy attribution for machine-learning workloads running in containers.</p>
-              <div class="item-links"><a class="micro-link" href="https://www.cloudcom2026.org/program">Official program</a><a class="micro-link" href="https://www.youtube.com/watch?v=7BM5ym9Hp4A">Watch presentation</a></div>
+              <div class="item-links"><a class="micro-link" href="https://www.cloudcom2026.org/program">Official program</a><a class="micro-link" href="https://www.youtube.com/watch?v=7BM5ym9Hp4A">Watch presentation</a><a class="micro-link" href="https://docs.google.com/presentation/d/1ghms7xBHB-rclfHfJRDMLhNtGDuqV4H5/edit?usp=sharing">Slides</a><a class="micro-link" href="speaking.html#cloudcom-author-session-2026">Presentation</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLCloud">Code</a></div>
             </article>
             <article class="catalog-item" id="pollard-ictai" data-catalog-item data-category="accepted preprint trust">
               <div class="catalog-item-head"><h4>Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay</h4><span class="tag">Accepted paper · IEEE ICTAI 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi</p>
-              <p class="venue">IEEE ICTAI 2026 · Paper · Preprint: arXiv:2610.16145 · October 12, 2026 · Scheduled November 3, 10:10 a.m. Eastern, Session 21C, Royal Palm 3; Presenter: Muntaser Syed.</p>
+              <p class="venue">IEEE ICTAI 2026 · Paper · Preprint: arXiv:2610.16145 · October 12, 2026 · Presented November 3, 10:10 a.m. Eastern, Session 21C, Royal Palm 3; Presenter: Muntaser Syed.</p>
               <p class="summary">Presents governed semantic execution trees for controlling and replaying AI agent work across frameworks.</p>
-              <div class="item-links"><a class="micro-link" href="speaking.html#ictai-presentations-2026">Presentation</a><a class="micro-link" href="https://ictai.computer.org/2026/">Conference</a><a class="micro-link" href="https://arxiv.org/abs/2610.16145">arXiv</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">Code</a></div>
+              <div class="item-links"><a class="micro-link" href="speaking.html#pollard-ictai-2026">Presentation</a><a class="micro-link" href="https://ictai.computer.org/2026/">Conference</a><a class="micro-link" href="https://arxiv.org/abs/2610.16145">arXiv</a><a class="micro-link" href="https://github.com/jemsbhai/pollard">Code</a><a class="micro-link" href="https://docs.google.com/presentation/d/1e604yMBf24acaQI1UIJw_0B_Fq7zc_IuAh1ELziU-94/edit?usp=sharing">Slides</a></div>
             </article>
             <article class="catalog-item" id="hashrope-ictai" data-catalog-item data-category="accepted preprint trust">
               <div class="catalog-item-head"><h4>Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management</h4><span class="tag">Accepted paper · IEEE ICTAI 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Ameerah Alsulami; Marius Silaghi</p>
-              <p class="venue">IEEE ICTAI 2026 · Paper · Preprint: arXiv:2610.16144 · October 12, 2026 · Scheduled November 2, 11:30 a.m. Eastern, Session 12A, Royal Palm 1; Presenter: Muntaser Syed.</p>
+              <p class="venue">IEEE ICTAI 2026 · Paper · Preprint: arXiv:2610.16144 · October 12, 2026 · Presented November 2, 11:30 a.m. Eastern, Session 12A, Royal Palm 1; Presenter: Muntaser Syed.</p>
               <p class="summary">Introduces a persistent data structure for managing large-language-model context.</p>
-              <div class="item-links"><a class="micro-link" href="speaking.html#ictai-presentations-2026">Presentation</a><a class="micro-link" href="https://ictai.computer.org/2026/">Conference</a><a class="micro-link" href="https://arxiv.org/abs/2610.16144">arXiv</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope">Library</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope-paper">Experiments</a><a class="micro-link" href="https://hashrope.lovable.app/">Interactive demo</a></div>
+              <div class="item-links"><a class="micro-link" href="speaking.html#hashrope-ictai-2026">Presentation</a><a class="micro-link" href="https://ictai.computer.org/2026/">Conference</a><a class="micro-link" href="https://arxiv.org/abs/2610.16144">arXiv</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope">Library</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope-paper">Experiments</a><a class="micro-link" href="https://hashrope.lovable.app/">Interactive demo</a><a class="micro-link" href="https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing">Slides</a></div>
             </article>
             <article class="catalog-item" id="stegaqr-ictai" data-catalog-item data-category="accepted edge">
               <div class="catalog-item-head"><h4>StegaQR: Learned Private Data Embedding in Standard-Decodable QR Codes</h4><span class="tag">Accepted paper · IEEE ICTAI 2026</span></div>
-              <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi</p>
-              <p class="venue">IEEE ICTAI 2026 · Paper · Scheduled November 3, 1:45 p.m. Eastern, Session 23A, Royal Palm 1; Presenter: Muntaser Syed.</p>
+              <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi; Mohammed Alghamdi</p>
+              <p class="venue">IEEE ICTAI 2026 · Paper · Presented November 3, 1:45 p.m. Eastern, Session 23A, Royal Palm 1; Presenter: Muntaser Syed.</p>
               <p class="summary">Explores learned private-data embedding in QR codes that remain decodable by standard readers.</p>
-              <div class="item-links"><a class="micro-link" href="speaking.html#ictai-presentations-2026">Presentation</a><a class="micro-link" href="https://ictai.computer.org/2026/">Conference</a><a class="micro-link" href="https://github.com/jemsbhai/stegaQR/blob/e4ab348bca7233f6bd6fd30b23c4fd397c01d2e0/paper/main.pdf">Manuscript</a><a class="micro-link" href="https://github.com/jemsbhai/stegaQR">Code</a></div>
+              <div class="item-links"><a class="micro-link" href="speaking.html#stegaqr-ictai-2026">Presentation</a><a class="micro-link" href="https://ictai.computer.org/2026/">Conference</a><a class="micro-link" href="https://github.com/jemsbhai/stegaQR/blob/main/paper/main.pdf">Manuscript</a><a class="micro-link" href="https://github.com/jemsbhai/stegaQR">Code</a><a class="micro-link" href="https://docs.google.com/presentation/d/1H5sl9ycs7kndZJUwMABVxFdzbmrtMzXP/edit?usp=sharing">Slides</a></div>
             </article>
             <article class="catalog-item" id="private-similarity-ictai" data-catalog-item data-category="accepted trust">
               <div class="catalog-item-head"><h4>Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing</h4><span class="tag">Accepted paper · IEEE ICTAI 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Ameera Alsulami; Marius Silaghi</p>
-              <p class="venue">IEEE ICTAI 2026 · Paper · Scheduled November 3, 4:30 p.m. Eastern, Session 24C, Royal Palm 3; Presenter: Muntaser Syed.</p>
+              <p class="venue">IEEE ICTAI 2026 · Paper · Presented November 3, 4:30 p.m. Eastern, Session 24C, Royal Palm 3; Presenter: Muntaser Syed.</p>
               <p class="summary">Examines two-server additive secret sharing for privacy-preserving similarity search.</p>
-                          <div class="item-links"><a class="micro-link" href="speaking.html#ictai-presentations-2026">Presentation</a><a class="micro-link" href="https://ictai.computer.org/2026/">Conference</a></div>
+                          <div class="item-links"><a class="micro-link" href="speaking.html#private-similarity-ictai-2026">Presentation</a><a class="micro-link" href="https://ictai.computer.org/2026/">Conference</a><a class="micro-link" href="https://docs.google.com/presentation/d/1nTrWj23F4hEgQFL0PHWERbULjJ3cAP1P/edit?usp=sharing">Slides</a><a class="micro-link" href="https://github.com/jemsbhai/herpb">Code</a></div>
             </article>
             <article class="catalog-item" id="cborld-ex-paper" data-catalog-item data-category="accepted trust edge">
               <div class="catalog-item-head"><h4>CBOR-LD-Ex: Compact Linked Data with Reasoning Metadata for Constrained IoT Networks</h4><span class="tag">Accepted paper · IEEE WF-IoT 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius C. Silaghi; Akram Alghanmi</p>
               <p class="venue">IEEE WF-IoT 2026 · Conference presentation · October 26</p>
               <p class="summary">Presents compact linked-data encoding with reasoning metadata for constrained IoT networks.</p>
-              <div class="item-links"><a class="micro-link" href="https://edas.info/web/ieeewf-iot2026/program.html">Official program</a><a class="micro-link" href="https://github.com/jemsbhai/cbor-ld-ex">Python code</a><a class="micro-link" href="https://github.com/jemsbhai/cborld-ex">Rust code</a></div>
+              <div class="item-links"><a class="micro-link" href="https://edas.info/web/ieeewf-iot2026/program.html">Official program</a><a class="micro-link" href="https://github.com/jemsbhai/cbor-ld-ex">Python code</a><a class="micro-link" href="https://github.com/jemsbhai/cborld-ex">Rust code</a><a class="micro-link" href="https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing">Slides</a><a class="micro-link" href="speaking.html#cborld-ex-wfiot-2026">Presentation</a></div>
             </article>
             <article class="catalog-item" id="imu-jepa-paper" data-catalog-item data-category="accepted edge health">
               <div class="catalog-item-head"><h4>IMU-JEPA: Comparing Latent Prediction and Signal Reconstruction for Self-Supervised Wearable Sensor Representation Learning</h4><span class="tag">Accepted paper · IEEE WF-IoT 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius C. Silaghi; Akram Alghanmi</p>
               <p class="venue">IEEE WF-IoT 2026 · Conference presentation · October 26</p>
               <p class="summary">Compares latent prediction and signal reconstruction for self-supervised learning from wearable sensor data.</p>
-              <div class="item-links"><a class="micro-link" href="https://edas.info/web/ieeewf-iot2026/program.html">Official program</a><a class="micro-link" href="https://github.com/jemsbhai/imujepa">Code / experiments</a></div>
+              <div class="item-links"><a class="micro-link" href="https://edas.info/web/ieeewf-iot2026/program.html">Official program</a><a class="micro-link" href="https://github.com/jemsbhai/imujepa">Code / experiments</a><a class="micro-link" href="https://docs.google.com/presentation/d/1ie_s1uaemO6Gt5ZT9QsTosgJyT4GxZuB/edit?usp=sharing">Slides</a><a class="micro-link" href="speaking.html#imu-jepa-wfiot-2026">Presentation</a></div>
             </article>
             <article class="catalog-item" id="onebit-iot-paper" data-catalog-item data-category="accepted trust edge">
               <div class="catalog-item-head"><h4>Zero-Shot Attack-Family Generalization with 1-Bit LLM Routers at the IoT Edge</h4><span class="tag">Accepted paper · IEEE WF-IoT 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius C. Silaghi; Amal El Ahmad</p>
               <p class="venue">IEEE WF-IoT 2026 · Conference presentation · October 26</p>
               <p class="summary">Studies how 1-bit language-model routers generalize to unseen attack families at the IoT edge.</p>
-              <div class="item-links"><a class="micro-link" href="https://edas.info/web/ieeewf-iot2026/program.html">Official program</a><a class="micro-link" href="https://github.com/jemsbhai/1bit-llm-iot-router">Code</a></div>
+              <div class="item-links"><a class="micro-link" href="https://edas.info/web/ieeewf-iot2026/program.html">Official program</a><a class="micro-link" href="https://github.com/jemsbhai/1bit-llm-iot-router">Code</a><a class="micro-link" href="https://docs.google.com/presentation/d/1RpcIAc8u_hiiGDKNWui5MF-huFUU1_Af/edit?usp=sharing">Slides</a><a class="micro-link" href="speaking.html#onebit-iot-wfiot-2026">Presentation</a></div>
             </article>
             <article class="catalog-item" id="compliance-algebra-iot" data-catalog-item data-category="accepted trust edge">
               <div class="catalog-item-head"><h4>Compliance Algebra for IoT Energy Data Governance: Detecting Silent Failures in Smart Meter Pipelines</h4><span class="tag">Accepted paper · IEEE WF-IoT 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius C. Silaghi; Amal El Ahmad</p>
               <p class="venue">IEEE WF-IoT 2026 · Conference presentation · October 26</p>
               <p class="summary">Studies compliance algebra for detecting silent governance failures in IoT smart-meter data pipelines.</p>
-              <div class="item-links"><a class="micro-link" href="https://edas.info/web/ieeewf-iot2026/program.html">Official program</a></div>
+              <div class="item-links"><a class="micro-link" href="https://edas.info/web/ieeewf-iot2026/program.html">Official program</a><a class="micro-link" href="https://docs.google.com/presentation/d/1YvYY_Qu6DYu9FgPplnCg08RpYsm75pWo/edit?usp=sharing">Slides</a><a class="micro-link" href="speaking.html#compliance-algebra-wfiot-2026">Presentation</a><a class="micro-link" href="software.html#jsonld-ex">Related JSON-LD Ex software</a></div>
             </article>
             <article class="catalog-item" id="drug-integrity-paper" data-catalog-item data-category="accepted trust health presentation">
-              <div class="catalog-item-head"><h4>Drug Integrity Algebra: Quantifying End-to-End Pharmaceutical Safety with Subjective Logic</h4><span class="tag">Accepted main-track paper · IEEE HealthCom 2026</span></div>
+              <div class="catalog-item-head"><h4>Drug Integrity Algebra: Quantifying End-to-End Pharmaceutical Safety with Subjective Logic</h4><span class="tag">Accepted paper · IEEE HealthCom 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Mahasen Enam; Nidadavolu Venkat Durga Sai Siva Vara Prasad Raju; Marius Silaghi</p>
               <p class="venue">IEEE HealthCom 2026 · Paper presentation · Session 3, October 20, 14:30–15:45, Great Hall</p>
               <p class="summary">Models uncertain pharmaceutical supply-chain evidence with Subjective Logic to assess drug integrity across connected stages.</p>
               <div class="item-links"><a class="micro-link" href="https://healthcom2026.ieee-healthcom.org/sites/default/files/downloads/2026-10/ieee_healthcom_2026_detailed-prg-oct-06.pdf#page=12">Official program</a><a class="micro-link" href="https://github.com/jemsbhai/IEEEHealth-pharma/blob/master/paper/main.tex">Manuscript source</a><a class="micro-link" href="https://github.com/jemsbhai/IEEEHealth-pharma">Code / experiments</a></div>
             </article>
             <article class="catalog-item" id="fhir-compliance-paper" data-catalog-item data-category="accepted trust health presentation">
-              <div class="catalog-item-head"><h4>Privacy-Preserving Confidence-Aware FHIR R4 Exchange: A HIPAA Compliance Algebra Grounded in Subjective Logic</h4><span class="tag">Accepted main-track paper · IEEE HealthCom 2026</span></div>
+              <div class="catalog-item-head"><h4>Privacy-Preserving Confidence-Aware FHIR R4 Exchange: A HIPAA Compliance Algebra Grounded in Subjective Logic</h4><span class="tag">Accepted paper · IEEE HealthCom 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi; Viorel D. Silaghi</p>
               <p class="venue">IEEE HealthCom 2026 · Paper presentation · Session 1, October 19, 14:30–15:45, Great Hall</p>
               <p class="summary">Proposes uncertainty-aware compliance operators for FHIR R4 exchange and evaluates privacy-preserving aggregation of compliance evidence.</p>
@@ -1865,7 +2266,7 @@
               <p class="authors"><strong>Muntaser Syed</strong>; Marius C. Silaghi</p>
               <p class="venue">IEEE UEMCON 2026 · Conference paper · October 8, 10:45–11:00 a.m. EDT, Session 11: Embedded Systems &amp; IoT · Presenter: Vincent Occhiogrosso.</p>
               <p class="summary">Explores a bandwidth-efficient speech codec for communication between IoT edge devices.</p>
-              <div class="item-links"><a class="micro-link" href="https://ieee-uemcon.org/wp-content/uploads/2026/10/IEEE-UEMCON-Schedule-4.pdf#page=18">Official program</a></div>
+              <div class="item-links"><a class="micro-link" href="https://ieee-uemcon.org/wp-content/uploads/2026/10/IEEE-UEMCON-Schedule-4.pdf#page=18">Official program</a><a class="micro-link" href="https://docs.google.com/presentation/d/1f0AOEoHGmMMrmLzgFv01MUWep-9olo8v/edit?usp=sharing">Slides</a></div>
             </article>
             <article class="catalog-item" id="beyond-flops-abstract" data-catalog-item data-category="accepted presentation edge">
               <div class="catalog-item-head"><h4>Beyond FLOPs: A Vision for Physics-Grounded Energy Intelligence in Machine Learning</h4><span class="tag">Accepted · ACM AI Summit 2026</span></div>
@@ -1885,7 +2286,7 @@
               <p class="authors"><strong>Muntaser Syed</strong>; Marius C. Silaghi; Sheikh Abujar; Sharun Akter Khushbu</p>
               <p class="venue">IEEE GHTC 2026 · Conference paper · Session 7B: Socio-Technical Approaches in Engineering, October 9, 1–2:30 p.m., Room C120B</p>
               <p class="summary">Uses multiple survey instruments to study ergonomic aspects of LLM-assisted work among Bangladeshi technology users.</p>
-              <div class="item-links"><a class="micro-link" href="https://ieeeghtc.org/technical-paper-presentations-schedule-2026/">Official program</a></div>
+              <div class="item-links"><a class="micro-link" href="https://ieeeghtc.org/technical-paper-presentations-schedule-2026/">Official program</a><a class="micro-link" href="https://docs.google.com/presentation/d/1TGqNwZpWn31X5ujYOUv-mATiMo9JOlID/edit?usp=sharing">Slides</a><a class="micro-link" href="speaking.html#llm-ergonomics-ghtc-2026">Presentation</a></div>
             </article>
             <article class="catalog-item" id="disaster-confidence-paper" data-catalog-item data-category="accepted trust">
               <div class="catalog-item-head"><h4>Semantic Confidence Algebra for Crowdsourced Disaster Report Verification: A JSON-LD Extended Approach</h4><span class="tag">Accepted · NADIM / AICCSA 2026</span></div>
@@ -1908,12 +2309,12 @@
               <p class="summary">Extends TOML to 37 signal-processing algorithms across two NVIDIA GPUs, modeling compute, memory, command-dispatch, and fused-sequential costs against profiler and energy measurements.</p>
               <div class="item-links"><a class="micro-link" href="https://openreview.net/forum?id=jYBcP44EDn">OpenReview</a><a class="micro-link" href="https://neuroneural.net/mlsp2026schedule/">Conference schedule</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLSignals">Code</a></div>
             </article>
-            <article class="catalog-item" data-catalog-item data-category="accepted edge">
-              <div class="catalog-item-head"><h4>MultiSpecQR: Multi-Spectral QR Code Encoding and Neural Network-Assisted Decoding via Color Channel Multiplexing</h4><span class="tag">Accepted paper · IEEE ICMLA 2026</span></div>
+            <article class="catalog-item" id="multispecqr-paper" data-catalog-item data-category="published edge">
+              <div class="catalog-item-head"><h4>MultiSpecQR: Multi-Spectral QR Code Encoding and Neural Network-Assisted Decoding via Color Channel Multiplexing</h4><span class="tag">Published paper · IEEE ICMLA 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi; Mohammed Alghamdi</p>
-              <p class="venue">IEEE ICMLA 2026 · Paper presented on October 5, 2026, at 11:00 · Special Session 1A (SS1-A)</p>
+              <p class="venue">IEEE ICMLA 2026 · pages 1123–1129 · Paper presented on October 5, 2026, at 11:00 · Special Session 1A (SS1-A)</p>
               <p class="summary">Combines three independent QR payloads through RGB channel multiplexing and uses neural-assisted decoding, with a palette mode supporting up to nine layers.</p>
-              <div class="item-links"><a class="micro-link" href="https://www.icmla-conference.org/icmla26/ss1regularpapers.html">Official accepted-paper list</a><a class="micro-link" href="https://github.com/jemsbhai/multispecqr">Code</a></div>
+              <div class="item-links"><a class="micro-link" href="https://www.icmla-conference.org/icmla26/ss1regularpapers.html">Conference program</a><a class="micro-link" href="https://github.com/jemsbhai/multispecqr">Code</a><a class="micro-link" href="https://docs.google.com/presentation/d/1LwrP67_kbdc-FbjcnuCFlhDdBX7yY5Kr/edit?usp=sharing">Slides</a><a class="micro-link" href="speaking.html#multispecqr-icmla-2026">Presentation</a><a class="micro-link" href="https://doi.org/10.1109/ICMLA69890.2026.00221">DOI</a><a class="micro-link" href="https://ieeexplore.ieee.org/document/11760888/">IEEE</a></div>
               <div class="item-links" aria-label="MultiSpecQR models and datasets"><a class="micro-link" href="https://huggingface.co/Jemsbhai/multispecqr-rgb">RGB model</a><a class="micro-link" href="https://huggingface.co/Jemsbhai/multispecqr-palette6">6-layer model</a><a class="micro-link" href="https://huggingface.co/Jemsbhai/multispecqr-palette8">8-layer model</a><a class="micro-link" href="https://huggingface.co/Jemsbhai/multispecqr-palette9">9-layer model</a><a class="micro-link" href="https://huggingface.co/datasets/Jemsbhai/multispecqr-rgb-dataset">RGB dataset</a><a class="micro-link" href="https://huggingface.co/datasets/Jemsbhai/multispecqr-palette6-dataset">6-layer dataset</a></div>
             </article>
             <article class="catalog-item" data-catalog-item data-category="accepted preprint presentation trust">
@@ -1943,7 +2344,7 @@
               <p class="venue">IEEE GHTC 2026 · Accepted paper · Session 7B: Socio-Technical Approaches in Engineering, October 9, 1–2:30 p.m., Room C120B · Preprint: arXiv:2607.13443 · July 15, 2026</p>
               <p class="summary"><strong>Reviewers Choice Award, IEEE GHTC 2026 — Research on the Broader Impacts of Engineering Efforts track.</strong></p>
               <p class="summary">Models water, electricity, and emissions pressures for sovereign-AI deployment scenarios and proposes principles for environmentally responsible, resource-aware infrastructure.</p>
-              <div class="item-links"><a class="micro-link" href="https://ieeeghtc.org/technical-paper-presentations-schedule-2026/">Official program</a><a class="micro-link" href="https://arxiv.org/abs/2607.13443">arXiv</a><a class="micro-link" href="speaking.html#smart-city-usa-2026">Upcoming Smart City USA talk</a><a class="micro-link" href="https://smarterarticles.co.uk/the-exported-thirst-how-ai-drinks-water-india-cannot-spare">SmarterArticles coverage</a></div>
+              <div class="item-links"><a class="micro-link" href="https://ieeeghtc.org/technical-paper-presentations-schedule-2026/">Official program</a><a class="micro-link" href="https://arxiv.org/abs/2607.13443">arXiv</a><a class="micro-link" href="speaking.html#smart-city-usa-2026">Upcoming Smart City USA talk</a><a class="micro-link" href="https://smarterarticles.co.uk/the-exported-thirst-how-ai-drinks-water-india-cannot-spare">SmarterArticles coverage</a><a class="micro-link" href="https://docs.google.com/presentation/d/1TrzsYUS6ouBemCOs1dYjce4mYAftQHFZ/edit?usp=sharing">Slides</a><a class="micro-link" href="speaking.html#environmental-cost-ghtc-2026">GHTC presentation</a></div>
             </article>
             <article class="catalog-item" data-catalog-item data-category="accepted preprint trust">
               <div class="catalog-item-head"><h4>Evaluation of Alternative-Based Information Systems for Deliberative Polling using an Agentic Simulator</h4><span class="tag">Accepted paper · AGENTICS 2026</span></div>

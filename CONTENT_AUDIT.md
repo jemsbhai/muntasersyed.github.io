@@ -1,9 +1,52 @@
-# Content audit — November 2, 2026
+# Content audit — November 5, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## November 5 publications, presentation materials, and link maintenance
+
+- Added 19 owner-supplied presentation decks to their matching research,
+  speaking, software, and project entries. Verified that each deck permits
+  anyone-with-link viewing. Added per-paper anchors within grouped conference
+  entries, keeping event counts distinct from the number of papers.
+- Added the November 5 IEEE CIC presentation and its JSON-LD Ex slides,
+  library, and experiments. The Speaking archive contains 50 entries.
+- Added the October 22 journal papers [Numbers keep the spam out](https://doi.org/10.55529/jaimlnn.62.73.83)
+  and [Learning before memorising](https://doi.org/10.55529/jaimlnn.62.84.97).
+  Updated [MultiSpecQR](https://doi.org/10.1109/ICMLA69890.2026.00221)
+  to published status, pages 1123–1129. The catalog now contains 46 works,
+  including 19 published and 25 accepted works.
+- Updated Epicormic's Python release to 0.2.0 and Hashrope Bio's Python and
+  Rust releases to 0.3.4. All 38 listed distributions were checked against
+  their registries. Home now correctly counts four package ecosystems,
+  including Maven Central.
+- Added public research artifacts for TOMLCloud, AASN, exact private
+  similarity search, and JSON-LD Ex experiments. The Projects catalog now
+  contains 29 entries. These repositories do not add package distributions.
+- Moved elapsed conference dates out of the upcoming cards and updated past
+  presentation wording. The [ICDM program](https://icdm2026.neu.edu.cn/Program/)
+  places TML4DM on November 12 in the Paris room; no individual CryptEpi
+  presentation time is asserted.
+- Replaced the unavailable Applied AI Summit schedule links with the supplied
+  presentation materials while retaining the local session information.
+  Replaced T-Mobile's unavailable developer showcase with the official
+  [2019 hackathon results](https://t-mobilenbiot19.devpost.com/project-gallery),
+  preserving ShipShop's first-place result and project link.
+- Kept the Applied AI Summit site title as requested. SQT-IoT has a slides
+  link only; the owner confirmed that its repository is not public.
+  Skipped and deferred materials remain available for a later update.
+- Updated page metadata, sitemap dates, and catalog counts together.
+- Verification: all 19 decks are linked with matching structured data; all
+  240 internal links resolve; page graphs and catalog counts parse and agree.
+  Browser checks passed across all seven pages at 390px and 320px widths,
+  plus desktop conference layouts, search, filters, navigation, theme
+  persistence, and copy controls. No console errors were observed.
+- Both confirmed broken destinations were replaced. The new-link check found
+  no HTTP 404s. IEEE bot challenges, a HealthCom certificate-chain limitation
+  in the HTTP client, and a Stantec access restriction are recorded separately
+  from broken links; their destinations were not replaced on that basis.
 
 ## November 2 Hashrope demo and package update
 
