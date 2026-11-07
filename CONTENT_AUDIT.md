@@ -1,9 +1,28 @@
-# Content audit — November 5, 2026
+# Content audit — November 7, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## November 7 Hashrope DevFest Florida talk and recording
+
+- Added [Hashrope - DevFest Florida 2026](https://www.youtube.com/watch?v=S2hAXooVOQQ)
+  to Speaking's Selected recordings, with its thumbnail, library, demo, and
+  code links. Added a reciprocal link from Software's Hashrope core module.
+- Verified the title, Muntaser Syed channel, 18:31 duration, and November 7
+  upload date on YouTube. The DevFest recording is separate from the ICTAI
+  presentation materials.
+- Added the distinct speaking engagement from the [official schedule](https://devfestflorida.com/schedule):
+  Hashrope: One Data Structure, Four Languages, November 7, Track B,
+  3:00-3:30 p.m. Eastern, UCF Downtown, CMB 182A/B, Orlando. Linked the
+  engagement and recording in both directions, including structured data.
+- Added the VideoObject and Software subjectOf reference. Selected recordings
+  now contains four videos; the speaking archive now contains 51 entries.
+- Updated Speaking and Software modification dates and their sitemap entries.
+- Verification: all seven pages parse; 245 internal links, unique IDs, and
+  JSON-LD counts/positions pass. The recording thumbnail loads at 1280x720;
+  desktop and 390px visual checks passed.
 
 ## November 5 publications, presentation materials, and link maintenance
 

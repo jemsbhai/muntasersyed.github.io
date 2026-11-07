@@ -26,7 +26,7 @@ works and 25 accepted works. Six works also have preprints; these categories
 overlap. Two October 22 journal papers were added, and MultiSpecQR now links
 to its published IEEE proceedings paper.
 
-The site includes 29 selected project artifacts, 50 speaking engagements and
+The site includes 29 selected project artifacts, 51 speaking engagements and
 presentation entries, and 48 media entries. The software catalog covers 27
 top-level works and 38 package distributions: 25 PyPI packages, six npm
 packages, six Rust crates, and one Maven artifact. Registry versions were
@@ -35,7 +35,8 @@ checked on November 5, including Epicormic 0.2.0 and Hashrope Bio 0.3.4.
 Past conference presentations now appear with their materials in the archive.
 The calendar retains the November 12 TML4DM workshop, November 21 IEEE Smart
 City USA talk, December ComComAp conference, and FLAIRS-40 call for papers.
-Three selected recordings cover AASN, CloudCom, and a CorpusKit demo.
+Four selected recordings cover Hashrope at DevFest Florida 2026, AASN,
+CloudCom, and a CorpusKit demo.
 
 Hashrope links to its interactive demo and Python, JavaScript, Rust, and Java
 0.3.4 releases. SQT-IoT links to its slides; no public repository is listed.
