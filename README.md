@@ -16,31 +16,35 @@ archive, professional service, selected awards, press, and public profiles.
 - `media.html`: dated media coverage, interviews, university news, and organizer or sponsor reports
 - `about.html`: biography, roles, education, professional service, press, milestones, and profile links
 
-The November 5, 2026 refresh adds 19 presentation decks across the relevant
-Speaking, Research, Software, and Projects entries, with paper, repository,
-package, and recording links. Conference groups expose individual paper
-anchors so each set of materials is easy to find.
+## Current catalog — November 9, 2026
 
-The research catalog contains 46 distinct scholarly outputs: 19 published
-works and 25 accepted works. Six works also have preprints; these categories
-overlap. Two October 22 journal papers were added, and MultiSpecQR now links
-to its published IEEE proceedings paper.
+The research catalog contains 47 distinct scholarly outputs: 19 published
+works and 26 accepted works. Six works also have preprints; these categories
+overlap. KVRM is accepted at COMNETSAT 2026. CryptEpi's TML4DM presentation
+is scheduled for November 12, 11:40–11:55 a.m. in the Paris Room, Shenyang
+(UTC+8).
 
-The site includes 29 selected project artifacts, 51 speaking engagements and
-presentation entries, and 48 media entries. The software catalog covers 27
-top-level works and 38 package distributions: 25 PyPI packages, six npm
-packages, six Rust crates, and one Maven artifact. Registry versions were
-checked on November 5, including Epicormic 0.2.0 and Hashrope Bio 0.3.4.
+The site includes 34 selected project artifacts, 53 speaking engagements and
+presentation entries, seven selected recordings, and 48 media entries.
+New project entries cover ReleaseProof, qhashrope, swarm-forest, Tidepath,
+and greenroom. The recordings include their three project demonstrations
+alongside Hashrope at DevFest Florida, AASN, CloudCom, and CorpusKit.
 
-Past conference presentations now appear with their materials in the archive.
-The calendar retains the November 12 TML4DM workshop, November 21 IEEE Smart
-City USA talk, December ComComAp conference, and FLAIRS-40 call for papers.
-Four selected recordings cover Hashrope at DevFest Florida 2026, AASN,
-CloudCom, and a CorpusKit demo.
+The software catalog covers 27 top-level works and 38 package distributions:
+25 PyPI packages, six npm packages, six Rust crates, and one Maven artifact.
+Registry versions were rechecked on November 9, including Epicormic 0.2.0,
+Hashrope Bio 0.3.4, and Hashrope's Python, JavaScript, Rust, and Java 0.3.4
+releases. Hashrope links to its interactive demo and related projects.
 
-Hashrope links to its interactive demo and Python, JavaScript, Rust, and Java
-0.3.4 releases. SQT-IoT links to its slides; no public repository is listed.
-The Applied AI Summit presentation retains the site's established talk title.
+Upcoming events include the November 12 TML4DM workshop, November 14 DevFest
+Tampa talk, November 21 IEEE Smart City USA talk, December 3–5 COMNETSAT,
+December 5 DevFest Miami workshop, December 14–17 ComComAp, and the FLAIRS-40
+call for papers. About includes AAAI-27 AISI program-committee service and
+ICML AI4GOOD and ICMLA reviewer service.
+
+The November 5 refresh added 19 presentation decks across Speaking, Research,
+Software, and Projects. Conference groups expose individual paper anchors
+alongside papers, code, packages, and recordings. SQT-IoT links to its slides.
 
 See `CONTENT_AUDIT.md` for refresh history and source references. `AGENTS.md`
 records the standing preference to present the work confidently as papers,

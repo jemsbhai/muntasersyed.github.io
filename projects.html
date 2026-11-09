@@ -6,6 +6,7 @@
   <title>Projects and Innovation | Muntaser Syed</title>
   <meta name="description" content="Research repositories, current builds, hackathon portfolios, and applied AI projects by Muntaser Syed.">
   <meta name="theme-color" content="#f4f1e8">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="canonical" href="https://muntasersyed.com/projects.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Projects and Innovation | Muntaser Syed">
@@ -40,7 +41,7 @@
         "@id": "https://muntasersyed.com/projects.html#webpage",
         "url": "https://muntasersyed.com/projects.html",
         "name": "Projects and Innovation | Muntaser Syed",
-        "dateModified": "2026-11-05",
+        "dateModified": "2026-11-09",
         "description": "Research repositories, current builds, hackathon portfolios, and applied AI projects by Muntaser Syed.",
         "isPartOf": {
           "@id": "https://muntasersyed.com/#website"
@@ -78,7 +79,7 @@
         "@type": "ItemList",
         "@id": "https://muntasersyed.com/projects.html#project-catalog",
         "name": "Selected research repositories and builds",
-        "numberOfItems": 29,
+        "numberOfItems": 34,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -233,7 +234,7 @@
             "item": {
               "@type": "SoftwareSourceCode",
               "name": "CryptEpi",
-              "description": "Privacy-preserving epistasis detection using GPU-accelerated homomorphic encryption, with an accepted paper at the IEEE ICDM 2026 TML4DM workshop.",
+              "description": "Privacy-preserving epistasis detection using GPU-accelerated homomorphic encryption, with a presentation at IEEE ICDM 2026’s TML4DM workshop on November 12, 11:40–11:55, China Standard Time (UTC+8), Paris Room, Shenyang.",
               "codeRepository": "https://github.com/jemsbhai/cryptepi",
               "creator": {
                 "@id": "https://muntasersyed.com/#person"
@@ -686,6 +687,150 @@
                 }
               ]
             }
+          },
+          {
+            "@type": "ListItem",
+            "position": 30,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/projects.html#swarm-forest",
+              "name": "Swarm Forest",
+              "description": "Governed execution forests for agent swarms, connecting Pollard delegation controls and shared resource limits with Epicormic drift detection. Includes deterministic experiments, recorded traces, and a research write-up.",
+              "creator": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "codeRepository": "https://github.com/jemsbhai/swarm-forest",
+              "url": "https://muntasersyed.com/projects.html#swarm-forest",
+              "subjectOf": [
+                {
+                  "@type": "WebPage",
+                  "name": "Research write-up",
+                  "url": "https://github.com/jemsbhai/swarm-forest/blob/main/WRITEUP.md"
+                },
+                {
+                  "@type": "WebPage",
+                  "name": "Pollard",
+                  "url": "https://muntasersyed.com/software.html#agent-infrastructure"
+                },
+                {
+                  "@id": "https://muntasersyed.com/speaking.html#recording-swarm-forest"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 31,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/projects.html#qhashrope",
+              "name": "qhashrope",
+              "description": "A quantum verification prototype combining Hashrope and MultiSpecQR with fingerprint circuits, superdense coding, and SWAP-test experiments. Built for Florida Tech’s Qiskit Fall Fest, with simulation results and IBM Quantum hardware experiments.",
+              "creator": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "codeRepository": "https://github.com/jemsbhai/qhashrope",
+              "url": "https://muntasersyed.com/projects.html#qhashrope",
+              "subjectOf": [
+                {
+                  "@type": "WebPage",
+                  "name": "Hashrope",
+                  "url": "https://muntasersyed.com/software.html#hashrope"
+                },
+                {
+                  "@type": "WebPage",
+                  "name": "MultiSpecQR",
+                  "url": "https://muntasersyed.com/software.html#multispecqr"
+                },
+                {
+                  "@id": "https://muntasersyed.com/speaking.html#recording-qhashrope"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 32,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/projects.html#tidepath",
+              "name": "Tidepath",
+              "description": "A nonprofit workflow project for program records, reviewed follow-up drafts and reports, and controlled counseling disclosures. Its local Sheets tools review record conflicts and prepare approved correction copies.",
+              "creator": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "codeRepository": "https://github.com/jemsbhai/buildbettercode4miami",
+              "url": "https://muntasersyed.com/projects.html#tidepath",
+              "subjectOf": [
+                {
+                  "@type": "WebPage",
+                  "name": "Local Sheets tools",
+                  "url": "https://github.com/jemsbhai/buildbettercode4miami/blob/codex/tidepath-mvp/docs/LOCAL-SHEETS.md"
+                },
+                {
+                  "@type": "WebPage",
+                  "name": "Demo guide",
+                  "url": "https://github.com/jemsbhai/buildbettercode4miami/blob/codex/tidepath-mvp/docs/DEMO.md"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 33,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/projects.html#releaseproof",
+              "name": "ReleaseProof",
+              "description": "An agent-release workbench built with Pollard, Hashrope, and Epicormic. Qualifies an issue-triage agent, binds approval to its tested configuration, and applies execution controls and drift holds. Explore the fixture demo and recorded model runs.",
+              "creator": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "codeRepository": "https://github.com/jemsbhai/releaseproof",
+              "url": "https://muntasersyed.com/projects.html#releaseproof",
+              "subjectOf": [
+                {
+                  "@type": "WebPage",
+                  "name": "Interactive fixture demo",
+                  "url": "https://jemsbhai-releaseproof.hf.space/"
+                },
+                {
+                  "@type": "WebPage",
+                  "name": "Recorded model runs",
+                  "url": "https://jemsbhai-releaseproof.hf.space/assets/observations.html"
+                },
+                {
+                  "@type": "WebPage",
+                  "name": "Devpost",
+                  "url": "https://devpost.com/software/releaseproof-yr8e0t"
+                },
+                {
+                  "@id": "https://muntasersyed.com/speaking.html#recording-releaseproof"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 34,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/projects.html#greenroom",
+              "name": "greenroom",
+              "description": "An arts-video annotation pipeline and staff review application built for The Performance Academy challenge at AI4Good 2026. Combines audio, transcript, and visual evidence with Subjective Logic, routes uncertain annotations for review, and records staff decisions.",
+              "creator": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "codeRepository": "https://github.com/jemsbhai/greenroom",
+              "url": "https://muntasersyed.com/projects.html#greenroom",
+              "subjectOf": [
+                {
+                  "@type": "WebPage",
+                  "name": "Integration guide",
+                  "url": "https://github.com/jemsbhai/greenroom/blob/main/INTEGRATION_HANDOFF.md"
+                }
+              ]
+            }
           }
         ]
       },
@@ -724,7 +869,7 @@
     <section class="page-hero">
       <div class="shell page-intro-grid">
         <div><p class="eyebrow"><span class="kicker">Projects</span> / Research and innovation</p><h1>Research repositories and <em>builds.</em></h1><p class="page-lede">Explore research code, experiments, protocols, and applied AI projects.</p></div>
-        <aside class="source-note"><strong>Explore the work.</strong> Browse research repositories, project demos, and software that connects ideas to applications. Updated <time datetime="2026-11-05">November 5, 2026</time>.</aside>
+        <aside class="source-note"><strong>Explore the work.</strong> Browse research repositories, project demos, and software that connects ideas to applications. Updated <time datetime="2026-11-09">November 9, 2026</time>.</aside>
       </div>
     </section>
 
@@ -746,7 +891,7 @@
           <article class="artifact-card" id="toml-transformers"><span class="record-index">PUBLIC MANUSCRIPT · ACCEPTED IEEE UEMCON PAPER</span><h3>TOML Transformers</h3><p>Transformer-inference energy modeling that separates prefill and decode and tests cross-architecture transfer. The accepted IEEE UEMCON 2026 paper has public manuscript source, frozen GPU measurements, and reproducibility artifacts.</p><div class="item-links"><a class="micro-link" href="research.html#toml-transformers-paper">Accepted paper</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers/blob/master/paper/main.tex">Manuscript source</a><a class="micro-link" href="https://github.com/jemsbhai/TOMLTransformers">Experiments</a><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141781">Foundational TOML paper</a><a class="micro-link" href="https://docs.google.com/presentation/d/1dep2099RU3P4HpY8mgt9TlH2qrUhj1Ux/edit?usp=sharing">Slides</a></div></article>
           <article class="artifact-card"><span class="record-index">PUBLIC RESEARCH ARTIFACT · IEEE MLSP 2026</span><h3>TOML Signals</h3><p>Reproducible transistor-level energy analysis of 37 signal-processing algorithms, with profiler traces and evaluation artifacts for the accepted IEEE MLSP 2026 paper.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/TOMLSignals">Repository</a><a class="micro-link" href="https://openreview.net/forum?id=jYBcP44EDn">OpenReview</a><a class="micro-link" href="https://neuroneural.net/mlsp2026schedule/">Conference schedule</a></div></article>
           <article class="artifact-card" id="imu-jepa"><span class="record-index">PUBLIC EXPERIMENTS · ACCEPTED WF-IOT PAPER</span><h3>IMU-JEPA</h3><p>Public representation-learning code and experiments for wearable inertial signals. The IMU-JEPA paper was accepted at IEEE WF-IoT 2026; the published FLAIRS neck-posture study is a separate related paper.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/imujepa">Code &amp; experiments</a><a class="micro-link" href="research.html#imu-jepa-paper">Accepted IMU-JEPA paper</a><a class="micro-link" href="https://doi.org/10.32473/flairs.39.1.141783">Published neck-posture study</a><a class="micro-link" href="https://docs.google.com/presentation/d/1ie_s1uaemO6Gt5ZT9QsTosgJyT4GxZuB/edit?usp=sharing">Slides</a></div></article>
-          <article class="artifact-card" id="cryptepi"><span class="record-index">RESEARCH SOFTWARE · ACCEPTED IEEE ICDM PAPER</span><h3>CryptEpi</h3><p>Privacy-preserving epistasis detection using GPU-accelerated homomorphic encryption, accepted at IEEE ICDM 2026’s TML4DM workshop. Explore the research code and paper below.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/cryptepi">Research repository</a><a class="micro-link" href="research.html#cryptepi-paper">Accepted paper</a></div></article>
+          <article class="artifact-card" id="cryptepi"><span class="record-index">RESEARCH SOFTWARE · ACCEPTED IEEE ICDM PAPER</span><h3>CryptEpi</h3><p>Privacy-preserving epistasis detection using GPU-accelerated homomorphic encryption, with a presentation at IEEE ICDM 2026’s TML4DM workshop on November 12, 11:40–11:55, China Standard Time (UTC+8), Paris Room, Shenyang.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/cryptepi">Research repository</a><a class="micro-link" href="research.html#cryptepi-paper">Accepted paper</a></div></article>
           <article class="artifact-card"><span class="record-index">PRIVATE RESEARCH</span><h3>JEPA-FHIR</h3><p>Research connecting self-supervised representation learning with interoperable healthcare data.</p></article>
           <article class="artifact-card" id="hipaa-compliance-algebra"><span class="record-index">PUBLIC RESEARCH ARTIFACT · IEEE HEALTHCOM 2026</span><h3>HIPAA compliance algebra</h3><p>Manuscript source, experiments, results, and figures for the accepted paper on privacy-preserving, confidence-aware FHIR R4 exchange grounded in Subjective Logic.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hipaa-compliance-algebra">Code &amp; experiments</a><a class="micro-link" href="research.html#fhir-compliance-paper">Accepted paper</a></div></article>
           <article class="artifact-card"><span class="record-index">v0.2.0</span><h3>ArcMind</h3><p>A causal, dual-rate sequence backbone for streaming sensor policies.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/arcmind">Repository</a><a class="micro-link" href="https://pypi.org/project/arcmind/">Package</a></div></article>
@@ -757,10 +902,15 @@
 
     <section class="section latest-releases" aria-labelledby="current-builds-title">
       <div class="shell">
-        <div class="section-head"><p class="eyebrow">Current builds / November 2026</p><div><h2 id="current-builds-title">Current projects.</h2><p>Recent work in AI agents, robotics, environmental sensing, and energy-aware computing.</p></div></div>
+        <div class="section-head"><p class="eyebrow">Current builds / November 2026</p><div><h2 id="current-builds-title">Current projects.</h2><p>Recent work in agent governance, quantum verification, nonprofit tools, arts, robotics, and environmental sensing.</p></div></div>
         <div class="package-grid">
+          <article class="package-card release-card release-card-featured" id="swarm-forest"><span class="record-index">AGENT SWARM EXPERIMENTS · NOVEMBER 2026</span><h3>Swarm Forest</h3><p>Governed execution forests for agent swarms, connecting Pollard delegation controls and shared resource limits with Epicormic drift detection. Includes deterministic experiments, recorded traces, and a research write-up.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/swarm-forest">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/swarm-forest/blob/main/WRITEUP.md">Research write-up</a><a class="micro-link" href="speaking.html#recording-swarm-forest">Watch walkthrough</a><a class="micro-link" href="software.html#agent-infrastructure">Pollard</a></div></article>
+          <article class="package-card release-card" id="qhashrope"><span class="record-index">QISKIT FALL FEST · NOVEMBER 2026</span><h3>qhashrope</h3><p>A quantum verification prototype combining Hashrope and MultiSpecQR with fingerprint circuits, superdense coding, and SWAP-test experiments. Built for Florida Tech’s Qiskit Fall Fest, with simulation results and IBM Quantum hardware experiments.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/qhashrope">Code &amp; experiments</a><a class="micro-link" href="speaking.html#recording-qhashrope">Watch presentation</a><a class="micro-link" href="software.html#hashrope">Hashrope</a><a class="micro-link" href="software.html#multispecqr">MultiSpecQR</a></div></article>
+          <article class="package-card release-card" id="tidepath"><span class="record-index">TEAM PROJECT · DEVDAY EXCHANGE MIAMI</span><h3>Tidepath</h3><p>A nonprofit workflow project for program records, reviewed follow-up drafts and reports, and controlled counseling disclosures. Its local Sheets tools review record conflicts and prepare approved correction copies.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/buildbettercode4miami">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/buildbettercode4miami/blob/codex/tidepath-mvp/docs/LOCAL-SHEETS.md">Local Sheets tools</a><a class="micro-link" href="https://github.com/jemsbhai/buildbettercode4miami/blob/codex/tidepath-mvp/docs/DEMO.md">Demo guide</a></div></article>
+          <article class="package-card release-card" id="releaseproof"><span class="record-index">AGENT RELEASE WORKBENCH · OCTOBER 2026</span><h3>ReleaseProof</h3><p>An agent-release workbench built with Pollard, Hashrope, and Epicormic. Qualifies an issue-triage agent, binds approval to its tested configuration, and applies execution controls and drift holds. Explore the fixture demo and recorded model runs.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/releaseproof">Repository</a><a class="micro-link" href="https://jemsbhai-releaseproof.hf.space/">Interactive fixture demo</a><a class="micro-link" href="https://jemsbhai-releaseproof.hf.space/assets/observations.html">Recorded model runs</a><a class="micro-link" href="speaking.html#recording-releaseproof">Watch demo</a><a class="micro-link" href="https://devpost.com/software/releaseproof-yr8e0t">Devpost</a></div></article>
+          <article class="package-card release-card" id="greenroom"><span class="record-index">TEAM PROJECT · AI4GOOD 2026</span><h3>greenroom</h3><p>An arts-video annotation pipeline and staff review application built for The Performance Academy challenge at AI4Good 2026. Combines audio, transcript, and visual evidence with Subjective Logic, routes uncertain annotations for review, and records staff decisions.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/greenroom">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/greenroom/blob/main/INTEGRATION_HANDOFF.md">Integration guide</a></div></article>
           <article class="package-card release-card" id="dewin"><span class="record-index">TEAM COLLABORATION · HARDWARE</span><h3>Dewin / envlab</h3><p>An October 2026 hardware-hackathon collaboration connecting a mobile exposure timeline with nearby air and water sensor readings, plus a check-in kiosk.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/envlab">Repository &amp; team components</a></div></article>
-          <article class="package-card release-card release-card-featured" id="station-steward"><span class="record-index">HACKATHON PROJECT · SEPTEMBER 12, 2026</span><h3>Station Steward</h3><p>A local agent connecting an Arduino sensor bench and a simulated robotic workcell through Pollard, Chronofy, MCP-Edge, and human task handoffs. Built for the AI Tinkerers / OpenAI Agents Everywhere hackathon in Miami.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/station-steward">Repository</a><a class="micro-link" href="software.html#agent-infrastructure">Agent infrastructure</a><a class="micro-link" href="software.html#temporal-trust">Temporal stack</a></div></article>
+          <article class="package-card release-card" id="station-steward"><span class="record-index">HACKATHON PROJECT · SEPTEMBER 12, 2026</span><h3>Station Steward</h3><p>A local agent connecting an Arduino sensor bench and a simulated robotic workcell through Pollard, Chronofy, MCP-Edge, and human task handoffs. Built for the AI Tinkerers / OpenAI Agents Everywhere hackathon in Miami.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/station-steward">Repository</a><a class="micro-link" href="software.html#agent-infrastructure">Agent infrastructure</a><a class="micro-link" href="software.html#temporal-trust">Temporal stack</a></div></article>
           <article class="package-card release-card" id="gatehouse"><span class="record-index">COLLABORATION · HACKATHON PROJECT</span><h3>Gatehouse</h3><p>A vendor-review and onboarding project built with Katherine Burge. Muntaser contributed Pollard evidence ledgers, action/refusal records, seals, telemetry, and offline replay; Katherine built the agent fleets and cloud deployment.</p><div class="item-links"><a class="micro-link" href="https://devpost.com/software/gatehouse-qh9ml4">Project &amp; contributions</a><a class="micro-link" href="https://github.com/b-urge/gatehouse">Repository</a><a class="micro-link" href="software.html#pollard">Pollard</a></div></article>
           <article class="package-card release-card" id="grid-hazard"><span class="record-index">TEAM COLLABORATION · SHELLHACKS 2026</span><h3>Grid Hazard / FieldSight</h3><p>A team project combining infrastructure coordination with simulated rover, crawler, and arm inspections.</p><div class="item-links"><a class="micro-link" href="https://devpost.com/software/grid-hazard">Project &amp; team</a><a class="micro-link" href="https://github.com/gimenezdiego002/Grid-Hazard-Rover/tree/relay/inspection-system">Inspection source</a><a class="micro-link" href="https://shellhacks-relay-robotics.vercel.app/">Browser simulator</a></div></article>
           <article class="package-card release-card" id="corpuskit"><span class="record-index">SPEECH CORPUS WORKBENCH</span><h3>CorpusKit</h3><p>A Corpusgen web workbench with local Docker setup, versioned corpus workflows, durable jobs, and reproducibility records.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/corpuskit">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit/blob/main/docs/getting-started.md">Getting started</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit/blob/main/docs/product/15-minute-demo.md">15-minute demo</a><a class="micro-link" href="https://github.com/jemsbhai/corpuskit/blob/main/docs/product/capability-matrix.md">Capabilities</a><a class="micro-link" href="https://github.com/jemsbhai/corpusgen">Corpusgen</a><a class="micro-link" href="https://www.youtube.com/watch?v=m1guE38mbIo">Watch demo</a></div></article>
@@ -784,7 +934,7 @@
           </article>
           <article class="artifact-card">
             <span class="record-index">AGENTS &amp; CONTEXT</span><h3>Governed AI infrastructure</h3><p>Execution trees, context metering, protocol efficiency, routing, and agent evaluation.</p>
-            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/pollard">pollard</a><a class="micro-link" href="https://github.com/jemsbhai/tokenmaster">tokenmaster</a><a class="micro-link" href="https://github.com/jemsbhai/mcpmeter">mcpmeter</a><a class="micro-link" href="https://github.com/jemsbhai/mcp-edge">mcp-edge</a><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">wattwarden</a><a class="micro-link" href="https://github.com/jemsbhai/station-steward">station-steward</a><a class="micro-link" href="https://github.com/jemsbhai/pollard-jev">pollard-jev</a><a class="micro-link" href="https://github.com/jemsbhai/epicormic">epicormic</a><a class="micro-link" href="https://github.com/jemsbhai/epicormic-paper">epicormic research</a><a class="micro-link" href="https://github.com/jemsbhai/aasn">AASN</a></div>
+            <div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/pollard">pollard</a><a class="micro-link" href="https://github.com/jemsbhai/tokenmaster">tokenmaster</a><a class="micro-link" href="https://github.com/jemsbhai/mcpmeter">mcpmeter</a><a class="micro-link" href="https://github.com/jemsbhai/mcp-edge">mcp-edge</a><a class="micro-link" href="https://github.com/jemsbhai/wattwarden">wattwarden</a><a class="micro-link" href="https://github.com/jemsbhai/station-steward">station-steward</a><a class="micro-link" href="https://github.com/jemsbhai/pollard-jev">pollard-jev</a><a class="micro-link" href="https://github.com/jemsbhai/epicormic">epicormic</a><a class="micro-link" href="https://github.com/jemsbhai/epicormic-paper">epicormic research</a><a class="micro-link" href="https://github.com/jemsbhai/aasn">AASN</a><a class="micro-link" href="https://github.com/jemsbhai/KVRM">KVRM</a><a class="micro-link" href="https://github.com/jemsbhai/swarm-forest">swarm-forest</a><a class="micro-link" href="https://github.com/jemsbhai/releaseproof">ReleaseProof</a></div>
           </article>
           <article class="artifact-card">
             <span class="record-index">EDGE &amp; EFFICIENCY</span><h3>Compute under constraints</h3><p>Protocols, energy models, sustainable datacenters, compact architectures, and temporal models.</p>

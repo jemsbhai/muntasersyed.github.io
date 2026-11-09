@@ -1,9 +1,47 @@
-# Content audit — November 7, 2026
+# Content audit — November 9, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## November 9 research, projects, speaking, and service refresh
+
+- Added KVRM: Registry-Constrained Decision Architectures for Audited Finite
+  Action Spaces, accepted at [COMNETSAT 2026](https://comnetsat.org/), with its
+  [public research repository](https://github.com/jemsbhai/KVRM).
+- Updated CryptEpi's full title and its November 12, 11:40–11:55 a.m.
+  presentation in the Paris Room, Shenyang (UTC+8), from the
+  [TML4DM program](https://trustworthy-ai.com.au/events/workshops/icdm-workshop-2026#paperlist).
+- Added the accepted Pollard sessions at
+  [DevFest Tampa, November 14](https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-south-florida-tampa-united-states-presents-devfest-tampa-2026-build-secure-scale/)
+  and [DevFest Miami, December 5](https://gdg.community.dev/events/details/google-gdg-miami-presents-devfest-miami-2026-ai-art-edition/cohost-gdg-miami/).
+- Added ReleaseProof, qhashrope, swarm-forest, Tidepath, and greenroom to
+  Projects, with public source and demonstration links. Added ReleaseProof,
+  qhashrope, and swarm-forest recordings to Speaking and reciprocal project
+  links. The owner approved the project additions and qhashrope recording.
+- Added AAAI-27 AISI program-committee service, ICML 2026 AI4GOOD reviewer
+  service, and ICMLA 2026 reviewer service to About. Public references are the
+  [AAAI track](https://aaai.org/conference/aaai/aaai-27/aisi-call/),
+  [ICML workshop archive](https://trustworthy-ai-for-good.github.io/icml-2026.html),
+  and [ICMLA conference](https://www.icmla-conference.org/icmla26/).
+- Corrected Hashrope's summary to describe efficient operations and exact
+  comparison without claiming a general logarithmic comparison bound.
+  Added Java to the Software metadata and About language summary.
+- Refreshed Home's calendar and recent work, added project and workshop
+  cross-links, and gave the MultiSpecQR model/dataset link group a semantic
+  role. Added an MS favicon across the site.
+- Rechecked all 38 package distributions on November 9. Their listed versions
+  remain current. Retained the 19 presentation decks and prior material
+  decisions; no new package distributions or media entries were added.
+- Reconciled the current catalog totals and resolved holdbacks below, with
+  matching page metadata and sitemap modification dates.
+- Verification: 289 internal references resolve; JSON-LD counts, positions,
+  page dates, and favicon links agree. Browser checks passed across all seven
+  pages at 1440px, 390px, and 320px in both themes, including research search,
+  filters, empty states, mobile navigation, and clipboard controls. Of 26 new
+  outbound destinations, 25 returned HTTP 200; the AAAI track page returned a
+  Cloudflare access challenge rather than a missing-page response.
 
 ## November 7 Hashrope DevFest Florida talk and recording
 
@@ -862,27 +900,20 @@ Validation after the approved changes:
   independently reported Fresh Fridge third-place result, the AWE Nite Orlando
   directory listing, and the source-stage Joulehound collaboration.
 
-## Published state
+## Published state — November 9, 2026
 
-- Research: 44 distinct scholarly outputs: 16 published contributions
-  (papers, chapters, a poster paper, and a two-page Show & Tell contribution),
-  26 accepted conference contributions, one preprint without conference
-  acceptance, and one published 2018 poster abstract. Five accepted works also have public
-  arXiv preprints, making six preprints awaiting publication in all. These filters
-  overlap; earlier versions of published papers remain linked and are counted
-  once. Two older presentation acceptances
-  and software artifacts remain outside this scholarly total.
-- Software: 25 featured published PyPI packages, 5 npm packages, and 6 Rust crates,
-  represented as 27 top-level works with language ports nested separately.
-  `i3cex` is a development release and `facecloak-suite` is a placeholder, so
-  neither is included in the featured PyPI total. Package maturity ranges from
-  pre-alpha through production/stable and is not implied by this count.
-- Projects: 25 selected artifacts. Public repositories link directly. Private repositories are either
-  labeled as private research without a link or omitted from the public index.
-- Speaking: 49 engagements, including organizer-listed speakers and grouped author sessions. Dates use
-  organizer, conference, institutional, public scheduling, or explicit owner
-  confirmation. Material-only repositories are kept in a separate
-  teaching archive.
+- Research: 47 distinct scholarly outputs, including 19 published works and
+  26 accepted works. Six entries also have preprints; filters overlap and
+  manuscript/version-of-record pairs are counted once. Two older presentation
+  acceptances and software artifacts remain outside this scholarly total.
+- Software: 27 top-level works and 38 distributions: 25 featured PyPI
+  packages, six npm packages, six Rust crates, and one Maven artifact.
+  Language ports retain independent release versions.
+- Projects: 34 selected artifacts, with public repositories, research,
+  demonstrations, and related software linked where available.
+- Speaking: 53 engagements and seven selected recordings. Grouped conference
+  presentations count as one engagement; project demonstrations and
+  material-only teaching repositories do not add engagements.
 - Media: 48 archive entries, including 16 reporting/interview/industry-discussion
   entries, eight university news entries, and 24 organizer/sponsor/industry
   announcements. These counts do not imply 48 independent news stories.
@@ -893,35 +924,40 @@ Validation after the approved changes:
   is confirmed accepted at IEEE WF-IoT 2026 and now has public source code.
   It is not presented as a stable package release. WF-IoT papers remain
   accepted until final proceedings records are established.
-- AASN is now included with its official AGENTICS program/abstract source;
-  a public full-paper download and final proceedings record remain pending.
-  The unidentified IRI record, NADIM/Chronofy disaster title,
-  Universal Translator, and SQT version relationship remain held until
-  bibliographic identity or status is established.
+- AASN is included with its official AGENTICS program, public research
+  repository, presentation, and recording; its final proceedings record
+  remains pending. The two IRI DOI identities and NADIM disaster-verification
+  title are resolved. Universal Translator and the SQT version relationship
+  remain pending bibliographic reconciliation.
 - WVLL's live pages contain conflicting current-event dates and an old bio.
   The owner confirmed the delivered keynote belongs to December 18–19, 2024.
   The historical record is resolved; no new WVLL invitation is asserted.
 - Public sources disagree about Ph.D. timing and do not establish conferral.
   The owner confirmed on October 11 that doctoral status remains unchanged;
   the site retains “doctoral work” and does not use “Dr.”
-- TraceCoder’s accepted paper/poster status is now also supported by its
+- TraceCoder’s accepted-paper status is supported by its
   official AGENTICS program entry, alongside the owner’s acceptance record
   and [arXiv:2607.26307](https://arxiv.org/abs/2607.26307). Add the final
   proceedings record when available.
-- MultiSpecQR and TOML Signals retain their official accepted-paper/program
-  sources pending final proceedings records. The two IRI DOI holdbacks were
-  resolved on September 15 as documented above.
+- MultiSpecQR is published in the IEEE ICMLA proceedings; its DOI, pages,
+  models, and datasets are linked. TOML Signals retains accepted-paper
+  status pending its final proceedings record.
 - The repository linked from the Rules Before Oracles arXiv record (`devfitcs/ABAS`)
   returned 404 for a signed-out visitor, so the site does not expose a code link.
-- Nine repositories linked by the previous site remain held from the earlier review:
+- The following legacy repository URLs remain held from the earlier review:
   `explainiverse-explorer`,
   `healthSLnetwrokslicer`, `jepa-fhir`,
   `kvrm-paper`, `oneura-ictai2026`, `thermocline`, `TimeCMAPlus`, `trilstm`,
-  and `uhc-visualizer`. Re-add links only after
-  confirming public visibility.
-- The public `jsonld-ex-experiments` README describes the repository as private
-  and says it must not be public. Its portfolio link was removed; the owner
-  should review the repository’s visibility and contents directly.
+  and `uhc-visualizer`. Re-add these URLs only after confirming public
+  visibility. KVRM now links to the current public `jemsbhai/KVRM` repository,
+  replacing the unavailable legacy `kvrm-paper` location.
+- The owner supplied the public `jsonld-ex-experiments` link for the November 5
+  materials refresh, and it is included. Its older README wording is a
+  separate source-repository maintenance item.
+- Drug Integrity Algebra and FHIR R4 / HIPAA presentation decks remain
+  deferred. AiSalon, TOML Signals/MLSP, TraceCoder, and ABAS materials remain
+  skipped under the prior intake decisions. SQT-IoT has public slides and no
+  public repository link.
 - The main ORCID cleanup was applied on September 28. The sinonasal-masses
   authorship, Universal Translator identity, and conflicting SQT author/version
   metadata remain unresolved. Some organization-owned source records retain
@@ -937,7 +973,7 @@ Validation after the approved changes:
 
 1. Reconcile Crossref/DOI, arXiv, IEEE Xplore, and conference proceedings;
    deduplicate manuscript and version-of-record pairs.
-2. Compare the PyPI, npm, and crates.io profiles; preserve independently
+2. Compare PyPI, npm, crates.io, and Maven Central; preserve independently
    versioned language ports instead of assigning one family-wide version.
 3. Check every linked GitHub repository as a signed-out/public visitor and keep
    pre-alpha, preview, and stable claims aligned with each README.
