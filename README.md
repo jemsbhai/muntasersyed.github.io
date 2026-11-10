@@ -11,6 +11,8 @@ archive, professional service, selected awards, press, and public profiles.
 - `index.html`: overview and featured work
 - `research.html`: deduplicated papers, preprints, and research artifacts
 - `software.html`: major software families and language ports
+- `hashrope.html`: focused Hashrope guide, packages, research, and demonstrations
+- `pollard.html`: focused Pollard guide, language runtimes, research, and materials
 - `projects.html`: research repositories, software, Devpost portfolios, and selected awards
 - `speaking.html`: presentation videos, talks, workshops, lectures, podcasts, and teaching materials
 - `media.html`: dated media coverage, interviews, university news, and organizer or sponsor reports
@@ -58,3 +60,20 @@ search-engine-facing graphs intentionally use only standard Schema.org terms.
 
 `structured-data/jsonld-ex.jsonld` is a linked JSON-LD Ex representation that
 provides extension annotations for compatible research tooling.
+
+## Publishing and maintenance
+
+GitHub Pages builds `main` with Jekyll. `_config.yml` excludes `AGENTS.md`,
+`CONTENT_AUDIT.md`, `README.md`, and `tmp` from the published artifact while
+keeping maintenance records in this repository.
+
+The November 10 discovery update gives all 47 research cards stable anchors
+and completes catalog entity identifiers and citation references. Preserve
+existing anchors and graph identities when updating or moving content.
+
+Keep the Hashrope and Pollard guides consistent with `software.html` when
+updating package versions, capabilities, or research status. Their visible
+package dates record the registry check; per-language versions stay independent.
+Update page metadata and the sitemap together. Verify the Jekyll output,
+internal links, structured data, and mobile behavior with and without
+JavaScript before publishing shared navigation changes.

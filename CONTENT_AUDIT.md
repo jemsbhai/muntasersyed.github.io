@@ -1,9 +1,41 @@
-# Content audit — November 9, 2026
+# Content audit — November 10, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## November 10 readability and discovery update
+
+- Excluded repository maintenance files and `tmp` from the GitHub Pages
+  artifact through `_config.yml`; the source records remain in GitHub.
+- Corrected Home's remaining Hashrope comparison wording and linked its
+  featured card to the focused Hashrope guide.
+- Added the 18 missing research-card anchors and 38 missing catalog entity
+  identifiers. Converted 29 citation URL strings into explicit graph
+  references and deduplicated four references to the same scholarly works.
+  Preserved existing anchors, graph identities, and catalog counts.
+- Connected CorpusKit's recording to its project entity and reused existing
+  software identities where the same work appears in Projects.
+- Added `hashrope.html` and `pollard.html` with focused explanations,
+  language-specific package versions, documentation, research, and talks.
+  Registry checks on November 10 confirmed Hashrope 0.3.4 across its four core
+  packages and Pollard Python 1.6.2, TypeScript 0.2.0, and Rust 0.2.1.
+  Supporting sources are the packages' registries and
+  [Hashrope documentation](https://github.com/jemsbhai/hashrope) and
+  [Pollard 1.6.2 documentation](https://github.com/jemsbhai/pollard/tree/v1.6.2).
+- Added the tested Pollard presentation PDF fallback alongside its Slides
+  links in Research, Software, Speaking, and the focused Pollard guide.
+- Kept mobile navigation visible without JavaScript; menu, theme, copy, and
+  catalog-filter controls appear only after their handlers initialize.
+  Aligned menu accessible names with the visible label, canonical Home
+  links, shared asset versions, page metadata dates, and the nine-page sitemap.
+- Verification: the official GitHub Pages Jekyll image builds successfully
+  and omits all excluded files. All nine pages pass internal-link, anchor,
+  canonical, and JSON-LD checks. Browser checks cover 320px and 390px with
+  and without JavaScript, desktop layouts, menu keyboard behavior, search,
+  publication filters, and theme persistence. Fixed long package-name
+  wrapping discovered during the 320px check.
 
 ## November 9 research, projects, speaking, and service refresh
 

@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hashrope | Persistent Sequences and Exact Comparison | Muntaser Syed</title>
+  <meta name="description" content="Hashrope: persistent editing, substring hashing, exact comparison, and repetition encoding in Python, JavaScript, Rust, and Java. Packages, research, and talks.">
+  <meta name="theme-color" content="#f4f1e8">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://muntasersyed.com/hashrope.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hashrope | Persistent Sequences and Exact Comparison | Muntaser Syed">
+  <meta property="og:description" content="Hashrope: persistent editing, substring hashing, exact comparison, and repetition encoding in Python, JavaScript, Rust, and Java. Packages, research, and talks.">
+  <meta property="og:url" content="https://muntasersyed.com/hashrope.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hashrope | Persistent Sequences and Exact Comparison | Muntaser Syed">
+  <meta name="twitter:description" content="Hashrope: persistent editing, substring hashing, exact comparison, and repetition encoding in Python, JavaScript, Rust, and Java. Packages, research, and talks.">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://muntasersyed.com/#person",
+      "name": "Muntaser Syed",
+      "url": "https://muntasersyed.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://muntasersyed.com/#website",
+      "name": "Muntaser Syed — AI Systems Research",
+      "url": "https://muntasersyed.com/",
+      "publisher": {
+        "@id": "https://muntasersyed.com/#person"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://muntasersyed.com/hashrope.html#webpage",
+      "url": "https://muntasersyed.com/hashrope.html",
+      "name": "Hashrope | Persistent Sequences and Exact Comparison | Muntaser Syed",
+      "description": "Hashrope: persistent editing, substring hashing, exact comparison, and repetition encoding in Python, JavaScript, Rust, and Java. Packages, research, and talks.",
+      "dateModified": "2026-11-10",
+      "inLanguage": "en-US",
+      "author": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "isPartOf": {
+        "@id": "https://muntasersyed.com/#website"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/software.html#hashrope"
+      },
+      "mainEntity": {
+        "@id": "https://muntasersyed.com/software.html#hashrope"
+      },
+      "breadcrumb": {
+        "@id": "https://muntasersyed.com/hashrope.html#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://muntasersyed.com/hashrope.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muntasersyed.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Software",
+          "item": "https://muntasersyed.com/software.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Hashrope",
+          "item": "https://muntasersyed.com/hashrope.html"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Hashrope",
+      "description": "A BB[2/7] hash-augmented tree for efficient text and state operations, with Python, JavaScript, Rust, and Java implementations.",
+      "creator": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "programmingLanguage": [
+        "Python",
+        "JavaScript",
+        "Rust",
+        "Java"
+      ],
+      "codeRepository": "https://github.com/jemsbhai/hashrope",
+      "url": "https://pypi.org/project/hashrope/",
+      "sameAs": [
+        "https://crates.io/crates/hashrope",
+        "https://www.npmjs.com/package/hashrope",
+        "https://central.sonatype.com/artifact/io.github.jemsbhai/hashrope",
+        "https://hashrope.lovable.app/"
+      ],
+      "citation": [
+        {
+          "@id": "https://muntasersyed.com/research.html#hashrope-ictai"
+        }
+      ],
+      "hasPart": [
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "Hashrope Python",
+          "version": "0.3.4",
+          "programmingLanguage": "Python",
+          "url": "https://pypi.org/project/hashrope/"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "Hashrope Rust",
+          "version": "0.3.4",
+          "programmingLanguage": "Rust",
+          "url": "https://crates.io/crates/hashrope"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "Hashrope JavaScript",
+          "version": "0.3.4",
+          "programmingLanguage": "JavaScript",
+          "url": "https://www.npmjs.com/package/hashrope"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "Hashrope Java",
+          "version": "0.3.4",
+          "programmingLanguage": "Java",
+          "url": "https://central.sonatype.com/artifact/io.github.jemsbhai/hashrope"
+        }
+      ],
+      "@id": "https://muntasersyed.com/software.html#hashrope",
+      "subjectOf": [
+        {
+          "@type": "CreativeWork",
+          "@id": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing",
+          "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management — slides",
+          "url": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing",
+          "creator": {
+            "@id": "https://muntasersyed.com/#person"
+          }
+        },
+        {
+          "@id": "https://muntasersyed.com/speaking.html#recording-hashrope-devfest"
+        }
+      ],
+      "mainEntityOfPage": {
+        "@id": "https://muntasersyed.com/hashrope.html#webpage"
+      }
+    }
+  ]
+}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css?v=20261110">
+  <script src="/assets/site.js?v=20261110" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+<div class="shell masthead">
+<a aria-label="Muntaser Syed, home" class="brand" href="/"><span aria-hidden="true" class="brand-mark">MS</span><span class="brand-text">Muntaser Syed</span></a>
+<nav aria-label="Primary navigation" class="site-nav" data-site-nav="" id="site-navigation"><a href="/">Home</a><a href="/research.html">Research</a><a href="/software.html">Software</a><a href="/projects.html">Projects</a><a href="/speaking.html">Speaking</a><a href="/media.html">Media</a><a href="/about.html">About</a></nav>
+<div class="header-actions"><button aria-label="Use dark theme" class="icon-button" data-theme-toggle="" type="button" hidden>◐</button><button aria-controls="site-navigation" aria-expanded="false" aria-label="Open menu" class="menu-button" data-menu-toggle="" type="button" hidden>Menu</button></div>
+</div>
+</header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="shell page-intro-grid">
+        <div><p class="eyebrow"><a href="/software.html">Software</a> / Hashrope</p><h1>Hashrope.</h1><p class="page-lede">Persistent sequences for editing, hashing, exact comparison, and compact repetition. Built around a BB[2/7] balanced tree with shared structure.</p></div>
+        <aside class="source-note"><strong>Start with the library.</strong><p>Source, documentation, and examples for all four core implementations.</p><a class="micro-link" href="https://github.com/jemsbhai/hashrope">GitHub repository</a></aside>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="operations-title">
+      <div class="shell">
+        <div class="section-head"><p class="eyebrow">Data structure</p><div><h2 id="operations-title">Persistent sequences, exact comparisons.</h2><p>Hashrope stores a sequence as a balanced tree. Editing can reuse unchanged subtrees, while each node carries polynomial-hash metadata.</p></div></div>
+<div class="artifact-grid"><article class="artifact-card"><span class="record-index">EDIT</span><h3>Build and branch sequences</h3><p>Concatenate sequences, split them at byte positions, and retain earlier versions. Shared immutable structure makes it practical to explore different edits or agent-context branches.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope/tree/master/packages/python">Python documentation</a></div></article><article class="artifact-card"><span class="record-index">COMPARE</span><h3>Choose the right comparison</h3><p>Use fingerprints to identify candidate matches. For content equality or the exact longest common prefix, use the byte-verifying comparison APIs. Shared structure and repeated spans can reduce work.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope/tree/master/benchmarks/comparison_safety">Comparison APIs and benchmarks</a></div></article><article class="artifact-card"><span class="record-index">REPRESENT</span><h3>Keep repeated content compact</h3><p>Represent repeated subtrees without materializing every copy. Substring hashing and streaming sequence hashes support applications that need to inspect a changing window of data.</p><div class="item-links"><a class="micro-link" href="https://pypi.org/project/hashrope/">API guide and examples</a></div></article></div>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="packages-title">
+      <div class="shell">
+        <div class="section-head"><p class="eyebrow">Packages / November 10, 2026</p><div><h2 id="packages-title">Four language implementations.</h2><p>The core packages are at version 0.3.4. Each package links to its installation instructions and language-specific API.</p></div></div>
+<div class="package-grid"><article class="artifact-card"><span class="record-index">PYTHON · 0.3.4</span><h3>hashrope</h3><p>Install with <code>pip install hashrope</code>. The Python package includes persistent editing, exact comparison, hash profiles, and streaming helpers.</p><div class="item-links"><a class="micro-link" href="https://pypi.org/project/hashrope/0.3.4/">PyPI</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope/tree/master/packages/python">Source and examples</a></div></article><article class="artifact-card"><span class="record-index">JAVASCRIPT / TYPESCRIPT · 0.3.4</span><h3>hashrope</h3><p>Install with <code>npm install hashrope</code>. The package provides Node.js and browser builds, including ESM and CommonJS entry points.</p><div class="item-links"><a class="micro-link" href="https://www.npmjs.com/package/hashrope">npm</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope/tree/master/packages/npm">Source and examples</a></div></article><article class="artifact-card"><span class="record-index">RUST · 0.3.4</span><h3>hashrope</h3><p>Install with <code>cargo add hashrope</code>. Version 0.3.4 includes Rust improvements to longest-common-prefix comparison and concatenation.</p><div class="item-links"><a class="micro-link" href="https://crates.io/crates/hashrope">crates.io</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope/tree/master/packages/rust">Source and examples</a></div></article><article class="artifact-card"><span class="record-index">JAVA · 0.3.4</span><h3>io.github.jemsbhai:hashrope</h3><p>Available from Maven Central. Use the Java package documentation for dependency configuration and examples.</p><div class="item-links"><a class="micro-link" href="https://central.sonatype.com/artifact/io.github.jemsbhai/hashrope/0.3.4">Maven Central</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope/blob/master/releases/0.3.4/README.md">Release notes</a></div></article></div>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="applications-title">
+      <div class="shell">
+        <div class="section-head"><p class="eyebrow">Applications</p><div><h2 id="applications-title">Context, biology, and verification.</h2><p>Explore the library through research experiments, domain tools, and interactive demonstrations.</p></div></div>
+<div class="artifact-grid"><article class="artifact-card"><span class="record-index">LLM CONTEXT</span><h3>Persistent context management</h3><p>The research experiments use Hashrope for editing and branching context, identifying prefixes, and encoding repetition. The experiment repository accompanies the IEEE ICTAI 2026 paper.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/hashrope-paper">Experiments</a><a class="micro-link" href="/research.html#hashrope-ictai">Paper record</a></div></article><article class="artifact-card"><span class="record-index">COMPUTATIONAL BIOLOGY</span><h3>hashrope-bio</h3><p>The companion Python and Rust libraries apply hash-augmented ropes to genomic regions, mutation localization, tandem repeats, and drug-resistance screening.</p><div class="item-links"><a class="micro-link" href="/software.html#hashrope-bio">Biology packages</a><a class="micro-link" href="https://github.com/jemsbhai/hashrope-bio">Code</a></div></article><article class="artifact-card"><span class="record-index">EXPLORE</span><h3>See the structure in use</h3><p>Try the interactive Hashrope demo and tree visualizer. The qhashrope project connects Hashrope and MultiSpecQR with quantum fingerprint and record-verification experiments.</p><div class="item-links"><a class="micro-link" href="https://hashrope.lovable.app/">Interactive demo</a><a class="micro-link" href="https://uhc-visualizer.lovable.app/">Tree visualizer</a><a class="micro-link" href="/projects.html#qhashrope">qhashrope</a></div></article></div>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="research-title">
+      <div class="shell">
+        <div class="section-head"><p class="eyebrow">Research and talks</p><div><h2 id="research-title">From the paper to the implementation.</h2><p>Read the research, explore the experiments, or watch the cross-language demonstration.</p></div></div>
+<div class="artifact-grid"><article class="artifact-card"><span class="record-index">IEEE ICTAI 2026 · ACCEPTED PAPER</span><h3>Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management</h3><p>Muntaser Syed, Ameerah Alsulami, and Marius Silaghi. Presented November 2, 2026 at IEEE ICTAI in Boca Raton. Preprint: arXiv:2610.16144.</p><div class="item-links"><a class="micro-link" href="/research.html#hashrope-ictai">Paper details</a><a class="micro-link" href="https://arxiv.org/abs/2610.16144">Read preprint</a><a class="micro-link" href="https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing">ICTAI slides</a></div></article><article class="artifact-card"><span class="record-index">DEVFEST FLORIDA · NOVEMBER 7, 2026</span><h3>Hashrope: One Data Structure, Four Languages</h3><p>An 18-minute talk on persistent sequences across Python, Rust, Java, and TypeScript, with live demonstrations and cross-language conformance for data pipelines and AI agent memory.</p><div class="item-links"><a class="micro-link" href="/speaking.html#recording-hashrope-devfest">Recording and details</a><a class="micro-link" href="https://www.youtube.com/watch?v=S2hAXooVOQQ">Watch on YouTube</a></div></article></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+<div class="shell footer-grid"><div><p class="footer-name">Muntaser Syed</p><p class="footer-meta">AI systems research · Open-source software · <span data-current-year="">2026</span></p></div><div class="footer-links"><a href="https://github.com/jemsbhai">GitHub</a><a href="https://pypi.org/user/jemsbhai/">PyPI</a><a href="https://www.npmjs.com/~jemsbhai">npm</a><a href="https://crates.io/users/jemsbhai">crates.io</a><a href="https://top.mlh.com/2020/profiles/muntaser-syed">MLH Top 50</a></div></div>
+</footer>
+</body>
+</html>

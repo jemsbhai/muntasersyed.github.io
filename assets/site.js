@@ -38,6 +38,7 @@
       // Keep the selected theme for this page even if it cannot be saved.
     }
   });
+  if (themeButton) themeButton.hidden = false;
 
   const header = document.querySelector(".site-header");
   const toolbar = document.querySelector(".toolbar");
@@ -74,7 +75,7 @@
   function syncMenuState(open) {
     if (!menuButton) return;
     menuButton.setAttribute("aria-expanded", String(open));
-    menuButton.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
+    menuButton.setAttribute("aria-label", open ? "Close menu" : "Open menu");
   }
 
   menuButton?.addEventListener("click", function () {
@@ -95,6 +96,13 @@
     syncMenuState(false);
     menuButton?.focus();
   });
+
+  if (menuButton && nav) {
+    syncMenuState(false);
+    root.classList.add("navigation-ready");
+    menuButton.hidden = false;
+    syncStickyOffsets();
+  }
 
   const filterButtons = Array.from(document.querySelectorAll("[data-filter]"));
   const search = document.querySelector("[data-search]");
@@ -141,7 +149,11 @@
   });
 
   search?.addEventListener("input", updateCatalog);
-  if (items.length) updateCatalog();
+  if (items.length) {
+    updateCatalog();
+    if (toolbar) toolbar.hidden = false;
+    syncStickyOffsets();
+  }
 
   document.querySelectorAll("[data-copy]").forEach(function (button) {
     button.addEventListener("click", async function () {
@@ -165,6 +177,7 @@
         button.textContent = original;
       }, 1500);
     });
+    button.hidden = false;
   });
 
   document.querySelectorAll("[data-current-year]").forEach(function (node) {

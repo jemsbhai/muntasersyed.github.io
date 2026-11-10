@@ -1,0 +1,6 @@
+# Keep repository maintenance material out of the public GitHub Pages artifact.
+exclude:
+  - AGENTS.md
+  - CONTENT_AUDIT.md
+  - README.md
+  - tmp
