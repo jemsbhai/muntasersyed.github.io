@@ -1,0 +1,925 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://muntasersyed.com/#person",
+      "name": "Muntaser Syed",
+      "alternateName": "Muntaser Mansur Syed",
+      "award": "Reviewers Choice Award, IEEE GHTC 2026 — Research on the Broader Impacts of Engineering Efforts track",
+      "url": "https://muntasersyed.com/",
+      "sameAs": [
+        "https://huggingface.co/Jemsbhai",
+        "https://github.com/jemsbhai",
+        "https://devpost.com/jemsbhai",
+        "https://devpost.com/msyed2011"
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://muntasersyed.com/projects.html#webpage",
+      "url": "https://muntasersyed.com/projects.html",
+      "name": "Projects and Innovation | Muntaser Syed",
+      "dateModified": "2026-11-13",
+      "description": "Research repositories, current builds, hackathon portfolios, and applied AI projects by Muntaser Syed.",
+      "isPartOf": {
+        "@id": "https://muntasersyed.com/#website"
+      },
+      "author": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "inLanguage": "en-US",
+      "mainEntity": {
+        "@id": "https://muntasersyed.com/projects.html#project-catalog"
+      },
+      "breadcrumb": {
+        "@id": "https://muntasersyed.com/projects.html#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://muntasersyed.com/projects.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muntasersyed.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Projects",
+          "item": "https://muntasersyed.com/projects.html"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://muntasersyed.com/projects.html#project-catalog",
+      "name": "Selected research repositories and builds",
+      "numberOfItems": 36,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "CBOR-LD Ex",
+            "description": "Reasoning-carrying binary linked data for constrained networks, with Python and no_std Rust implementations.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": [
+              "Python",
+              "Rust"
+            ],
+            "codeRepository": [
+              "https://github.com/jemsbhai/cbor-ld-ex",
+              "https://github.com/jemsbhai/cborld-ex"
+            ],
+            "@id": "https://muntasersyed.com/projects.html#cborld-ex",
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing",
+                "name": "CBOR-LD-Ex: Compact Linked Data with Reasoning Metadata for Constrained IoT Networks — slides",
+                "url": "https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "I3C-EX",
+            "description": "An independent research protocol and specification for edge AI and ML over MIPI I3C Basic v1.2.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/i3cex",
+            "sameAs": "https://github.com/jemsbhai/i3cex-i4c",
+            "@id": "https://muntasersyed.com/projects.html#i3cex"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Hashrope paper experiments",
+            "description": "Public manuscript and experiment workspace for the accepted IEEE ICTAI 2026 paper, Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/hashrope-paper",
+            "citation": [
+              {
+                "@id": "https://muntasersyed.com/research.html#hashrope-ictai"
+              }
+            ],
+            "@id": "https://muntasersyed.com/projects.html#hashrope-experiments",
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing",
+                "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management — slides",
+                "url": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "EpistemicDB",
+            "description": "A CBOR-LD Ex database architecture and design project.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/epistemicdb",
+            "@id": "https://muntasersyed.com/projects.html#epistemicdb"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "TOML Transformers",
+            "description": "Transformer-inference energy modeling that separates prefill and decode and tests cross-architecture transfer, with public measurements and manuscript source for the accepted IEEE UEMCON 2026 paper.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/TOMLTransformers",
+            "citation": [
+              {
+                "@id": "https://muntasersyed.com/research.html#toml-transformers-paper"
+              },
+              {
+                "@id": "https://doi.org/10.32473/flairs.39.1.141781"
+              }
+            ],
+            "@id": "https://muntasersyed.com/projects.html#toml-transformers",
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1dep2099RU3P4HpY8mgt9TlH2qrUhj1Ux/edit?usp=sharing",
+                "name": "Transistor-Level Energy Modeling of Transformer Inference: Prefill/Decode Phase Separation and Cross-Architecture Transfer — slides",
+                "url": "https://docs.google.com/presentation/d/1dep2099RU3P4HpY8mgt9TlH2qrUhj1Ux/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "IMU-JEPA",
+            "description": "Public representation-learning code and experiments for wearable inertial signals, associated with the accepted IEEE WF-IoT 2026 IMU-JEPA paper.",
+            "codeRepository": "https://github.com/jemsbhai/imujepa",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "citation": [
+              {
+                "@id": "https://muntasersyed.com/research.html#imu-jepa-paper"
+              },
+              {
+                "@id": "https://doi.org/10.32473/flairs.39.1.141783"
+              }
+            ],
+            "@id": "https://muntasersyed.com/projects.html#imu-jepa",
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1ie_s1uaemO6Gt5ZT9QsTosgJyT4GxZuB/edit?usp=sharing",
+                "name": "IMU-JEPA: Comparing Latent Prediction and Signal Reconstruction for Self-Supervised Wearable Sensor Representation Learning — slides",
+                "url": "https://docs.google.com/presentation/d/1ie_s1uaemO6Gt5ZT9QsTosgJyT4GxZuB/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "CryptEpi",
+            "description": "Privacy-preserving epistasis detection using GPU-accelerated homomorphic encryption, with a presentation at IEEE ICDM 2026’s TML4DM workshop on November 12, 11:40–11:55, China Standard Time (UTC+8), Paris Room, Shenyang.",
+            "codeRepository": "https://github.com/jemsbhai/cryptepi",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "citation": {
+              "@id": "https://muntasersyed.com/research.html#cryptepi-paper"
+            },
+            "@id": "https://muntasersyed.com/projects.html#cryptepi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "JEPA-FHIR",
+            "description": "Private research connecting self-supervised representation learning with interoperable healthcare data.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/projects.html#jepa-fhir"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "ArcMind",
+            "version": "0.2.0",
+            "description": "A causal, dual-rate sequence backbone for streaming sensor policies.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/arcmind",
+            "url": "https://pypi.org/project/arcmind/",
+            "@id": "https://muntasersyed.com/software.html#arcmind"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Subjective Logic RAG",
+            "description": "Experiments in time-aware uncertainty, evidence confidence, and belief propagation for retrieval systems.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/subjective-logic-rag",
+            "url": "https://pypi.org/project/xrag-temporal/",
+            "@id": "https://muntasersyed.com/software.html#xrag-temporal"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/software.html#jsonld-ex-project",
+            "name": "JSON-LD Ex — AI/ML Extensions",
+            "alternateName": "jsonld-ex",
+            "description": "An extension framework for machine-readable confidence, provenance, time, privacy, validation, and security metadata.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": [
+              "Python",
+              "TypeScript"
+            ],
+            "codeRepository": "https://github.com/jemsbhai/jsonld-ex",
+            "citation": {
+              "@id": "https://doi.org/10.32473/flairs.39.1.141786"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "CorpusKit",
+            "description": "A Corpusgen web workbench with local Docker setup, versioned corpus workflows, durable jobs, and reproducibility records.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/corpuskit",
+            "subjectOf": [
+              {
+                "@type": "WebPage",
+                "name": "CorpusKit getting started",
+                "url": "https://github.com/jemsbhai/corpuskit/blob/main/docs/getting-started.md"
+              },
+              {
+                "@type": "WebPage",
+                "name": "CorpusKit 15-minute demo",
+                "url": "https://github.com/jemsbhai/corpuskit/blob/main/docs/product/15-minute-demo.md"
+              },
+              {
+                "@type": "WebPage",
+                "name": "CorpusKit capability matrix",
+                "url": "https://github.com/jemsbhai/corpuskit/blob/main/docs/product/capability-matrix.md"
+              },
+              {
+                "@id": "https://muntasersyed.com/speaking.html#recording-corpuskit"
+              }
+            ],
+            "@id": "https://muntasersyed.com/projects.html#corpuskit"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "WattWarden",
+            "description": "Energy-governed agents with Arm cloud and phone experiments, provisioning tools, and Pollard execution controls. Server energy is predicted; phone energy is measured through battery telemetry.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/wattwarden",
+            "subjectOf": {
+              "@type": "WebPage",
+              "name": "WattWarden challenge submission",
+              "url": "https://devpost.com/software/wattwarden"
+            },
+            "@id": "https://muntasersyed.com/projects.html#wattwarden"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "TOML Signals",
+            "description": "Reproducible transistor-level energy analysis of 37 signal-processing algorithms, with profiler traces and evaluation artifacts for IEEE MLSP 2026.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/TOMLSignals",
+            "citation": {
+              "@id": "https://openreview.net/forum?id=jYBcP44EDn"
+            },
+            "subjectOf": {
+              "@type": "WebPage",
+              "name": "IEEE MLSP 2026 schedule",
+              "url": "https://neuroneural.net/mlsp2026schedule/"
+            },
+            "@id": "https://muntasersyed.com/software.html#toml-signals"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "HIPAA compliance algebra",
+            "description": "Manuscript source, experiments, results, and figures for the accepted IEEE HealthCom 2026 paper on privacy-preserving, confidence-aware FHIR R4 exchange.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/hipaa-compliance-algebra",
+            "citation": {
+              "@id": "https://muntasersyed.com/research.html#fhir-compliance-paper"
+            },
+            "@id": "https://muntasersyed.com/projects.html#hipaa-compliance-algebra"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Station Steward",
+            "description": "A September 12, 2026 hackathon project connecting an Arduino sensor bench and simulated robotic workcell with Pollard, Chronofy, MCP-Edge, and human task handoffs.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/station-steward",
+            "@id": "https://muntasersyed.com/projects.html#station-steward"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Dreamland floor projection controller",
+            "description": "Raspberry Pi controller software by Muntaser Syed for floor projection of artwork by Tec (Tec Fase), with looping playback and optional person-detection modes.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/dreamland-rpi",
+            "@id": "https://muntasersyed.com/projects.html#dreamland-controller"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "mlpowermeter",
+            "description": "Instrumentation and experimental protocols for measuring and predicting ML energy use with TOML.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/mlpowermeter",
+            "creativeWorkStatus": "Research in progress",
+            "@id": "https://muntasersyed.com/projects.html#mlpowermeter"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Epicormic research workspace",
+            "description": "Research on provider drift detection and containment in governed AI systems.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/epicormic-paper",
+            "creativeWorkStatus": "Research in progress",
+            "@id": "https://muntasersyed.com/projects.html#epicormic-research"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#gatehouse",
+            "name": "Gatehouse",
+            "description": "A collaborative vendor-review and onboarding project. Muntaser Syed contributed Pollard evidence ledgers, action/refusal records, seals, telemetry, and offline replay; Katherine Burge built the agent fleets and cloud deployment.",
+            "creator": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Katherine Burge"
+              }
+            ],
+            "codeRepository": "https://github.com/b-urge/gatehouse",
+            "subjectOf": {
+              "@type": "WebPage",
+              "name": "Gatehouse hackathon submission",
+              "url": "https://devpost.com/software/gatehouse-qh9ml4"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#grid-hazard",
+            "name": "Grid Hazard / FieldSight",
+            "description": "A ShellHacks 2026 team project combining infrastructure coordination with simulated rover, crawler, and arm inspections.",
+            "creator": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Diego Gimenez Garcia"
+              },
+              {
+                "@type": "Person",
+                "name": "Matias Gonzalez"
+              },
+              {
+                "@type": "Person",
+                "name": "Adriana Mendez"
+              }
+            ],
+            "codeRepository": "https://github.com/gimenezdiego002/Grid-Hazard-Rover/tree/relay/inspection-system",
+            "subjectOf": {
+              "@type": "WebPage",
+              "name": "Grid Hazard hackathon submission",
+              "url": "https://devpost.com/software/grid-hazard"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#drug-integrity",
+            "name": "Drug Integrity Algebra",
+            "description": "Public simulation code, experiments, and manuscript source for the accepted IEEE HealthCom 2026 paper on pharmaceutical supply-chain evidence and uncertainty.",
+            "codeRepository": "https://github.com/jemsbhai/IEEEHealth-pharma",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "citation": {
+              "@id": "https://muntasersyed.com/research.html#drug-integrity-paper"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#healthcare-rag",
+            "name": "Healthcare RAG experiments",
+            "description": "Healthcare retrieval-augmented generation using two-server additive secret sharing, with research code for the accepted WCIHS / IEEE HealthCom 2026 paper.",
+            "codeRepository": "https://github.com/jemsbhai/herpbHealth",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "citation": {
+              "@id": "https://muntasersyed.com/research.html#healthcare-rag-paper"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1-Z5gf3K-ygiILtUAsE-RZSQi6SATdeHH/edit?usp=sharing",
+                "name": "Privacy-Preserving Retrieval-Augmented Generation for Healthcare: Two-Server Secret Sharing with Information-Theoretic Guarantees — slides",
+                "url": "https://docs.google.com/presentation/d/1-Z5gf3K-ygiILtUAsE-RZSQi6SATdeHH/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#geniekit-project",
+            "name": "geniekit",
+            "description": "Python tools for harmonizing six GENIE BPC clinicogenomic cohorts, deriving lines of therapy, and producing aggregate summaries with disclosure controls. Includes metadata and synthetic-data tools.",
+            "codeRepository": "https://github.com/jemsbhai/geniekit",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "version": "0.1.0",
+            "url": "https://pypi.org/project/geniekit/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#dewin",
+            "name": "Dewin / envlab",
+            "description": "An October 2026 hardware-hackathon collaboration connecting a mobile exposure timeline with nearby air and water sensor readings, plus a check-in kiosk.",
+            "codeRepository": "https://github.com/jemsbhai/envlab",
+            "contributor": {
+              "@id": "https://muntasersyed.com/#person"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#toml-cloud",
+            "name": "TOMLCloud",
+            "description": "Research code and experiments for transistor-level energy attribution in containerized machine-learning workloads.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/TOMLCloud",
+            "url": "https://muntasersyed.com/projects.html#toml-cloud",
+            "citation": {
+              "@id": "https://muntasersyed.com/research.html#container-energy-cloudcom"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1ghms7xBHB-rclfHfJRDMLhNtGDuqV4H5/edit?usp=sharing",
+                "name": "Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads — slides",
+                "url": "https://docs.google.com/presentation/d/1ghms7xBHB-rclfHfJRDMLhNtGDuqV4H5/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              },
+              {
+                "@id": "https://muntasersyed.com/speaking.html#recording-cloudcom"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#aasn",
+            "name": "AASN",
+            "description": "Code for automated multi-agent synthesis and discovery through compositional agent DNA.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/aasn",
+            "url": "https://muntasersyed.com/projects.html#aasn",
+            "citation": {
+              "@id": "https://muntasersyed.com/research.html#aasn-paper"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/11asoBqAxG3MHWlUEuHAGDutZ62ycA7qy/edit?usp=sharing",
+                "name": "AASN: Automated Multi-Agent Synthesis and Discovery via Compositional Agent DNA — slides",
+                "url": "https://docs.google.com/presentation/d/11asoBqAxG3MHWlUEuHAGDutZ62ycA7qy/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              },
+              {
+                "@id": "https://muntasersyed.com/speaking.html#recording-aasn"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#private-similarity",
+            "name": "Exact private similarity search",
+            "description": "Code and benchmarks for exact similarity search using two-server additive secret sharing.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/herpb",
+            "url": "https://muntasersyed.com/projects.html#private-similarity",
+            "citation": {
+              "@id": "https://muntasersyed.com/research.html#private-similarity-ictai"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1nTrWj23F4hEgQFL0PHWERbULjJ3cAP1P/edit?usp=sharing",
+                "name": "Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing — slides",
+                "url": "https://docs.google.com/presentation/d/1nTrWj23F4hEgQFL0PHWERbULjJ3cAP1P/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#jsonld-ex-experiments",
+            "name": "JSON-LD Ex experiments",
+            "description": "Experiments for veracity-aware machine-learning data exchange grounded in Subjective Logic.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/jsonld-ex-experiments",
+            "url": "https://muntasersyed.com/projects.html#jsonld-ex-experiments",
+            "citation": {
+              "@id": "https://muntasersyed.com/research.html#veracity-cic"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1Ar6e4PSd9q5L9WwBUrVKpodg0hSV7Obx/edit?usp=sharing",
+                "name": "Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic — slides",
+                "url": "https://docs.google.com/presentation/d/1Ar6e4PSd9q5L9WwBUrVKpodg0hSV7Obx/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#swarm-forest",
+            "name": "Swarm Forest",
+            "description": "Governed execution forests for agent swarms, connecting Pollard delegation controls and shared resource limits with Epicormic drift detection. Includes deterministic experiments, recorded traces, and a research write-up.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/swarm-forest",
+            "url": "https://muntasersyed.com/projects.html#swarm-forest",
+            "subjectOf": [
+              {
+                "@type": "WebPage",
+                "name": "Research write-up",
+                "url": "https://github.com/jemsbhai/swarm-forest/blob/main/WRITEUP.md"
+              },
+              {
+                "@type": "WebPage",
+                "name": "Pollard",
+                "url": "https://muntasersyed.com/software.html#agent-infrastructure"
+              },
+              {
+                "@id": "https://muntasersyed.com/speaking.html#recording-swarm-forest"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#qhashrope",
+            "name": "qhashrope",
+            "description": "A quantum verification prototype combining Hashrope and MultiSpecQR with fingerprint circuits, superdense coding, and SWAP-test experiments. Built for Florida Tech’s Qiskit Fall Fest, with simulation results and IBM Quantum hardware experiments.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/qhashrope",
+            "url": "https://muntasersyed.com/projects.html#qhashrope",
+            "subjectOf": [
+              {
+                "@type": "WebPage",
+                "name": "Hashrope",
+                "url": "https://muntasersyed.com/software.html#hashrope"
+              },
+              {
+                "@type": "WebPage",
+                "name": "MultiSpecQR",
+                "url": "https://muntasersyed.com/software.html#multispecqr"
+              },
+              {
+                "@id": "https://muntasersyed.com/speaking.html#recording-qhashrope"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#tidepath",
+            "name": "Tidepath",
+            "description": "A nonprofit workflow project for program records, reviewed follow-up drafts and reports, and controlled counseling disclosures. Its local Sheets tools review record conflicts and prepare approved correction copies.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/buildbettercode4miami",
+            "url": "https://muntasersyed.com/projects.html#tidepath",
+            "subjectOf": [
+              {
+                "@type": "WebPage",
+                "name": "Local Sheets tools",
+                "url": "https://github.com/jemsbhai/buildbettercode4miami/blob/codex/tidepath-mvp/docs/LOCAL-SHEETS.md"
+              },
+              {
+                "@type": "WebPage",
+                "name": "Demo guide",
+                "url": "https://github.com/jemsbhai/buildbettercode4miami/blob/codex/tidepath-mvp/docs/DEMO.md"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#releaseproof",
+            "name": "ReleaseProof",
+            "description": "An agent-release workbench built with Pollard, Hashrope, and Epicormic. Qualifies an issue-triage agent, binds approval to its tested configuration, and applies execution controls and drift holds. Explore the fixture demo and recorded model runs.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/releaseproof",
+            "url": "https://muntasersyed.com/projects.html#releaseproof",
+            "subjectOf": [
+              {
+                "@type": "WebPage",
+                "name": "Interactive fixture demo",
+                "url": "https://jemsbhai-releaseproof.hf.space/"
+              },
+              {
+                "@type": "WebPage",
+                "name": "Recorded model runs",
+                "url": "https://jemsbhai-releaseproof.hf.space/assets/observations.html"
+              },
+              {
+                "@type": "WebPage",
+                "name": "Devpost",
+                "url": "https://devpost.com/software/releaseproof-yr8e0t"
+              },
+              {
+                "@id": "https://muntasersyed.com/speaking.html#recording-releaseproof"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#greenroom",
+            "name": "greenroom",
+            "description": "An arts-video annotation pipeline and staff review application built for The Performance Academy challenge at AI4Good 2026. Combines audio, transcript, and visual evidence with Subjective Logic, routes uncertain annotations for review, and records staff decisions.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/greenroom",
+            "url": "https://muntasersyed.com/projects.html#greenroom",
+            "subjectOf": [
+              {
+                "@type": "WebPage",
+                "name": "Integration guide",
+                "url": "https://github.com/jemsbhai/greenroom/blob/main/INTEGRATION_HANDOFF.md"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#qfourierrope",
+            "name": "qfourierrope",
+            "description": "Spectral phase fingerprints for quantum equality testing, with Qiskit simulations, noise studies, and record-deduplication experiments. Extends qhashrope's fingerprint research.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/qfourierrope",
+            "url": "https://muntasersyed.com/projects.html#qfourierrope",
+            "isBasedOn": {
+              "@id": "https://muntasersyed.com/projects.html#qhashrope"
+            },
+            "subjectOf": {
+              "@type": "WebPage",
+              "name": "Spectral fingerprint experiments",
+              "url": "https://github.com/jemsbhai/qfourierrope/blob/main/EXPERIMENTS.md"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/projects.html#qopt-builder",
+            "name": "Quantum Optimisation Circuit Builder",
+            "alternateName": "qopt-builder",
+            "description": "A Python and browser toolkit for turning MaxCut and QUBO problems into QAOA circuits, comparing simulated runs with exact solutions for small instances, and exporting runnable hardware packages.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": [
+              "Python",
+              "JavaScript"
+            ],
+            "codeRepository": "https://github.com/jemsbhai/qopt-builder",
+            "url": "https://muntasersyed.com/projects.html#qopt-builder",
+            "subjectOf": [
+              {
+                "@id": "https://muntasersyed.com/software.html#qopt-builder-demo"
+              },
+              {
+                "@type": "WebPage",
+                "name": "Quantum Optimisation Circuit Builder guided demo",
+                "url": "https://qopt-builder.vercel.app/demo.html"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1TrzsYUS6ouBemCOs1dYjce4mYAftQHFZ/edit?usp=sharing",
+      "name": "The Environmental Cost of Digital Sovereignty: Water, Energy, and Emissions Impacts of Sovereign AI Infrastructure in the Global South — slides",
+      "url": "https://docs.google.com/presentation/d/1TrzsYUS6ouBemCOs1dYjce4mYAftQHFZ/edit?usp=sharing",
+      "creator": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#environmental-cost-paper"
+      }
+    }
+  ]
+}

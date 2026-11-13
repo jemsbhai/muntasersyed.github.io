@@ -1,0 +1,2062 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://muntasersyed.com/#person",
+      "name": "Muntaser Syed",
+      "alternateName": "Muntaser Mansur Syed",
+      "url": "https://muntasersyed.com/",
+      "sameAs": [
+        "https://sessionize.com/muntaser-syed/",
+        "https://www.linkedin.com/in/muntasersyed",
+        "https://github.com/jemsbhai",
+        "https://huggingface.co/Jemsbhai"
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://muntasersyed.com/speaking.html#webpage",
+      "url": "https://muntasersyed.com/speaking.html",
+      "name": "Speaking, Workshops and Lectures | Muntaser Syed",
+      "description": "Talks, workshops, lectures, selected research presentations, software demos, and public teaching materials by Muntaser Syed.",
+      "isPartOf": {
+        "@id": "https://muntasersyed.com/#website"
+      },
+      "author": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "mainEntity": [
+        {
+          "@id": "https://muntasersyed.com/speaking.html#engagements"
+        },
+        {
+          "@id": "https://muntasersyed.com/speaking.html#selected-recordings"
+        }
+      ],
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@id": "https://muntasersyed.com/speaking.html#breadcrumb"
+      },
+      "dateModified": "2026-11-13"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://muntasersyed.com/speaking.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muntasersyed.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Speaking",
+          "item": "https://muntasersyed.com/speaking.html"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://muntasersyed.com/speaking.html#engagements",
+      "name": "Speaking, teaching, technical mentoring, and research presentations by Muntaser Syed",
+      "numberOfItems": 54,
+      "itemListOrder": "https://schema.org/ItemListOrderDescending",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#devfest-miami-2026",
+            "name": "Build a Creative AI Agent You Can Budget, Inspect, and Replay",
+            "description": "A 45-minute hands-on Python workshop at DevFest Miami 2026 on building a creative AI agent with explicit limits, inspectable execution, and replay using Pollard.",
+            "startDate": "2026-12-05",
+            "url": "https://gdg.community.dev/events/details/google-gdg-miami-presents-devfest-miami-2026-ai-art-edition/cohost-gdg-miami/",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "location": {
+              "@type": "Place",
+              "name": "Mana Tech Loft 10, Miami, Florida"
+            },
+            "superEvent": {
+              "@type": "Event",
+              "name": "DevFest Miami 2026: AI + Art Edition",
+              "startDate": "2026-12-05",
+              "url": "https://gdg.community.dev/events/details/google-gdg-miami-presents-devfest-miami-2026-ai-art-edition/cohost-gdg-miami/"
+            },
+            "workFeatured": {
+              "@id": "https://muntasersyed.com/software.html#pollard"
+            },
+            "duration": "PT45M"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#smart-city-usa-2026",
+            "name": "Where you train and deploy your AI model matters: The Water and Carbon Cost of Sovereign AI",
+            "description": "Technical talk at the 2026 IEEE Smart City USA Conference on November 21, in Room 2, Smart Energy & Sustainability. The morning technical session runs 10:30 a.m.-12:30 p.m. Central Standard Time (11:30 a.m.-1:30 p.m. Eastern). The talk connects modeled environmental impacts of hypothetical AI deployments to siting and cooling decisions.",
+            "startDate": "2026-11-21",
+            "url": "https://sessionize.com/s/muntaser-syed/where-you-train-and-deploy-your-ai-model-matters-t/193572",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://ieeesmartcityconference.org/",
+              "name": "Breakout Room 2 - Smart Energy & Sustainability"
+            },
+            "superEvent": {
+              "@type": "Event",
+              "name": "Smart Energy & Sustainability - Morning Technical Session",
+              "startDate": "2026-11-21T10:30:00-06:00",
+              "endDate": "2026-11-21T12:30:00-06:00",
+              "url": "https://ieeesmartcityconference.org/IEEE_Smart_City_USA_2026_Agenda_FINAL_With_Session_Dividers.pdf#page=4",
+              "location": {
+                "@type": "VirtualLocation",
+                "name": "Breakout Room 2",
+                "url": "https://ieeesmartcityconference.org/agenda.html"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "2026 IEEE Smart City USA Conference",
+                "startDate": "2026-11-21",
+                "url": "https://ieeesmartcityconference.org/"
+              }
+            },
+            "workFeatured": {
+              "@type": "ScholarlyArticle",
+              "@id": "https://muntasersyed.com/research.html#environmental-cost-paper",
+              "name": "The Environmental Cost of Digital Sovereignty: Water, Energy, and Emissions Impacts of Sovereign AI Infrastructure in the Global South"
+            },
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE Smart City USA 2026 final conference agenda",
+              "url": "https://ieeesmartcityconference.org/IEEE_Smart_City_USA_2026_Agenda_FINAL_With_Session_Dividers.pdf#page=4"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#devfest-tampa-2026",
+            "name": "Govern Your Agents: Budgets, Approval Gates, and Exact Replay with Pollard",
+            "description": "A one-hour hands-on workshop at DevFest Tampa 2026 on governing AI agents with explicit resource limits, approval gates, evidence verification, and exact replay using Pollard.",
+            "startDate": "2026-11-14",
+            "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-south-florida-tampa-united-states-presents-devfest-tampa-2026-build-secure-scale/",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "location": {
+              "@type": "Place",
+              "name": "USF Tampa Campus, Engineering Building II, Tampa, Florida"
+            },
+            "superEvent": {
+              "@type": "Event",
+              "name": "DevFest Tampa 2026: Build, Secure, Scale",
+              "startDate": "2026-11-14",
+              "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-south-florida-tampa-united-states-presents-devfest-tampa-2026-build-secure-scale/"
+            },
+            "workFeatured": {
+              "@id": "https://muntasersyed.com/software.html#pollard"
+            },
+            "duration": "PT1H",
+            "subjectOf": {
+              "@type": "LearningResource",
+              "name": "Govern Your Agents with Pollard - DevFest Tampa 2026 workshop materials",
+              "url": "https://github.com/jemsbhai/devfestTampaPollard2026",
+              "learningResourceType": "Workshop exercises"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#cryptepi-tml4dm-2026",
+            "name": "CryptEpi: Privacy-Preserving Epistasis Detection via GPU-Accelerated Homomorphic Encryption",
+            "description": "Paper presented at the TML4DM 2026 workshop at IEEE ICDM on November 12, 11:40-11:55 a.m. China Standard Time (UTC+8), in the Paris Room, Shenyang. CryptEpi combines GPU acceleration and homomorphic encryption to detect gene interactions while preserving privacy.",
+            "startDate": "2026-11-12T11:40:00+08:00",
+            "endDate": "2026-11-12T11:55:00+08:00",
+            "url": "https://muntasersyed.com/speaking.html#cryptepi-tml4dm-2026",
+            "location": {
+              "@type": "Place",
+              "name": "Paris Room, Shenyang, China"
+            },
+            "superEvent": {
+              "@type": "Event",
+              "name": "TML4DM 2026 workshop at IEEE ICDM 2026",
+              "startDate": "2026-11-12",
+              "url": "https://trustworthy-ai.com.au/events/workshops/icdm-workshop-2026"
+            },
+            "workFeatured": {
+              "@id": "https://muntasersyed.com/research.html#cryptepi-paper"
+            },
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "TML4DM 2026 workshop program",
+              "url": "https://trustworthy-ai.com.au/events/workshops/icdm-workshop-2026#paperlist"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#hashrope-devfest-2026",
+            "name": "Hashrope: One Data Structure, Four Languages",
+            "description": "Talk by Muntaser Syed at DevFest Florida 2026, Track B, on persistent sequences across Python, Rust, Java, and TypeScript, with live demos and cross-language conformance.",
+            "startDate": "2026-11-07T15:00:00-05:00",
+            "endDate": "2026-11-07T15:30:00-05:00",
+            "url": "https://devfestflorida.com/schedule",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "location": {
+              "@type": "Place",
+              "name": "UCF Downtown, Communication and Media Building, CMB 182A/B",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "500 W. Livingston Street",
+                "addressLocality": "Orlando",
+                "addressRegion": "FL",
+                "postalCode": "32801",
+                "addressCountry": "US"
+              }
+            },
+            "superEvent": {
+              "@type": "Event",
+              "name": "DevFest Florida 2026",
+              "startDate": "2026-11-07",
+              "endDate": "2026-11-08",
+              "url": "https://devfestflorida.com/"
+            },
+            "workFeatured": {
+              "@id": "https://muntasersyed.com/software.html#hashrope"
+            },
+            "recordedIn": {
+              "@id": "https://muntasersyed.com/speaking.html#recording-hashrope-devfest"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#veracity-cic-2026",
+            "name": "Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic",
+            "description": "Paper presentation at IEEE CIC 2026 in the Intelligent Data Systems session, November 5, 10:00 a.m.–noon Pacific, Cedar/Pine, Milpitas, California.",
+            "startDate": "2026-11-05T10:00:00-08:00",
+            "endDate": "2026-11-05T12:00:00-08:00",
+            "url": "https://muntasersyed.com/speaking.html#veracity-cic-2026",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "location": {
+              "@type": "Place",
+              "name": "Cedar/Pine, Milpitas, California"
+            },
+            "superEvent": {
+              "@type": "Event",
+              "name": "IEEE CIC 2026",
+              "url": "https://cic.ieee-cs.org/2026/"
+            },
+            "workFeatured": [
+              {
+                "@type": "ScholarlyArticle",
+                "@id": "https://muntasersyed.com/research.html#veracity-cic",
+                "name": "Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic"
+              },
+              {
+                "@id": "https://docs.google.com/presentation/d/1Ar6e4PSd9q5L9WwBUrVKpodg0hSV7Obx/edit?usp=sharing"
+              }
+            ],
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE CIC 2026 conference program",
+              "url": "https://assets.ieee-cs.org/common/resources/2026/Technical+Program_overview_IEEE_TPS-CogMI-CIC-RISC+2026_Oct20v4.pdf#page=15"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#ictai-presentations-2026",
+            "name": "IEEE ICTAI 2026 presentations",
+            "description": "Four paper presentations by Muntaser Syed at IEEE ICTAI 2026 in Boca Raton: Hashrope, Pollard, StegaQR, and Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing.",
+            "startDate": "2026-11-02",
+            "endDate": "2026-11-03",
+            "url": "https://ictai.computer.org/2026/wp-content/uploads/sites/7/2026/10/ICTAI-Conference-Program.pdf",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "location": {
+              "@type": "Place",
+              "name": "Boca Raton, Florida"
+            },
+            "superEvent": {
+              "@type": "Event",
+              "name": "IEEE ICTAI 2026",
+              "startDate": "2026-11-02",
+              "endDate": "2026-11-04",
+              "url": "https://ictai.computer.org/2026/"
+            },
+            "subEvent": [
+              {
+                "@type": "Event",
+                "@id": "https://muntasersyed.com/speaking.html#hashrope-ictai-2026",
+                "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management",
+                "description": "Paper presentation by Muntaser Syed at IEEE ICTAI 2026. November 2, 11:30 a.m. Eastern, Session 12A, Royal Palm 1.",
+                "startDate": "2026-11-02T11:30:00-05:00",
+                "performer": {
+                  "@id": "https://muntasersyed.com/#person"
+                },
+                "location": {
+                  "@type": "Place",
+                  "name": "Royal Palm 1, Boca Raton, Florida"
+                },
+                "url": "https://ictai.computer.org/2026/wp-content/uploads/sites/7/2026/10/ICTAI-Conference-Program.pdf#page=1",
+                "superEvent": {
+                  "@id": "https://muntasersyed.com/speaking.html#ictai-presentations-2026"
+                },
+                "workFeatured": [
+                  {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#hashrope-ictai",
+                    "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management"
+                  },
+                  {
+                    "@id": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing"
+                  }
+                ]
+              },
+              {
+                "@type": "Event",
+                "@id": "https://muntasersyed.com/speaking.html#pollard-ictai-2026",
+                "name": "Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay",
+                "description": "Paper presentation by Muntaser Syed at IEEE ICTAI 2026. November 3, 10:10 a.m. Eastern, Session 21C, Royal Palm 3.",
+                "startDate": "2026-11-03T10:10:00-05:00",
+                "performer": {
+                  "@id": "https://muntasersyed.com/#person"
+                },
+                "location": {
+                  "@type": "Place",
+                  "name": "Royal Palm 3, Boca Raton, Florida"
+                },
+                "url": "https://ictai.computer.org/2026/wp-content/uploads/sites/7/2026/10/ICTAI-Conference-Program.pdf#page=2",
+                "superEvent": {
+                  "@id": "https://muntasersyed.com/speaking.html#ictai-presentations-2026"
+                },
+                "workFeatured": [
+                  {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#pollard-ictai",
+                    "name": "Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay"
+                  },
+                  {
+                    "@id": "https://docs.google.com/presentation/d/1e604yMBf24acaQI1UIJw_0B_Fq7zc_IuAh1ELziU-94/edit?usp=sharing"
+                  }
+                ]
+              },
+              {
+                "@type": "Event",
+                "@id": "https://muntasersyed.com/speaking.html#stegaqr-ictai-2026",
+                "name": "StegaQR: Learned Private Data Embedding in Standard-Decodable QR Codes",
+                "description": "Paper presentation by Muntaser Syed at IEEE ICTAI 2026. November 3, 1:45 p.m. Eastern, Session 23A, Royal Palm 1.",
+                "startDate": "2026-11-03T13:45:00-05:00",
+                "performer": {
+                  "@id": "https://muntasersyed.com/#person"
+                },
+                "location": {
+                  "@type": "Place",
+                  "name": "Royal Palm 1, Boca Raton, Florida"
+                },
+                "url": "https://ictai.computer.org/2026/wp-content/uploads/sites/7/2026/10/ICTAI-Conference-Program.pdf#page=2",
+                "superEvent": {
+                  "@id": "https://muntasersyed.com/speaking.html#ictai-presentations-2026"
+                },
+                "workFeatured": [
+                  {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#stegaqr-ictai",
+                    "name": "StegaQR: Learned Private Data Embedding in Standard-Decodable QR Codes"
+                  },
+                  {
+                    "@id": "https://docs.google.com/presentation/d/1H5sl9ycs7kndZJUwMABVxFdzbmrtMzXP/edit?usp=sharing"
+                  }
+                ]
+              },
+              {
+                "@type": "Event",
+                "@id": "https://muntasersyed.com/speaking.html#private-similarity-ictai-2026",
+                "name": "Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing",
+                "description": "Paper presentation by Muntaser Syed at IEEE ICTAI 2026. November 3, 4:30 p.m. Eastern, Session 24C, Royal Palm 3.",
+                "startDate": "2026-11-03T16:30:00-05:00",
+                "performer": {
+                  "@id": "https://muntasersyed.com/#person"
+                },
+                "location": {
+                  "@type": "Place",
+                  "name": "Royal Palm 3, Boca Raton, Florida"
+                },
+                "url": "https://ictai.computer.org/2026/wp-content/uploads/sites/7/2026/10/ICTAI-Conference-Program.pdf#page=2",
+                "superEvent": {
+                  "@id": "https://muntasersyed.com/speaking.html#ictai-presentations-2026"
+                },
+                "workFeatured": [
+                  {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#private-similarity-ictai",
+                    "name": "Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing"
+                  },
+                  {
+                    "@id": "https://docs.google.com/presentation/d/1nTrWj23F4hEgQFL0PHWERbULjJ3cAP1P/edit?usp=sharing"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#cloudcom-author-session-2026",
+            "name": "Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads",
+            "description": "Presented at IEEE CloudCom 2026 in the Cloud Computing: Sustainability, Efficiency, and Security session, October 29, 14:00–15:30 Paris time.",
+            "startDate": "2026-10-29T14:00:00+01:00",
+            "endDate": "2026-10-29T15:30:00+01:00",
+            "url": "https://www.cloudcom2026.org/program",
+            "location": {
+              "@type": "Place",
+              "name": "Main Track, Alésia Room, Paris, France"
+            },
+            "superEvent": {
+              "@type": "Event",
+              "name": "IEEE CloudCom 2026",
+              "startDate": "2026-10-27",
+              "endDate": "2026-10-29",
+              "url": "https://www.cloudcom2026.org/"
+            },
+            "workFeatured": [
+              {
+                "@type": "ScholarlyArticle",
+                "@id": "https://muntasersyed.com/research.html#container-energy-cloudcom",
+                "name": "Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads"
+              },
+              {
+                "@id": "https://docs.google.com/presentation/d/1ghms7xBHB-rclfHfJRDMLhNtGDuqV4H5/edit?usp=sharing"
+              },
+              {
+                "@id": "https://muntasersyed.com/speaking.html#recording-cloudcom"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#wfiot-author-sessions-2026",
+            "name": "IEEE WF-IoT 2026 presentations",
+            "description": "Four paper presentations at IEEE WF-IoT 2026 on October 26: CBOR-LD-Ex, Compliance Algebra, IMU-JEPA, and 1-bit LLM routers.",
+            "startDate": "2026-10-26",
+            "url": "https://edas.info/web/ieeewf-iot2026/program.html#S1571061726",
+            "subEvent": [
+              {
+                "@type": "Event",
+                "name": "CBOR-LD-Ex: Compact Linked Data with Reasoning Metadata for Constrained IoT Networks",
+                "description": "Paper presentation at IEEE WF-IoT 2026 on October 26.",
+                "startDate": "2026-10-26",
+                "url": "https://edas.info/web/ieeewf-iot2026/program.html#S1571061726",
+                "workFeatured": [
+                  {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#cborld-ex-paper",
+                    "name": "CBOR-LD-Ex: Compact Linked Data with Reasoning Metadata for Constrained IoT Networks"
+                  },
+                  {
+                    "@id": "https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing"
+                  }
+                ],
+                "@id": "https://muntasersyed.com/speaking.html#cborld-ex-wfiot-2026",
+                "superEvent": {
+                  "@id": "https://muntasersyed.com/speaking.html#wfiot-author-sessions-2026"
+                }
+              },
+              {
+                "@type": "Event",
+                "name": "Compliance Algebra for IoT Energy Data Governance: Detecting Silent Failures in Smart Meter Pipelines",
+                "description": "Paper presentation at IEEE WF-IoT 2026 on October 26.",
+                "startDate": "2026-10-26",
+                "url": "https://edas.info/web/ieeewf-iot2026/program.html#S1571061726",
+                "workFeatured": [
+                  {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#compliance-algebra-iot",
+                    "name": "Compliance Algebra for IoT Energy Data Governance: Detecting Silent Failures in Smart Meter Pipelines"
+                  },
+                  {
+                    "@id": "https://docs.google.com/presentation/d/1YvYY_Qu6DYu9FgPplnCg08RpYsm75pWo/edit?usp=sharing"
+                  }
+                ],
+                "@id": "https://muntasersyed.com/speaking.html#compliance-algebra-wfiot-2026",
+                "superEvent": {
+                  "@id": "https://muntasersyed.com/speaking.html#wfiot-author-sessions-2026"
+                }
+              },
+              {
+                "@type": "Event",
+                "name": "IMU-JEPA: Comparing Latent Prediction and Signal Reconstruction for Self-Supervised Wearable Sensor Representation Learning",
+                "description": "Paper presentation at IEEE WF-IoT 2026 on October 26.",
+                "startDate": "2026-10-26",
+                "url": "https://edas.info/web/ieeewf-iot2026/program.html#S1571061726",
+                "workFeatured": [
+                  {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#imu-jepa-paper",
+                    "name": "IMU-JEPA: Comparing Latent Prediction and Signal Reconstruction for Self-Supervised Wearable Sensor Representation Learning"
+                  },
+                  {
+                    "@id": "https://docs.google.com/presentation/d/1ie_s1uaemO6Gt5ZT9QsTosgJyT4GxZuB/edit?usp=sharing"
+                  }
+                ],
+                "@id": "https://muntasersyed.com/speaking.html#imu-jepa-wfiot-2026",
+                "superEvent": {
+                  "@id": "https://muntasersyed.com/speaking.html#wfiot-author-sessions-2026"
+                }
+              },
+              {
+                "@type": "Event",
+                "name": "Zero-Shot Attack-Family Generalization with 1-Bit LLM Routers at the IoT Edge",
+                "description": "Paper presentation at IEEE WF-IoT 2026 on October 26.",
+                "startDate": "2026-10-26",
+                "url": "https://edas.info/web/ieeewf-iot2026/program.html#S1571061726",
+                "workFeatured": [
+                  {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#onebit-iot-paper",
+                    "name": "Zero-Shot Attack-Family Generalization with 1-Bit LLM Routers at the IoT Edge"
+                  },
+                  {
+                    "@id": "https://docs.google.com/presentation/d/1RpcIAc8u_hiiGDKNWui5MF-huFUU1_Af/edit?usp=sharing"
+                  }
+                ],
+                "@id": "https://muntasersyed.com/speaking.html#onebit-iot-wfiot-2026",
+                "superEvent": {
+                  "@id": "https://muntasersyed.com/speaking.html#wfiot-author-sessions-2026"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#hacktoberfest-orlando-2026",
+            "name": "Shipping the Pollard Ecosystem",
+            "description": "A practical talk on packaging, testing, documenting, and releasing Python, JavaScript, and Rust libraries, illustrated with tokenmaster and Pollard.",
+            "startDate": "2026-10-22",
+            "url": "https://www.meetup.com/orlandodevs/events/316782113/",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "Orlando Devs",
+              "url": "https://www.meetup.com/orlandodevs/"
+            },
+            "location": {
+              "@type": "Place",
+              "name": "Worth, Winter Park, Florida"
+            },
+            "superEvent": {
+              "@type": "Event",
+              "name": "Hacktoberfest 2026 Orlando",
+              "startDate": "2026-10-22T18:30:00-04:00",
+              "endDate": "2026-10-22T21:00:00-04:00",
+              "url": "https://www.meetup.com/orlandodevs/events/316782113/"
+            },
+            "workFeatured": [
+              {
+                "@id": "https://docs.google.com/presentation/d/1H8mMlLhTkxyCuWazhVCCiSH1fCxlTna2/edit?usp=sharing"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#healthcom-author-sessions-2026",
+            "name": "IEEE HealthCom 2026 presentations",
+            "description": "Three paper presentations at IEEE HealthCom 2026 in New York, October 19-21, covering FHIR / HIPAA compliance, drug integrity, and healthcare RAG.",
+            "startDate": "2026-10-19",
+            "endDate": "2026-10-21",
+            "url": "https://healthcom2026.ieee-healthcom.org/sites/default/files/downloads/2026-10/ieee_healthcom_2026_detailed-prg-oct-06.pdf",
+            "subEvent": [
+              {
+                "@type": "Event",
+                "name": "Privacy-Preserving Confidence-Aware FHIR R4 Exchange: A HIPAA Compliance Algebra Grounded in Subjective Logic",
+                "description": "Paper presentation on FHIR R4 / HIPAA compliance algebra.",
+                "startDate": "2026-10-19T14:30:00-04:00",
+                "endDate": "2026-10-19T15:45:00-04:00",
+                "url": "https://healthcom2026.ieee-healthcom.org/sites/default/files/downloads/2026-10/ieee_healthcom_2026_detailed-prg-oct-06.pdf#page=6",
+                "workFeatured": {
+                  "@type": "ScholarlyArticle",
+                  "@id": "https://muntasersyed.com/research.html#fhir-compliance-paper",
+                  "name": "Privacy-Preserving Confidence-Aware FHIR R4 Exchange: A HIPAA Compliance Algebra Grounded in Subjective Logic"
+                },
+                "location": {
+                  "@type": "Place",
+                  "name": "Great Hall, Yeshiva Museum, New York"
+                },
+                "@id": "https://muntasersyed.com/speaking.html#fhir-compliance-healthcom-2026",
+                "superEvent": {
+                  "@id": "https://muntasersyed.com/speaking.html#healthcom-author-sessions-2026"
+                }
+              },
+              {
+                "@type": "Event",
+                "name": "Drug Integrity Algebra: Quantifying End-to-End Pharmaceutical Safety with Subjective Logic",
+                "description": "Paper presentation on Drug Integrity Algebra.",
+                "startDate": "2026-10-20T14:30:00-04:00",
+                "endDate": "2026-10-20T15:45:00-04:00",
+                "url": "https://healthcom2026.ieee-healthcom.org/sites/default/files/downloads/2026-10/ieee_healthcom_2026_detailed-prg-oct-06.pdf#page=12",
+                "workFeatured": {
+                  "@type": "ScholarlyArticle",
+                  "@id": "https://muntasersyed.com/research.html#drug-integrity-paper",
+                  "name": "Drug Integrity Algebra: Quantifying End-to-End Pharmaceutical Safety with Subjective Logic"
+                },
+                "location": {
+                  "@type": "Place",
+                  "name": "Great Hall, Yeshiva Museum, New York"
+                },
+                "@id": "https://muntasersyed.com/speaking.html#drug-integrity-healthcom-2026",
+                "superEvent": {
+                  "@id": "https://muntasersyed.com/speaking.html#healthcom-author-sessions-2026"
+                }
+              },
+              {
+                "@type": "Event",
+                "name": "Privacy-Preserving Retrieval-Augmented Generation for Healthcare: Two-Server Secret Sharing with Information-Theoretic Guarantees",
+                "description": "Workshop 5, WCIHS 2026 — paper presentation.",
+                "startDate": "2026-10-21T10:15:00-04:00",
+                "endDate": "2026-10-21T11:30:00-04:00",
+                "url": "https://healthcom2026.ieee-healthcom.org/sites/default/files/downloads/2026-10/ieee_healthcom_2026_detailed-prg-oct-06.pdf#page=13",
+                "workFeatured": [
+                  {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#healthcare-rag-paper",
+                    "name": "Privacy-Preserving Retrieval-Augmented Generation for Healthcare: Two-Server Secret Sharing with Information-Theoretic Guarantees"
+                  },
+                  {
+                    "@id": "https://docs.google.com/presentation/d/1-Z5gf3K-ygiILtUAsE-RZSQi6SATdeHH/edit?usp=sharing"
+                  }
+                ],
+                "location": {
+                  "@type": "Place",
+                  "name": "Kovno Room, Yeshiva Museum, New York"
+                },
+                "@id": "https://muntasersyed.com/speaking.html#healthcare-rag-healthcom-2026",
+                "superEvent": {
+                  "@id": "https://muntasersyed.com/speaking.html#healthcom-author-sessions-2026"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#applied-ai-summit-2026",
+            "name": "From drift alert to drift refusal: fail-closed containment of provider change in governed AI systems",
+            "description": "An Applied AI Summit presentation on October 15, 2026, in Day 3: AI Governance, by Muntaser Syed, Researcher at Florida Institute of Technology.",
+            "startDate": "2026-10-15T15:00:00-04:00",
+            "endDate": "2026-10-15T15:30:00-04:00",
+            "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://appliedaisummit.org/"
+            },
+            "superEvent": {
+              "@type": "Event",
+              "name": "Applied AI Summit 2026",
+              "startDate": "2026-10-13",
+              "endDate": "2026-10-15",
+              "url": "https://appliedaisummit.org/"
+            },
+            "image": "https://muntasersyed.com/assets/images/applied-ai-summit-2026-muntaser-syed.webp",
+            "url": "https://muntasersyed.com/speaking.html#applied-ai-summit-2026",
+            "workFeatured": [
+              {
+                "@id": "https://docs.google.com/presentation/d/1A6ballogWGr02m26VCoruYbfccPy5oDp/edit?usp=sharing"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#ghtc-author-session-2026",
+            "name": "IEEE GHTC 2026 presentations",
+            "description": "Two paper presentations in Session 7B, Socio-Technical Approaches in Engineering, at IEEE GHTC in Boulder.",
+            "startDate": "2026-10-09T13:00:00-06:00",
+            "endDate": "2026-10-09T14:30:00-06:00",
+            "url": "https://ieeeghtc.org/technical-paper-presentations-schedule-2026/",
+            "subEvent": [
+              {
+                "@type": "Event",
+                "name": "Ergonomic Assessment of LLM-Assisted Work among Bangladeshi Technology Users: A Multi-Instrument Survey Study",
+                "description": "Session 7B: Socio-Technical Approaches in Engineering — paper presentation.",
+                "startDate": "2026-10-09T13:00:00-06:00",
+                "endDate": "2026-10-09T14:30:00-06:00",
+                "url": "https://ieeeghtc.org/technical-paper-presentations-schedule-2026/",
+                "workFeatured": [
+                  {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#llm-ergonomics-paper",
+                    "name": "Ergonomic Assessment of LLM-Assisted Work among Bangladeshi Technology Users: A Multi-Instrument Survey Study"
+                  },
+                  {
+                    "@id": "https://docs.google.com/presentation/d/1TGqNwZpWn31X5ujYOUv-mATiMo9JOlID/edit?usp=sharing"
+                  }
+                ],
+                "location": {
+                  "@type": "Place",
+                  "name": "C120B"
+                },
+                "@id": "https://muntasersyed.com/speaking.html#llm-ergonomics-ghtc-2026",
+                "superEvent": {
+                  "@id": "https://muntasersyed.com/speaking.html#ghtc-author-session-2026"
+                }
+              },
+              {
+                "@type": "Event",
+                "name": "The Environmental Cost of Digital Sovereignty: Water, Energy, and Emissions Impacts of Sovereign AI Infrastructure in the Global South",
+                "description": "Session 7B: Socio-Technical Approaches in Engineering — paper presentation.",
+                "startDate": "2026-10-09T13:00:00-06:00",
+                "endDate": "2026-10-09T14:30:00-06:00",
+                "url": "https://ieeeghtc.org/technical-paper-presentations-schedule-2026/",
+                "workFeatured": [
+                  {
+                    "@type": "ScholarlyArticle",
+                    "@id": "https://muntasersyed.com/research.html#environmental-cost-paper",
+                    "name": "The Environmental Cost of Digital Sovereignty: Water, Energy, and Emissions Impacts of Sovereign AI Infrastructure in the Global South"
+                  },
+                  {
+                    "@id": "https://docs.google.com/presentation/d/1TrzsYUS6ouBemCOs1dYjce4mYAftQHFZ/edit?usp=sharing"
+                  }
+                ],
+                "location": {
+                  "@type": "Place",
+                  "name": "C120B"
+                },
+                "@id": "https://muntasersyed.com/speaking.html#environmental-cost-ghtc-2026",
+                "superEvent": {
+                  "@id": "https://muntasersyed.com/speaking.html#ghtc-author-session-2026"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#aisalon-pollard-2026",
+            "name": "The Power of No: Building Agents That Refuse, Pause, and Prove",
+            "description": "Presented at AiSalon Miami at Mana Tech Loft 10, introducing Pollard and the controls that let AI agents refuse, pause, and prove what happened before real-world actions.",
+            "startDate": "2026-10-08",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "location": {
+              "@type": "Place",
+              "name": "Mana Tech Loft 10, 21 SE 1st Ave, Miami, Florida"
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "AiSalon Miami"
+            },
+            "superEvent": {
+              "@type": "Event",
+              "name": "The Power of No: Building Agents That Refuse, Pause, and Prove + Polite Voice Agent",
+              "startDate": "2026-10-08T18:00:00-04:00",
+              "endDate": "2026-10-08T21:00:00-04:00",
+              "url": "https://luma.com/AI-Salon-October-Miami-2026"
+            },
+            "url": "https://luma.com/AI-Salon-October-Miami-2026"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#multispecqr-icmla-2026",
+            "name": "MultiSpecQR: Multi-Spectral QR Code Encoding and Neural Network-Assisted Decoding via Color Channel Multiplexing",
+            "description": "Presented at IEEE ICMLA 2026 in Special Session 1A (SS1-A), covering multi-layer QR encoding through color-channel multiplexing and neural-assisted decoding.",
+            "startDate": "2026-10-05",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "IEEE ICMLA 2026"
+            },
+            "workFeatured": [
+              {
+                "@type": "ScholarlyArticle",
+                "@id": "https://muntasersyed.com/research.html#multispecqr-paper",
+                "name": "MultiSpecQR: Multi-Spectral QR Code Encoding and Neural Network-Assisted Decoding via Color Channel Multiplexing",
+                "url": "https://doi.org/10.1109/ICMLA69890.2026.00221"
+              },
+              {
+                "@id": "https://docs.google.com/presentation/d/1LwrP67_kbdc-FbjcnuCFlhDdBX7yY5Kr/edit?usp=sharing"
+              }
+            ],
+            "url": "https://www.icmla-conference.org/icmla26/ss1regularpapers.html"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "Event",
+            "name": "Transistor-Level Energy Analysis of Signal Processing Algorithms: Beyond Operation Counting",
+            "startDate": "2026-10-01T13:00:00-04:00",
+            "endDate": "2026-10-01T15:00:00-04:00",
+            "location": {
+              "@type": "Place",
+              "name": "Atlanta, Georgia"
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "IEEE MLSP 2026"
+            },
+            "workFeatured": {
+              "@type": "ScholarlyArticle",
+              "name": "Transistor-Level Energy Analysis of Signal Processing Algorithms: Beyond Operation Counting",
+              "author": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "url": "https://openreview.net/forum?id=jYBcP44EDn"
+            },
+            "url": "https://neuroneural.net/mlsp2026schedule/",
+            "@id": "https://muntasersyed.com/speaking.html#transistor-level-energy-analysis-of-signal-processing-algorithms-beyond-operation-counting-2026",
+            "description": "Presented at IEEE MLSP 2026 in Atlanta, applying TOML’s physics-grounded energy model to 37 signal-processing algorithms."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#huggingface-2026",
+            "name": "Bringing the Heat: Supercharging Your ML Pipelines with HuggingFace",
+            "description": "Delivered to a standing-room-only audience at DeepStation AI Demo Night, Miami Dade College’s Wolfson Campus. A live workflow took a model through LoRA fine-tuning, ONNX INT8 optimization, evaluation, and release gates. Slides, measured results, and a runnable Colab exercise are available.",
+            "startDate": "2026-09-17T19:30:00-04:00",
+            "endDate": "2026-09-17T19:50:00-04:00",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "location": {
+              "@type": "Place",
+              "name": "AI Center, Miami Dade College, Wolfson Campus, Building 2"
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "DeepStation"
+            },
+            "url": "https://luma.com/uuapbq7w"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#hardware-cbor-2026",
+            "name": "CBOR-LD Ex demonstration · 5th Miami Hardware Meetup",
+            "description": "Demonstrated compact linked-data messages carrying trust and compliance annotations for constrained IoT devices at The DOCK in Miami.",
+            "startDate": "2026-08-26",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "location": {
+              "@type": "Place",
+              "name": "The DOCK, 400 NW 26th St, Miami, Florida"
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "Miami Hardware Meetup"
+            },
+            "url": "https://luma.com/a9eyyy4a"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "Event",
+            "name": "The Human in the Loop: How TDD Keeps You in the Driver’s Seat of AI-Assisted Development",
+            "startDate": "2026-08-05T09:00:00-04:00",
+            "endDate": "2026-08-05T10:30:00-04:00",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "location": {
+              "@type": "Place",
+              "name": "Cocoa Beach, Florida"
+            },
+            "url": "https://associationforsoftwaretesting.org/conference/cast-2026/cast2026-event-schedule-program/",
+            "@id": "https://muntasersyed.com/speaking.html#the-human-in-the-loop-how-tdd-keeps-you-in-the-driver-s-seat-of-ai-assisted-development-2026",
+            "description": "A 90-minute CAST 2026 session on using test-driven development to keep human judgment explicit in AI-assisted software work."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "Event",
+            "name": "Chronofy: A Temporal-Logical Decay Architecture",
+            "startDate": "2026-08-02",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "location": {
+              "@type": "Place",
+              "name": "Seattle, Washington"
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "IEEE IRI 2026"
+            },
+            "workFeatured": {
+              "@type": "ScholarlyArticle",
+              "name": "Chronofy: A Temporal-Logical Decay Architecture",
+              "url": "https://doi.org/10.1109/IRI69576.2026.00090"
+            },
+            "url": "https://ieee-iri.github.io/resources/documents/IEEE_IRI2026_Detailed_Program_Jul31.pdf",
+            "@id": "https://muntasersyed.com/speaking.html#chronofy-a-temporal-logical-decay-architecture-2026",
+            "description": "Presented in the IEEE IRI 2026 Retrieval-Augmented Generation & Knowledge Graphs session in Seattle, covering temporal validity and stale-evidence controls for RAG."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "Event",
+            "name": "Epistemic Edge: Subjective Logic Guardrails for LLM-Driven IoT Actuation",
+            "startDate": "2026-07-31",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "location": {
+              "@type": "Place",
+              "name": "Seattle, Washington"
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "IEEE IRI 2026"
+            },
+            "workFeatured": {
+              "@type": "ScholarlyArticle",
+              "name": "Epistemic Edge: Subjective Logic Guardrails for LLM-Driven IoT Actuation",
+              "url": "https://doi.org/10.1109/IRI69576.2026.00017"
+            },
+            "url": "https://ieee-iri.github.io/resources/documents/IEEE_IRI2026_Detailed_Program_Jul31.pdf",
+            "@id": "https://muntasersyed.com/speaking.html#epistemic-edge-subjective-logic-guardrails-for-llm-driven-iot-actuation-2026",
+            "description": "Presented at IEEE IRI 2026 in Seattle, introducing uncertainty-aware guardrails for LLM-driven IoT actuation."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#jsonld-ex-workshop",
+            "name": "Making AI Honesty Machine-Readable",
+            "startDate": "2026-06-27",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "GDG Central Florida"
+            },
+            "url": "https://www.meetup.com/gdg-central-florida/events/315206853/",
+            "description": "A hands-on GDG Central Florida workshop using JSON-LD Ex to represent confidence, uncertainty, provenance, and compliance in AI systems."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#mcp-edge-extending-the-model-context-protocol-to-constrained-iot-devices-2026",
+            "name": "MCP-Edge: Extending the Model Context Protocol to Constrained IoT Devices",
+            "description": "An IEEE Cloud Summit presentation in Washington, DC on adapting MCP across constrained endpoints, gateways, and full clients.",
+            "url": "https://app.ieee-cloud-summit.org/ieee-cloud-summit-2026/sessions",
+            "startDate": "2026-06-25"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@type": "Event",
+            "name": "Securing MCP workflows for Agentic AI",
+            "startDate": "2026-06-12T13:00:00-04:00",
+            "endDate": "2026-06-12T13:25:00-04:00",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "location": {
+              "@type": "Place",
+              "name": "AI Center, Miami Dade College North Campus"
+            },
+            "url": "https://globalai.community/e/q7qdn1cp",
+            "@id": "https://muntasersyed.com/speaking.html#securing-mcp-workflows-for-agentic-ai-2026",
+            "description": "An AgentCon Miami main-track talk and interactive defense lab on MCP, agent, and AI-pipeline attack surfaces."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#xai-evaluation-how-to-know-if-your-model-s-explanations-are-trustworthy-2026",
+            "name": "XAI Evaluation: How to Know If Your Model’s Explanations Are Trustworthy",
+            "description": "A Tampa Devs session on testing explanation quality and avoiding unsupported claims about model behavior.",
+            "url": "https://tampa.dev/events/09e2fe8c-c348-46e9-adbd-0b1707a3d8c1",
+            "startDate": "2026-05-28"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#flairs-39-author-sessions-2026",
+            "name": "FLAIRS-39 presentations",
+            "description": "Four paper presentations at FLAIRS-39 in Marco Island, including talks on JSON-LD Ex and wearable neck-posture classification.",
+            "url": "https://easychair.org/smart-program/FLAIRS-39/person282.html",
+            "startDate": "2026-05-18",
+            "endDate": "2026-05-20",
+            "organizer": {
+              "@type": "Organization",
+              "name": "FLAIRS-39"
+            },
+            "subEvent": [
+              {
+                "@type": "Event",
+                "name": "TOML: A Transistor Operations Metric for Energy Efficiency of Machine Learning",
+                "startDate": "2026-05-20",
+                "organizer": {
+                  "@type": "Organization",
+                  "name": "FLAIRS-39"
+                },
+                "url": "https://easychair.org/smart-program/FLAIRS-39/bytalk-2026-05-20.html"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "item": {
+            "@type": "Event",
+            "performer": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Tad Duval"
+              }
+            ],
+            "@id": "https://muntasersyed.com/speaking.html#agentic-engineering-2026",
+            "name": "Agentic Engineering: Harnesses & More",
+            "description": "An AI Masterclass with Tad Duval at The DOCK in Miami, exploring agentic development workflows and harnesses. The event covered Claude Code, Dispatch, Ralph Loops, and Autoresearch.",
+            "url": "https://refreshmiami.com/event/agentic-engineering-harnesses-more-ai-masterclass/",
+            "startDate": "2026-04-30",
+            "location": {
+              "@type": "Place",
+              "name": "The DOCK, Miami, Florida"
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "COMMAND LABS"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#xrag-time-aware-retrieval-for-stale-evidence-2026",
+            "name": "XRAG: Time-Aware Retrieval for Stale Evidence",
+            "description": "A DeepStation AI Demo Day presentation on temporal decay and validity-aware retrieval.",
+            "url": "https://luma.com/bufrpy0y",
+            "startDate": "2026-04-14"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "item": {
+            "@type": "Event",
+            "name": "JSON-LD Is Great (and Here’s How We’re Improving It): Building jsonld-ex",
+            "startDate": "2026-04-11",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "Orlando Code Camp"
+            },
+            "url": "https://www.orlandocodecamp.com/sessions/#session=1168827",
+            "@id": "https://muntasersyed.com/speaking.html#json-ld-is-great-and-here-s-how-we-re-improving-it-building-jsonld-ex-2026",
+            "description": "An Orlando Code Camp session on extending linked data with AI confidence, provenance, temporal scope, and security metadata."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#an-exploration-into-explainable-ai-with-explainiverse-2026",
+            "name": "An Exploration into Explainable AI with Explainiverse",
+            "description": "A DeepStation Fort Lauderdale session on practical explainability and the boundaries of XAI claims.",
+            "url": "https://luma.com/9hy1ezqt",
+            "startDate": "2026-03-25"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#google-ecosystem-2026",
+            "name": "Agentic Development with Google Ecosystem",
+            "description": "A three-hour workshop delivered at Miami Dade College on building agents with Google ADK, connecting tools through MCP, coordinating agents with A2A, and deploying to Google Cloud.",
+            "url": "https://github.com/jemsbhai/google-agentic-workshop",
+            "startDate": "2026-02-11",
+            "location": {
+              "@type": "Place",
+              "name": "Miami Dade College"
+            },
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#mcp-development-best-practices-2026",
+            "name": "MCP Development Best Practices",
+            "description": "A DeepStation session on building reliable Model Context Protocol services, with practical patterns and examples.",
+            "url": "https://luma.com/urvrcq90",
+            "startDate": "2026-01-16"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#acm-agentic-ai-2025",
+            "name": "Agentic AI: ACM Chapter Lecture",
+            "description": "A lecture for an ACM chapter in Melbourne, Florida, on AI agent architectures and practical implementation patterns, with notebooks and code examples.",
+            "url": "https://github.com/jemsbhai/agentslectureACM",
+            "startDate": "2025-11-07",
+            "location": {
+              "@type": "Place",
+              "name": "Melbourne, Florida"
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "ACM chapter in Melbourne, Florida"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#neural-nets-fine-tuning-ai-masterclass-2025",
+            "name": "Neural Nets & Fine-Tuning AI Masterclass",
+            "description": "A hands-on technical masterclass at The DOCK in Miami covering neural networks and model fine-tuning.",
+            "url": "https://www.linkedin.com/posts/cmd-labs_gear-up-for-theneural-nets-fine-tuning-activity-7378121013877739520-e5g5",
+            "startDate": "2025-10-29"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#vibe-code-with-v0-and-openai-gpt-prompts-2025",
+            "name": "Vibe Code with v0 and OpenAI GPT Prompts",
+            "description": "A Vibe Days session at The LAB Miami on rapid interface building and prompt-driven development.",
+            "url": "https://deepstation.ai/vibe-days",
+            "startDate": "2025-08-12"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#jul-ai-masterclass-2025",
+            "name": "JUL-AI Masterclass",
+            "description": "Presented on generative-engine optimization at The DOCK in Miami. The session covered MCP keyword analysis with Semrush and llms.txt, plus an evaluation segment with Tad Duval using LangChain and LangSmith.",
+            "url": "https://refreshmiami.com/event/jul-ai-masterclass/",
+            "startDate": "2025-07-24"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "item": {
+            "@type": "Event",
+            "performer": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Gabe Klein"
+              }
+            ],
+            "@id": "https://muntasersyed.com/speaking.html#ai-revolution-2025",
+            "name": "AI at the Frontier of Software Development: Innovations and Challenges",
+            "description": "An AI Revolution 2025 discussion with Gabe Klein on AI in engineering and software development.",
+            "url": "https://www.linkedin.com/posts/transformation-experts_airevolution2025-aiconference2025-aiengineering-activity-7349471271903981568-pH_C",
+            "startDate": "2025-07-11T12:00:00-04:00",
+            "endDate": "2025-07-11T12:50:00-04:00",
+            "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+            "organizer": {
+              "@type": "Organization",
+              "name": "Transformation Experts"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#how-to-use-llm-techniques-rag-guardrails-and-moe-2025",
+            "name": "How to Use LLM Techniques: RAG, Guardrails and MoE",
+            "description": "A DeepStation and GPTechday workshop in Miami on retrieval, safety controls, and mixture-of-experts techniques.",
+            "url": "https://luma.com/0ufyntmw",
+            "startDate": "2025-06-07"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "item": {
+            "@type": "Event",
+            "name": "Build Your Own ChatGPT: Tips & Tricks for Custom GPTs",
+            "startDate": "2025-05-06T22:00:00Z",
+            "endDate": "2025-05-06T23:15:00Z",
+            "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "organizer": [
+              {
+                "@type": "Organization",
+                "name": "OpenAI Academy"
+              },
+              {
+                "@type": "Organization",
+                "name": "DeepStation"
+              }
+            ],
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://academy.openai.com/public/events/build-your-own-chatgpt-tips-and-tricks-for-custom-gpts-i3bnbae79c"
+            },
+            "url": "https://academy.openai.com/public/events/build-your-own-chatgpt-tips-and-tricks-for-custom-gpts-i3bnbae79c",
+            "@id": "https://muntasersyed.com/speaking.html#build-your-own-chatgpt-tips-tricks-for-custom-gpts-2025",
+            "description": "OpenAI Academy lists Muntaser Syed as a speaker for this online workshop, presented by DeepStation and co-presented with Grant Kurz."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#the-future-of-ai-agi-and-beyond-the-hype-2025",
+            "name": "The Future of AI: AGI and Beyond the Hype",
+            "description": "A South Florida AI Summit session at The LAB Miami on separating credible AGI trajectories from marketing claims.",
+            "url": "https://luma.com/miami-ai-summit",
+            "startDate": "2025-04-12"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#wvll-keynote-2024",
+            "name": "Safety and Security Considerations in Large Language Models for Low Resource Languages",
+            "description": "Delivered keynote at WVLL 2024 during the December 18–19 conference.",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "superEvent": {
+              "@type": "Event",
+              "name": "WVLL 2024 · International Winter Conference on Vision, Language & Learning",
+              "startDate": "2024-12-18",
+              "endDate": "2024-12-19"
+            },
+            "url": "https://wvll.github.io/program/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 42,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#nasa-gpu-2024",
+            "name": "NASA GPU Hackathon",
+            "description": "A speaking engagement at NASA’s GPU Hackathon for accelerated scientific computing, held September 10 and 17–19.",
+            "url": "https://www.nas.nasa.gov/hackathon/",
+            "startDate": "2024-09-10",
+            "endDate": "2024-09-19",
+            "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+            "organizer": {
+              "@type": "Organization",
+              "name": "NASA"
+            },
+            "subEvent": [
+              {
+                "@type": "Event",
+                "name": "NASA GPU Hackathon: September 10 session",
+                "startDate": "2024-09-10"
+              },
+              {
+                "@type": "Event",
+                "name": "NASA GPU Hackathon: September 17–19 sessions",
+                "startDate": "2024-09-17",
+                "endDate": "2024-09-19"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 43,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#princeton-open-hackathon-2024",
+            "name": "Princeton Open Hackathon",
+            "description": "Technical moderator and mentor for several teams working to accelerate and optimize scientific applications. The hybrid event met June 4 and June 12–14.",
+            "url": "https://researchcomputing.princeton.edu/events/2024/2024-princeton-open-hackathon-hybrid-event",
+            "startDate": "2024-06-04",
+            "endDate": "2024-06-14",
+            "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+            "organizer": {
+              "@type": "Organization",
+              "name": "Princeton University"
+            },
+            "contributor": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "subEvent": [
+              {
+                "@type": "Event",
+                "name": "Princeton Open Hackathon: June 4 session",
+                "startDate": "2024-06-04"
+              },
+              {
+                "@type": "Event",
+                "name": "Princeton Open Hackathon: June 12–14 sessions",
+                "startDate": "2024-06-12",
+                "endDate": "2024-06-14"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 44,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#nasa-llm-2024",
+            "name": "NASA End-to-End LLM Bootcamp",
+            "description": "Teaching at NASA’s bootcamp on end-to-end large language model workflows, including training, tuning, deployment, and guardrails.",
+            "url": "https://www.nas.nasa.gov/hackathon/",
+            "startDate": "2024-06-05",
+            "endDate": "2024-06-07",
+            "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+            "organizer": {
+              "@type": "Organization",
+              "name": "NASA"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 45,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#noaa-open-hackathon-2024",
+            "name": "NOAA/NCAR/NREL Open Hackathon",
+            "description": "A speaking engagement at the hybrid scientific-computing hackathon based at the David Skaggs Research Center in Boulder, Colorado.",
+            "url": "https://www.cisl.ucar.edu/news/nsf-ncar-co-sponsors-open-hackathon-build-coding-skills-and-inspire-open-science-practices",
+            "startDate": "2024-02-21",
+            "endDate": "2024-02-29",
+            "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+            "location": {
+              "@type": "Place",
+              "name": "David Skaggs Research Center, Boulder, Colorado"
+            },
+            "organizer": [
+              {
+                "@type": "Organization",
+                "name": "NOAA"
+              },
+              {
+                "@type": "Organization",
+                "name": "NCAR"
+              },
+              {
+                "@type": "Organization",
+                "name": "NREL"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 46,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#noaa-ai-bootcamp-2024",
+            "name": "NCAR/NOAA/NREL AI for Science Bootcamp",
+            "description": "A speaking engagement at the two-day bootcamp on AI methods and accelerated workflows for scientific computing.",
+            "url": "https://arc.ucar.edu/articles/576",
+            "startDate": "2024-02-06",
+            "endDate": "2024-02-07",
+            "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+            "organizer": [
+              {
+                "@type": "Organization",
+                "name": "NCAR"
+              },
+              {
+                "@type": "Organization",
+                "name": "NOAA"
+              },
+              {
+                "@type": "Organization",
+                "name": "NREL"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 47,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#ieee-cruise-2023",
+            "name": "Chat GPT: IEEE Cruise Conference",
+            "description": "Oct 2023. A talk on ChatGPT at the IEEE Cruise Conference in October 2023.",
+            "url": "https://events.vtools.ieee.org/m/347133"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 48,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#tampa-machine-learning-2022",
+            "name": "Machine Learning 101",
+            "description": "Speaker for Tampa Devs’ introductory machine-learning event at Embarc Collective in Tampa.",
+            "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A6975847814429892608",
+            "startDate": "2022-09-20",
+            "location": {
+              "@type": "Place",
+              "name": "Embarc Collective, Tampa, Florida"
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "Tampa Devs"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 49,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#muntaser-jems-syed-mlh-top-50-hacker-2020",
+            "name": "Muntaser Jems Syed · MLH Top 50 Hacker",
+            "description": "A 55-minute guest interview on The Hackathon Podcast.",
+            "url": "https://podcasts.apple.com/us/podcast/muntaser-jems-syed-mlh-top-50-hacker/id1500623942?i=1000491075058",
+            "startDate": "2020-09-23"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 50,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#voice-controlled-unmanned-aerial-vehicles-2018",
+            "name": "Voice Controlled Unmanned Aerial Vehicles",
+            "description": "A South Florida GIS Expo presentation in West Palm Beach with Gamal Bohouta and Veton Z. Këpuska.",
+            "url": "https://doi.org/10.13140/RG.2.2.14551.11684",
+            "startDate": "2018-08-23",
+            "endDate": "2018-08-24"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 51,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#naecon-2018",
+            "name": "Voice controlled autonomous system for hazard detection and rescue operations",
+            "description": "Jul 2018. Presentation at NAECON 2018 by Muntaser Syed.",
+            "url": "research.html#naecon-2018-poster"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 52,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#cooperation-protocols-for-ad-hoc-robot-teams-composition-in-labyrinth-exploration-2018",
+            "name": "Cooperation Protocols for Ad-Hoc Robot Teams Composition in Labyrinth Exploration",
+            "description": "A FLAIRS-31 paper presentation in Melbourne, Florida.",
+            "url": "https://cdn.aaai.org/ocs/17937/17937-77765-1-PB.pdf",
+            "startDate": "2018-05-21",
+            "endDate": "2018-05-23"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 53,
+          "item": {
+            "@type": "Event",
+            "performer": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "@id": "https://muntasersyed.com/speaking.html#models-and-framework-for-supporting-humanoid-robot-planning-exploration-2018",
+            "name": "Models and Framework for Supporting Humanoid Robot Planning & Exploration",
+            "description": "A Florida Conference on Recent Advances in Robotics presentation at UCF.",
+            "url": "https://www.researchgate.net/publication/326211606_Models_and_Framework_for_Supporting_Humanoid_Robot_Planning_Exploration",
+            "startDate": "2018-05-10"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 54,
+          "item": {
+            "@type": "Event",
+            "@id": "https://muntasersyed.com/speaking.html#current-cybersecurity-threats-analysis-and-solutions-from-a-human-factors-perspective-2016",
+            "name": "Current Cybersecurity Threats: Analysis and Solutions From A Human Factors Perspective",
+            "description": "Presentation by Muntaser Syed and Mohammad Algarni in AHFE 2016’s Human Factors in Cybersecurity session.",
+            "url": "https://ahfe.org/images/AHFE-programs/AHFE2016_final_program.pdf",
+            "startDate": "2016-07-30"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://muntasersyed.com/speaking.html#selected-recordings",
+      "name": "Selected recordings",
+      "numberOfItems": 7,
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://muntasersyed.com/speaking.html#recording-qhashrope"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://muntasersyed.com/speaking.html#recording-swarm-forest"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://muntasersyed.com/speaking.html#recording-hashrope-devfest"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@id": "https://muntasersyed.com/speaking.html#recording-releaseproof"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@id": "https://muntasersyed.com/speaking.html#recording-corpuskit"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@id": "https://muntasersyed.com/speaking.html#recording-aasn"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@id": "https://muntasersyed.com/speaking.html#recording-cloudcom"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://muntasersyed.com/speaking.html#recording-hashrope-devfest",
+      "name": "Hashrope: One Data Structure, Four Languages - DevFest Florida 2026",
+      "description": "Muntaser Syed presents Hashrope at DevFest Florida 2026: persistent sequences across Python, Rust, Java, and TypeScript, with live demos and cross-language conformance.",
+      "url": "https://www.youtube.com/watch?v=S2hAXooVOQQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S2hAXooVOQQ/maxresdefault.jpg",
+      "uploadDate": "2026-11-07",
+      "duration": "PT18M31S",
+      "inLanguage": "en",
+      "creator": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/software.html#hashrope"
+      },
+      "recordedAt": {
+        "@id": "https://muntasersyed.com/speaking.html#hashrope-devfest-2026"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://muntasersyed.com/speaking.html#recording-corpuskit",
+      "name": "CorpusKit: Speech Corpus Design Workbench",
+      "description": "A walkthrough of the CorpusKit application built on Corpusgen, demonstrating phoneme coverage evaluation and sentence selection.",
+      "url": "https://www.youtube.com/watch?v=m1guE38mbIo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m1guE38mbIo/maxresdefault.jpg",
+      "uploadDate": "2026-09-28",
+      "duration": "PT3M45S",
+      "inLanguage": "en",
+      "creator": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/projects.html#corpuskit"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://muntasersyed.com/speaking.html#recording-aasn",
+      "name": "AASN: Automated Multi-Agent Synthesis — AGENTICS 2026",
+      "description": "Paper presentation by Muntaser Syed for AGENTICS 2026, explaining compositional agent DNA, automated multi-agent synthesis, and experimental evaluation.",
+      "url": "https://www.youtube.com/watch?v=Yp1Vl18FXlA",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yp1Vl18FXlA/maxresdefault.jpg",
+      "uploadDate": "2026-10-26",
+      "duration": "PT21M21S",
+      "inLanguage": "en",
+      "creator": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#aasn-paper"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://muntasersyed.com/speaking.html#recording-cloudcom",
+      "name": "GPU Energy Attribution for Containerized ML — CloudCom 2026",
+      "description": "Paper presentation by Muntaser Syed for IEEE CloudCom 2026, explaining transistor-level energy attribution, thermal effects, and shared-GPU experiments.",
+      "url": "https://www.youtube.com/watch?v=7BM5ym9Hp4A",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7BM5ym9Hp4A/maxresdefault.jpg",
+      "uploadDate": "2026-10-16",
+      "duration": "PT29M33S",
+      "inLanguage": "en",
+      "creator": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#container-energy-cloudcom"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1e604yMBf24acaQI1UIJw_0B_Fq7zc_IuAh1ELziU-94/edit?usp=sharing",
+      "name": "Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay — IEEE ICTAI 2026 slides",
+      "url": "https://docs.google.com/presentation/d/1e604yMBf24acaQI1UIJw_0B_Fq7zc_IuAh1ELziU-94/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#pollard-ictai"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing",
+      "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management — IEEE ICTAI 2026 slides",
+      "url": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#hashrope-ictai"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1H5sl9ycs7kndZJUwMABVxFdzbmrtMzXP/edit?usp=sharing",
+      "name": "StegaQR: Learned Private Data Embedding in Standard-Decodable QR Codes — IEEE ICTAI 2026 slides",
+      "url": "https://docs.google.com/presentation/d/1H5sl9ycs7kndZJUwMABVxFdzbmrtMzXP/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#stegaqr-ictai"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1nTrWj23F4hEgQFL0PHWERbULjJ3cAP1P/edit?usp=sharing",
+      "name": "Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing — IEEE ICTAI 2026 slides",
+      "url": "https://docs.google.com/presentation/d/1nTrWj23F4hEgQFL0PHWERbULjJ3cAP1P/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#private-similarity-ictai"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1Ar6e4PSd9q5L9WwBUrVKpodg0hSV7Obx/edit?usp=sharing",
+      "name": "Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic — IEEE CIC 2026 slides",
+      "url": "https://docs.google.com/presentation/d/1Ar6e4PSd9q5L9WwBUrVKpodg0hSV7Obx/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#veracity-cic"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1ghms7xBHB-rclfHfJRDMLhNtGDuqV4H5/edit?usp=sharing",
+      "name": "Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads — IEEE CloudCom 2026 slides",
+      "url": "https://docs.google.com/presentation/d/1ghms7xBHB-rclfHfJRDMLhNtGDuqV4H5/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#container-energy-cloudcom"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/11asoBqAxG3MHWlUEuHAGDutZ62ycA7qy/edit?usp=sharing",
+      "name": "AASN: Automated Multi-Agent Synthesis and Discovery via Compositional Agent DNA — AGENTICS 2026 slides",
+      "url": "https://docs.google.com/presentation/d/11asoBqAxG3MHWlUEuHAGDutZ62ycA7qy/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#aasn-paper"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing",
+      "name": "CBOR-LD-Ex: Compact Linked Data with Reasoning Metadata for Constrained IoT Networks — IEEE WF-IoT 2026 slides",
+      "url": "https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#cborld-ex-paper"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1YvYY_Qu6DYu9FgPplnCg08RpYsm75pWo/edit?usp=sharing",
+      "name": "Compliance Algebra for IoT Energy Data Governance: Detecting Silent Failures in Smart Meter Pipelines — IEEE WF-IoT 2026 slides",
+      "url": "https://docs.google.com/presentation/d/1YvYY_Qu6DYu9FgPplnCg08RpYsm75pWo/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#compliance-algebra-iot"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1ie_s1uaemO6Gt5ZT9QsTosgJyT4GxZuB/edit?usp=sharing",
+      "name": "IMU-JEPA: Comparing Latent Prediction and Signal Reconstruction for Self-Supervised Wearable Sensor Representation Learning — IEEE WF-IoT 2026 slides",
+      "url": "https://docs.google.com/presentation/d/1ie_s1uaemO6Gt5ZT9QsTosgJyT4GxZuB/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#imu-jepa-paper"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1RpcIAc8u_hiiGDKNWui5MF-huFUU1_Af/edit?usp=sharing",
+      "name": "Zero-Shot Attack-Family Generalization with 1-Bit LLM Routers at the IoT Edge — IEEE WF-IoT 2026 slides",
+      "url": "https://docs.google.com/presentation/d/1RpcIAc8u_hiiGDKNWui5MF-huFUU1_Af/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#onebit-iot-paper"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1-Z5gf3K-ygiILtUAsE-RZSQi6SATdeHH/edit?usp=sharing",
+      "name": "Privacy-Preserving Retrieval-Augmented Generation for Healthcare: Two-Server Secret Sharing with Information-Theoretic Guarantees — IEEE HealthCom 2026 / WCIHS slides",
+      "url": "https://docs.google.com/presentation/d/1-Z5gf3K-ygiILtUAsE-RZSQi6SATdeHH/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#healthcare-rag-paper"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1H8mMlLhTkxyCuWazhVCCiSH1fCxlTna2/edit?usp=sharing",
+      "name": "Shipping the Pollard Ecosystem — Hacktoberfest 2026 Orlando / Orlando Devs slides",
+      "url": "https://docs.google.com/presentation/d/1H8mMlLhTkxyCuWazhVCCiSH1fCxlTna2/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": [
+        {
+          "@id": "https://muntasersyed.com/software.html#tokenmaster"
+        },
+        {
+          "@id": "https://muntasersyed.com/software.html#pollard"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1A6ballogWGr02m26VCoruYbfccPy5oDp/edit?usp=sharing",
+      "name": "From drift alert to drift refusal: fail-closed containment of provider change in governed AI systems — Applied AI Summit 2026, AI Governance slides",
+      "url": "https://docs.google.com/presentation/d/1A6ballogWGr02m26VCoruYbfccPy5oDp/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": [
+        {
+          "@id": "https://muntasersyed.com/software.html#pollard"
+        },
+        {
+          "@id": "https://muntasersyed.com/software.html#pollard-jev"
+        },
+        {
+          "@id": "https://muntasersyed.com/software.html#epicormic"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1TrzsYUS6ouBemCOs1dYjce4mYAftQHFZ/edit?usp=sharing",
+      "name": "The Environmental Cost of Digital Sovereignty: Water, Energy, and Emissions Impacts of Sovereign AI Infrastructure in the Global South — IEEE GHTC 2026 slides",
+      "url": "https://docs.google.com/presentation/d/1TrzsYUS6ouBemCOs1dYjce4mYAftQHFZ/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#environmental-cost-paper"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1TGqNwZpWn31X5ujYOUv-mATiMo9JOlID/edit?usp=sharing",
+      "name": "Ergonomic Assessment of LLM-Assisted Work among Bangladeshi Technology Users: A Multi-Instrument Survey Study — IEEE GHTC 2026 slides",
+      "url": "https://docs.google.com/presentation/d/1TGqNwZpWn31X5ujYOUv-mATiMo9JOlID/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#llm-ergonomics-paper"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://docs.google.com/presentation/d/1LwrP67_kbdc-FbjcnuCFlhDdBX7yY5Kr/edit?usp=sharing",
+      "name": "MultiSpecQR: Multi-Spectral QR Code Encoding and Neural Network-Assisted Decoding via Color Channel Multiplexing — IEEE ICMLA 2026 slides",
+      "url": "https://docs.google.com/presentation/d/1LwrP67_kbdc-FbjcnuCFlhDdBX7yY5Kr/edit?usp=sharing",
+      "genre": "Presentation slides",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://muntasersyed.com/research.html#multispecqr-paper"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://muntasersyed.com/speaking.html#recording-qhashrope",
+      "name": "qhashrope: Quantum Fingerprints and Record Verification",
+      "description": "A walkthrough of quantum fingerprints, SWAP tests, and error-corrected record verification, with simulation and IBM Quantum hardware results.",
+      "url": "https://www.youtube.com/watch?v=yhAqi40rSM4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yhAqi40rSM4/maxresdefault.jpg",
+      "uploadDate": "2026-11-08",
+      "duration": "PT22M18S",
+      "inLanguage": "en",
+      "creator": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/projects.html#qhashrope"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://muntasersyed.com/speaking.html#recording-swarm-forest",
+      "name": "Alignment Does Not Compose: Governed Execution Forests for Agent Swarms",
+      "description": "Governed delegation, shared resource limits, exact replay, and drift containment across a forest of AI agents.",
+      "url": "https://www.youtube.com/watch?v=6ashWBPD0LM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6ashWBPD0LM/maxresdefault.jpg",
+      "uploadDate": "2026-11-08",
+      "duration": "PT4M2S",
+      "inLanguage": "en",
+      "creator": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/projects.html#swarm-forest"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://muntasersyed.com/speaking.html#recording-releaseproof",
+      "name": "ReleaseProof: Proof Before Permission",
+      "description": "A narrated walkthrough of the agent release workbench, connecting measured behavior, exact-contract approval, resource limits, and drift holds.",
+      "url": "https://www.youtube.com/watch?v=IVqD8GMuumY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IVqD8GMuumY/maxresdefault.jpg",
+      "uploadDate": "2026-10-30",
+      "duration": "PT2M36S",
+      "inLanguage": "en",
+      "creator": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/projects.html#releaseproof"
+      }
+    }
+  ]
+}

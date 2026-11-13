@@ -4,10 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Research and Publications | Muntaser Syed</title>
-  <meta name="description" content="Publications, preprints, and research artifacts by Muntaser Syed.">
+  <meta name="description" content="Papers and preprints by Muntaser Syed on trustworthy AI, agent systems, privacy, edge intelligence, and efficient computing, with code and presentations.">
   <meta name="theme-color" content="#f4f1e8">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="canonical" href="https://muntasersyed.com/research.html">
+  <link rel="alternate" type="text/markdown" href="https://muntasersyed.com/research.md" title="Markdown version">
+  <link rel="describedby" type="application/ld+json" href="https://muntasersyed.com/structured-data/research.jsonld" title="Schema.org metadata">
+  <link rel="describedby" type="text/plain" href="https://muntasersyed.com/llms.txt" title="Portfolio guide for agents">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Research and Publications | Muntaser Syed">
   <meta property="og:description" content="Trustworthy AI, agent systems, edge intelligence, efficient ML, health AI, and data systems.">
@@ -41,18 +44,11 @@
         "@id": "https://muntasersyed.com/research.html#webpage",
         "url": "https://muntasersyed.com/research.html",
         "name": "Research and Publications | Muntaser Syed",
-        "description": "Publications, preprints, and research artifacts by Muntaser Syed.",
-        "dateModified": "2026-11-10",
+        "description": "Papers and preprints by Muntaser Syed on trustworthy AI, agent systems, privacy, edge intelligence, and efficient computing, with code and presentations.",
+        "dateModified": "2026-11-13",
         "isPartOf": { "@id": "https://muntasersyed.com/#website" },
         "author": { "@id": "https://muntasersyed.com/#person" },
-        "about": [
-          "Trustworthy artificial intelligence",
-          "Agent systems and governance",
-          "Edge AI and AIoT",
-          "Efficient machine learning",
-          "Health and embodied AI",
-          "Compact data systems"
-        ],
+        "about": [{"@type": "Thing", "name": "Trustworthy artificial intelligence"}, {"@type": "Thing", "name": "Agent systems and governance"}, {"@type": "Thing", "name": "Edge AI and AIoT"}, {"@type": "Thing", "name": "Efficient machine learning"}, {"@type": "Thing", "name": "Health and embodied AI"}, {"@type": "Thing", "name": "Compact data systems"}],
         "inLanguage": "en-US",
         "mainEntity": { "@id": "https://muntasersyed.com/research.html#publications" },
         "breadcrumb": { "@id": "https://muntasersyed.com/research.html#breadcrumb" }
@@ -1488,13 +1484,21 @@
                   "name": "Sharun Akter Khushbu"
                 }
               ],
-              "url": "https://muntasersyed.com/research.html#beyond-flops-abstract",
-              "creativeWorkStatus": "Accepted for ACM AI Summit 2026",
-              "genre": "Conference presentation",
+              "url": "https://doi.org/10.1145/3806096.3844801",
+              "identifier": {
+                "@type": "PropertyValue",
+                "propertyID": "DOI",
+                "value": "10.1145/3806096.3844801"
+              },
+              "datePublished": "2026-08-31",
+              "creativeWorkStatus": "Published paper in the Proceedings of the ACM AI Leadership Summit 2026",
+              "genre": "Conference paper",
+              "pageStart": "1",
+              "pageEnd": "4",
               "description": "Presents a vision for grounding machine-learning energy assessment in physical computation costs beyond operation counts.",
               "isPartOf": {
                 "@type": "CreativeWork",
-                "name": "ACM AI Summit 2026"
+                "name": "Proceedings of the ACM AI Leadership Summit 2026"
               }
             }
           },
@@ -1896,12 +1900,15 @@
                   "@type": "WebPage",
                   "name": "Workshop",
                   "url": "https://trustworthy-ai.com.au/events/workshops/icdm-workshop-2026#paperlist",
-                  "description": "TML4DM 2026 workshop · IEEE ICDM 2026 · November 12, 11:40–11:55, China Standard Time (UTC+8) · Paris Room · Shenyang, China"
+                  "description": "TML4DM 2026 workshop · IEEE ICDM 2026 · Presented November 12, 11:40–11:55, China Standard Time (UTC+8) · Paris Room · Shenyang, China"
                 },
                 {
                   "@type": "WebPage",
                   "name": "Official ICDM workshop program",
                   "url": "https://icdm2026.neu.edu.cn/Program/"
+                },
+                {
+                  "@id": "https://muntasersyed.com/speaking.html#cryptepi-tml4dm-2026"
                 }
               ]
             }
@@ -2127,14 +2134,14 @@
           <h1>Research and <em>publications.</em></h1>
           <p class="page-lede">My published and accepted papers, preprints, conference presentations, and open-source research.</p>
         </div>
-        <aside class="source-note"><strong>Research sources.</strong> Explore papers, preprints, and conference materials through the linked publishers, repositories, and official programs. Reviewed <time datetime="2026-11-09">November 9, 2026</time>.</aside>
+        <aside class="source-note"><strong>Research sources.</strong> Explore papers, preprints, and conference materials through the linked publishers, repositories, and official programs. Reviewed <time datetime="2026-11-13">November 13, 2026</time>.</aside>
       </div>
     </section>
 
     <section class="signal-strip" aria-label="Scholarly record at a glance">
       <div class="shell signals">
-        <div class="signal"><strong>19</strong><span>Published papers</span></div>
-        <div class="signal"><strong>26</strong><span>Accepted / forthcoming</span></div>
+        <div class="signal"><strong>20</strong><span>Published papers</span></div>
+        <div class="signal"><strong>25</strong><span>Accepted / forthcoming</span></div>
         <div class="signal"><strong>6</strong><span>Preprints</span></div>
         <div class="signal"><strong>47</strong><span>Scholarly outputs</span></div>
       </div>
@@ -2218,12 +2225,12 @@
               <p class="summary">Presents a universal binary interchange format that preserves metadata across JSON, YAML, XML, and TOML in AI data pipelines.</p>
               <div class="item-links"><a class="micro-link" href="https://comcomap.net/2026/">Conference</a><a class="micro-link" href="https://github.com/jemsbhai/cdxf">Code</a><a class="micro-link" href="https://pypi.org/project/cdxf/">PyPI</a></div>
             </article>
-            <article class="catalog-item" id="cryptepi-paper" data-catalog-item data-category="accepted trust health">
+            <article class="catalog-item" id="cryptepi-paper" data-catalog-item data-category="accepted presentation trust health">
               <div class="catalog-item-head"><h4>CryptEpi: Privacy-Preserving Epistasis Detection via GPU-Accelerated Homomorphic Encryption</h4><span class="tag">Accepted paper · IEEE ICDM 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Ameerah Alsulami; Marius Silaghi</p>
-              <p class="venue">TML4DM 2026 workshop · IEEE ICDM 2026 · November 12, 11:40–11:55, China Standard Time (UTC+8) · Paris Room · Shenyang, China</p>
+              <p class="venue">TML4DM 2026 workshop · IEEE ICDM 2026 · Presented November 12, 11:40–11:55, China Standard Time (UTC+8) · Paris Room · Shenyang, China</p>
               <p class="summary">Studies privacy-preserving detection of gene interactions using GPU-accelerated homomorphic encryption.</p>
-              <div class="item-links"><a class="micro-link" href="https://trustworthy-ai.com.au/events/workshops/icdm-workshop-2026#paperlist">Workshop &amp; paper schedule</a><a class="micro-link" href="https://icdm2026.neu.edu.cn/Program/">Workshop program</a><a class="micro-link" href="https://github.com/jemsbhai/cryptepi">Research code</a></div>
+              <div class="item-links"><a class="micro-link" href="speaking.html#cryptepi-tml4dm-2026">Presentation</a><a class="micro-link" href="https://trustworthy-ai.com.au/events/workshops/icdm-workshop-2026#paperlist">Workshop &amp; paper schedule</a><a class="micro-link" href="https://icdm2026.neu.edu.cn/Program/">Workshop program</a><a class="micro-link" href="https://github.com/jemsbhai/cryptepi">Research code</a></div>
             </article>
             <article class="catalog-item" id="toml-transformers-paper" data-catalog-item data-category="accepted edge">
               <div class="catalog-item-head"><h4>Transistor-Level Energy Modeling of Transformer Inference: Prefill/Decode Phase Separation and Cross-Architecture Transfer</h4><span class="tag">Accepted · IEEE UEMCON 2026</span></div>
@@ -2330,11 +2337,12 @@
               <p class="summary">Explores a bandwidth-efficient speech codec for communication between IoT edge devices.</p>
               <div class="item-links"><a class="micro-link" href="https://ieee-uemcon.org/wp-content/uploads/2026/10/IEEE-UEMCON-Schedule-4.pdf#page=18">Official program</a><a class="micro-link" href="https://docs.google.com/presentation/d/1f0AOEoHGmMMrmLzgFv01MUWep-9olo8v/edit?usp=sharing">Slides</a></div>
             </article>
-            <article class="catalog-item" id="beyond-flops-abstract" data-catalog-item data-category="accepted presentation edge">
-              <div class="catalog-item-head"><h4>Beyond FLOPs: A Vision for Physics-Grounded Energy Intelligence in Machine Learning</h4><span class="tag">Accepted · ACM AI Summit 2026</span></div>
+            <article class="catalog-item" id="beyond-flops-abstract" data-catalog-item data-category="published presentation edge">
+              <div class="catalog-item-head"><h4>Beyond FLOPs: A Vision for Physics-Grounded Energy Intelligence in Machine Learning</h4><span class="tag">Published · ACM AI Summit 2026</span></div>
               <p class="authors"><strong>Muntaser Syed</strong>; Marius Silaghi; Sheikh Abujar; Sharun Akter Khushbu</p>
-              <p class="venue">ACM AI Summit 2026 · Conference presentation</p>
+              <p class="venue">Proceedings of the ACM AI Leadership Summit 2026 · August 31, 2026 · pages 1–4 · Published online November 10, 2026</p>
               <p class="summary">Presents a vision for grounding machine-learning energy assessment in physical computation costs beyond operation counts.</p>
+              <div class="item-links"><a class="micro-link" href="https://doi.org/10.1145/3806096.3844801">Published paper</a></div>
             </article>
             <article class="catalog-item" id="corpusgen-interspeech" data-catalog-item data-category="published edge health">
               <div class="catalog-item-head"><h4>corpusgen: An Open-Source Toolkit for Phoneme-Coverage-Optimized Speech Corpus Design Across Languages</h4><span class="tag">Published · Interspeech 2026</span></div>

@@ -18,28 +18,29 @@ archive, professional service, selected awards, press, and public profiles.
 - `media.html`: dated media coverage, interviews, university news, and organizer or sponsor reports
 - `about.html`: biography, roles, education, professional service, press, milestones, and profile links
 
-## Current catalog — November 9, 2026
+## Current catalog - November 13, 2026
 
-The research catalog contains 47 distinct scholarly outputs: 19 published
-works and 26 accepted works. Six works also have preprints; these categories
-overlap. KVRM is accepted at COMNETSAT 2026. CryptEpi's TML4DM presentation
-is scheduled for November 12, 11:40–11:55 a.m. in the Paris Room, Shenyang
-(UTC+8).
+The research catalog contains 47 distinct scholarly outputs: 20 published
+works and 25 accepted works. Six works also have preprints; these categories
+overlap. Beyond FLOPs is published in the ACM AI Leadership Summit proceedings,
+with DOI 10.1145/3806096.3844801. CryptEpi was presented at TML4DM on November 12.
+KVRM is accepted at COMNETSAT 2026.
 
-The site includes 34 selected project artifacts, 53 speaking engagements and
+The site includes 36 selected project artifacts, 54 speaking engagements and
 presentation entries, seven selected recordings, and 48 media entries.
-New project entries cover ReleaseProof, qhashrope, swarm-forest, Tidepath,
-and greenroom. The recordings include their three project demonstrations
+New project entries include qfourierrope and Quantum Optimisation Circuit
+Builder, with links to the circuit builder’s interactive demo. The recordings
+include qhashrope, ReleaseProof, and swarm-forest demonstrations
 alongside Hashrope at DevFest Florida, AASN, CloudCom, and CorpusKit.
 
 The software catalog covers 27 top-level works and 38 package distributions:
 25 PyPI packages, six npm packages, six Rust crates, and one Maven artifact.
-Registry versions were rechecked on November 9, including Epicormic 0.2.0,
+Registry versions were rechecked on November 13, including Epicormic 0.2.0,
 Hashrope Bio 0.3.4, and Hashrope's Python, JavaScript, Rust, and Java 0.3.4
 releases. Hashrope links to its interactive demo and related projects.
 
-Upcoming events include the November 12 TML4DM workshop, November 14 DevFest
-Tampa talk, November 21 IEEE Smart City USA talk, December 3–5 COMNETSAT,
+Upcoming events include the November 14 DevFest Tampa workshop, November 21
+IEEE Smart City USA talk, December 3–5 COMNETSAT,
 December 5 DevFest Miami workshop, December 14–17 ComComAp, and the FLAIRS-40
 call for papers. About includes AAAI-27 AISI program-committee service and
 ICML AI4GOOD and ICMLA reviewer service.
@@ -61,11 +62,29 @@ search-engine-facing graphs intentionally use only standard Schema.org terms.
 `structured-data/jsonld-ex.jsonld` is a linked JSON-LD Ex representation that
 provides extension annotations for compatible research tooling.
 
+Each page also links a standard Schema.org download in `structured-data/`
+and a Markdown companion containing its main content. `llms.txt` maps these
+resources to the portfolio’s topics. The HTML remains the canonical source.
+The sitemap lists only the canonical HTML pages.
+
 ## Publishing and maintenance
 
 GitHub Pages builds `main` with Jekyll. `_config.yml` excludes `AGENTS.md`,
-`CONTENT_AUDIT.md`, `README.md`, and `tmp` from the published artifact while
+`CONTENT_AUDIT.md`, `README.md`, `scripts`, and `tmp` from the published artifact while
 keeping maintenance records in this repository.
+
+After editing HTML, regenerate the discovery files and validate before pushing:
+
+```sh
+python scripts/build_discovery.py
+python scripts/build_discovery.py --check
+python scripts/validate_site.py
+node --check assets/site.js
+```
+
+The validation workflow runs these checks for pushes and pull requests. The
+Jekyll configuration disables optional front matter conversion so generated
+Markdown files are copied as static companions and cannot replace HTML pages.
 
 The November 10 discovery update gives all 47 research cards stable anchors
 and completes catalog entity identifiers and citation references. Preserve

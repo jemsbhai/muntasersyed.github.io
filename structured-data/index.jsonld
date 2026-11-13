@@ -1,0 +1,130 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://muntasersyed.com/#person",
+      "name": "Muntaser Syed",
+      "alternateName": "Muntaser Mansur Syed",
+      "givenName": "Muntaser",
+      "familyName": "Syed",
+      "url": "https://muntasersyed.com/",
+      "image": "https://images.ctfassets.net/kv878odoqyd1/7yhyBrSwM8N2uvDmMaczhM/fbefac391b0dafc29a60be6cb48baea9/muntaser-syed.jpg?h=700&w=560&fit=fill&f=face",
+      "email": "mailto:muntaser@ieee.org",
+      "jobTitle": [
+        "Lead Gen AI Engineer",
+        "AI systems researcher and open-source builder"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Insight Global"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "DeepStation",
+        "url": "https://deepstation.ai/"
+      },
+      "homeLocation": {
+        "@type": "Place",
+        "name": "Melbourne, Florida, United States"
+      },
+      "description": "AI systems researcher and open-source builder working in trustworthy AI, agent infrastructure, edge intelligence, semantic data, and efficient machine learning.",
+      "knowsAbout": [
+        "Trustworthy artificial intelligence",
+        "Agent infrastructure",
+        "Edge intelligence",
+        "Semantic data",
+        "Efficient machine learning",
+        "JSON-LD Ex",
+        "Subjective Logic"
+      ],
+      "award": [
+        "Major League Hacking Top 50, 2020",
+        "Inaugural Opera Hack winner — Opera Map team member, 2019"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/muntasersyed",
+        "https://github.com/jemsbhai",
+        "https://huggingface.co/Jemsbhai",
+        "https://scholar.google.com/citations?user=4RK-PocAAAAJ",
+        "https://orcid.org/0000-0002-4777-6469",
+        "https://www.researchgate.net/profile/Muntaser-Syed",
+        "https://pypi.org/user/jemsbhai/",
+        "https://www.npmjs.com/~jemsbhai",
+        "https://crates.io/users/jemsbhai",
+        "https://devpost.com/jemsbhai",
+        "https://devpost.com/msyed2011",
+        "https://sessionize.com/muntaser-syed/",
+        "https://top.mlh.com/2020/profiles/muntaser-syed"
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-4777-6469",
+        "url": "https://orcid.org/0000-0002-4777-6469"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://muntasersyed.com/#website",
+      "url": "https://muntasersyed.com/",
+      "name": "Muntaser Syed — AI Systems Research",
+      "description": "Research, publications, and open-source software by Muntaser Syed.",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://muntasersyed.com/#person"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://muntasersyed.com/#webpage",
+      "dateModified": "2026-11-13",
+      "url": "https://muntasersyed.com/",
+      "name": "Muntaser Syed | AI Systems Researcher and Open-Source Builder",
+      "description": "Research, publications, and open-source software by Muntaser Syed in trustworthy AI, agent infrastructure, edge intelligence, semantic data, and efficient machine learning.",
+      "isPartOf": {
+        "@id": "https://muntasersyed.com/#website"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "mainEntity": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "author": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://images.ctfassets.net/kv878odoqyd1/7yhyBrSwM8N2uvDmMaczhM/fbefac391b0dafc29a60be6cb48baea9/muntaser-syed.jpg?h=700&w=560&fit=fill&f=face"
+      },
+      "hasPart": [
+        {
+          "@id": "https://muntasersyed.com/research.html#webpage"
+        },
+        {
+          "@id": "https://muntasersyed.com/software.html#webpage"
+        },
+        {
+          "@id": "https://muntasersyed.com/projects.html#webpage"
+        },
+        {
+          "@id": "https://muntasersyed.com/speaking.html#webpage"
+        },
+        {
+          "@id": "https://muntasersyed.com/about.html#webpage"
+        },
+        {
+          "@id": "https://muntasersyed.com/media.html#webpage"
+        },
+        {
+          "@id": "https://muntasersyed.com/hashrope.html#webpage"
+        },
+        {
+          "@id": "https://muntasersyed.com/pollard.html#webpage"
+        }
+      ]
+    }
+  ]
+}

@@ -8,6 +8,9 @@
   <meta name="theme-color" content="#f4f1e8">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="canonical" href="https://muntasersyed.com/software.html">
+  <link rel="alternate" type="text/markdown" href="https://muntasersyed.com/software.md" title="Markdown version">
+  <link rel="describedby" type="application/ld+json" href="https://muntasersyed.com/structured-data/software.jsonld" title="Schema.org metadata">
+  <link rel="describedby" type="text/plain" href="https://muntasersyed.com/llms.txt" title="Portfolio guide for agents">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Open-Source Software | Muntaser Syed">
   <meta property="og:description" content="Research software for Python, Rust, TypeScript, and Java.">
@@ -41,7 +44,7 @@
         "@id": "https://muntasersyed.com/software.html#webpage",
         "url": "https://muntasersyed.com/software.html",
         "name": "Open-Source Software | Muntaser Syed",
-        "dateModified": "2026-11-10",
+        "dateModified": "2026-11-13",
         "description": "Python, Rust, TypeScript, and Java software by Muntaser Syed for trustworthy AI, agent infrastructure, edge intelligence, compact data, explainability, and efficient ML.",
         "isPartOf": {
           "@id": "https://muntasersyed.com/#website"
@@ -49,14 +52,7 @@
         "author": {
           "@id": "https://muntasersyed.com/#person"
         },
-        "about": [
-          "Trustworthy AI",
-          "Agent infrastructure",
-          "Edge intelligence",
-          "Compact linked data",
-          "Explainable AI",
-          "Efficient machine learning"
-        ],
+        "about": [{"@type": "Thing", "name": "Trustworthy AI"}, {"@type": "Thing", "name": "Agent infrastructure"}, {"@type": "Thing", "name": "Edge intelligence"}, {"@type": "Thing", "name": "Compact linked data"}, {"@type": "Thing", "name": "Explainable AI"}, {"@type": "Thing", "name": "Efficient machine learning"}],
         "inLanguage": "en-US",
         "mainEntity": {
           "@id": "https://muntasersyed.com/software.html#software-catalog"
@@ -958,6 +954,25 @@
         "@id": "https://doi.org/10.32473/flairs.39.1.141786",
         "name": "JSON-LD 1.2 and Beyond: Extensions for Machine Learning Data Exchange",
         "url": "https://doi.org/10.32473/flairs.39.1.141786"
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://muntasersyed.com/software.html#qopt-builder-demo",
+        "name": "Quantum Optimisation Circuit Builder",
+        "alternateName": "qopt-builder",
+        "description": "Build QAOA circuits from MaxCut graphs or QUBO matrices, explore algorithm recommendations, and compare simulations with exact solutions for small instances.",
+        "url": "https://qopt-builder.vercel.app/",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web browser",
+        "creator": {
+          "@id": "https://muntasersyed.com/#person"
+        },
+        "isBasedOn": {
+          "@id": "https://muntasersyed.com/projects.html#qopt-builder"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://muntasersyed.com/software.html#webpage"
+        }
       }
     ]
   }
@@ -1001,7 +1016,7 @@
 
     <section class="section latest-releases" aria-labelledby="latest-releases-title">
       <div class="shell">
-        <div class="section-head"><p class="eyebrow">Registry sync / <time datetime="2026-11-09">November 9, 2026</time></p><div><h2 id="latest-releases-title">Latest package releases.</h2><p>The newest releases across the public package profile, with direct links to install details and source.</p></div></div>
+        <div class="section-head"><p class="eyebrow">Registry sync / <time datetime="2026-11-13">November 13, 2026</time></p><div><h2 id="latest-releases-title">Latest package releases.</h2><p>The newest releases across the public package profile, with direct links to install details and source.</p></div></div>
         <div class="package-grid">
           <article class="package-card release-card release-card-featured">
             <span class="record-index">LATEST · OCT 28, 2026</span>
@@ -1166,6 +1181,7 @@
           <article class="artifact-card"><span class="record-index">HASHROPE</span><h3>Hashrope interactive demo</h3><p>Explore concatenation, splitting, substring hashing, insertion, repetition, and exact comparison with live tree diagrams and in-browser benchmarks.</p><div class="item-links"><a class="micro-link" href="https://hashrope.lovable.app/">Launch interactive demo</a><a class="micro-link" href="#hashrope">Library and packages</a></div></article>
           <article class="artifact-card"><span class="record-index">HASHROPE + UHC</span><h3>UHC Visualizer</h3><p>View unified hash compression and hash-rope structures.</p><div class="item-links"><a class="micro-link" href="https://uhc-visualizer.lovable.app/">Launch visualizer</a><a class="micro-link" href="https://github.com/jemsbhai/uhc">UHC code</a></div></article>
           <article class="artifact-card"><span class="record-index">POLLARD · EPICORMIC · HASHROPE</span><h3>ReleaseProof</h3><p>Explore an agent-release workbench that combines configuration approval, measured behavior, execution controls, and drift monitoring.</p><div class="item-links"><a class="micro-link" href="https://jemsbhai-releaseproof.hf.space/">Open workbench</a><a class="micro-link" href="projects.html#releaseproof">Project and code</a><a class="micro-link" href="speaking.html#recording-releaseproof">Watch the demo</a></div></article>
+          <article class="artifact-card" id="qopt-builder-demo"><span class="record-index">QUANTUM OPTIMISATION</span><h3>Quantum Optimisation Circuit Builder</h3><p>Build QAOA circuits from MaxCut graphs or QUBO matrices, explore algorithm recommendations, and compare simulations with exact solutions for small instances.</p><div class="item-links"><a class="micro-link" href="https://qopt-builder.vercel.app/">Open builder</a><a class="micro-link" href="https://qopt-builder.vercel.app/demo.html">Guided demo</a><a class="micro-link" href="projects.html#qopt-builder">Project and code</a></div></article>
           <article class="artifact-card"><span class="record-index">MORE MATERIALS</span><h3>Talks &amp; workshops</h3><p>Lecture notebooks, workshop repositories, and public teaching materials for agentic AI and MCP.</p><div class="item-links"><a class="micro-link" href="speaking.html">View speaking archive</a></div></article>
         </div>
       </div>

@@ -1,0 +1,973 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://muntasersyed.com/#person",
+      "name": "Muntaser Syed",
+      "url": "https://muntasersyed.com/"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://muntasersyed.com/media.html#webpage",
+      "url": "https://muntasersyed.com/media.html",
+      "name": "Media & interviews | Muntaser Syed",
+      "description": "Reporting, profiles, interviews, and project coverage about Muntaser Syed and his work.",
+      "isPartOf": {
+        "@id": "https://muntasersyed.com/#website"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "mainEntity": {
+        "@id": "https://muntasersyed.com/media.html#coverage"
+      },
+      "breadcrumb": {
+        "@id": "https://muntasersyed.com/media.html#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "dateModified": "2026-11-13"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://muntasersyed.com/media.html#coverage",
+      "name": "Media coverage and interviews",
+      "numberOfItems": 48,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Article",
+            "@id": "https://smarterarticles.co.uk/the-exported-thirst-how-ai-drinks-water-india-cannot-spare",
+            "url": "https://smarterarticles.co.uk/the-exported-thirst-how-ai-drinks-water-india-cannot-spare",
+            "name": "The Exported Thirst: How AI Drinks Water India Cannot Spare",
+            "description": "Tim Green discusses our research on the environmental cost of sovereign AI.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "SmarterArticles"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2026-09-02"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Article",
+            "@id": "https://moonlighterfablab.org/deco-portals/",
+            "url": "https://moonlighterfablab.org/deco-portals/",
+            "name": "Deco Portals brings a new generation of design to Lincoln Road, honoring the legacy of architect Morris Lapidus",
+            "description": "Moonlighter FabLab features Deco Portals, the Lincoln Road installation I helped create as a project volunteer.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Moonlighter FabLab"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2026-09-01"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Article",
+            "@id": "https://blog.tadhack.com/2026/03/30/vconic-tadhack-results/",
+            "url": "https://blog.tadhack.com/2026/03/30/vconic-tadhack-results/",
+            "name": "VCONIC TADHack, The Results",
+            "description": "Official results recognize my MongoDB-backed vCon enhancement with JSON-LD Ex enrichment as a professional-category runner-up.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "TADHack"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2026-03-30"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Article",
+            "@id": "https://refreshmiami.com/news/sergeys-surprise-visit-was-a-hackathon-highlight-lets-keep-building-miami/",
+            "url": "https://refreshmiami.com/news/sergeys-surprise-visit-was-a-hackathon-highlight-lets-keep-building-miami/",
+            "name": "Sergey’s surprise visit was a hackathon highlight: Let’s keep building Miami!",
+            "description": "DeepStation founder Grant Kurz covers our Prompt Pirates team and Fresh Fridge, which placed third at the Google & DeepStation Hackathon.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Refresh Miami"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2026-03-23"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Article",
+            "@id": "https://news.engr.psu.edu/2023/microsoft-imagine-cup-and-hackathon-success.aspx",
+            "url": "https://news.engr.psu.edu/2023/microsoft-imagine-cup-and-hackathon-success.aspx",
+            "name": "Engineering graduate students named finalists at Microsoft Imagine Cup",
+            "description": "My collaborations with Penn State students across several hackathon competitions.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Penn State Engineering"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2023-05-12"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Article",
+            "@id": "https://www.businesswire.com/news/home/20230328005440/en/Radisys-Congratulates-Engage-Digital-Platform-Winners-in-the-2023-TADHack-Open-Hackathon",
+            "url": "https://www.businesswire.com/news/home/20230328005440/en/Radisys-Congratulates-Engage-Digital-Platform-Winners-in-the-2023-TADHack-Open-Hackathon",
+            "name": "Radisys Congratulates Engage Digital Platform Winners in the 2023 TADHack Open Hackathon",
+            "description": "Radisys covers our first-place Guardian Care project, a remote-care system using communications APIs and IoT integration.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Radisys via Business Wire"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2023-03-28"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Article",
+            "@id": "https://blog.tadhack.com/2023/03/27/tadhack-open-2023-summary/",
+            "url": "https://blog.tadhack.com/2023/03/27/tadhack-open-2023-summary/",
+            "name": "TADHack Open 2023 Summary",
+            "description": "Organizer coverage of our first-place Guardian Care project for remote caregiving.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "TADHack"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2023-03-27"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "Article",
+            "@id": "https://ventures.yale.edu/community/news/hacking-patient-engagement-2023-yale-healthcare-hackathon",
+            "url": "https://ventures.yale.edu/community/news/hacking-patient-engagement-2023-yale-healthcare-hackathon",
+            "name": "Hacking Patient Engagement at the 2023 Yale Healthcare Hackathon",
+            "description": "Our runner-up FootBit project for gait measurement and monitoring, developed with Vijay Bhaskar Chiluveru.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Yale Ventures"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2023-02-28"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "Article",
+            "@id": "https://minepi.com/blog/university-hackathon-winners/",
+            "url": "https://minepi.com/blog/university-hackathon-winners/",
+            "name": "University Hackathon Winners Show Pi Network Utility",
+            "description": "Our Sus Drones environmental-sensing project and its Best Use of Pi SDK award at HackHarvard.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Pi Network"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2022-11-18"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "Article",
+            "@id": "https://refreshmiami.com/news/miami-for-everyone-shines-a-light-on-tech-community/",
+            "url": "https://refreshmiami.com/news/miami-for-everyone-shines-a-light-on-tech-community/",
+            "name": "Miami for Everyone shines a light on tech & community",
+            "description": "Krysten Brenlla covers The Hive 305, our first-place project connecting Miami’s tech community with relevant jobs, events, and resources.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Refresh Miami"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2022-06-20"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "Article",
+            "@id": "https://brevardbusinessnews.com/wp-content/uploads/2022/11/BBN-052322.pdf",
+            "url": "https://brevardbusinessnews.com/wp-content/uploads/2022/11/BBN-052322.pdf#page=21",
+            "name": "Dreamland Mini-Golf & More in Eau Gallie",
+            "description": "Ken Datzman covers Dreamland Mini-Golf & More, which I helped develop with the project’s creative team. The feature appears on PDF page 21.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Brevard Business News"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2022-05-23"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "Article",
+            "@id": "https://www.brevardlive.com/uploads/docs/1d42a16f165091793037962.pdf",
+            "url": "https://www.brevardlive.com/uploads/docs/1d42a16f165091793037962.pdf#page=12",
+            "name": "Dreamland Adventures",
+            "description": "Steve Keller tours Dreamland’s art-infused miniature golf and selfie museum, a collaborative installation I contributed to. The feature appears on PDF pages 12–13.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Brevard Live"
+            },
+            "about": {
+              "@type": "CreativeWork",
+              "name": "Dreamland Mini-Golf"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "Article",
+            "@id": "https://brevardbusinessnews.com/wp-content/uploads/2022/11/BBN-041122.pdf",
+            "url": "https://brevardbusinessnews.com/wp-content/uploads/2022/11/BBN-041122.pdf#page=8",
+            "name": "Dreamland Mini-Golf opens in Eau Gallie Arts District",
+            "description": "Derek Gores features our Dreamland pop-up exhibition at the former Foosaner Art Museum in Brevard Business News, PDF page 8.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Brevard Business News"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2022-04-11"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "Article",
+            "@id": "https://symbl.ai/developers/blog/symbl-ai-at-tadhack-developer-first-conversation-intelligence/",
+            "url": "https://symbl.ai/developers/blog/symbl-ai-at-tadhack-developer-first-conversation-intelligence/",
+            "name": "Symbl.ai at TADHack, Developer-First Conversation Intelligence",
+            "description": "Quoted in a Symbl.ai feature about our RescueR project and its use of real-time transcription and conversation analysis.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Symbl.ai"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2022-02-04"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "Article",
+            "@id": "https://webrtc.ventures/2021/12/webrtclive-tadhack-global-2021/",
+            "url": "https://webrtc.ventures/2021/12/webrtclive-tadhack-global-2021/",
+            "name": "Watch WebRTC Live #62: Notable Hacks from TADHack Global 2021",
+            "description": "WebRTC Live highlights our autonomous RescueR rescue-bot system in its discussion of notable TADHack projects.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "WebRTC.ventures"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2021-12-17"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "Article",
+            "@id": "https://www.businesswire.com/news/home/20211215005145/en/Avaya-Announces-Winners-of-TADHack-Mini-Orlando-a-Technology-Hackathon-at-Annual-ENGAGE-Customer-Conference",
+            "url": "https://www.businesswire.com/news/home/20211215005145/en/Avaya-Announces-Winners-of-TADHack-Mini-Orlando-a-Technology-Hackathon-at-Annual-ENGAGE-Customer-Conference",
+            "name": "Avaya Announces Winners of TADHack Mini-Orlando, a Technology Hackathon, at Annual ENGAGE Customer Conference",
+            "description": "Avaya covers TeamZero’s Bender, our AI-powered robotic bartender that placed fourth at TADHack Mini-Orlando.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Avaya via Business Wire"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2021-12-15"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "Article",
+            "@id": "https://symbl.ai/developers/blog/tadhack-global-2021-is-a-wrap/",
+            "url": "https://symbl.ai/developers/blog/tadhack-global-2021-is-a-wrap/",
+            "name": "TADHack Global 2021 Is a Wrap",
+            "description": "Symbl.ai highlights our RescueR rescue-bot concept and sponsor recognition.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Symbl.ai"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2021-09-29"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "Article",
+            "@id": "https://blog.tadhack.com/2021/09/26/tadhack-global-2021-summary/",
+            "url": "https://blog.tadhack.com/2021/09/26/tadhack-global-2021-summary/",
+            "name": "TADHack Global 2021 Summary & Winners",
+            "description": "Our autonomous RescueR rescue-bot system earned recognition from Symbl.ai, Jambonz, Subspace, and Telnyx Verify.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "TADHack"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2021-09-26"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "Article",
+            "@id": "https://redis.io/blog/build-on-redis-hackathon-winners/",
+            "url": "https://redis.io/blog/build-on-redis-hackathon-winners/",
+            "name": "Build on Redis Hackathon winners",
+            "description": "Redisafe, our live health-tracking and contact-tracing project, received a Bronze award.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Redis"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2021-06-14"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "Article",
+            "@id": "https://pittnews.com/article/164778/news/pitt-dental-student-creates-product-to-fight-tooth-decay/",
+            "url": "https://pittnews.com/article/164778/news/pitt-dental-student-creates-product-to-fight-tooth-decay/",
+            "name": "Pitt dental student creates product to fight tooth decay",
+            "description": "Elizabeth Primrose reports on our ZeroDK smart toothbrush holder and companion app, with team interviews about developing the product during the pandemic.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "The Pitt News"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2021-04-05"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "Article",
+            "@id": "https://davisvanguard.org/2021/02/sachacks-the-first-major-intercollegiate-hackathon-begins/",
+            "url": "https://davisvanguard.org/2021/02/sachacks-the-first-major-intercollegiate-hackathon-begins/",
+            "name": "SacHacks, the First Major Intercollegiate Hackathon, Begins",
+            "description": "Diana Zhu’s report recalls Viral Watch, our winning 2020 project, while covering the following year’s SacHacks. The article describes the project’s COVID-19 data and travel-route concept.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Davis Vanguard"
+            },
+            "about": {
+              "@type": "CreativeWork",
+              "name": "Viral Watch"
+            },
+            "datePublished": "2021-02-21"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "Article",
+            "@id": "https://www.pittwire.pitt.edu/pittwire/features-articles/winning-floss-ophy",
+            "url": "https://www.pittwire.pitt.edu/pittwire/features-articles/winning-floss-ophy",
+            "name": "A winning floss-ophy",
+            "description": "A feature on ZeroDK, which I co-founded to develop a smart toothbrush holder and companion app.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "University of Pittsburgh"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2021-02-12"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "Article",
+            "@id": "https://brevardbusinessnews.com/wp-content/uploads/2022/12/BBN-012521.pdf",
+            "url": "https://brevardbusinessnews.com/wp-content/uploads/2022/12/BBN-012521.pdf#page=19",
+            "name": "‘Robot Love,’ edgy grassroots art exhibition",
+            "description": "Ken Datzman covers my technology work for Robot Love V at the Foosaner Art Museum, PDF page 19.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Brevard Business News"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2021-01-25"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@type": "Article",
+            "@id": "https://www.brevardlive.com/uploads/docs/fa1ba4ed160933586655338.pdf",
+            "url": "https://www.brevardlive.com/uploads/docs/fa1ba4ed160933586655338.pdf#page=12",
+            "name": "ROBOT LOVE: Prove You Are Human",
+            "description": "Steve Keller’s feature describes my collaboration with Robot Love’s artists at the intersection of art and technology.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Brevard Live"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "item": {
+            "@type": "PodcastEpisode",
+            "@id": "https://podcasts.apple.com/us/podcast/muntaser-jems-syed-mlh-top-50-hacker/id1500623942?i=1000491075058",
+            "url": "https://podcasts.apple.com/us/podcast/muntaser-jems-syed-mlh-top-50-hacker/id1500623942?i=1000491075058",
+            "name": "Muntaser Jems Syed | MLH Top 50 Hacker",
+            "description": "A 55-minute conversation with Dominic Norton about hackathons, building in public, and the MLH Top 50.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "The Hackathon Podcast"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2020-09-23"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "item": {
+            "@type": "Article",
+            "@id": "https://www.broadwayworld.com/san-diego/article/San-Diego-Opera-And-OPERA-America-To-Present-Opera-Hack-Winning-Presentations-20200820",
+            "url": "https://www.broadwayworld.com/san-diego/article/San-Diego-Opera-And-OPERA-America-To-Present-Opera-Hack-Winning-Presentations-20200820",
+            "name": "San Diego Opera And OPERA America To Present Opera Hack Winning Presentations",
+            "description": "Our Opera Map project uses a 360° photogrammetry database for theatrical production. This announcement covers presentations of the 2019 winning projects.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "BroadwayWorld"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2020-08-20"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "item": {
+            "@type": "Article",
+            "@id": "https://hechingerreport.org/with-a-degree-no-longer-enough-job-candidates-are-told-to-prove-their-skills-in-tests/",
+            "url": "https://hechingerreport.org/with-a-degree-no-longer-enough-job-candidates-are-told-to-prove-their-skills-in-tests/",
+            "name": "With a degree no longer enough, job candidates are told to prove their skills in tests",
+            "description": "Quoted in Jon Marcus’s report on skills-based hiring and hackathons, produced by The Hechinger Report and also published in The Washington Post.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "The Hechinger Report"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2020-07-10"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "item": {
+            "@type": "Article",
+            "@id": "https://medium.com/@SacHacks/recap-of-sachacks-2020-259071c1d4dc",
+            "url": "https://medium.com/@SacHacks/recap-of-sachacks-2020-259071c1d4dc",
+            "name": "Recap of SacHacks 2020",
+            "description": "SacHacks covers Viral Watch, our first-place COVID-19 data project built with Benjamin Lee, Danial Khan, and William Schmidt.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "SacHacks on Medium"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2020-03-30"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "item": {
+            "@type": "Article",
+            "@id": "https://blog.tadhack.com/2020/03/29/review-of-tadhack-mini-orlando-online-2020/",
+            "url": "https://blog.tadhack.com/2020/03/29/review-of-tadhack-mini-orlando-online-2020/",
+            "name": "Review of TADHack-mini Orlando Online 2020",
+            "description": "Our Covid Advisor SMS system provides local COVID-19 case data and forecasts.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "TADHack"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2020-03-29"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "item": {
+            "@type": "Article",
+            "@id": "https://www.fit.edu/media/site-specific/wwwfitedu/florida-tech-magazine/documents/FTM-Spring2020.pdf",
+            "url": "https://www.fit.edu/media/site-specific/wwwfitedu/florida-tech-magazine/documents/FTM-Spring2020.pdf#page=11",
+            "name": "Hacking Hero",
+            "description": "A university magazine item recognizing my selection as one of Major League Hacking’s Top 50 Hackers.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Florida Tech Magazine"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "item": {
+            "@type": "Report",
+            "@id": "https://www.stantec.com/content/dam/stantec/files/PDFAssets/2020/stantec-ideas-hackathon-book-tampa.pdf",
+            "url": "https://www.stantec.com/content/dam/stantec/files/PDFAssets/2020/stantec-ideas-hackathon-book-tampa.pdf#page=7",
+            "name": "Toward a Smart Tampa",
+            "description": "Fresh Air, the Team Zero project I built with Brandon Wolfram, placed first at Stantec’s March 9–10, 2020 Ideas Hackathon. Project coverage appears on PDF pages 7–8.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Stantec"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "item": {
+            "@type": "ProfilePage",
+            "@id": "https://top.mlh.com/2020/profiles/muntaser-syed",
+            "url": "https://top.mlh.com/2020/profiles/muntaser-syed",
+            "name": "Muntaser Syed | MLH's Top 50 Hackers",
+            "description": "Major League Hacking profiles my work as a hacker, organizer, and mentor, including the Pitt Challenge smart-brush project.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Major League Hacking"
+            },
+            "mainEntity": {
+              "@id": "https://muntasersyed.com/#person"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "item": {
+            "@type": "Article",
+            "@id": "https://technology.inquirer.net/91576/19-year-old-filipino-part-of-us-hackathons-winning-team-with-solution-for-food-wastage",
+            "url": "https://technology.inquirer.net/91576/19-year-old-filipino-part-of-us-hackathons-winning-team-with-solution-for-food-wastage",
+            "name": "19-year-old Filipino part of US hackathon’s winning team with solution for food wastage",
+            "description": "Ian Biong covers FreShip, which I led with Team Zero, and interviews teammate Justin Banusing about our food-waste idea.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "INQUIRER.net"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2019-10-21"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "item": {
+            "@type": "Article",
+            "@id": "https://www.techcult.ru/technology/7404-freship-svedet-poteri-produktov-k-nulyu",
+            "url": "https://www.techcult.ru/technology/7404-freship-svedet-poteri-produktov-k-nulyu",
+            "name": "FreShip’s food-waste prevention concept",
+            "description": "Alexander Martynenko’s Russian-language technology report discusses our FreShip project’s computer-vision approach to food freshness, drawing on IBM’s challenge announcement.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "TechCult"
+            },
+            "about": {
+              "@type": "CreativeWork",
+              "name": "FreShip"
+            },
+            "datePublished": "2019-10-09"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "item": {
+            "@type": "Article",
+            "@id": "https://www.techspot.com/news/82218-freship-wins-ibm-hackathon-food-wastage-good-one.html",
+            "url": "https://www.techspot.com/news/82218-freship-wins-ibm-hackathon-food-wastage-good-one.html",
+            "name": "FreShip wins IBM Hackathon on food wastage, and it’s a good one",
+            "description": "James Miller examines our FreShip project’s computer-vision approach to monitoring food freshness and redirecting shipments.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "TechSpot"
+            },
+            "about": {
+              "@type": "CreativeWork",
+              "name": "FreShip"
+            },
+            "datePublished": "2019-10-06"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "item": {
+            "@type": "Article",
+            "@id": "https://medium.com/@IBMDeveloper/ibm-works-with-developers-to-limit-food-waste-through-technology-36ff98f699b6",
+            "url": "https://medium.com/@IBMDeveloper/ibm-works-with-developers-to-limit-food-waste-through-technology-36ff98f699b6",
+            "name": "IBM works with developers to limit food waste through technology",
+            "description": "IBM announces our FreShip project as the winner of its Food Waste Developer Challenge with AngelHack.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "IBM Developer"
+            },
+            "about": {
+              "@type": "CreativeWork",
+              "name": "FreShip"
+            },
+            "datePublished": "2019-10-03"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "item": {
+            "@type": "Article",
+            "@id": "https://www.operaamerica.org/magazine/fall-2019/high-tech-and-high-cs/",
+            "url": "https://www.operaamerica.org/magazine/fall-2019/high-tech-and-high-cs/",
+            "name": "High Tech and High Cs",
+            "description": "Steven Jude Tietjen’s OPERA America Magazine feature describes our Opera Map project as a virtual space for collaboration between opera companies and designers.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "OPERA America Magazine"
+            },
+            "about": {
+              "@type": "CreativeWork",
+              "name": "Opera Map"
+            },
+            "datePublished": "2019-10-02"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "item": {
+            "@type": "Article",
+            "@id": "https://www.sandiegouniontribune.com/2019/08/14/three-winners-chosen-in-opera-hack-competition-2/",
+            "url": "https://www.sandiegouniontribune.com/2019/08/14/three-winners-chosen-in-opera-hack-competition-2/",
+            "name": "Three winners chosen in Opera Hack competition",
+            "description": "Pam Kragen covers our award-winning Opera Map project and its 360° theater-mapping concept for remote production collaboration.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "San Diego Union-Tribune"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2019-08-14"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "item": {
+            "@type": "Article",
+            "@id": "https://www2.stetson.edu/today/2019/04/apps-a-robot-and-shark-tank-challenge/",
+            "url": "https://www2.stetson.edu/today/2019/04/apps-a-robot-and-shark-tank-challenge/",
+            "name": "Apps, a Robot and the Shark Tank Challenge",
+            "description": "Quoted about Swamp Sense, our robot for collecting data after natural disasters, and the related Boogie Bot project.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Stetson University"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2019-04-12"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "item": {
+            "@type": "Article",
+            "@id": "https://blog.tadhack.com/2019/03/18/tadhack-mini-orlando-2019-summary/",
+            "url": "https://blog.tadhack.com/2019/03/18/tadhack-mini-orlando-2019-summary/",
+            "name": "TADHack-mini Orlando 2019 Summary",
+            "description": "Organizer coverage of our City Assistant SMS travel assistant, recognized by Flowroute, Telesign, and VoIP Innovations.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "TADHack"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2019-03-18"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
+          "item": {
+            "@type": "Article",
+            "@id": "https://news.fit.edu/archive/students-having-one-hack-of-ride-in-the-world-of-competitive-inventing/",
+            "url": "https://news.fit.edu/archive/students-having-one-hack-of-ride-in-the-world-of-competitive-inventing/",
+            "name": "Students Having One Hack of Ride In The World of Competitive Inventing",
+            "description": "Stephanie R. Herndon’s feature on Team Zero, competitive invention, and building projects across disciplines.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Florida Tech"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2019-03-04"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 42,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://t-mobilenbiot19.devpost.com/project-gallery",
+            "url": "https://t-mobilenbiot19.devpost.com/project-gallery",
+            "name": "T-Mobile NB-IoT Hackathon: ShipShop wins first place",
+            "description": "Our ShipShop project won first place at T-Mobile’s 2019 NB-IoT hackathon with a food-spoilage sensing concept that connects shipment monitoring and e-commerce.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "T-Mobile for Business"
+            },
+            "about": {
+              "@type": "CreativeWork",
+              "name": "ShipShop"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 43,
+          "item": {
+            "@type": "Article",
+            "@id": "https://www.8base.com/blog/8base-platform-in-action-at-uhack",
+            "url": "https://www.8base.com/blog/8base-platform-in-action-at-uhack",
+            "name": "8base Platform in action at UHack",
+            "description": "8base describes our HealthTrak wearable-data dashboard, its streaming Apple Watch data, and its awards at UHack 2018.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "8base"
+            },
+            "about": {
+              "@type": "CreativeWork",
+              "name": "HealthTrak"
+            },
+            "datePublished": "2018-12-06"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 44,
+          "item": {
+            "@type": "Article",
+            "@id": "https://news.fit.edu/academics-research/florida-tech-students-shine-at-hack-the-irl-event/",
+            "url": "https://news.fit.edu/academics-research/florida-tech-students-shine-at-hack-the-irl-event/",
+            "name": "Florida Tech Students Shine at Hack the IRL Event",
+            "description": "Quoted as Team Zero lead about student-built solutions for the Indian River Lagoon.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Florida Tech"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2018-11-06"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 45,
+          "item": {
+            "@type": "Article",
+            "@id": "https://blog.tadhack.com/2018/10/14/tadhack-global-2018-location-winners/",
+            "url": "https://blog.tadhack.com/2018/10/14/tadhack-global-2018-location-winners/",
+            "name": "TADHack Global 2018 Winners",
+            "description": "Our Vehicle Safe vehicle-status and safety-alert system won the South Florida TADHack event.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "TADHack"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2018-10-14"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 46,
+          "item": {
+            "@type": "Article",
+            "@id": "https://medium.com/flytbase/flytbase-at-xbuild-auvsi-drone-hackathon-93a7d107738d",
+            "url": "https://medium.com/flytbase/flytbase-at-xbuild-auvsi-drone-hackathon-93a7d107738d",
+            "name": "FlytBase at Xbuild: AUVSI Drone Hackathon",
+            "description": "Utsav Chopra describes our VASHR drone-fleet concept for hazard detection and rescue, with team interviews and coverage of its FlytBase challenge award.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "FlytBase"
+            },
+            "about": {
+              "@type": "CreativeWork",
+              "name": "VASHR"
+            },
+            "datePublished": "2018-05-29"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 47,
+          "item": {
+            "@type": "Article",
+            "@id": "https://www.nojitter.com/network-technology/tadhack-mini-orlando-presenting-the-2018-hacks",
+            "url": "https://www.nojitter.com/network-technology/tadhack-mini-orlando-presenting-the-2018-hacks",
+            "name": "TADHack-mini Orlando: Presenting the 2018 Hacks",
+            "description": "Michelle Burbick covers our Ciphertext smart-lock access system, recognized by all four event sponsors.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "No Jitter"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2018-03-12"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 48,
+          "item": {
+            "@type": "Article",
+            "@id": "https://news.fit.edu/academics-research/florida-tech-students-hacking-way-success-recognition/",
+            "url": "https://news.fit.edu/academics-research/florida-tech-students-hacking-way-success-recognition/",
+            "name": "Florida Tech Students ‘Hacking’ Their Way to Success, Recognition",
+            "description": "Adam Lowenstein profiles the projects, competition record, and professional connections behind our Florida Tech hackathon team.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Florida Tech"
+            },
+            "mentions": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "datePublished": "2018-01-09"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://muntasersyed.com/media.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muntasersyed.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Media",
+          "item": "https://muntasersyed.com/media.html"
+        }
+      ]
+    }
+  ]
+}

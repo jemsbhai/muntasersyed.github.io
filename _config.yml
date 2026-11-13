@@ -4,3 +4,8 @@ exclude:
   - CONTENT_AUDIT.md
   - README.md
   - tmp
+  - scripts
+
+# Keep generated Markdown companions as static files, without replacing HTML pages.
+optional_front_matter:
+  enabled: false

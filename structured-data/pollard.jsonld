@@ -1,0 +1,168 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://muntasersyed.com/#person",
+      "name": "Muntaser Syed",
+      "url": "https://muntasersyed.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://muntasersyed.com/#website",
+      "name": "Muntaser Syed — AI Systems Research",
+      "url": "https://muntasersyed.com/",
+      "publisher": {
+        "@id": "https://muntasersyed.com/#person"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://muntasersyed.com/pollard.html#webpage",
+      "url": "https://muntasersyed.com/pollard.html",
+      "name": "Pollard | Governed AI Agent Execution and Replay | Muntaser Syed",
+      "description": "Pollard governs AI agent execution with resource limits, action gates, audit trees, and replay. Python, TypeScript, and Rust packages, research, slides, and talks.",
+      "dateModified": "2026-11-13",
+      "inLanguage": "en-US",
+      "author": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "isPartOf": {
+        "@id": "https://muntasersyed.com/#website"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/software.html#pollard"
+      },
+      "mainEntity": {
+        "@id": "https://muntasersyed.com/software.html#pollard"
+      },
+      "breadcrumb": {
+        "@id": "https://muntasersyed.com/pollard.html#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://muntasersyed.com/pollard.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muntasersyed.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Software",
+          "item": "https://muntasersyed.com/software.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pollard",
+          "item": "https://muntasersyed.com/pollard.html"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Pollard",
+      "description": "A runtime for budgeting agent work, enforcing versioned action gates, auditing execution trees, and replaying decisions.",
+      "creator": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "programmingLanguage": [
+        "Python",
+        "TypeScript",
+        "Rust"
+      ],
+      "codeRepository": "https://github.com/jemsbhai/pollard",
+      "url": "https://pypi.org/project/pollard/",
+      "sameAs": [
+        "https://www.npmjs.com/package/pollardai",
+        "https://crates.io/crates/pollardai"
+      ],
+      "citation": [
+        {
+          "@id": "https://muntasersyed.com/research.html#pollard-ictai"
+        }
+      ],
+      "hasPart": [
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "Pollard Python",
+          "version": "1.6.2",
+          "programmingLanguage": "Python",
+          "description": "Governed execution trees with agent teams, inherited scopes, checkpoints, durable approvals, and optional Codex CLI task integration with recorded usage and strict replay.",
+          "codeRepository": "https://github.com/jemsbhai/pollard",
+          "url": "https://pypi.org/project/pollard/"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "pollardai TypeScript",
+          "version": "0.2.0",
+          "programmingLanguage": "TypeScript",
+          "description": "A native Node.js/TypeScript runtime with streaming, replay, persistent stores, shared budgets, provider adapters, and audit tools. Its independent release line targets Python Pollard 1.6.0 behavior.",
+          "codeRepository": "https://github.com/jemsbhai/pollard/tree/main/packages/npm",
+          "url": "https://www.npmjs.com/package/pollardai"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "pollardai Rust",
+          "version": "0.2.1",
+          "programmingLanguage": "Rust",
+          "description": "A native Rust runtime with eight storage backends, shared budgets, async streaming, replay, and audit tools. Its independent release line targets Python Pollard 1.6.0 behavior.",
+          "codeRepository": "https://github.com/jemsbhai/pollard/tree/main/crates/pollardai",
+          "url": "https://crates.io/crates/pollardai"
+        }
+      ],
+      "@id": "https://muntasersyed.com/software.html#pollard",
+      "subjectOf": [
+        {
+          "@type": "CreativeWork",
+          "@id": "https://docs.google.com/presentation/d/1e604yMBf24acaQI1UIJw_0B_Fq7zc_IuAh1ELziU-94/edit?usp=sharing",
+          "name": "Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay — slides",
+          "url": "https://docs.google.com/presentation/d/1e604yMBf24acaQI1UIJw_0B_Fq7zc_IuAh1ELziU-94/edit?usp=sharing",
+          "creator": {
+            "@id": "https://muntasersyed.com/#person"
+          }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://docs.google.com/presentation/d/1H8mMlLhTkxyCuWazhVCCiSH1fCxlTna2/edit?usp=sharing",
+          "name": "Shipping the Pollard Ecosystem — slides",
+          "url": "https://docs.google.com/presentation/d/1H8mMlLhTkxyCuWazhVCCiSH1fCxlTna2/edit?usp=sharing",
+          "creator": {
+            "@id": "https://muntasersyed.com/#person"
+          }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://docs.google.com/presentation/d/1A6ballogWGr02m26VCoruYbfccPy5oDp/edit?usp=sharing",
+          "name": "From drift alert to drift refusal: fail-closed containment of provider change in governed AI systems — slides",
+          "url": "https://docs.google.com/presentation/d/1A6ballogWGr02m26VCoruYbfccPy5oDp/edit?usp=sharing",
+          "creator": {
+            "@id": "https://muntasersyed.com/#person"
+          }
+        },
+        {
+          "@type": "LearningResource",
+          "@id": "https://github.com/jemsbhai/devfestTampaPollard2026",
+          "name": "Govern Your Agents: Budgets, Approval Gates, and Exact Replay with Pollard - workshop materials",
+          "description": "Hands-on exercises for resource limits, action approval, evidence verification, and strict replay with Pollard.",
+          "url": "https://github.com/jemsbhai/devfestTampaPollard2026",
+          "learningResourceType": "Workshop materials",
+          "creator": {
+            "@id": "https://muntasersyed.com/#person"
+          },
+          "about": {
+            "@id": "https://muntasersyed.com/software.html#pollard"
+          }
+        }
+      ],
+      "mainEntityOfPage": {
+        "@id": "https://muntasersyed.com/pollard.html#webpage"
+      }
+    }
+  ]
+}

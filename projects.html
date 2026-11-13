@@ -8,6 +8,9 @@
   <meta name="theme-color" content="#f4f1e8">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="canonical" href="https://muntasersyed.com/projects.html">
+  <link rel="alternate" type="text/markdown" href="https://muntasersyed.com/projects.md" title="Markdown version">
+  <link rel="describedby" type="application/ld+json" href="https://muntasersyed.com/structured-data/projects.jsonld" title="Schema.org metadata">
+  <link rel="describedby" type="text/plain" href="https://muntasersyed.com/llms.txt" title="Portfolio guide for agents">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Projects and Innovation | Muntaser Syed">
   <meta property="og:description" content="Open research, current builds, and applied projects in AI systems.">
@@ -41,7 +44,7 @@
         "@id": "https://muntasersyed.com/projects.html#webpage",
         "url": "https://muntasersyed.com/projects.html",
         "name": "Projects and Innovation | Muntaser Syed",
-        "dateModified": "2026-11-10",
+        "dateModified": "2026-11-13",
         "description": "Research repositories, current builds, hackathon portfolios, and applied AI projects by Muntaser Syed.",
         "isPartOf": {
           "@id": "https://muntasersyed.com/#website"
@@ -79,7 +82,7 @@
         "@type": "ItemList",
         "@id": "https://muntasersyed.com/projects.html#project-catalog",
         "name": "Selected research repositories and builds",
-        "numberOfItems": 34,
+        "numberOfItems": 36,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -873,6 +876,60 @@
                 }
               ]
             }
+          },
+          {
+            "@type": "ListItem",
+            "position": 35,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/projects.html#qfourierrope",
+              "name": "qfourierrope",
+              "description": "Spectral phase fingerprints for quantum equality testing, with Qiskit simulations, noise studies, and record-deduplication experiments. Extends qhashrope's fingerprint research.",
+              "creator": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "programmingLanguage": "Python",
+              "codeRepository": "https://github.com/jemsbhai/qfourierrope",
+              "url": "https://muntasersyed.com/projects.html#qfourierrope",
+              "isBasedOn": {
+                "@id": "https://muntasersyed.com/projects.html#qhashrope"
+              },
+              "subjectOf": {
+                "@type": "WebPage",
+                "name": "Spectral fingerprint experiments",
+                "url": "https://github.com/jemsbhai/qfourierrope/blob/main/EXPERIMENTS.md"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 36,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "@id": "https://muntasersyed.com/projects.html#qopt-builder",
+              "name": "Quantum Optimisation Circuit Builder",
+              "alternateName": "qopt-builder",
+              "description": "A Python and browser toolkit for turning MaxCut and QUBO problems into QAOA circuits, comparing simulated runs with exact solutions for small instances, and exporting runnable hardware packages.",
+              "creator": {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              "programmingLanguage": [
+                "Python",
+                "JavaScript"
+              ],
+              "codeRepository": "https://github.com/jemsbhai/qopt-builder",
+              "url": "https://muntasersyed.com/projects.html#qopt-builder",
+              "subjectOf": [
+                {
+                  "@id": "https://muntasersyed.com/software.html#qopt-builder-demo"
+                },
+                {
+                  "@type": "WebPage",
+                  "name": "Quantum Optimisation Circuit Builder guided demo",
+                  "url": "https://qopt-builder.vercel.app/demo.html"
+                }
+              ]
+            }
           }
         ]
       },
@@ -911,7 +968,7 @@
     <section class="page-hero">
       <div class="shell page-intro-grid">
         <div><p class="eyebrow"><span class="kicker">Projects</span> / Research and innovation</p><h1>Research repositories and <em>builds.</em></h1><p class="page-lede">Explore research code, experiments, protocols, and applied AI projects.</p></div>
-        <aside class="source-note"><strong>Explore the work.</strong> Browse research repositories, project demos, and software that connects ideas to applications. Updated <time datetime="2026-11-09">November 9, 2026</time>.</aside>
+        <aside class="source-note"><strong>Explore the work.</strong> Browse research repositories, project demos, and software that connects ideas to applications. Updated <time datetime="2026-11-13">November 13, 2026</time>.</aside>
       </div>
     </section>
 
@@ -944,10 +1001,12 @@
 
     <section class="section latest-releases" aria-labelledby="current-builds-title">
       <div class="shell">
-        <div class="section-head"><p class="eyebrow">Current builds / November 2026</p><div><h2 id="current-builds-title">Current projects.</h2><p>Recent work in agent governance, quantum verification, nonprofit tools, arts, robotics, and environmental sensing.</p></div></div>
+        <div class="section-head"><p class="eyebrow">Current builds / November 2026</p><div><h2 id="current-builds-title">Current projects.</h2><p>Recent work in agent governance, quantum verification and optimisation, nonprofit tools, arts, robotics, and environmental sensing.</p></div></div>
         <div class="package-grid">
           <article class="package-card release-card release-card-featured" id="swarm-forest"><span class="record-index">AGENT SWARM EXPERIMENTS · NOVEMBER 2026</span><h3>Swarm Forest</h3><p>Governed execution forests for agent swarms, connecting Pollard delegation controls and shared resource limits with Epicormic drift detection. Includes deterministic experiments, recorded traces, and a research write-up.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/swarm-forest">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/swarm-forest/blob/main/WRITEUP.md">Research write-up</a><a class="micro-link" href="speaking.html#recording-swarm-forest">Watch walkthrough</a><a class="micro-link" href="software.html#agent-infrastructure">Pollard</a></div></article>
           <article class="package-card release-card" id="qhashrope"><span class="record-index">QISKIT FALL FEST · NOVEMBER 2026</span><h3>qhashrope</h3><p>A quantum verification prototype combining Hashrope and MultiSpecQR with fingerprint circuits, superdense coding, and SWAP-test experiments. Built for Florida Tech’s Qiskit Fall Fest, with simulation results and IBM Quantum hardware experiments.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/qhashrope">Code &amp; experiments</a><a class="micro-link" href="speaking.html#recording-qhashrope">Watch presentation</a><a class="micro-link" href="software.html#hashrope">Hashrope</a><a class="micro-link" href="software.html#multispecqr">MultiSpecQR</a></div></article>
+          <article class="package-card release-card" id="qfourierrope"><span class="record-index">QUANTUM FINGERPRINTS · NOVEMBER 2026</span><h3>qfourierrope</h3><p>Spectral phase fingerprints for quantum equality testing, with Qiskit simulations, noise studies, and record-deduplication experiments. Extends qhashrope's fingerprint research.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/qfourierrope">Code &amp; experiments</a><a class="micro-link" href="https://github.com/jemsbhai/qfourierrope/blob/main/EXPERIMENTS.md">Experiment studies</a><a class="micro-link" href="#qhashrope">qhashrope</a><a class="micro-link" href="hashrope.html">Hashrope</a></div></article>
+          <article class="package-card release-card" id="qopt-builder"><span class="record-index">QUANTUM OPTIMISATION · NOVEMBER 2026</span><h3>Quantum Optimisation Circuit Builder</h3><p>A Python and browser toolkit for turning MaxCut and QUBO problems into QAOA circuits, comparing simulated runs with exact solutions for small instances, and exporting runnable hardware packages.</p><div class="item-links"><a class="micro-link" href="https://qopt-builder.vercel.app/">Open builder</a><a class="micro-link" href="https://qopt-builder.vercel.app/demo.html">Guided demo</a><a class="micro-link" href="https://github.com/jemsbhai/qopt-builder">Repository</a><a class="micro-link" href="https://qopt-builder.vercel.app/guide.html">User guide</a></div></article>
           <article class="package-card release-card" id="tidepath"><span class="record-index">TEAM PROJECT · DEVDAY EXCHANGE MIAMI</span><h3>Tidepath</h3><p>A nonprofit workflow project for program records, reviewed follow-up drafts and reports, and controlled counseling disclosures. Its local Sheets tools review record conflicts and prepare approved correction copies.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/buildbettercode4miami">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/buildbettercode4miami/blob/codex/tidepath-mvp/docs/LOCAL-SHEETS.md">Local Sheets tools</a><a class="micro-link" href="https://github.com/jemsbhai/buildbettercode4miami/blob/codex/tidepath-mvp/docs/DEMO.md">Demo guide</a></div></article>
           <article class="package-card release-card" id="releaseproof"><span class="record-index">AGENT RELEASE WORKBENCH · OCTOBER 2026</span><h3>ReleaseProof</h3><p>An agent-release workbench built with Pollard, Hashrope, and Epicormic. Qualifies an issue-triage agent, binds approval to its tested configuration, and applies execution controls and drift holds. Explore the fixture demo and recorded model runs.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/releaseproof">Repository</a><a class="micro-link" href="https://jemsbhai-releaseproof.hf.space/">Interactive fixture demo</a><a class="micro-link" href="https://jemsbhai-releaseproof.hf.space/assets/observations.html">Recorded model runs</a><a class="micro-link" href="speaking.html#recording-releaseproof">Watch demo</a><a class="micro-link" href="https://devpost.com/software/releaseproof-yr8e0t">Devpost</a></div></article>
           <article class="package-card release-card" id="greenroom"><span class="record-index">TEAM PROJECT · AI4GOOD 2026</span><h3>greenroom</h3><p>An arts-video annotation pipeline and staff review application built for The Performance Academy challenge at AI4Good 2026. Combines audio, transcript, and visual evidence with Subjective Logic, routes uncertain annotations for review, and records staff decisions.</p><div class="item-links"><a class="micro-link" href="https://github.com/jemsbhai/greenroom">Repository</a><a class="micro-link" href="https://github.com/jemsbhai/greenroom/blob/main/INTEGRATION_HANDOFF.md">Integration guide</a></div></article>

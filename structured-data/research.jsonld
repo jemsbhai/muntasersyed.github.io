@@ -1,0 +1,2443 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://muntasersyed.com/#person",
+      "name": "Muntaser Syed",
+      "alternateName": "Muntaser Mansur Syed",
+      "url": "https://muntasersyed.com/",
+      "sameAs": [
+        "https://huggingface.co/Jemsbhai",
+        "https://scholar.google.com/citations?user=4RK-PocAAAAJ",
+        "https://orcid.org/0000-0002-4777-6469",
+        "https://github.com/jemsbhai",
+        "https://www.researchgate.net/profile/Muntaser-Syed"
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://muntasersyed.com/research.html#webpage",
+      "url": "https://muntasersyed.com/research.html",
+      "name": "Research and Publications | Muntaser Syed",
+      "description": "Papers and preprints by Muntaser Syed on trustworthy AI, agent systems, privacy, edge intelligence, and efficient computing, with code and presentations.",
+      "dateModified": "2026-11-13",
+      "isPartOf": {
+        "@id": "https://muntasersyed.com/#website"
+      },
+      "author": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Trustworthy artificial intelligence"
+        },
+        {
+          "@type": "Thing",
+          "name": "Agent systems and governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Edge AI and AIoT"
+        },
+        {
+          "@type": "Thing",
+          "name": "Efficient machine learning"
+        },
+        {
+          "@type": "Thing",
+          "name": "Health and embodied AI"
+        },
+        {
+          "@type": "Thing",
+          "name": "Compact data systems"
+        }
+      ],
+      "inLanguage": "en-US",
+      "mainEntity": {
+        "@id": "https://muntasersyed.com/research.html#publications"
+      },
+      "breadcrumb": {
+        "@id": "https://muntasersyed.com/research.html#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://muntasersyed.com/research.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muntasersyed.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Research",
+          "item": "https://muntasersyed.com/research.html"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://muntasersyed.com/research.html#publications",
+      "name": "Scholarly outputs by Muntaser Syed",
+      "numberOfItems": 47,
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "TraceCoder: Explainable and Auditable Code Generation with Position-Key Snippet Versioning",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Rwaida Alssadi"
+              },
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Balaji Kasula"
+              },
+              {
+                "@type": "Person",
+                "name": "Lamine Deen"
+              },
+              {
+                "@type": "Person",
+                "name": "Majed Alotaibi"
+              },
+              {
+                "@type": "Person",
+                "name": "Mohammed Alghamdi"
+              },
+              {
+                "@type": "Person",
+                "name": "Tyler Ton"
+              },
+              {
+                "@type": "Person",
+                "name": "Ali Alqarni"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              }
+            ],
+            "datePublished": "2026-07-28",
+            "url": "https://arxiv.org/abs/2607.26307",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "arXiv",
+              "value": "2607.26307"
+            },
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "arXiv"
+            },
+            "creativeWorkStatus": "Accepted paper for AGENTICS 2026",
+            "genre": "Paper",
+            "alternateName": "TraceCoder: Explainable and Auditable Code Generation",
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "Official conference program",
+              "url": "https://www.insticc.org/node/TechnicalProgram/ijcci/2026/presentationDetails/152455",
+              "description": "AGENTICS 2026 · Paper presentation · IJCCI26-1A, October 29, 15:45–16:45, B317–Tesla · Presenter: Rwaida Alssadi · Preprint: arXiv:2607.26307 · July 28, 2026"
+            },
+            "@id": "https://arxiv.org/abs/2607.26307"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Chronofy: A Temporal-Logical Decay Architecture for Information Validity in Time-Aware Retrieval-Augmented Generation",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Sheikh Abujar"
+              },
+              {
+                "@type": "Person",
+                "name": "Sharun Akter"
+              }
+            ],
+            "datePublished": "2026-07",
+            "url": "https://ieeexplore.ieee.org/document/11676706/",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1109/IRI69576.2026.00090"
+            },
+            "creativeWorkStatus": "Published paper in IEEE IRI 2026 proceedings",
+            "pageStart": "454",
+            "pageEnd": "459",
+            "workExample": {
+              "@type": "ScholarlyArticle",
+              "name": "Chronofy preprint",
+              "datePublished": "2026-07-17",
+              "url": "https://arxiv.org/abs/2607.20560",
+              "identifier": {
+                "@type": "PropertyValue",
+                "propertyID": "arXiv",
+                "value": "2607.20560"
+              },
+              "@id": "https://arxiv.org/abs/2607.20560"
+            },
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "2026 IEEE International Conference on Information Reuse and Integration for Data Science (IRI)"
+            },
+            "genre": "Conference paper",
+            "@id": "https://doi.org/10.1109/IRI69576.2026.00090"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "The Environmental Cost of Digital Sovereignty: Water, Energy, and Emissions Impacts of Sovereign AI Infrastructure in the Global South",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius C. Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Sheikh Abujar"
+              },
+              {
+                "@type": "Person",
+                "name": "Sharun Akter Khushbu"
+              },
+              {
+                "@type": "Person",
+                "name": "Amal El Ahmad"
+              }
+            ],
+            "datePublished": "2026-07-15",
+            "url": "https://arxiv.org/abs/2607.13443",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "arXiv",
+              "value": "2607.13443"
+            },
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "arXiv"
+            },
+            "creativeWorkStatus": "Accepted for IEEE GHTC 2026",
+            "award": "Reviewers Choice Award, IEEE GHTC 2026 — Research on the Broader Impacts of Engineering Efforts track",
+            "subjectOf": [
+              {
+                "@type": "Article",
+                "name": "The Exported Thirst: How AI Drinks Water India Cannot Spare",
+                "url": "https://smarterarticles.co.uk/the-exported-thirst-how-ai-drinks-water-india-cannot-spare",
+                "datePublished": "2026-09-02",
+                "author": {
+                  "@type": "Person",
+                  "name": "Tim Green"
+                }
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Official conference program",
+                "url": "https://ieeeghtc.org/technical-paper-presentations-schedule-2026/",
+                "description": "IEEE GHTC 2026 · Accepted paper · Session 7B: Socio-Technical Approaches in Engineering, October 9, 1–2:30 p.m., Room C120B · Preprint: arXiv:2607.13443 · July 15, 2026"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1TrzsYUS6ouBemCOs1dYjce4mYAftQHFZ/edit?usp=sharing",
+                "name": "The Environmental Cost of Digital Sovereignty: Water, Energy, and Emissions Impacts of Sovereign AI Infrastructure in the Global South — IEEE GHTC 2026 slides",
+                "url": "https://docs.google.com/presentation/d/1TrzsYUS6ouBemCOs1dYjce4mYAftQHFZ/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#environmental-cost-paper"
+                }
+              }
+            ],
+            "genre": "Conference paper",
+            "@id": "https://muntasersyed.com/research.html#environmental-cost-paper"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Evaluation of Alternative-Based Information Systems for Deliberative Polling using an Agentic Simulator",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Rwaida Alssadi"
+              },
+              {
+                "@type": "Person",
+                "name": "Khulud Alawaji"
+              },
+              {
+                "@type": "Person",
+                "name": "Balaji Kasula"
+              },
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Badria Alfurhood"
+              },
+              {
+                "@type": "Person",
+                "name": "Markus Zanker"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              }
+            ],
+            "datePublished": "2026-06-10",
+            "url": "https://arxiv.org/abs/2606.11692",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "arXiv",
+              "value": "2606.11692"
+            },
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "arXiv"
+            },
+            "creativeWorkStatus": "Accepted paper for AGENTICS 2026",
+            "genre": "Conference paper",
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "Official conference program",
+              "url": "https://www.insticc.org/node/TechnicalProgram/ijcci/2026/presentationDetails/152454",
+              "description": "AGENTICS 2026 · Accepted paper · AGENTICS26-4O, October 29, 11:45–13:00, B317–Tesla · Presenter: Rwaida Alssadi · Preprint: arXiv:2606.11692 · June 10, 2026"
+            },
+            "@id": "https://arxiv.org/abs/2606.11692"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://doi.org/10.32473/flairs.39.1.141786",
+            "name": "JSON-LD 1.2 and Beyond: Extensions for Machine Learning Data Exchange",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Sheikh Abujar"
+              },
+              {
+                "@type": "Person",
+                "name": "Rwaida Alssadi"
+              },
+              {
+                "@type": "Person",
+                "name": "Sharun Akter Khushbu"
+              }
+            ],
+            "datePublished": "2026",
+            "url": "https://doi.org/10.32473/flairs.39.1.141786",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.32473/flairs.39.1.141786"
+            },
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "The International FLAIRS Conference Proceedings 39(1)"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://doi.org/10.32473/flairs.39.1.141781",
+            "name": "TOML: Transistor Operations for Machine Learning: A Physics-Grounded Energy Efficiency Framework",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Sheikh Abujar"
+              },
+              {
+                "@type": "Person",
+                "name": "Sharun Akter Khushbu"
+              }
+            ],
+            "datePublished": "2026",
+            "url": "https://doi.org/10.32473/flairs.39.1.141781",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.32473/flairs.39.1.141781"
+            },
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "The International FLAIRS Conference Proceedings 39(1)"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://doi.org/10.32473/flairs.39.1.141592",
+            "name": "Counting Constraints in POMDPs based on PID Controllers",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Garrett Gmeiner"
+              },
+              {
+                "@type": "Person",
+                "name": "Patrick Quinn"
+              },
+              {
+                "@type": "Person",
+                "name": "Asmaa Alqurashi"
+              },
+              {
+                "@type": "Person",
+                "name": "Prem Pochiraju"
+              },
+              {
+                "@type": "Person",
+                "name": "Mirajul Islam"
+              },
+              {
+                "@type": "Person",
+                "name": "Jackson Contreras"
+              },
+              {
+                "@type": "Person",
+                "name": "Sajina Pathak"
+              },
+              {
+                "@type": "Person",
+                "name": "Rwaida Alssadi"
+              },
+              {
+                "@type": "Person",
+                "name": "Sumana Boyapalli"
+              },
+              {
+                "@type": "Person",
+                "name": "Raghavendra Mallesha"
+              },
+              {
+                "@type": "Person",
+                "name": "Vijay Uppalapati"
+              },
+              {
+                "@type": "Person",
+                "name": "Javier Laboy-Jusino"
+              },
+              {
+                "@type": "Person",
+                "name": "Nikiraj Konwar"
+              },
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              }
+            ],
+            "datePublished": "2026",
+            "url": "https://doi.org/10.32473/flairs.39.1.141592",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.32473/flairs.39.1.141592"
+            },
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "The International FLAIRS Conference Proceedings 39(1)"
+            },
+            "creativeWorkStatus": "Published paper",
+            "genre": "Paper"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://doi.org/10.32473/flairs.39.1.141783",
+            "name": "Real-Time Neck Posture Classification Using a Lightweight Wearable IMU Pendant",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Alfred Sjöqvist"
+              },
+              {
+                "@type": "Person",
+                "name": "Noah Sedlik"
+              },
+              {
+                "@type": "Person",
+                "name": "Tsing Liu"
+              }
+            ],
+            "datePublished": "2026",
+            "url": "https://doi.org/10.32473/flairs.39.1.141783",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.32473/flairs.39.1.141783"
+            },
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "The International FLAIRS Conference Proceedings 39(1)"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://doi.org/10.5038/gxhn9152",
+            "name": "Counting Doors by Integrating POMDP Models and PID Controllers",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Rwaida Alssadi"
+              },
+              {
+                "@type": "Person",
+                "name": "Sara Zuiran"
+              },
+              {
+                "@type": "Person",
+                "name": "Jolie Elliott"
+              },
+              {
+                "@type": "Person",
+                "name": "Phi Duong"
+              },
+              {
+                "@type": "Person",
+                "name": "Chinedum Ajabor"
+              },
+              {
+                "@type": "Person",
+                "name": "Alwaleed Alsaleemi"
+              },
+              {
+                "@type": "Person",
+                "name": "Samuel Boddepalli"
+              },
+              {
+                "@type": "Person",
+                "name": "Vamshi Gattikoppula"
+              },
+              {
+                "@type": "Person",
+                "name": "Pavan Manigandla"
+              },
+              {
+                "@type": "Person",
+                "name": "Akram Alghanmi"
+              },
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Samaher Damanhori"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              }
+            ],
+            "datePublished": "2025-05-09",
+            "url": "https://doi.org/10.5038/gxhn9152",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.5038/gxhn9152"
+            },
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "38th Florida Conference on Recent Advances in Robotics"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://doi.org/10.1109/ICMLA58977.2023.00102",
+            "name": "Comparative Evaluation of Transfer Learning for Classification of Brain Tumor Using MRI",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Abu Kaisar Mohammad Masum"
+              },
+              {
+                "@type": "Person",
+                "name": "Nusrat Badhon"
+              },
+              {
+                "@type": "Person",
+                "name": "S. M. Saiful Islam Badhon"
+              },
+              {
+                "@type": "Person",
+                "name": "Nushrat Jahan Ria"
+              },
+              {
+                "@type": "Person",
+                "name": "Sheikh Abujar"
+              },
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Naveed Mahmud"
+              }
+            ],
+            "datePublished": "2023-12-15",
+            "pagination": "697-702",
+            "url": "https://doi.org/10.1109/ICMLA58977.2023.00102",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1109/ICMLA58977.2023.00102"
+            },
+            "sameAs": "https://arxiv.org/abs/2310.02270",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "2023 International Conference on Machine Learning and Applications (ICMLA)"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://doi.org/10.11591/eei.v11i5.3485",
+            "name": "An Insight into the Intricacies of Lingual Paraphrasing Pragmatic Discourse on the Purpose of Synonyms",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Jabir Al Nahian"
+              },
+              {
+                "@type": "Person",
+                "name": "Abu Kaisar Mohammad Masum"
+              },
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Sheikh Abujar"
+              }
+            ],
+            "datePublished": "2022-10-01",
+            "pagination": "2958-2967",
+            "url": "https://doi.org/10.11591/eei.v11i5.3485",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.11591/eei.v11i5.3485"
+            },
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "Bulletin of Electrical Engineering and Informatics 11(5)"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Multi-Dimensional Spectral Process for Cepstral Feature Engineering & Formant Coding",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Ahmad Z. Hasanain"
+              },
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Veton Z. Këpuska"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius C. Silaghi"
+              }
+            ],
+            "datePublished": "2022-08-15",
+            "pagination": "1-20",
+            "url": "https://www.opastpublishers.com/open-access-articles/multidimensional-spectral-process-for-cepstral-feature-engineering--formant-coding.pdf",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "Journal of Electrical Electronics Engineering 1(1), pages 1 to 20"
+            },
+            "@id": "https://doi.org/10.33140/jeee.01.01.12",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.33140/jeee.01.01.12"
+            },
+            "sameAs": "https://doi.org/10.33140/jeee.01.01.12"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "Chapter",
+            "@id": "https://doi.org/10.1007/978-3-031-12413-6_44",
+            "name": "Medical Imaging a Transfer Learning Process with Multimodal CNN: Dermis-Disorder",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Sumaia Shimu"
+              },
+              {
+                "@type": "Person",
+                "name": "Lingkon Chandra Debnath"
+              },
+              {
+                "@type": "Person",
+                "name": "Md. Mahadi Hasan Sany"
+              },
+              {
+                "@type": "Person",
+                "name": "Mumenunnessa Keya"
+              },
+              {
+                "@type": "Person",
+                "name": "Sharun Akter Khushbu"
+              },
+              {
+                "@type": "Person",
+                "name": "Sheak Rashed Haider Noori"
+              },
+              {
+                "@id": "https://muntasersyed.com/#person"
+              }
+            ],
+            "datePublished": "2022-07-29",
+            "pagination": "556-573",
+            "url": "https://doi.org/10.1007/978-3-031-12413-6_44",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1007/978-3-031-12413-6_44"
+            },
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "Lecture Notes in Networks and Systems"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "Chapter",
+            "@id": "https://doi.org/10.1007/978-3-031-12413-6_26",
+            "name": "Exploring Public Attitude Towards Children by Leveraging Emoji to Track Out Sentiment Using Distil-BERT a Fine-Tuned Model",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Uchchhwas Saha"
+              },
+              {
+                "@type": "Person",
+                "name": "Md. Shihab Mahmud"
+              },
+              {
+                "@type": "Person",
+                "name": "Mumenunnessa Keya"
+              },
+              {
+                "@type": "Person",
+                "name": "Effat Ara Easmin Lucky"
+              },
+              {
+                "@type": "Person",
+                "name": "Sharun Akter Khushbu"
+              },
+              {
+                "@type": "Person",
+                "name": "Sheak Rashed Haider Noori"
+              },
+              {
+                "@id": "https://muntasersyed.com/#person"
+              }
+            ],
+            "datePublished": "2022-07-29",
+            "pagination": "332-346",
+            "url": "https://doi.org/10.1007/978-3-031-12413-6_26",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1007/978-3-031-12413-6_26"
+            },
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "Lecture Notes in Networks and Systems"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "Chapter",
+            "@id": "https://doi.org/10.1007/978-3-319-94391-6_16",
+            "name": "Towards Enhanced Comprehension of Human Errors in Cybersecurity Attacks",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Mohammad Algarni"
+              },
+              {
+                "@type": "Person",
+                "name": "Saad Almesalm"
+              },
+              {
+                "@id": "https://muntasersyed.com/#person"
+              }
+            ],
+            "datePublished": "2019",
+            "pagination": "163-175",
+            "url": "https://doi.org/10.1007/978-3-319-94391-6_16",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1007/978-3-319-94391-6_16"
+            },
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "Advances in Intelligent Systems and Computing"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Models and Framework for Supporting Humanoid Robot Planning & Exploration",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Ahmad Hasanain"
+              },
+              {
+                "@type": "Person",
+                "name": "Troy Weekes"
+              },
+              {
+                "@type": "Person",
+                "name": "Michael Person"
+              },
+              {
+                "@type": "Person",
+                "name": "Kepinski Paul"
+              },
+              {
+                "@type": "Person",
+                "name": "Yonghui Chang"
+              },
+              {
+                "@type": "Person",
+                "name": "Aaron Rothman"
+              },
+              {
+                "@type": "Person",
+                "name": "Zhu Rui"
+              },
+              {
+                "@type": "Person",
+                "name": "Rajaa Rahil"
+              },
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Chris Wodd"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              }
+            ],
+            "datePublished": "2018-05-10",
+            "pagination": "1-5",
+            "url": "https://www.researchgate.net/publication/326211606_Models_and_Framework_for_Supporting_Humanoid_Robot_Planning_Exploration",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "31st Florida Conference on Recent Advances in Robotics"
+            },
+            "@id": "https://muntasersyed.com/research.html#humanoid-robot-planning-paper"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "MCP-Edge: Extending the Model Context Protocol to Constrained IoT Devices",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Sheikh Abujar"
+              },
+              {
+                "@type": "Person",
+                "name": "Sharun Akter"
+              }
+            ],
+            "datePublished": "2026-06",
+            "pagination": "80-85",
+            "url": "https://doi.org/10.1109/CLOUDSUMMIT68932.2026.00020",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1109/CLOUDSUMMIT68932.2026.00020"
+            },
+            "isPartOf": {
+              "@type": "PublicationIssue",
+              "name": "2026 IEEE Cloud Summit"
+            },
+            "@id": "https://doi.org/10.1109/CLOUDSUMMIT68932.2026.00020"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Cooperation Protocols for Ad-Hoc Robot Teams Composition in Labyrinth Exploration",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Rajaa Rahil"
+              },
+              {
+                "@type": "Person",
+                "name": "Sam Kellar"
+              },
+              {
+                "@type": "Person",
+                "name": "Shakre Elmane"
+              }
+            ],
+            "datePublished": "2018-05",
+            "pagination": "552",
+            "url": "https://cdn.aaai.org/ocs/17937/17937-77765-1-PB.pdf",
+            "isPartOf": {
+              "@type": "PublicationIssue",
+              "name": "Proceedings of the Thirty-First International Florida Artificial Intelligence Research Society Conference"
+            },
+            "@id": "https://muntasersyed.com/research.html#robot-team-cooperation-paper"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Rules Before Oracles: Auditable, User-Configurable Argument Selection for Deliberative Polling",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Markus Zanker"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              }
+            ],
+            "datePublished": "2026-08-25",
+            "url": "https://arxiv.org/abs/2608.23979",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "arXiv",
+              "value": "2608.23979"
+            },
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "arXiv"
+            },
+            "@id": "https://arxiv.org/abs/2608.23979"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Transistor-Level Energy Analysis of Signal Processing Algorithms: Beyond Operation Counting",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Sheikh Abujar"
+              },
+              {
+                "@type": "Person",
+                "name": "Sharun Akter Khushbu"
+              }
+            ],
+            "url": "https://openreview.net/forum?id=jYBcP44EDn",
+            "creativeWorkStatus": "Accepted for IEEE MLSP 2026",
+            "subjectOf": {
+              "@type": "WebPage",
+              "name": "IEEE MLSP 2026 schedule",
+              "url": "https://neuroneural.net/mlsp2026schedule/"
+            },
+            "publication": {
+              "@type": "PublicationEvent",
+              "name": "IEEE MLSP 2026 Session 3",
+              "description": "Presentation in Session 3 on October 1, 2026.",
+              "startDate": "2026-10-01T13:00:00-04:00",
+              "endDate": "2026-10-01T15:00:00-04:00",
+              "url": "https://neuroneural.net/mlsp2026schedule/"
+            },
+            "@id": "https://openreview.net/forum?id=jYBcP44EDn"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "MultiSpecQR: Multi-Spectral QR Code Encoding and Neural Network-Assisted Decoding via Color Channel Multiplexing",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Mohammed Alghamdi"
+              }
+            ],
+            "creativeWorkStatus": "Published paper in IEEE ICMLA 2026 proceedings",
+            "subjectOf": [
+              {
+                "@type": "WebPage",
+                "name": "IEEE ICMLA 2026 Special Session 1 papers",
+                "url": "https://www.icmla-conference.org/icmla26/ss1regularpapers.html"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1LwrP67_kbdc-FbjcnuCFlhDdBX7yY5Kr/edit?usp=sharing",
+                "name": "MultiSpecQR: Multi-Spectral QR Code Encoding and Neural Network-Assisted Decoding via Color Channel Multiplexing — IEEE ICMLA 2026 slides",
+                "url": "https://docs.google.com/presentation/d/1LwrP67_kbdc-FbjcnuCFlhDdBX7yY5Kr/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#multispecqr-paper"
+                }
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "MultiSpecQR: Multi-Spectral QR Code Encoding and Neural Network-Assisted Decoding via Color Channel Multiplexing — code",
+                "codeRepository": "https://github.com/jemsbhai/multispecqr"
+              }
+            ],
+            "publication": {
+              "@type": "PublicationEvent",
+              "name": "IEEE ICMLA 2026 Special Session 1A (SS1-A)",
+              "description": "Paper presented on October 5, 2026, at 11:00 in Special Session 1A (SS1-A).",
+              "startDate": "2026-10-05",
+              "url": "https://www.icmla-conference.org/icmla26/ss1regularpapers.html"
+            },
+            "@id": "https://muntasersyed.com/research.html#multispecqr-paper",
+            "datePublished": "2026-10",
+            "url": "https://ieeexplore.ieee.org/document/11760888/",
+            "sameAs": "https://doi.org/10.1109/ICMLA69890.2026.00221",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1109/ICMLA69890.2026.00221"
+            },
+            "pageStart": "1123",
+            "pageEnd": "1129",
+            "genre": "Paper",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "2026 25th International Conference on Machine Learning and Applications (ICMLA)"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Epistemic Edge: Subjective Logic Guardrails for LLM-Driven IoT Actuation",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              }
+            ],
+            "datePublished": "2026-07",
+            "url": "https://ieeexplore.ieee.org/document/11676649/",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1109/IRI69576.2026.00017"
+            },
+            "creativeWorkStatus": "Published paper in IEEE IRI 2026 proceedings",
+            "pageStart": "37",
+            "pageEnd": "40",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "2026 IEEE International Conference on Information Reuse and Integration for Data Science (IRI)"
+            },
+            "genre": "Paper",
+            "@id": "https://doi.org/10.1109/IRI69576.2026.00017"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#container-energy-cloudcom",
+            "name": "Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Rwaida Alssadi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#container-energy-cloudcom",
+            "creativeWorkStatus": "Accepted for IEEE CloudCom 2026",
+            "genre": "Conference paper",
+            "description": "Studies transistor-level energy attribution for machine-learning workloads running in containers.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE CloudCom 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "name": "Official conference program",
+                "url": "https://www.cloudcom2026.org/program",
+                "description": "Presentation on October 29 in Cloud Computing: Sustainability, Efficiency, and Security, Alésia Room; session 2:00–3:30 p.m. Paris time (CET)."
+              },
+              {
+                "@id": "https://muntasersyed.com/speaking.html#recording-cloudcom"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1ghms7xBHB-rclfHfJRDMLhNtGDuqV4H5/edit?usp=sharing",
+                "name": "Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads — IEEE CloudCom 2026 slides",
+                "url": "https://docs.google.com/presentation/d/1ghms7xBHB-rclfHfJRDMLhNtGDuqV4H5/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#container-energy-cloudcom"
+                }
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads — code",
+                "codeRepository": "https://github.com/jemsbhai/TOMLCloud"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#pollard-ictai",
+            "name": "Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#pollard-ictai",
+            "creativeWorkStatus": "Accepted paper for IEEE ICTAI 2026",
+            "genre": "Paper",
+            "description": "Presents governed semantic execution trees for controlling and replaying AI agent work across frameworks. Presented November 3, 10:10 a.m. Eastern, Session 21C, Royal Palm 3; Presenter: Muntaser Syed.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE ICTAI 2026"
+            },
+            "sameAs": "https://arxiv.org/abs/2610.16145",
+            "workExample": {
+              "@type": "ScholarlyArticle",
+              "name": "Pollard preprint",
+              "datePublished": "2026-10-12",
+              "url": "https://arxiv.org/abs/2610.16145",
+              "identifier": {
+                "@type": "PropertyValue",
+                "propertyID": "arXiv",
+                "value": "2610.16145"
+              }
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1e604yMBf24acaQI1UIJw_0B_Fq7zc_IuAh1ELziU-94/edit?usp=sharing",
+                "name": "Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay — IEEE ICTAI 2026 slides",
+                "url": "https://docs.google.com/presentation/d/1e604yMBf24acaQI1UIJw_0B_Fq7zc_IuAh1ELziU-94/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#pollard-ictai"
+                }
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay — code",
+                "codeRepository": "https://github.com/jemsbhai/pollard"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#hashrope-ictai",
+            "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Ameerah Alsulami"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#hashrope-ictai",
+            "creativeWorkStatus": "Accepted paper for IEEE ICTAI 2026",
+            "genre": "Paper",
+            "description": "Introduces a persistent data structure for managing large-language-model context. Presented November 2, 11:30 a.m. Eastern, Session 12A, Royal Palm 1; Presenter: Muntaser Syed.",
+            "subjectOf": [
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Hashrope paper experiments",
+                "codeRepository": "https://github.com/jemsbhai/hashrope-paper"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing",
+                "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management — IEEE ICTAI 2026 slides",
+                "url": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#hashrope-ictai"
+                }
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management — code",
+                "codeRepository": "https://github.com/jemsbhai/hashrope"
+              }
+            ],
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE ICTAI 2026"
+            },
+            "sameAs": "https://arxiv.org/abs/2610.16144",
+            "workExample": {
+              "@type": "ScholarlyArticle",
+              "name": "Hashrope preprint",
+              "datePublished": "2026-10-12",
+              "url": "https://arxiv.org/abs/2610.16144",
+              "identifier": {
+                "@type": "PropertyValue",
+                "propertyID": "arXiv",
+                "value": "2610.16144"
+              }
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#stegaqr-ictai",
+            "name": "StegaQR: Learned Private Data Embedding in Standard-Decodable QR Codes",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Mohammed Alghamdi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#stegaqr-ictai",
+            "creativeWorkStatus": "Accepted paper for IEEE ICTAI 2026",
+            "genre": "Paper",
+            "description": "Explores learned private-data embedding in QR codes that remain decodable by standard readers. Presented November 3, 1:45 p.m. Eastern, Session 23A, Royal Palm 1; Presenter: Muntaser Syed.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE ICTAI 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "DigitalDocument",
+                "name": "StegaQR manuscript",
+                "url": "https://github.com/jemsbhai/stegaQR/blob/main/paper/main.pdf"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1H5sl9ycs7kndZJUwMABVxFdzbmrtMzXP/edit?usp=sharing",
+                "name": "StegaQR: Learned Private Data Embedding in Standard-Decodable QR Codes — IEEE ICTAI 2026 slides",
+                "url": "https://docs.google.com/presentation/d/1H5sl9ycs7kndZJUwMABVxFdzbmrtMzXP/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#stegaqr-ictai"
+                }
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "StegaQR: Learned Private Data Embedding in Standard-Decodable QR Codes — code",
+                "codeRepository": "https://github.com/jemsbhai/stegaQR"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#private-similarity-ictai",
+            "name": "Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Ameera Alsulami"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#private-similarity-ictai",
+            "creativeWorkStatus": "Accepted paper for IEEE ICTAI 2026",
+            "genre": "Paper",
+            "description": "Examines two-server additive secret sharing for privacy-preserving similarity search. Presented November 3, 4:30 p.m. Eastern, Session 24C, Royal Palm 3; Presenter: Muntaser Syed.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE ICTAI 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1nTrWj23F4hEgQFL0PHWERbULjJ3cAP1P/edit?usp=sharing",
+                "name": "Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing — IEEE ICTAI 2026 slides",
+                "url": "https://docs.google.com/presentation/d/1nTrWj23F4hEgQFL0PHWERbULjJ3cAP1P/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#private-similarity-ictai"
+                }
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Exact Privacy-Preserving Similarity Search via Two-Server Additive Secret Sharing — code",
+                "codeRepository": "https://github.com/jemsbhai/herpb"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#cborld-ex-paper",
+            "name": "CBOR-LD-Ex: Compact Linked Data with Reasoning Metadata for Constrained IoT Networks",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius C. Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Akram Alghanmi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#cborld-ex-paper",
+            "creativeWorkStatus": "Accepted paper for IEEE WF-IoT 2026",
+            "genre": "Paper",
+            "description": "Presents compact linked-data encoding with reasoning metadata for constrained IoT networks.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE WF-IoT 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "name": "Official conference program",
+                "url": "https://edas.info/web/ieeewf-iot2026/program.html",
+                "description": "IEEE WF-IoT 2026 · Conference presentation · October 26"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing",
+                "name": "CBOR-LD-Ex: Compact Linked Data with Reasoning Metadata for Constrained IoT Networks — IEEE WF-IoT 2026 slides",
+                "url": "https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#cborld-ex-paper"
+                }
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "CBOR-LD-Ex: Compact Linked Data with Reasoning Metadata for Constrained IoT Networks — code",
+                "codeRepository": "https://github.com/jemsbhai/cbor-ld-ex"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#imu-jepa-paper",
+            "name": "IMU-JEPA: Comparing Latent Prediction and Signal Reconstruction for Self-Supervised Wearable Sensor Representation Learning",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius C. Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Akram Alghanmi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#imu-jepa-paper",
+            "creativeWorkStatus": "Accepted paper for IEEE WF-IoT 2026",
+            "genre": "Paper",
+            "description": "Compares latent prediction and signal reconstruction for self-supervised learning from wearable sensor data.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE WF-IoT 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "IMU-JEPA code and experiments",
+                "codeRepository": "https://github.com/jemsbhai/imujepa"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Official conference program",
+                "url": "https://edas.info/web/ieeewf-iot2026/program.html",
+                "description": "IEEE WF-IoT 2026 · Conference presentation · October 26"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1ie_s1uaemO6Gt5ZT9QsTosgJyT4GxZuB/edit?usp=sharing",
+                "name": "IMU-JEPA: Comparing Latent Prediction and Signal Reconstruction for Self-Supervised Wearable Sensor Representation Learning — IEEE WF-IoT 2026 slides",
+                "url": "https://docs.google.com/presentation/d/1ie_s1uaemO6Gt5ZT9QsTosgJyT4GxZuB/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#imu-jepa-paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#onebit-iot-paper",
+            "name": "Zero-Shot Attack-Family Generalization with 1-Bit LLM Routers at the IoT Edge",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius C. Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Amal El Ahmad"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#onebit-iot-paper",
+            "creativeWorkStatus": "Accepted paper for IEEE WF-IoT 2026",
+            "genre": "Paper",
+            "description": "Studies how 1-bit language-model routers generalize to unseen attack families at the IoT edge.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE WF-IoT 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "name": "Official conference program",
+                "url": "https://edas.info/web/ieeewf-iot2026/program.html",
+                "description": "IEEE WF-IoT 2026 · Conference presentation · October 26"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1RpcIAc8u_hiiGDKNWui5MF-huFUU1_Af/edit?usp=sharing",
+                "name": "Zero-Shot Attack-Family Generalization with 1-Bit LLM Routers at the IoT Edge — IEEE WF-IoT 2026 slides",
+                "url": "https://docs.google.com/presentation/d/1RpcIAc8u_hiiGDKNWui5MF-huFUU1_Af/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#onebit-iot-paper"
+                }
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Zero-Shot Attack-Family Generalization with 1-Bit LLM Routers at the IoT Edge — code",
+                "codeRepository": "https://github.com/jemsbhai/1bit-llm-iot-router"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#compliance-algebra-iot",
+            "name": "Compliance Algebra for IoT Energy Data Governance: Detecting Silent Failures in Smart Meter Pipelines",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius C. Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Amal El Ahmad"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#compliance-algebra-iot",
+            "creativeWorkStatus": "Accepted paper for IEEE WF-IoT 2026",
+            "genre": "Paper",
+            "description": "Studies compliance algebra for detecting silent governance failures in IoT smart-meter data pipelines.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE WF-IoT 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "name": "Official conference program",
+                "url": "https://edas.info/web/ieeewf-iot2026/program.html",
+                "description": "IEEE WF-IoT 2026 · Conference presentation · October 26"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1YvYY_Qu6DYu9FgPplnCg08RpYsm75pWo/edit?usp=sharing",
+                "name": "Compliance Algebra for IoT Energy Data Governance: Detecting Silent Failures in Smart Meter Pipelines — IEEE WF-IoT 2026 slides",
+                "url": "https://docs.google.com/presentation/d/1YvYY_Qu6DYu9FgPplnCg08RpYsm75pWo/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#compliance-algebra-iot"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#drug-integrity-paper",
+            "name": "Drug Integrity Algebra: Quantifying End-to-End Pharmaceutical Safety with Subjective Logic",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Mahasen Enam"
+              },
+              {
+                "@type": "Person",
+                "name": "Nidadavolu Venkat Durga Sai Siva Vara Prasad Raju"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#drug-integrity-paper",
+            "creativeWorkStatus": "Accepted paper for IEEE HealthCom 2026",
+            "genre": "Main-track paper",
+            "description": "Models uncertain pharmaceutical supply-chain evidence with Subjective Logic to assess drug integrity across connected stages.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE HealthCom 2026"
+            },
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "Official conference program",
+              "url": "https://healthcom2026.ieee-healthcom.org/sites/default/files/downloads/2026-10/ieee_healthcom_2026_detailed-prg-oct-06.pdf#page=12",
+              "description": "IEEE HealthCom 2026 · Paper presentation · Session 3, October 20, 14:30–15:45, Great Hall"
+            },
+            "isBasedOn": {
+              "@type": "SoftwareSourceCode",
+              "name": "Public experimental repository",
+              "codeRepository": "https://github.com/jemsbhai/IEEEHealth-pharma"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#fhir-compliance-paper",
+            "name": "Privacy-Preserving Confidence-Aware FHIR R4 Exchange: A HIPAA Compliance Algebra Grounded in Subjective Logic",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Viorel D. Silaghi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#fhir-compliance-paper",
+            "creativeWorkStatus": "Accepted paper for IEEE HealthCom 2026",
+            "genre": "Main-track paper",
+            "description": "Proposes uncertainty-aware compliance operators for FHIR R4 exchange and evaluates privacy-preserving aggregation of compliance evidence.",
+            "subjectOf": [
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "HIPAA compliance algebra: manuscript, experiments, and results",
+                "codeRepository": "https://github.com/jemsbhai/hipaa-compliance-algebra"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "HIPAA compliance algebra manuscript source",
+                "codeRepository": "https://github.com/jemsbhai/hipaa-compliance-algebra/blob/edd8a4190933e04caeda77baa93fcc3f59709a30/paper/main.tex"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Official conference program",
+                "url": "https://healthcom2026.ieee-healthcom.org/sites/default/files/downloads/2026-10/ieee_healthcom_2026_detailed-prg-oct-06.pdf#page=6",
+                "description": "IEEE HealthCom 2026 · Paper presentation · Session 1, October 19, 14:30–15:45, Great Hall"
+              }
+            ],
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE HealthCom 2026"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#sqt-iot-paper",
+            "name": "SQT-IoT: A Bandwidth-Efficient Speech Codec for IoT Edge Communications",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius C. Silaghi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#sqt-iot-paper",
+            "creativeWorkStatus": "Accepted for IEEE UEMCON 2026",
+            "genre": "Conference paper",
+            "description": "Explores a bandwidth-efficient speech codec for communication between IoT edge devices. Presenter: Vincent Occhiogrosso.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE UEMCON 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "name": "Official conference program",
+                "url": "https://ieee-uemcon.org/wp-content/uploads/2026/10/IEEE-UEMCON-Schedule-4.pdf#page=18",
+                "description": "IEEE UEMCON 2026 · Conference paper · October 8, 10:45–11:00 a.m. EDT, Session 11: Embedded Systems & IoT"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1f0AOEoHGmMMrmLzgFv01MUWep-9olo8v/edit?usp=sharing",
+                "name": "SQT-IoT: A Bandwidth-Efficient Speech Codec for IoT Edge Communications — IEEE UEMCON 2026 slides",
+                "url": "https://docs.google.com/presentation/d/1f0AOEoHGmMMrmLzgFv01MUWep-9olo8v/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#sqt-iot-paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#beyond-flops-abstract",
+            "name": "Beyond FLOPs: A Vision for Physics-Grounded Energy Intelligence in Machine Learning",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Sheikh Abujar"
+              },
+              {
+                "@type": "Person",
+                "name": "Sharun Akter Khushbu"
+              }
+            ],
+            "url": "https://doi.org/10.1145/3806096.3844801",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1145/3806096.3844801"
+            },
+            "datePublished": "2026-08-31",
+            "creativeWorkStatus": "Published paper in the Proceedings of the ACM AI Leadership Summit 2026",
+            "genre": "Conference paper",
+            "pageStart": "1",
+            "pageEnd": "4",
+            "description": "Presents a vision for grounding machine-learning energy assessment in physical computation costs beyond operation counts.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "Proceedings of the ACM AI Leadership Summit 2026"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#corpusgen-interspeech",
+            "name": "corpusgen: An Open-Source Toolkit for Phoneme-Coverage-Optimized Speech Corpus Design Across Languages",
+            "subjectOf": {
+              "@id": "https://muntasersyed.com/speaking.html#recording-corpuskit"
+            },
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Sharun Akter Khushbu"
+              },
+              {
+                "@type": "Person",
+                "name": "Fariha Jaigirdar"
+              }
+            ],
+            "url": "https://www.isca-archive.org/interspeech_2026/syed26_interspeech.html",
+            "datePublished": "2026",
+            "pageStart": "5916",
+            "pageEnd": "5917",
+            "encoding": {
+              "@type": "MediaObject",
+              "encodingFormat": "application/pdf",
+              "contentUrl": "https://www.isca-archive.org/interspeech_2026/syed26_interspeech.pdf"
+            },
+            "creativeWorkStatus": "Published paper in Interspeech 2026 proceedings",
+            "genre": "Paper",
+            "description": "Demonstrates an open-source toolkit for designing multilingual speech corpora with optimized phoneme coverage.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "Interspeech 2026"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#llm-ergonomics-paper",
+            "name": "Ergonomic Assessment of LLM-Assisted Work among Bangladeshi Technology Users: A Multi-Instrument Survey Study",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius C. Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Sheikh Abujar"
+              },
+              {
+                "@type": "Person",
+                "name": "Sharun Akter Khushbu"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#llm-ergonomics-paper",
+            "creativeWorkStatus": "Accepted for IEEE GHTC 2026",
+            "genre": "Conference paper",
+            "description": "Uses multiple survey instruments to study ergonomic aspects of LLM-assisted work among Bangladeshi technology users.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE GHTC 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "name": "Official conference program",
+                "url": "https://ieeeghtc.org/technical-paper-presentations-schedule-2026/",
+                "description": "IEEE GHTC 2026 · Conference paper · Session 7B: Socio-Technical Approaches in Engineering, October 9, 1–2:30 p.m., Room C120B"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1TGqNwZpWn31X5ujYOUv-mATiMo9JOlID/edit?usp=sharing",
+                "name": "Ergonomic Assessment of LLM-Assisted Work among Bangladeshi Technology Users: A Multi-Instrument Survey Study — IEEE GHTC 2026 slides",
+                "url": "https://docs.google.com/presentation/d/1TGqNwZpWn31X5ujYOUv-mATiMo9JOlID/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#llm-ergonomics-paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#disaster-confidence-paper",
+            "name": "Semantic Confidence Algebra for Crowdsourced Disaster Report Verification: A JSON-LD Extended Approach",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Humaid Alshamsi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#disaster-confidence-paper",
+            "creativeWorkStatus": "Accepted paper for the NADIM 2026 workshop at IEEE/ACS AICCSA 2026",
+            "genre": "Conference paper",
+            "description": "Applies semantic confidence algebra and extended JSON-LD metadata to verification of crowdsourced disaster reports.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "NADIM 2026 workshop at IEEE/ACS AICCSA 2026"
+            },
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "Official AICCSA accepted-paper list",
+              "url": "https://aiccsa.net/AICCSA2026/papers.php",
+              "description": "Paper 5280, NADIM 2026 workshop."
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#toml-transformers-paper",
+            "name": "Transistor-Level Energy Modeling of Transformer Inference: Prefill/Decode Phase Separation and Cross-Architecture Transfer",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius C. Silaghi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#toml-transformers-paper",
+            "creativeWorkStatus": "Accepted for IEEE UEMCON 2026",
+            "genre": "Conference paper",
+            "description": "Models the energy of transformer inference by separating prefill and decode phases and studying transfer across architectures. Presenter: Vincent Occhiogrosso.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE UEMCON 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "name": "Official conference program",
+                "url": "https://ieee-uemcon.org/wp-content/uploads/2026/10/IEEE-UEMCON-Schedule-4.pdf#page=22",
+                "description": "IEEE UEMCON 2026 · Conference paper · October 8, 2:15–2:30 p.m. EDT, Session 14: Embedded Systems / Core AI & Energy-Sustainability"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "TOML Transformers camera-ready manuscript source",
+                "codeRepository": "https://github.com/jemsbhai/TOMLTransformers/blob/477885c45d6e4247c128ce82ed0add9d7f31f0b6/paper/main.tex"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1dep2099RU3P4HpY8mgt9TlH2qrUhj1Ux/edit?usp=sharing",
+                "name": "Transistor-Level Energy Modeling of Transformer Inference: Prefill/Decode Phase Separation and Cross-Architecture Transfer — IEEE UEMCON 2026 slides",
+                "url": "https://docs.google.com/presentation/d/1dep2099RU3P4HpY8mgt9TlH2qrUhj1Ux/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#toml-transformers-paper"
+                }
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Transistor-Level Energy Modeling of Transformer Inference: Prefill/Decode Phase Separation and Cross-Architecture Transfer — code",
+                "codeRepository": "https://github.com/jemsbhai/TOMLTransformers"
+              }
+            ],
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "Conference paper ID",
+              "value": "1571344645"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#healthcare-rag-paper",
+            "name": "Privacy-Preserving Retrieval-Augmented Generation for Healthcare: Two-Server Secret Sharing with Information-Theoretic Guarantees",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Ameerah Alsulami"
+              },
+              {
+                "@type": "Person",
+                "name": "Mahasen Enam"
+              },
+              {
+                "@type": "Person",
+                "name": "Nidadavolu Venkat Durga Sai Siva Vara Prasad Raju"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius C. Silaghi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#healthcare-rag-paper",
+            "creativeWorkStatus": "Accepted for WCIHS 2026 workshop at IEEE HealthCom 2026",
+            "genre": "Paper",
+            "description": "Studies privacy-preserving healthcare retrieval-augmented generation using two-server secret sharing with information-theoretic guarantees.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "WCIHS 2026 workshop at IEEE HealthCom 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "name": "Official conference program",
+                "url": "https://healthcom2026.ieee-healthcom.org/sites/default/files/downloads/2026-10/ieee_healthcom_2026_detailed-prg-oct-06.pdf#page=13",
+                "description": "WCIHS 2026 workshop · IEEE HealthCom 2026 · Workshop 5, October 21, 10:15–11:30, Kovno Room"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1-Z5gf3K-ygiILtUAsE-RZSQi6SATdeHH/edit?usp=sharing",
+                "name": "Privacy-Preserving Retrieval-Augmented Generation for Healthcare: Two-Server Secret Sharing with Information-Theoretic Guarantees — IEEE HealthCom 2026 / WCIHS slides",
+                "url": "https://docs.google.com/presentation/d/1-Z5gf3K-ygiILtUAsE-RZSQi6SATdeHH/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#healthcare-rag-paper"
+                }
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Privacy-Preserving Retrieval-Augmented Generation for Healthcare: Two-Server Secret Sharing with Information-Theoretic Guarantees — code",
+                "codeRepository": "https://github.com/jemsbhai/herpbHealth"
+              }
+            ],
+            "isBasedOn": {
+              "@type": "SoftwareSourceCode",
+              "name": "Public experimental repository",
+              "codeRepository": "https://github.com/jemsbhai/herpbHealth"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#aasn-paper",
+            "name": "AASN: Automated Multi-Agent Synthesis and Discovery via Compositional Agent DNA",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Rwaida Alssadi"
+              },
+              {
+                "@type": "Person",
+                "name": "Mohammed Alghamdi"
+              },
+              {
+                "@type": "Person",
+                "name": "Ali Alqarni"
+              },
+              {
+                "@type": "Person",
+                "name": "Akram Al Ghanmi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#aasn-paper",
+            "creativeWorkStatus": "Accepted for AGENTICS 2026",
+            "genre": "Paper",
+            "description": "Studies automated synthesis and discovery of multi-agent systems through compositional agent DNA.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "AGENTICS 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "name": "Official conference program",
+                "url": "https://www.insticc.org/node/TechnicalProgram/ijcci/2026/presentationDetails/152457",
+                "description": "AGENTICS 2026 · Paper · AGENTICS26-1O, October 28, 12:15–13:30, A305–Shannon · Presenter: Rwaida Alssadi"
+              },
+              {
+                "@id": "https://muntasersyed.com/speaking.html#recording-aasn"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/11asoBqAxG3MHWlUEuHAGDutZ62ycA7qy/edit?usp=sharing",
+                "name": "AASN: Automated Multi-Agent Synthesis and Discovery via Compositional Agent DNA — AGENTICS 2026 slides",
+                "url": "https://docs.google.com/presentation/d/11asoBqAxG3MHWlUEuHAGDutZ62ycA7qy/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#aasn-paper"
+                }
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "AASN: Automated Multi-Agent Synthesis and Discovery via Compositional Agent DNA — code",
+                "codeRepository": "https://github.com/jemsbhai/aasn"
+              }
+            ],
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "Conference paper ID",
+              "value": "AGENTICS26-RP-41"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 42,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#cdxf-paper",
+            "name": "CDXF: A Universal Binary Interchange Format for Lossless Metadata Preservation in AI Data Pipelines",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              },
+              {
+                "@type": "Person",
+                "name": "Akram Alghanmi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#cdxf-paper",
+            "creativeWorkStatus": "Accepted paper · IEEE ComComAp 2026",
+            "genre": "Conference paper",
+            "description": "Presents a universal binary interchange format that preserves metadata across JSON, YAML, XML, and TOML in AI data pipelines.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE ComComAp 2026"
+            },
+            "subjectOf": {
+              "@type": "WebPage",
+              "name": "Conference",
+              "url": "https://comcomap.net/2026/",
+              "description": "IEEE ComComAp 2026 · Paper · December 14–17, 2026 · Paphos, Cyprus / hybrid conference"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 43,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#cryptepi-paper",
+            "name": "CryptEpi: Privacy-Preserving Epistasis Detection via GPU-Accelerated Homomorphic Encryption",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Ameerah Alsulami"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#cryptepi-paper",
+            "creativeWorkStatus": "Accepted paper · IEEE ICDM 2026",
+            "genre": "Paper",
+            "description": "Studies privacy-preserving detection of gene interactions using GPU-accelerated homomorphic encryption.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "TML4DM 2026 workshop at IEEE ICDM 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "WebPage",
+                "name": "Workshop",
+                "url": "https://trustworthy-ai.com.au/events/workshops/icdm-workshop-2026#paperlist",
+                "description": "TML4DM 2026 workshop · IEEE ICDM 2026 · Presented November 12, 11:40–11:55, China Standard Time (UTC+8) · Paris Room · Shenyang, China"
+              },
+              {
+                "@type": "WebPage",
+                "name": "Official ICDM workshop program",
+                "url": "https://icdm2026.neu.edu.cn/Program/"
+              },
+              {
+                "@id": "https://muntasersyed.com/speaking.html#cryptepi-tml4dm-2026"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 44,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#veracity-cic",
+            "name": "Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Sheikh Abujar"
+              },
+              {
+                "@type": "Person",
+                "name": "Marius Silaghi"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#veracity-cic",
+            "creativeWorkStatus": "Accepted paper for IEEE CIC 2026",
+            "genre": "Paper",
+            "description": "Grounds machine-learning data exchange in Subjective Logic to represent and propagate confidence in JSON-LD workflows.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE CIC 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "WebPage",
+                "name": "Conference program",
+                "url": "https://assets.ieee-cs.org/common/resources/2026/Technical+Program_overview_IEEE_TPS-CogMI-CIC-RISC+2026_Oct20v4.pdf#page=15",
+                "description": "IEEE CIC 2026 · Paper · November 5, 10:00–12:00, CIC Application Session 1: Intelligent Data Systems, Cedar/Pine"
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1Ar6e4PSd9q5L9WwBUrVKpodg0hSV7Obx/edit?usp=sharing",
+                "name": "Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic — IEEE CIC 2026 slides",
+                "url": "https://docs.google.com/presentation/d/1Ar6e4PSd9q5L9WwBUrVKpodg0hSV7Obx/edit?usp=sharing",
+                "genre": "Presentation slides",
+                "about": {
+                  "@id": "https://muntasersyed.com/research.html#veracity-cic"
+                }
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic — code",
+                "codeRepository": "https://github.com/jemsbhai/jsonld-ex"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic — experiments",
+                "codeRepository": "https://github.com/jemsbhai/jsonld-ex-experiments"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 45,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#learning-before-memorising-paper",
+            "name": "Learning before memorising: How far does early stopping protect multilayer perceptrons from label noise?",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Hidayath Ali Baig Mohammed"
+              }
+            ],
+            "datePublished": "2026-10-22",
+            "url": "https://journal.hmjournals.com/index.php/JAIMLNN/article/view/6671",
+            "sameAs": "https://doi.org/10.55529/jaimlnn.62.84.97",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.55529/jaimlnn.62.84.97"
+            },
+            "creativeWorkStatus": "Published paper",
+            "genre": "Paper",
+            "pageStart": "84",
+            "pageEnd": "97",
+            "description": "Evaluates early stopping under random and structured label noise, showing how noise patterns shape the gap between learning and memorisation in multilayer perceptrons.",
+            "isPartOf": {
+              "@type": "PublicationIssue",
+              "issueNumber": "2",
+              "isPartOf": {
+                "@type": "PublicationVolume",
+                "volumeNumber": "6",
+                "isPartOf": {
+                  "@type": "Periodical",
+                  "name": "Journal of Artificial Intelligence, Machine Learning and Neural Network",
+                  "issn": "2799-1172"
+                }
+              }
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 46,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#sms-spam-robustness-paper",
+            "name": "Numbers keep the spam out: Robustness of word- and character-level SMS spam filters to obfuscation and good-word attacks",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Salahddine Krit"
+              }
+            ],
+            "datePublished": "2026-10-22",
+            "url": "https://journal.hmjournals.com/index.php/JAIMLNN/article/view/6670",
+            "sameAs": "https://doi.org/10.55529/jaimlnn.62.73.83",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.55529/jaimlnn.62.73.83"
+            },
+            "creativeWorkStatus": "Published paper",
+            "genre": "Paper",
+            "pageStart": "73",
+            "pageEnd": "83",
+            "description": "Tests word- and character-based SMS spam filters against targeted text obfuscation and good-word attacks, examining the role of non-lexical cues and defensive training.",
+            "isPartOf": {
+              "@type": "PublicationIssue",
+              "issueNumber": "2",
+              "isPartOf": {
+                "@type": "PublicationVolume",
+                "volumeNumber": "6",
+                "isPartOf": {
+                  "@type": "Periodical",
+                  "name": "Journal of Artificial Intelligence, Machine Learning and Neural Network",
+                  "issn": "2799-1172"
+                }
+              }
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 47,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://muntasersyed.com/research.html#kvrm-comnetsat-2026",
+            "name": "KVRM: Registry-Constrained Decision Architectures for Audited Finite Action Spaces",
+            "author": [
+              {
+                "@id": "https://muntasersyed.com/#person"
+              },
+              {
+                "@type": "Person",
+                "name": "Robert Price"
+              }
+            ],
+            "url": "https://muntasersyed.com/research.html#kvrm-comnetsat-2026",
+            "creativeWorkStatus": "Accepted paper · IEEE COMNETSAT 2026",
+            "genre": "Conference paper",
+            "description": "Routes decisions through versioned action registries, support checks, and deterministic validation, with auditable execution and explicit abstention.",
+            "isPartOf": {
+              "@type": "CreativeWork",
+              "name": "IEEE COMNETSAT 2026"
+            },
+            "subjectOf": [
+              {
+                "@type": "WebPage",
+                "name": "IEEE COMNETSAT 2026",
+                "url": "https://comnetsat.org/",
+                "description": "December 3–5, 2026 · Manado, Indonesia · Hybrid conference"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "KVRM: Registry-Constrained Decision Architectures for Audited Finite Action Spaces — manuscript",
+                "url": "https://github.com/jemsbhai/KVRM/blob/main/docs/papers/KVRM_FLAGSHIP_PAPER_DRAFT.md"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "KVRM code and benchmarks",
+                "codeRepository": "https://github.com/jemsbhai/KVRM"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

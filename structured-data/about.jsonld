@@ -1,0 +1,132 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://muntasersyed.com/#person",
+      "name": "Muntaser Syed",
+      "alternateName": "Muntaser Mansur Syed",
+      "givenName": "Muntaser",
+      "familyName": "Syed",
+      "url": "https://muntasersyed.com/",
+      "image": "https://images.ctfassets.net/kv878odoqyd1/7yhyBrSwM8N2uvDmMaczhM/fbefac391b0dafc29a60be6cb48baea9/muntaser-syed.jpg?h=700&w=560&fit=fill&f=face",
+      "email": "mailto:muntaser@ieee.org",
+      "jobTitle": "Lead Gen AI Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Insight Global"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "DeepStation",
+        "url": "https://deepstation.ai/"
+      },
+      "homeLocation": {
+        "@type": "Place",
+        "name": "Melbourne, Florida, United States"
+      },
+      "description": "AI systems researcher, open-source builder, and technical educator working on trust, efficiency, and intelligence in computing systems.",
+      "knowsAbout": [
+        "Confidence representation",
+        "Data provenance",
+        "Temporal validity",
+        "Agent context budgets",
+        "Edge deployment",
+        "Artificial intelligence of things",
+        "JSON-LD Ex"
+      ],
+      "award": [
+        "Major League Hacking Top 50, 2020",
+        "Inaugural Opera Hack winner — Opera Map team member, 2019"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/muntasersyed",
+        "https://github.com/jemsbhai",
+        "https://huggingface.co/Jemsbhai",
+        "https://scholar.google.com/citations?user=4RK-PocAAAAJ",
+        "https://orcid.org/0000-0002-4777-6469",
+        "https://www.researchgate.net/profile/Muntaser-Syed",
+        "https://pypi.org/user/jemsbhai/",
+        "https://www.npmjs.com/~jemsbhai",
+        "https://crates.io/users/jemsbhai",
+        "https://devpost.com/jemsbhai",
+        "https://devpost.com/msyed2011",
+        "https://sessionize.com/muntaser-syed/",
+        "https://top.mlh.com/2020/profiles/muntaser-syed"
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-4777-6469",
+        "url": "https://orcid.org/0000-0002-4777-6469"
+      }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://muntasersyed.com/about.html#webpage",
+      "url": "https://muntasersyed.com/about.html",
+      "name": "About | Muntaser Syed",
+      "description": "About Muntaser Syed, an AI systems researcher and open-source builder working in trustworthy AI, edge intelligence, semantic data, and efficient machine learning.",
+      "isPartOf": {
+        "@id": "https://muntasersyed.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "inLanguage": "en-US",
+      "dateModified": "2026-11-13",
+      "breadcrumb": {
+        "@id": "https://muntasersyed.com/about.html#breadcrumb"
+      },
+      "mentions": {
+        "@id": "https://smarterarticles.co.uk/the-exported-thirst-how-ai-drinks-water-india-cannot-spare"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://smarterarticles.co.uk/the-exported-thirst-how-ai-drinks-water-india-cannot-spare",
+      "url": "https://smarterarticles.co.uk/the-exported-thirst-how-ai-drinks-water-india-cannot-spare",
+      "headline": "The Exported Thirst: How AI Drinks Water India Cannot Spare",
+      "datePublished": "2026-09-02",
+      "author": {
+        "@type": "Person",
+        "name": "Tim Green",
+        "url": "https://profile.smarterarticles.co.uk/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SmarterArticles",
+        "url": "https://smarterarticles.co.uk/"
+      },
+      "about": {
+        "@type": "ScholarlyArticle",
+        "url": "https://arxiv.org/abs/2607.13443",
+        "name": "The Environmental Cost of Digital Sovereignty: Water, Energy, and Emissions Impacts of Sovereign AI Infrastructure in the Global South"
+      },
+      "mentions": {
+        "@id": "https://muntasersyed.com/#person"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://muntasersyed.com/about.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muntasersyed.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "https://muntasersyed.com/about.html"
+        }
+      ]
+    }
+  ]
+}

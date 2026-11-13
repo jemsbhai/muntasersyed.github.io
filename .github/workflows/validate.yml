@@ -1,0 +1,34 @@
+name: Validate static site
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Check generated discovery files are current
+        run: python scripts/build_discovery.py --check
+      - name: Validate HTML, links, metadata, and discovery
+        run: python scripts/validate_site.py
+      - name: Check JavaScript syntax
+        run: node --check assets/site.js
+      - name: Build with GitHub Pages Jekyll
+        uses: actions/jekyll-build-pages@v1
+      - name: Validate the published artifact
+        run: python scripts/validate_site.py --root _site

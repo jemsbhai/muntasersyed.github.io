@@ -1,0 +1,979 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://muntasersyed.com/#person",
+      "name": "Muntaser Syed",
+      "alternateName": "Muntaser Mansur Syed",
+      "url": "https://muntasersyed.com/",
+      "sameAs": [
+        "https://github.com/jemsbhai",
+        "https://pypi.org/user/jemsbhai/",
+        "https://www.npmjs.com/~jemsbhai",
+        "https://crates.io/users/jemsbhai",
+        "https://huggingface.co/Jemsbhai"
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://muntasersyed.com/software.html#webpage",
+      "url": "https://muntasersyed.com/software.html",
+      "name": "Open-Source Software | Muntaser Syed",
+      "dateModified": "2026-11-13",
+      "description": "Python, Rust, TypeScript, and Java software by Muntaser Syed for trustworthy AI, agent infrastructure, edge intelligence, compact data, explainability, and efficient ML.",
+      "isPartOf": {
+        "@id": "https://muntasersyed.com/#website"
+      },
+      "author": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Trustworthy AI"
+        },
+        {
+          "@type": "Thing",
+          "name": "Agent infrastructure"
+        },
+        {
+          "@type": "Thing",
+          "name": "Edge intelligence"
+        },
+        {
+          "@type": "Thing",
+          "name": "Compact linked data"
+        },
+        {
+          "@type": "Thing",
+          "name": "Explainable AI"
+        },
+        {
+          "@type": "Thing",
+          "name": "Efficient machine learning"
+        }
+      ],
+      "inLanguage": "en-US",
+      "mainEntity": {
+        "@id": "https://muntasersyed.com/software.html#software-catalog"
+      },
+      "breadcrumb": {
+        "@id": "https://muntasersyed.com/software.html#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://muntasersyed.com/software.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muntasersyed.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Software",
+          "item": "https://muntasersyed.com/software.html"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://muntasersyed.com/software.html#software-catalog",
+      "name": "Open-source software by Muntaser Syed",
+      "numberOfItems": 27,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/software.html#jsonld-ex-project",
+            "name": "JSON-LD Ex — AI/ML Extensions",
+            "alternateName": "jsonld-ex",
+            "description": "Extensions for representing AI confidence, provenance, temporal validity, embeddings, privacy rights, validation, and context integrity while preserving compatibility with linked-data workflows.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "codeRepository": "https://github.com/jemsbhai/jsonld-ex",
+            "programmingLanguage": [
+              "Python",
+              "TypeScript"
+            ],
+            "citation": {
+              "@id": "https://doi.org/10.32473/flairs.39.1.141786"
+            },
+            "sameAs": [
+              "https://pypi.org/project/jsonld-ex/",
+              "https://www.npmjs.com/package/@jsonld-ex/core",
+              "https://jsonld-ex.github.io/ns/",
+              "https://jsonldex.lovable.app/"
+            ],
+            "hasPart": [
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "jsonld-ex · Python reference",
+                "version": "0.7.4",
+                "programmingLanguage": "Python",
+                "description": "The full reference implementation, including Subjective Logic, FHIR interoperability, security hardening, temporal operations, and AI/ML metadata.",
+                "codeRepository": "https://github.com/jemsbhai/jsonld-ex",
+                "url": "https://pypi.org/project/jsonld-ex/",
+                "sameAs": "https://jsonld-ex.github.io/ns/"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "@jsonld-ex/core · TypeScript port",
+                "version": "0.1.2",
+                "programmingLanguage": "TypeScript",
+                "description": "A feature-complete JavaScript/TypeScript implementation with built-in type declarations and an MCP server.",
+                "codeRepository": "https://github.com/jemsbhai/jsonld-ex/tree/main/packages/js",
+                "url": "https://www.npmjs.com/package/@jsonld-ex/core",
+                "sameAs": "https://jsonld-playtime.lovable.app/"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "@id": "https://muntasersyed.com/projects.html#jsonld-ex-experiments",
+                "name": "JSON-LD Ex experiments",
+                "codeRepository": "https://github.com/jemsbhai/jsonld-ex-experiments",
+                "url": "https://muntasersyed.com/projects.html#jsonld-ex-experiments",
+                "citation": {
+                  "@id": "https://muntasersyed.com/research.html#veracity-cic"
+                },
+                "subjectOf": [
+                  {
+                    "@type": "CreativeWork",
+                    "@id": "https://docs.google.com/presentation/d/1Ar6e4PSd9q5L9WwBUrVKpodg0hSV7Obx/edit?usp=sharing",
+                    "name": "Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic — slides",
+                    "url": "https://docs.google.com/presentation/d/1Ar6e4PSd9q5L9WwBUrVKpodg0hSV7Obx/edit?usp=sharing",
+                    "creator": {
+                      "@id": "https://muntasersyed.com/#person"
+                    }
+                  }
+                ]
+              }
+            ],
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1Ar6e4PSd9q5L9WwBUrVKpodg0hSV7Obx/edit?usp=sharing",
+                "name": "Veracity-Aware Machine Learning Data Exchange: Grounding JSON-LD in Subjective Logic — slides",
+                "url": "https://docs.google.com/presentation/d/1Ar6e4PSd9q5L9WwBUrVKpodg0hSV7Obx/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1YvYY_Qu6DYu9FgPplnCg08RpYsm75pWo/edit?usp=sharing",
+                "name": "Compliance Algebra for IoT Energy Data Governance: Detecting Silent Failures in Smart Meter Pipelines — slides",
+                "url": "https://docs.google.com/presentation/d/1YvYY_Qu6DYu9FgPplnCg08RpYsm75pWo/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Tokenmaster",
+            "version": "0.2.0",
+            "description": "Normalized token accounting, effective-budget gauges, turns-to-exhaustion prediction, and compaction and handoff policies.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": [
+              "Python",
+              "Rust",
+              "TypeScript"
+            ],
+            "codeRepository": "https://github.com/jemsbhai/tokenmaster",
+            "url": "https://pypi.org/project/tokenmaster/",
+            "sameAs": [
+              "https://crates.io/crates/tokenmaster",
+              "https://www.npmjs.com/package/tokenmaster"
+            ],
+            "@id": "https://muntasersyed.com/software.html#tokenmaster",
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1H8mMlLhTkxyCuWazhVCCiSH1fCxlTna2/edit?usp=sharing",
+                "name": "Shipping the Pollard Ecosystem — slides",
+                "url": "https://docs.google.com/presentation/d/1H8mMlLhTkxyCuWazhVCCiSH1fCxlTna2/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "ctxmaster",
+            "description": "Terminal gauges and renderers that present context-budget telemetry.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": [
+              "Python",
+              "Rust",
+              "TypeScript"
+            ],
+            "codeRepository": "https://github.com/jemsbhai/tokenmaster",
+            "url": "https://pypi.org/project/ctxmaster/",
+            "sameAs": [
+              "https://crates.io/crates/ctxmaster",
+              "https://www.npmjs.com/package/ctxmaster"
+            ],
+            "hasPart": [
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "ctxmaster Python",
+                "version": "0.1.2",
+                "programmingLanguage": "Python",
+                "url": "https://pypi.org/project/ctxmaster/"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "ctxmaster Rust",
+                "version": "0.1.1",
+                "programmingLanguage": "Rust",
+                "url": "https://crates.io/crates/ctxmaster"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "ctxmaster npm",
+                "version": "0.1.1",
+                "programmingLanguage": "TypeScript",
+                "url": "https://www.npmjs.com/package/ctxmaster"
+              }
+            ],
+            "@id": "https://muntasersyed.com/software.html#ctxmaster"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Hashrope",
+            "description": "A BB[2/7] hash-augmented tree for efficient text and state operations, with Python, JavaScript, Rust, and Java implementations.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": [
+              "Python",
+              "JavaScript",
+              "Rust",
+              "Java"
+            ],
+            "codeRepository": "https://github.com/jemsbhai/hashrope",
+            "url": "https://pypi.org/project/hashrope/",
+            "sameAs": [
+              "https://crates.io/crates/hashrope",
+              "https://www.npmjs.com/package/hashrope",
+              "https://central.sonatype.com/artifact/io.github.jemsbhai/hashrope",
+              "https://hashrope.lovable.app/"
+            ],
+            "citation": [
+              {
+                "@id": "https://muntasersyed.com/research.html#hashrope-ictai"
+              }
+            ],
+            "hasPart": [
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Hashrope Python",
+                "version": "0.3.4",
+                "programmingLanguage": "Python",
+                "url": "https://pypi.org/project/hashrope/"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Hashrope Rust",
+                "version": "0.3.4",
+                "programmingLanguage": "Rust",
+                "url": "https://crates.io/crates/hashrope"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Hashrope JavaScript",
+                "version": "0.3.4",
+                "programmingLanguage": "JavaScript",
+                "url": "https://www.npmjs.com/package/hashrope"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Hashrope Java",
+                "version": "0.3.4",
+                "programmingLanguage": "Java",
+                "url": "https://central.sonatype.com/artifact/io.github.jemsbhai/hashrope"
+              }
+            ],
+            "@id": "https://muntasersyed.com/software.html#hashrope",
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing",
+                "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management — slides",
+                "url": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              },
+              {
+                "@id": "https://muntasersyed.com/speaking.html#recording-hashrope-devfest"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Chronofy",
+            "description": "A Temporal-Logical Decay Architecture with temporal embeddings, decay-weighted retrieval, and Signal Temporal Logic validity checks for time-aware RAG, published in the IEEE IRI 2026 proceedings.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": [
+              "Python",
+              "JavaScript"
+            ],
+            "codeRepository": "https://github.com/jemsbhai/chronofy",
+            "url": "https://pypi.org/project/chronofy/",
+            "citation": [
+              {
+                "@id": "https://doi.org/10.1109/IRI69576.2026.00090"
+              },
+              {
+                "@id": "https://arxiv.org/abs/2607.20560"
+              }
+            ],
+            "sameAs": "https://www.npmjs.com/package/chronofy",
+            "subjectOf": {
+              "@type": "DigitalDocument",
+              "name": "IEEE IRI 2026 detailed program",
+              "url": "https://ieee-iri.github.io/resources/documents/IEEE_IRI2026_Detailed_Program_Jul31.pdf"
+            },
+            "hasPart": [
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Chronofy Python",
+                "version": "0.1.9",
+                "programmingLanguage": "Python",
+                "url": "https://pypi.org/project/chronofy/"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Chronofy npm",
+                "version": "0.1.8",
+                "programmingLanguage": "JavaScript",
+                "url": "https://www.npmjs.com/package/chronofy"
+              }
+            ],
+            "@id": "https://muntasersyed.com/software.html#chronofy"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Pollard",
+            "description": "A runtime for budgeting agent work, enforcing versioned action gates, auditing execution trees, and replaying decisions.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": [
+              "Python",
+              "TypeScript",
+              "Rust"
+            ],
+            "codeRepository": "https://github.com/jemsbhai/pollard",
+            "url": "https://pypi.org/project/pollard/",
+            "sameAs": [
+              "https://www.npmjs.com/package/pollardai",
+              "https://crates.io/crates/pollardai"
+            ],
+            "citation": [
+              {
+                "@id": "https://muntasersyed.com/research.html#pollard-ictai"
+              }
+            ],
+            "hasPart": [
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "Pollard Python",
+                "version": "1.6.2",
+                "programmingLanguage": "Python",
+                "description": "Governed execution trees with agent teams, inherited scopes, checkpoints, durable approvals, and optional Codex CLI task integration with recorded usage and strict replay.",
+                "codeRepository": "https://github.com/jemsbhai/pollard",
+                "url": "https://pypi.org/project/pollard/"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "pollardai TypeScript",
+                "version": "0.2.0",
+                "programmingLanguage": "TypeScript",
+                "description": "A native Node.js/TypeScript runtime with streaming, replay, persistent stores, shared budgets, provider adapters, and audit tools. Its independent release line targets Python Pollard 1.6.0 behavior.",
+                "codeRepository": "https://github.com/jemsbhai/pollard/tree/main/packages/npm",
+                "url": "https://www.npmjs.com/package/pollardai"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "pollardai Rust",
+                "version": "0.2.1",
+                "programmingLanguage": "Rust",
+                "description": "A native Rust runtime with eight storage backends, shared budgets, async streaming, replay, and audit tools. Its independent release line targets Python Pollard 1.6.0 behavior.",
+                "codeRepository": "https://github.com/jemsbhai/pollard/tree/main/crates/pollardai",
+                "url": "https://crates.io/crates/pollardai"
+              }
+            ],
+            "@id": "https://muntasersyed.com/software.html#pollard",
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1e604yMBf24acaQI1UIJw_0B_Fq7zc_IuAh1ELziU-94/edit?usp=sharing",
+                "name": "Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay — slides",
+                "url": "https://docs.google.com/presentation/d/1e604yMBf24acaQI1UIJw_0B_Fq7zc_IuAh1ELziU-94/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1H8mMlLhTkxyCuWazhVCCiSH1fCxlTna2/edit?usp=sharing",
+                "name": "Shipping the Pollard Ecosystem — slides",
+                "url": "https://docs.google.com/presentation/d/1H8mMlLhTkxyCuWazhVCCiSH1fCxlTna2/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              },
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1A6ballogWGr02m26VCoruYbfccPy5oDp/edit?usp=sharing",
+                "name": "From drift alert to drift refusal: fail-closed containment of provider change in governed AI systems — slides",
+                "url": "https://docs.google.com/presentation/d/1A6ballogWGr02m26VCoruYbfccPy5oDp/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "MCP-Edge",
+            "version": "0.2.0",
+            "description": "A bridging gateway, MCP-Lite server, and four-tier taxonomy for extending the Model Context Protocol to constrained devices.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/mcp-edge",
+            "url": "https://pypi.org/project/mcp-edge/",
+            "@id": "https://muntasersyed.com/software.html#mcp-edge"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "CBOR-LD Ex",
+            "version": "0.2.1",
+            "description": "A reasoning-carrying binary linked-data protocol for constrained IoT networks with a Python reference implementation.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/cbor-ld-ex",
+            "url": "https://pypi.org/project/cbor-ld-ex/",
+            "@id": "https://muntasersyed.com/software.html#cbor-ld-ex",
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing",
+                "name": "CBOR-LD-Ex: Compact Linked Data with Reasoning Metadata for Constrained IoT Networks — slides",
+                "url": "https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "cborld-ex",
+            "version": "0.1.0",
+            "description": "A byte-compatible no_std Rust implementation of CBOR-LD Ex for embedded, bare-metal, WebAssembly, and ESP32 targets.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Rust",
+            "runtimePlatform": [
+              "no_std",
+              "WebAssembly",
+              "ESP32"
+            ],
+            "codeRepository": "https://github.com/jemsbhai/cborld-ex",
+            "url": "https://crates.io/crates/cborld-ex",
+            "@id": "https://muntasersyed.com/software.html#cborld-ex",
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing",
+                "name": "CBOR-LD-Ex: Compact Linked Data with Reasoning Metadata for Constrained IoT Networks — slides",
+                "url": "https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Explainiverse",
+            "version": "0.15.2",
+            "description": "A unified explainability framework with an audited registry of methods and capabilities.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/explainiverse",
+            "url": "https://pypi.org/project/explainiverse/",
+            "sameAs": "https://explainiverse-explorer.lovable.app/",
+            "@id": "https://muntasersyed.com/software.html#explainiverse"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Corpusgen",
+            "subjectOf": {
+              "@id": "https://muntasersyed.com/speaking.html#recording-corpuskit"
+            },
+            "version": "0.1.7",
+            "description": "A language-agnostic generator and evaluator for speech corpora with maximal phoneme coverage, with a paper published in the Interspeech 2026 proceedings.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/corpusgen",
+            "url": "https://pypi.org/project/corpusgen/",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "Software version DOI",
+              "value": "10.5281/zenodo.21891821"
+            },
+            "citation": {
+              "@id": "https://muntasersyed.com/research.html#corpusgen-interspeech"
+            },
+            "@id": "https://muntasersyed.com/software.html#corpusgen"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Compatibillabuddy",
+            "version": "0.2.1",
+            "description": "A hardware-aware agent that diagnoses and repairs incompatible Python machine-learning stacks.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/compatibillabuddy",
+            "url": "https://pypi.org/project/compatibillabuddy/",
+            "@id": "https://muntasersyed.com/software.html#compatibillabuddy"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "MultispecQR",
+            "version": "0.4.1",
+            "description": "RGB channel multiplexing for three independent QR payloads, with neural-assisted decoding and a palette mode supporting up to nine layers. The paper is published in the IEEE ICMLA 2026 proceedings.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/multispecqr",
+            "url": "https://pypi.org/project/multispecqr/",
+            "citation": {
+              "@id": "https://muntasersyed.com/research.html#multispecqr-paper"
+            },
+            "@id": "https://muntasersyed.com/software.html#multispecqr",
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1LwrP67_kbdc-FbjcnuCFlhDdBX7yY5Kr/edit?usp=sharing",
+                "name": "MultiSpecQR: Multi-Spectral QR Code Encoding and Neural Network-Assisted Decoding via Color Channel Multiplexing — slides",
+                "url": "https://docs.google.com/presentation/d/1LwrP67_kbdc-FbjcnuCFlhDdBX7yY5Kr/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "stegaQR",
+            "@id": "https://muntasersyed.com/software.html#stegaqr",
+            "version": "0.2.0",
+            "description": "Neural private-payload embedding in standard-decodable QR codes, with a bundled model, error correction, and interleaved bit placement. Images created with 0.1.0 require native placement when decoded.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/stegaQR",
+            "url": "https://pypi.org/project/stegaQR/",
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1H5sl9ycs7kndZJUwMABVxFdzbmrtMzXP/edit?usp=sharing",
+                "name": "StegaQR: Learned Private Data Embedding in Standard-Decodable QR Codes — slides",
+                "url": "https://docs.google.com/presentation/d/1H5sl9ycs7kndZJUwMABVxFdzbmrtMzXP/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "hashrope-bio",
+            "description": "Computational-biology tools built on hash-augmented ropes.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": [
+              "Python",
+              "Rust"
+            ],
+            "codeRepository": "https://github.com/jemsbhai/hashrope-bio",
+            "url": "https://pypi.org/project/hashrope-bio/",
+            "sameAs": "https://crates.io/crates/hashrope-bio",
+            "hasPart": [
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "hashrope-bio Python",
+                "version": "0.3.4",
+                "programmingLanguage": "Python",
+                "url": "https://pypi.org/project/hashrope-bio/"
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "name": "hashrope-bio Rust",
+                "version": "0.3.4",
+                "programmingLanguage": "Rust",
+                "url": "https://crates.io/crates/hashrope-bio"
+              }
+            ],
+            "@id": "https://muntasersyed.com/software.html#hashrope-bio"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "TrustAndVerify",
+            "version": "0.2.1",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/trustandverify",
+            "url": "https://pypi.org/project/trustandverify/",
+            "@id": "https://muntasersyed.com/software.html#trustandverify"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "TrustGraph Jac",
+            "version": "0.2.0",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": [
+              "Python",
+              "Jac"
+            ],
+            "codeRepository": "https://github.com/jemsbhai/trustgraph-jac",
+            "url": "https://pypi.org/project/trustgraph-jac/",
+            "@id": "https://muntasersyed.com/software.html#trustgraph-jac"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "X-RAG Temporal",
+            "version": "0.1.0",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/subjective-logic-rag",
+            "url": "https://pypi.org/project/xrag-temporal/",
+            "@id": "https://muntasersyed.com/software.html#xrag-temporal"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Epistemic Edge",
+            "version": "0.1.0",
+            "description": "Air-gapped neuro-symbolic cognition over verified edge state, with Subjective Logic guardrails for LLM-driven IoT actuation, published as a paper in the IEEE IRI 2026 proceedings.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/epistemic-edge",
+            "url": "https://pypi.org/project/epistemic-edge/",
+            "citation": {
+              "@id": "https://doi.org/10.1109/IRI69576.2026.00017"
+            },
+            "@id": "https://muntasersyed.com/software.html#epistemic-edge"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "CDXF",
+            "version": "0.1.3",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/cdxf",
+            "url": "https://pypi.org/project/cdxf/",
+            "citation": {
+              "@id": "https://muntasersyed.com/research.html#cdxf-paper"
+            },
+            "@id": "https://muntasersyed.com/software.html#cdxf"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "UHC",
+            "version": "0.1.6",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/uhc",
+            "url": "https://pypi.org/project/uhc/",
+            "@id": "https://muntasersyed.com/software.html#uhc"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "NEXUS ML Metrics",
+            "version": "0.0.1",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/nexus-ml",
+            "url": "https://pypi.org/project/nexus-ml-metrics/",
+            "@id": "https://muntasersyed.com/software.html#nexus-ml-metrics"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "ArcMind",
+            "version": "0.2.0",
+            "description": "A causal, dual-rate sequence backbone for streaming sensor policies.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/arcmind",
+            "url": "https://pypi.org/project/arcmind/",
+            "@id": "https://muntasersyed.com/software.html#arcmind"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "TOML Signals",
+            "description": "Reproducible transistor-level energy analysis of 37 signal-processing algorithms, with profiler traces and evaluation artifacts for IEEE MLSP 2026.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/TOMLSignals",
+            "citation": {
+              "@id": "https://openreview.net/forum?id=jYBcP44EDn"
+            },
+            "subjectOf": {
+              "@type": "WebPage",
+              "name": "IEEE MLSP 2026 schedule",
+              "url": "https://neuroneural.net/mlsp2026schedule/"
+            },
+            "@id": "https://muntasersyed.com/software.html#toml-signals"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/software.html#pollard-jev",
+            "name": "pollard-jev",
+            "version": "0.13",
+            "description": "A Pollard companion for typed robotics and IoT decisions, with observation-validity checks, bounded simulated actions, audit records, and reproducible local OpenJev benchmarks.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/pollard-jev",
+            "url": "https://pypi.org/project/pollard-jev/",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-10-05",
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1A6ballogWGr02m26VCoruYbfccPy5oDp/edit?usp=sharing",
+                "name": "From drift alert to drift refusal: fail-closed containment of provider change in governed AI systems — slides",
+                "url": "https://docs.google.com/presentation/d/1A6ballogWGr02m26VCoruYbfccPy5oDp/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/software.html#epicormic",
+            "name": "epicormic",
+            "version": "0.2.0",
+            "description": "Statistical provider-drift monitoring for Pollard-governed AI systems, with reproducible evidence records and controls that gate subsequent model and tool calls.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/epicormic",
+            "url": "https://pypi.org/project/epicormic/",
+            "datePublished": "2026-09-27",
+            "dateModified": "2026-10-28",
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "@id": "https://docs.google.com/presentation/d/1A6ballogWGr02m26VCoruYbfccPy5oDp/edit?usp=sharing",
+                "name": "From drift alert to drift refusal: fail-closed containment of provider change in governed AI systems — slides",
+                "url": "https://docs.google.com/presentation/d/1A6ballogWGr02m26VCoruYbfccPy5oDp/edit?usp=sharing",
+                "creator": {
+                  "@id": "https://muntasersyed.com/#person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://muntasersyed.com/software.html#geniekit",
+            "name": "geniekit",
+            "version": "0.1.0",
+            "description": "Python tools for harmonizing six GENIE BPC clinicogenomic cohorts, deriving lines of therapy, and producing aggregate summaries with disclosure controls. Includes metadata and synthetic-data tools.",
+            "creator": {
+              "@id": "https://muntasersyed.com/#person"
+            },
+            "programmingLanguage": "Python",
+            "codeRepository": "https://github.com/jemsbhai/geniekit",
+            "url": "https://pypi.org/project/geniekit/",
+            "datePublished": "2026-10-17"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.32473/flairs.39.1.141786",
+      "name": "JSON-LD 1.2 and Beyond: Extensions for Machine Learning Data Exchange",
+      "url": "https://doi.org/10.32473/flairs.39.1.141786"
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "https://muntasersyed.com/software.html#qopt-builder-demo",
+      "name": "Quantum Optimisation Circuit Builder",
+      "alternateName": "qopt-builder",
+      "description": "Build QAOA circuits from MaxCut graphs or QUBO matrices, explore algorithm recommendations, and compare simulations with exact solutions for small instances.",
+      "url": "https://qopt-builder.vercel.app/",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Web browser",
+      "creator": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "isBasedOn": {
+        "@id": "https://muntasersyed.com/projects.html#qopt-builder"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://muntasersyed.com/software.html#webpage"
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://muntasersyed.com/#person",
+      "name": "Muntaser Syed",
+      "url": "https://muntasersyed.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://muntasersyed.com/#website",
+      "name": "Muntaser Syed — AI Systems Research",
+      "url": "https://muntasersyed.com/",
+      "publisher": {
+        "@id": "https://muntasersyed.com/#person"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://muntasersyed.com/hashrope.html#webpage",
+      "url": "https://muntasersyed.com/hashrope.html",
+      "name": "Hashrope | Persistent Sequences and Exact Comparison | Muntaser Syed",
+      "description": "Hashrope: persistent editing, substring hashing, exact comparison, and repetition encoding in Python, JavaScript, Rust, and Java. Packages, research, and talks.",
+      "dateModified": "2026-11-13",
+      "inLanguage": "en-US",
+      "author": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "isPartOf": {
+        "@id": "https://muntasersyed.com/#website"
+      },
+      "about": {
+        "@id": "https://muntasersyed.com/software.html#hashrope"
+      },
+      "mainEntity": {
+        "@id": "https://muntasersyed.com/software.html#hashrope"
+      },
+      "breadcrumb": {
+        "@id": "https://muntasersyed.com/hashrope.html#breadcrumb"
+      },
+      "mentions": [
+        {
+          "@id": "https://muntasersyed.com/projects.html#qhashrope"
+        },
+        {
+          "@id": "https://muntasersyed.com/projects.html#qfourierrope"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://muntasersyed.com/hashrope.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muntasersyed.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Software",
+          "item": "https://muntasersyed.com/software.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Hashrope",
+          "item": "https://muntasersyed.com/hashrope.html"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Hashrope",
+      "description": "A BB[2/7] hash-augmented tree for efficient text and state operations, with Python, JavaScript, Rust, and Java implementations.",
+      "creator": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "programmingLanguage": [
+        "Python",
+        "JavaScript",
+        "Rust",
+        "Java"
+      ],
+      "codeRepository": "https://github.com/jemsbhai/hashrope",
+      "url": "https://pypi.org/project/hashrope/",
+      "sameAs": [
+        "https://crates.io/crates/hashrope",
+        "https://www.npmjs.com/package/hashrope",
+        "https://central.sonatype.com/artifact/io.github.jemsbhai/hashrope",
+        "https://hashrope.lovable.app/"
+      ],
+      "citation": [
+        {
+          "@id": "https://muntasersyed.com/research.html#hashrope-ictai"
+        }
+      ],
+      "hasPart": [
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "Hashrope Python",
+          "version": "0.3.4",
+          "programmingLanguage": "Python",
+          "url": "https://pypi.org/project/hashrope/"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "Hashrope Rust",
+          "version": "0.3.4",
+          "programmingLanguage": "Rust",
+          "url": "https://crates.io/crates/hashrope"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "Hashrope JavaScript",
+          "version": "0.3.4",
+          "programmingLanguage": "JavaScript",
+          "url": "https://www.npmjs.com/package/hashrope"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "Hashrope Java",
+          "version": "0.3.4",
+          "programmingLanguage": "Java",
+          "url": "https://central.sonatype.com/artifact/io.github.jemsbhai/hashrope"
+        }
+      ],
+      "@id": "https://muntasersyed.com/software.html#hashrope",
+      "subjectOf": [
+        {
+          "@type": "CreativeWork",
+          "@id": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing",
+          "name": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management — slides",
+          "url": "https://docs.google.com/presentation/d/11_hXF6CMn1XsgLwPHNToE_GW6xnUA1KB/edit?usp=sharing",
+          "creator": {
+            "@id": "https://muntasersyed.com/#person"
+          }
+        },
+        {
+          "@id": "https://muntasersyed.com/speaking.html#recording-hashrope-devfest"
+        }
+      ],
+      "mainEntityOfPage": {
+        "@id": "https://muntasersyed.com/hashrope.html#webpage"
+      }
+    }
+  ]
+}

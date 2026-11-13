@@ -1,9 +1,55 @@
-# Content audit — November 10, 2026
+# Content audit — November 13, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## November 13 freshness and discovery update
+
+- Updated Beyond FLOPs to published status using the
+  [publisher-deposited Crossref record](https://api.crossref.org/works/10.1145/3806096.3844801).
+  The ACM AI Leadership Summit proceedings paper has pages 1–4, publication
+  date August 31, and online publication November 10. Research now has 20
+  published and 25 accepted works, with 47 distinct outputs and six preprints.
+- The owner confirmed CryptEpi was presented. Moved the November 12
+  presentation from Home’s upcoming calendar to recent activity and added
+  its Speaking entry, preserving the existing research identity and author list.
+- Added the [IEEE Smart City USA final program](https://ieeesmartcityconference.org/IEEE_Smart_City_USA_2026_Agenda_FINAL_With_Session_Dividers.pdf#page=4):
+  the November 21 talk is part of Room 2’s Smart Energy & Sustainability
+  session, 10:30 a.m.–12:30 p.m. Central. The event graph distinguishes the
+  timed parent session from the talk, whose individual start is not published.
+- Linked the [DevFest Tampa workshop materials](https://github.com/jemsbhai/devfestTampaPollard2026)
+  from Home, Speaking, and the Pollard guide. The Miami listing is unchanged;
+  its organizer acceptance record remains an owner follow-up.
+- Added [qfourierrope](https://github.com/jemsbhai/qfourierrope) and
+  [Quantum Optimisation Circuit Builder](https://github.com/jemsbhai/qopt-builder),
+  including the builder’s [interactive demo](https://qopt-builder.vercel.app/demo.html).
+  Project descriptions cover the implementations and experiments, not inferred
+  hardware outcomes. Projects now contains 36 entries; Speaking contains 54
+  engagements and seven recordings. Software remains 27 works and 38 distributions.
+- All 38 registry/version checks match the catalog. Pollard’s November 12
+  CI fix does not change its package versions. GENIEkit, Gatehouse, and Grid
+  Hazard are already included. VeriBridge remains outside the curated catalog.
+- Added generated Markdown companions and standard Schema.org downloads for
+  all nine pages, linked through alternate/describedby metadata and `llms.txt`.
+  The extended JSON-LD Ex representation remains separate. Normalized topic
+  `about` values as named Schema.org Things and linked both software guides
+  from the Home graph. Canonical HTML pages remain the sitemap targets.
+- Added deterministic discovery generation and CI checks for HTML, local
+  links, structured data, counts, dates, crawlability, and JavaScript syntax.
+  Jekyll copies the Markdown companions as static resources. Maintenance
+  scripts are excluded from the published artifact.
+- Discovery follows [Google’s AI search guidance](https://developers.google.com/search/docs/appearance/ai-features)
+  and the [llms.txt proposal](https://llmstxt.org/). The public Is Agentic
+  report was a stored November 10 snapshot; it is not a score for this update.
+- Verification: source and official GitHub Pages Jekyll output pass all nine
+  page checks and 400 local references. All 18 generated companions match
+  their source. Browser checks passed at 1440px, 390px, and 320px, plus all
+  nine pages at 320px with JavaScript disabled. Search, publication filters,
+  empty states, mobile menu, Escape, theme persistence, and copy controls
+  passed. Automated WCAG A/AA checks found no violations in the checked
+  desktop pages or the additional dark-theme software page.
 
 ## November 10 readability and discovery update
 

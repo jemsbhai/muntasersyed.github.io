@@ -8,6 +8,9 @@
   <meta name="theme-color" content="#f4f1e8">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="canonical" href="https://muntasersyed.com/">
+  <link rel="alternate" type="text/markdown" href="https://muntasersyed.com/index.md" title="Markdown version">
+  <link rel="describedby" type="application/ld+json" href="https://muntasersyed.com/structured-data/index.jsonld" title="Schema.org metadata">
+  <link rel="describedby" type="text/plain" href="https://muntasersyed.com/llms.txt" title="Portfolio guide for agents">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Muntaser Syed | AI Systems Researcher and Open-Source Builder">
   <meta property="og:description" content="Research and open-source systems for trustworthy, efficient, and edge-ready AI.">
@@ -87,7 +90,7 @@
       {
         "@type": "WebPage",
         "@id": "https://muntasersyed.com/#webpage",
-        "dateModified": "2026-11-10",
+        "dateModified": "2026-11-13",
         "url": "https://muntasersyed.com/",
         "name": "Muntaser Syed | AI Systems Researcher and Open-Source Builder",
         "description": "Research, publications, and open-source software by Muntaser Syed in trustworthy AI, agent infrastructure, edge intelligence, semantic data, and efficient machine learning.",
@@ -106,7 +109,9 @@
           { "@id": "https://muntasersyed.com/projects.html#webpage" },
           { "@id": "https://muntasersyed.com/speaking.html#webpage" },
           { "@id": "https://muntasersyed.com/about.html#webpage" },
-          { "@id": "https://muntasersyed.com/media.html#webpage" }
+          { "@id": "https://muntasersyed.com/media.html#webpage" },
+          { "@id": "https://muntasersyed.com/hashrope.html#webpage" },
+          { "@id": "https://muntasersyed.com/pollard.html#webpage" }
         ]
       }
     ]
@@ -179,21 +184,15 @@
         </div>
         <div class="artifact-grid">
           <article class="artifact-card">
-            <span class="record-index">NOV 12 · ICDM / TML4DM</span>
-            <h3>Privacy-preserving epistasis detection</h3>
-            <p>CryptEpi combines GPU acceleration and homomorphic encryption for epistasis detection. The presentation is November 12, 11:40–11:55 a.m. in the Paris Room, Shenyang (UTC+8).</p>
-            <div class="item-links"><a class="micro-link" href="research.html#cryptepi-paper">Paper and materials</a><a class="micro-link" href="https://trustworthy-ai.com.au/events/workshops/icdm-workshop-2026#paperlist">Workshop program</a></div>
-          </article>
-          <article class="artifact-card">
             <span class="record-index">NOV 14 · DEVFEST TAMPA</span>
             <h3>Govern your agents with Pollard</h3>
-            <p>My session at USF covers budgets, approval gates, and exact replay for AI agents, with practical controls for model and tool calls.</p>
-            <div class="item-links"><a class="micro-link" href="speaking.html#devfest-tampa-2026">Talk details</a><a class="micro-link" href="software.html#pollard">Pollard</a></div>
+            <p>My workshop at USF covers budgets, approval gates, and exact replay for AI agents, with practical controls for model and tool calls.</p>
+            <div class="item-links"><a class="micro-link" href="speaking.html#devfest-tampa-2026">Workshop details</a><a class="micro-link" href="https://github.com/jemsbhai/devfestTampaPollard2026">Workshop materials</a><a class="micro-link" href="software.html#pollard">Pollard</a></div>
           </article>
           <article class="artifact-card">
             <span class="record-index">NOV 21 · ONLINE TALK</span>
             <h3>The water and carbon cost of sovereign AI</h3>
-            <p>I’m confirmed to speak at the 2026 IEEE Smart City USA Conference about how siting and cooling choices shape AI infrastructure’s environmental impact.</p>
+            <p>I’m speaking at the 2026 IEEE Smart City USA Conference about how siting and cooling choices shape AI infrastructure’s environmental impact. Find the talk in Room 2’s Smart Energy &amp; Sustainability session, 11:30 a.m.–1:30 p.m. Eastern.</p>
             <div class="item-links"><a class="micro-link" href="speaking.html#smart-city-usa-2026">Talk and research</a><a class="micro-link" href="https://ieeesmartcityconference.org/">Conference</a></div>
           </article>
           <article class="artifact-card">
@@ -226,6 +225,24 @@
         </div>
         <div class="artifact-grid">
           <article class="artifact-card release-card release-card-featured">
+            <span class="record-index">NOV 12 · ICDM / TML4DM</span>
+            <h3>Privacy-preserving epistasis detection</h3>
+            <p>CryptEpi was presented at ICDM’s TML4DM workshop on November 12. The work combines GPU acceleration and homomorphic encryption for epistasis detection.</p>
+            <div class="item-links"><a class="micro-link" href="research.html#cryptepi-paper">Paper and materials</a><a class="micro-link" href="speaking.html#cryptepi-tml4dm-2026">Presentation</a></div>
+          </article>
+          <article class="artifact-card release-card">
+            <span class="record-index">PUBLISHED · ACM AI LEADERSHIP SUMMIT</span>
+            <h3>Beyond FLOPs</h3>
+            <p>Our paper on physics-grounded energy intelligence in machine learning is now available in the ACM proceedings.</p>
+            <div class="item-links"><a class="micro-link" href="https://doi.org/10.1145/3806096.3844801">Published paper</a><a class="micro-link" href="research.html#beyond-flops-abstract">Research details</a></div>
+          </article>
+          <article class="artifact-card release-card">
+            <span class="record-index">NEW PROJECTS · NOVEMBER</span>
+            <h3>Quantum fingerprints and optimisation circuits</h3>
+            <p>qfourierrope explores spectral fingerprints for equality testing. The Quantum Optimisation Circuit Builder turns MaxCut and QUBO problems into QAOA circuits with an interactive browser demo.</p>
+            <div class="item-links"><a class="micro-link" href="projects.html#qfourierrope">qfourierrope</a><a class="micro-link" href="projects.html#qopt-builder">Circuit builder</a></div>
+          </article>
+          <article class="artifact-card release-card">
             <span class="record-index">NOV 7 · DEVFEST FLORIDA</span>
             <h3>One data structure, four languages</h3>
             <p>Watch my Hashrope talk from DevFest Florida and explore the interactive demo alongside its Python, JavaScript, Rust, and Java implementations.</p>

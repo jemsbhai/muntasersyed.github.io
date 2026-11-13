@@ -1,0 +1,27 @@
+# Muntaser Syed
+
+> Muntaser Syed's personal portfolio: AI systems research, open-source software, projects, presentations, and professional background.
+
+Use Research for paper titles, authors, publication status, and publisher links. Use Software and the focused guides for package versions and installation links. Use Speaking for presentation dates and materials, Projects for implementations and demonstrations, and About for biography and professional service.
+
+Each page has a Markdown companion generated from its main content and a standard Schema.org JSON-LD download generated from its embedded graph. Links in the Markdown point to the canonical HTML pages and original sources. The HTML pages contain the complete content without requiring JavaScript.
+
+## Portfolio
+
+- [Overview](https://muntasersyed.com/index.md): Research focus, recent work, and upcoming events. [HTML](https://muntasersyed.com/) · [JSON-LD](https://muntasersyed.com/structured-data/index.jsonld)
+- [Research](https://muntasersyed.com/research.md): Papers, preprints, publication status, author lists, code, and presentation materials. [HTML](https://muntasersyed.com/research.html) · [JSON-LD](https://muntasersyed.com/structured-data/research.jsonld)
+- [Software](https://muntasersyed.com/software.md): Software families, independent language releases, installation commands, and interactive demonstrations. [HTML](https://muntasersyed.com/software.html) · [JSON-LD](https://muntasersyed.com/structured-data/software.jsonld)
+- [Projects](https://muntasersyed.com/projects.md): Research implementations, experiments, public repositories, and awards. [HTML](https://muntasersyed.com/projects.html) · [JSON-LD](https://muntasersyed.com/structured-data/projects.jsonld)
+- [Speaking](https://muntasersyed.com/speaking.md): Talks, presentations, workshops, recordings, and teaching materials. [HTML](https://muntasersyed.com/speaking.html) · [JSON-LD](https://muntasersyed.com/structured-data/speaking.jsonld)
+- [About](https://muntasersyed.com/about.md): Biography, education, professional service, public profiles, and contact information. [HTML](https://muntasersyed.com/about.html) · [JSON-LD](https://muntasersyed.com/structured-data/about.jsonld)
+- [Media](https://muntasersyed.com/media.md): Reporting, interviews, university news, and event coverage. [HTML](https://muntasersyed.com/media.html) · [JSON-LD](https://muntasersyed.com/structured-data/media.jsonld)
+
+## Software guides
+
+- [Hashrope](https://muntasersyed.com/hashrope.md): Data structures, language implementations, research, and demonstrations. [HTML](https://muntasersyed.com/hashrope.html) · [JSON-LD](https://muntasersyed.com/structured-data/hashrope.jsonld)
+- [Pollard](https://muntasersyed.com/pollard.md): Governed agent execution, replay, language runtimes, and workshop materials. [HTML](https://muntasersyed.com/pollard.html) · [JSON-LD](https://muntasersyed.com/structured-data/pollard.jsonld)
+
+## Optional
+
+- [Sitemap](https://muntasersyed.com/sitemap.xml): Canonical HTML pages and modification dates.
+- [JSON-LD Ex metadata](https://muntasersyed.com/structured-data/jsonld-ex.jsonld): Extension annotations for JSON-LD Ex-compatible tools, separate from the standard Schema.org downloads above.
