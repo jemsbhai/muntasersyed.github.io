@@ -1,9 +1,20 @@
-# Content audit — November 13, 2026
+# Content audit — November 14, 2026
 
 This file records the maintenance boundary behind the public site. The August
 2026 review reconciled the repository against DOI/Crossref and publisher
 records, arXiv, IEEE Xplore, official conference programs, PyPI, npm,
 crates.io, GitHub, Sessionize, organizer event pages, and institutional news.
+
+## November 14 UEMCON publication update
+
+- Marked transformer inference energy modeling and SQT-IoT as published,
+  with November 13 publication dates, IEEE Xplore links, and DOI identifiers:
+  [Transformer inference](https://ieeexplore.ieee.org/document/11775509) and
+  [SQT-IoT](https://ieeexplore.ieee.org/document/11775532).
+- Updated the TOML Transformers project, research filters, and totals to
+  22 published and 23 accepted works; retained 47 distinct scholarly outputs.
+- Regenerated Markdown and Schema.org companions, preserved stable research
+  anchors, and synchronized changed-page dates with the sitemap.
 
 ## November 13 freshness and discovery update
 

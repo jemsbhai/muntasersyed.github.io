@@ -1,6 +1,6 @@
 Source: [https://muntasersyed.com/research.html](https://muntasersyed.com/research.html)
 
-Updated: 2026-11-13
+Updated: 2026-11-14
 
 Research  / Publications
 
@@ -8,11 +8,11 @@ Research  / Publications
 
 My published and accepted papers, preprints, conference presentations, and open-source research.
 
-Research sources.  Explore papers, preprints, and conference materials through the linked publishers, repositories, and official programs. Reviewed November 13, 2026 .
+Research sources.  Explore papers, preprints, and conference materials through the linked publishers, repositories, and official programs. Reviewed November 14, 2026 .
 
-20 Published papers
+22 Published papers
 
-25 Accepted / forthcoming
+23 Accepted / forthcoming
 
 6 Preprints
 
@@ -154,15 +154,15 @@ Studies privacy-preserving detection of gene interactions using GPU-accelerated 
 
 #### Transistor-Level Energy Modeling of Transformer Inference: Prefill/Decode Phase Separation and Cross-Architecture Transfer
 
-Accepted · IEEE UEMCON 2026
+Published · IEEE UEMCON 2026
 
 Muntaser Syed ; Marius C. Silaghi
 
-IEEE UEMCON 2026 · Conference paper · October 8, 2:15–2:30 p.m. EDT, Session 14: Embedded Systems / Core AI & Energy-Sustainability · Presenter: Vincent Occhiogrosso.
+IEEE UEMCON 2026 · Published November 13, 2026 · Presented October 8, 2:15–2:30 p.m. EDT, Session 14: Embedded Systems / Core AI & Energy-Sustainability · Presenter: Vincent Occhiogrosso.
 
 Models the energy of transformer inference by separating prefill and decode phases and studying transfer across architectures.
 
-[Official program](https://ieee-uemcon.org/wp-content/uploads/2026/10/IEEE-UEMCON-Schedule-4.pdf#page=22) [Manuscript source](https://github.com/jemsbhai/TOMLTransformers/blob/477885c45d6e4247c128ce82ed0add9d7f31f0b6/paper/main.tex) [Code / experiments](https://github.com/jemsbhai/TOMLTransformers) [Slides](https://docs.google.com/presentation/d/1dep2099RU3P4HpY8mgt9TlH2qrUhj1Ux/edit?usp=sharing)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11775509) [DOI](https://doi.org/10.1109/UEMCON70256.2026.11775509) [Official program](https://ieee-uemcon.org/wp-content/uploads/2026/10/IEEE-UEMCON-Schedule-4.pdf#page=22) [Manuscript source](https://github.com/jemsbhai/TOMLTransformers/blob/477885c45d6e4247c128ce82ed0add9d7f31f0b6/paper/main.tex) [Code / experiments](https://github.com/jemsbhai/TOMLTransformers) [Slides](https://docs.google.com/presentation/d/1dep2099RU3P4HpY8mgt9TlH2qrUhj1Ux/edit?usp=sharing)
 
 #### Privacy-Preserving Retrieval-Augmented Generation for Healthcare: Two-Server Secret Sharing with Information-Theoretic Guarantees
 
@@ -322,15 +322,15 @@ Proposes uncertainty-aware compliance operators for FHIR R4 exchange and evaluat
 
 #### SQT-IoT: A Bandwidth-Efficient Speech Codec for IoT Edge Communications
 
-Accepted · IEEE UEMCON 2026
+Published · IEEE UEMCON 2026
 
 Muntaser Syed ; Marius C. Silaghi
 
-IEEE UEMCON 2026 · Conference paper · October 8, 10:45–11:00 a.m. EDT, Session 11: Embedded Systems & IoT · Presenter: Vincent Occhiogrosso.
+IEEE UEMCON 2026 · Published November 13, 2026 · Presented October 8, 10:45–11:00 a.m. EDT, Session 11: Embedded Systems & IoT · Presenter: Vincent Occhiogrosso.
 
 Explores a bandwidth-efficient speech codec for communication between IoT edge devices.
 
-[Official program](https://ieee-uemcon.org/wp-content/uploads/2026/10/IEEE-UEMCON-Schedule-4.pdf#page=18) [Slides](https://docs.google.com/presentation/d/1f0AOEoHGmMMrmLzgFv01MUWep-9olo8v/edit?usp=sharing)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11775532) [DOI](https://doi.org/10.1109/UEMCON70256.2026.11775532) [Official program](https://ieee-uemcon.org/wp-content/uploads/2026/10/IEEE-UEMCON-Schedule-4.pdf#page=18) [Slides](https://docs.google.com/presentation/d/1f0AOEoHGmMMrmLzgFv01MUWep-9olo8v/edit?usp=sharing)
 
 #### Beyond FLOPs: A Vision for Physics-Grounded Energy Intelligence in Machine Learning
 

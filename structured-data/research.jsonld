@@ -21,7 +21,7 @@
       "url": "https://muntasersyed.com/research.html",
       "name": "Research and Publications | Muntaser Syed",
       "description": "Papers and preprints by Muntaser Syed on trustworthy AI, agent systems, privacy, edge intelligence, and efficient computing, with code and presentations.",
-      "dateModified": "2026-11-13",
+      "dateModified": "2026-11-14",
       "isPartOf": {
         "@id": "https://muntasersyed.com/#website"
       },
@@ -1764,8 +1764,15 @@
                 "name": "Marius C. Silaghi"
               }
             ],
-            "url": "https://muntasersyed.com/research.html#sqt-iot-paper",
-            "creativeWorkStatus": "Accepted for IEEE UEMCON 2026",
+            "url": "https://ieeexplore.ieee.org/document/11775532",
+            "sameAs": "https://doi.org/10.1109/UEMCON70256.2026.11775532",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1109/UEMCON70256.2026.11775532"
+            },
+            "datePublished": "2026-11-13",
+            "creativeWorkStatus": "Published paper in IEEE UEMCON 2026 proceedings",
             "genre": "Conference paper",
             "description": "Explores a bandwidth-efficient speech codec for communication between IoT edge devices. Presenter: Vincent Occhiogrosso.",
             "isPartOf": {
@@ -1983,8 +1990,22 @@
                 "name": "Marius C. Silaghi"
               }
             ],
-            "url": "https://muntasersyed.com/research.html#toml-transformers-paper",
-            "creativeWorkStatus": "Accepted for IEEE UEMCON 2026",
+            "url": "https://ieeexplore.ieee.org/document/11775509",
+            "sameAs": "https://doi.org/10.1109/UEMCON70256.2026.11775509",
+            "identifier": [
+              {
+                "@type": "PropertyValue",
+                "propertyID": "DOI",
+                "value": "10.1109/UEMCON70256.2026.11775509"
+              },
+              {
+                "@type": "PropertyValue",
+                "propertyID": "Conference paper ID",
+                "value": "1571344645"
+              }
+            ],
+            "datePublished": "2026-11-13",
+            "creativeWorkStatus": "Published paper in IEEE UEMCON 2026 proceedings",
             "genre": "Conference paper",
             "description": "Models the energy of transformer inference by separating prefill and decode phases and studying transfer across architectures. Presenter: Vincent Occhiogrosso.",
             "isPartOf": {
@@ -2018,12 +2039,7 @@
                 "name": "Transistor-Level Energy Modeling of Transformer Inference: Prefill/Decode Phase Separation and Cross-Architecture Transfer — code",
                 "codeRepository": "https://github.com/jemsbhai/TOMLTransformers"
               }
-            ],
-            "identifier": {
-              "@type": "PropertyValue",
-              "propertyID": "Conference paper ID",
-              "value": "1571344645"
-            }
+            ]
           }
         },
         {

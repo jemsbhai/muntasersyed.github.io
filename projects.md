@@ -1,6 +1,6 @@
 Source: [https://muntasersyed.com/projects.html](https://muntasersyed.com/projects.html)
 
-Updated: 2026-11-13
+Updated: 2026-11-14
 
 Projects  / Research and innovation
 
@@ -104,13 +104,13 @@ A CBOR-LD Ex database architecture and design project.
 
 [Design repository](https://github.com/jemsbhai/epistemicdb)
 
-PUBLIC MANUSCRIPT · ACCEPTED IEEE UEMCON PAPER
+PUBLISHED · IEEE UEMCON PAPER
 
 ### TOML Transformers
 
-Transformer-inference energy modeling that separates prefill and decode and tests cross-architecture transfer. The accepted IEEE UEMCON 2026 paper has public manuscript source, frozen GPU measurements, and reproducibility artifacts.
+Transformer-inference energy modeling that separates prefill and decode and tests cross-architecture transfer. The published IEEE UEMCON 2026 paper has public manuscript source, frozen GPU measurements, and reproducibility artifacts.
 
-[Accepted paper](https://muntasersyed.com/research.html#toml-transformers-paper) [Manuscript source](https://github.com/jemsbhai/TOMLTransformers/blob/master/paper/main.tex) [Experiments](https://github.com/jemsbhai/TOMLTransformers) [Foundational TOML paper](https://doi.org/10.32473/flairs.39.1.141781) [Slides](https://docs.google.com/presentation/d/1dep2099RU3P4HpY8mgt9TlH2qrUhj1Ux/edit?usp=sharing)
+[Published paper](https://muntasersyed.com/research.html#toml-transformers-paper) [Manuscript source](https://github.com/jemsbhai/TOMLTransformers/blob/master/paper/main.tex) [Experiments](https://github.com/jemsbhai/TOMLTransformers) [Foundational TOML paper](https://doi.org/10.32473/flairs.39.1.141781) [Slides](https://docs.google.com/presentation/d/1dep2099RU3P4HpY8mgt9TlH2qrUhj1Ux/edit?usp=sharing)
 
 PUBLIC RESEARCH ARTIFACT · IEEE MLSP 2026
 

@@ -20,7 +20,7 @@
       "@id": "https://muntasersyed.com/projects.html#webpage",
       "url": "https://muntasersyed.com/projects.html",
       "name": "Projects and Innovation | Muntaser Syed",
-      "dateModified": "2026-11-13",
+      "dateModified": "2026-11-14",
       "description": "Research repositories, current builds, hackathon portfolios, and applied AI projects by Muntaser Syed.",
       "isPartOf": {
         "@id": "https://muntasersyed.com/#website"
@@ -157,7 +157,7 @@
           "item": {
             "@type": "SoftwareSourceCode",
             "name": "TOML Transformers",
-            "description": "Transformer-inference energy modeling that separates prefill and decode and tests cross-architecture transfer, with public measurements and manuscript source for the accepted IEEE UEMCON 2026 paper.",
+            "description": "Transformer-inference energy modeling that separates prefill and decode and tests cross-architecture transfer, with public measurements and manuscript source for the published IEEE UEMCON 2026 paper.",
             "creator": {
               "@id": "https://muntasersyed.com/#person"
             },
