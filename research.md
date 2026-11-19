@@ -1,6 +1,6 @@
 Source: [https://muntasersyed.com/research.html](https://muntasersyed.com/research.html)
 
-Updated: 2026-11-14
+Updated: 2026-11-19
 
 Research  / Publications
 
@@ -10,9 +10,9 @@ My published and accepted papers, preprints, conference presentations, and open-
 
 Research sources.  Explore papers, preprints, and conference materials through the linked publishers, repositories, and official programs. Reviewed November 14, 2026 .
 
-22 Published papers
+23 Published papers
 
-23 Accepted / forthcoming
+22 Accepted / forthcoming
 
 6 Preprints
 
@@ -394,15 +394,15 @@ Defines seven audit criteria for civic recommenders and evaluates a user-configu
 
 #### Transistor-Level Energy Analysis of Signal Processing Algorithms: Beyond Operation Counting
 
-Accepted · IEEE MLSP 2026
+Published · IEEE MLSP 2026
 
 Muntaser Syed ; Marius Silaghi; Sheikh Abujar; Sharun Akter Khushbu
 
-IEEE MLSP 2026 · Atlanta, Georgia · September 28–October 1, 2026 · Presentation in Session 3 on Thursday, October 1, 1–3 p.m. ET
+IEEE MLSP 2026 · Published November 18, 2026 · Atlanta, Georgia · September 28–October 1, 2026 · Presentation in Session 3 on Thursday, October 1, 1–3 p.m. ET
 
 Extends TOML to 37 signal-processing algorithms across two NVIDIA GPUs, modeling compute, memory, command-dispatch, and fused-sequential costs against profiler and energy measurements.
 
-[OpenReview](https://openreview.net/forum?id=jYBcP44EDn) [Conference schedule](https://neuroneural.net/mlsp2026schedule/) [Code](https://github.com/jemsbhai/TOMLSignals)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11772572) [DOI](https://doi.org/10.1109/MLSP68619.2026.11772572) [OpenReview](https://openreview.net/forum?id=jYBcP44EDn) [Conference schedule](https://neuroneural.net/mlsp2026schedule/) [Code](https://github.com/jemsbhai/TOMLSignals)
 
 #### MultiSpecQR: Multi-Spectral QR Code Encoding and Neural Network-Assisted Decoding via Color Channel Multiplexing
 

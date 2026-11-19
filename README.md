@@ -18,15 +18,16 @@ archive, professional service, selected awards, press, and public profiles.
 - `media.html`: dated media coverage, interviews, university news, and organizer or sponsor reports
 - `about.html`: biography, roles, education, professional service, press, milestones, and profile links
 
-## Current catalog - November 14, 2026
+## Current catalog - November 19, 2026
 
-The research catalog contains 47 distinct scholarly outputs: 22 published
-works and 23 accepted works. Six works also have preprints; these categories
+The research catalog contains 47 distinct scholarly outputs: 23 published
+works and 22 accepted works. Six works also have preprints; these categories
 overlap. Beyond FLOPs is published in the ACM AI Leadership Summit proceedings,
 with DOI 10.1145/3806096.3844801. CryptEpi was presented at TML4DM on November 12.
 KVRM is accepted at COMNETSAT 2026. The transformer inference energy-modeling
 and SQT-IoT papers are published in IEEE UEMCON 2026 proceedings, with IEEE
-Xplore and DOI links.
+Xplore and DOI links. TOML Signals is published in IEEE MLSP 2026,
+with publication date November 18, 2026 and DOI 10.1109/MLSP68619.2026.11772572.
 
 The site includes 36 selected project artifacts, 54 speaking engagements and
 presentation entries, seven selected recordings, and 48 media entries.

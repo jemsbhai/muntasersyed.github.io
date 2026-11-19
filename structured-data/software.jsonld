@@ -20,7 +20,7 @@
       "@id": "https://muntasersyed.com/software.html#webpage",
       "url": "https://muntasersyed.com/software.html",
       "name": "Open-Source Software | Muntaser Syed",
-      "dateModified": "2026-11-13",
+      "dateModified": "2026-11-19",
       "description": "Python, Rust, TypeScript, and Java software by Muntaser Syed for trustworthy AI, agent infrastructure, edge intelligence, compact data, explainability, and efficient ML.",
       "isPartOf": {
         "@id": "https://muntasersyed.com/#website"
@@ -860,7 +860,8 @@
             "programmingLanguage": "Python",
             "codeRepository": "https://github.com/jemsbhai/TOMLSignals",
             "citation": {
-              "@id": "https://openreview.net/forum?id=jYBcP44EDn"
+              "@id": "https://openreview.net/forum?id=jYBcP44EDn",
+              "url": "https://ieeexplore.ieee.org/document/11772572"
             },
             "subjectOf": {
               "@type": "WebPage",

@@ -1070,3 +1070,12 @@ Validation after the approved changes:
    titles, cancellations, and venue changes.
 5. Update `sitemap.xml`, structured data, visible review dates, and this audit
    record together.
+
+
+## November 19, 2026: TOML Signals publication
+
+- Updated TOML Signals from accepted to published across Research, Home, Projects, and Software; added IEEE Xplore links there and in Speaking.
+- Canonical research metadata records November 18, 2026 and DOI `10.1109/MLSP68619.2026.11772572`; preserved the OpenReview entity identifier and all existing source links.
+- Adjusted research catalog counters to 23 published and 22 accepted/forthcoming, retaining 47 distinct outputs.
+- Publisher: https://ieeexplore.ieee.org/document/11772572
+- DOI: https://doi.org/10.1109/MLSP68619.2026.11772572

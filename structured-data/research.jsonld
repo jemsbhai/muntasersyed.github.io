@@ -21,7 +21,7 @@
       "url": "https://muntasersyed.com/research.html",
       "name": "Research and Publications | Muntaser Syed",
       "description": "Papers and preprints by Muntaser Syed on trustworthy AI, agent systems, privacy, edge intelligence, and efficient computing, with code and presentations.",
-      "dateModified": "2026-11-14",
+      "dateModified": "2026-11-19",
       "isPartOf": {
         "@id": "https://muntasersyed.com/#website"
       },
@@ -1057,7 +1057,17 @@
               }
             ],
             "url": "https://openreview.net/forum?id=jYBcP44EDn",
-            "creativeWorkStatus": "Accepted for IEEE MLSP 2026",
+            "creativeWorkStatus": "Published",
+            "datePublished": "2026-11-18",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1109/MLSP68619.2026.11772572"
+            },
+            "sameAs": [
+              "https://ieeexplore.ieee.org/document/11772572",
+              "https://doi.org/10.1109/MLSP68619.2026.11772572"
+            ],
             "subjectOf": {
               "@type": "WebPage",
               "name": "IEEE MLSP 2026 schedule",
