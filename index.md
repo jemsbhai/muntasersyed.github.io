@@ -1,6 +1,6 @@
 Source: [https://muntasersyed.com/](https://muntasersyed.com/)
 
-Updated: 2026-11-13
+Updated: 2026-11-19
 
 Research dossier  / Melbourne, Florida
 
@@ -250,13 +250,13 @@ An auditable, user-configurable argument-selection rule evaluated across roughly
 
 2026
 
-Accepted · IEEE MLSP
+Published · IEEE MLSP
 
 ### [Transistor-Level Energy Analysis of Signal Processing Algorithms](https://openreview.net/forum?id=jYBcP44EDn)
 
 TOML energy modeling for 37 signal-processing algorithms across RTX 4090 and A100 GPUs, with public profiler traces and evaluation artifacts.
 
-[OpenReview](https://openreview.net/forum?id=jYBcP44EDn) [Schedule](https://neuroneural.net/mlsp2026schedule/) [Code](https://github.com/jemsbhai/TOMLSignals)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11772572) [OpenReview](https://openreview.net/forum?id=jYBcP44EDn) [Schedule](https://neuroneural.net/mlsp2026schedule/) [Code](https://github.com/jemsbhai/TOMLSignals)
 
 05
 

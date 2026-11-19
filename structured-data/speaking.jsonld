@@ -41,7 +41,7 @@
       "breadcrumb": {
         "@id": "https://muntasersyed.com/speaking.html#breadcrumb"
       },
-      "dateModified": "2026-11-13"
+      "dateModified": "2026-11-19"
     },
     {
       "@type": "BreadcrumbList",
@@ -878,7 +878,8 @@
               "author": {
                 "@id": "https://muntasersyed.com/#person"
               },
-              "url": "https://openreview.net/forum?id=jYBcP44EDn"
+              "url": "https://openreview.net/forum?id=jYBcP44EDn",
+              "sameAs": "https://ieeexplore.ieee.org/document/11772572"
             },
             "url": "https://neuroneural.net/mlsp2026schedule/",
             "@id": "https://muntasersyed.com/speaking.html#transistor-level-energy-analysis-of-signal-processing-algorithms-beyond-operation-counting-2026",

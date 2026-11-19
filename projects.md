@@ -1,6 +1,6 @@
 Source: [https://muntasersyed.com/projects.html](https://muntasersyed.com/projects.html)
 
-Updated: 2026-11-14
+Updated: 2026-11-19
 
 Projects  / Research and innovation
 
@@ -116,9 +116,9 @@ PUBLIC RESEARCH ARTIFACT · IEEE MLSP 2026
 
 ### TOML Signals
 
-Reproducible transistor-level energy analysis of 37 signal-processing algorithms, with profiler traces and evaluation artifacts for the accepted IEEE MLSP 2026 paper.
+Reproducible transistor-level energy analysis of 37 signal-processing algorithms, with profiler traces and evaluation artifacts for the published IEEE MLSP 2026 paper.
 
-[Repository](https://github.com/jemsbhai/TOMLSignals) [OpenReview](https://openreview.net/forum?id=jYBcP44EDn) [Conference schedule](https://neuroneural.net/mlsp2026schedule/)
+[Repository](https://github.com/jemsbhai/TOMLSignals) [IEEE Xplore](https://ieeexplore.ieee.org/document/11772572) [OpenReview](https://openreview.net/forum?id=jYBcP44EDn) [Conference schedule](https://neuroneural.net/mlsp2026schedule/)
 
 PUBLIC EXPERIMENTS · ACCEPTED WF-IOT PAPER
 

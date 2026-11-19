@@ -1,6 +1,6 @@
 Source: [https://muntasersyed.com/speaking.html](https://muntasersyed.com/speaking.html)
 
-Updated: 2026-11-13
+Updated: 2026-11-19
 
 Speaking  / Talks · workshops · lectures
 
@@ -364,7 +364,7 @@ Oct 1 2026
 
 Presented at IEEE MLSP 2026 in Atlanta, applying TOML’s physics-grounded energy model to 37 signal-processing algorithms.
 
-[Conference schedule](https://neuroneural.net/mlsp2026schedule/) [OpenReview](https://openreview.net/forum?id=jYBcP44EDn) [Code](https://github.com/jemsbhai/TOMLSignals)
+[Conference schedule](https://neuroneural.net/mlsp2026schedule/) [IEEE Xplore](https://ieeexplore.ieee.org/document/11772572) [OpenReview](https://openreview.net/forum?id=jYBcP44EDn) [Code](https://github.com/jemsbhai/TOMLSignals)
 
 Sep 17 2026
 

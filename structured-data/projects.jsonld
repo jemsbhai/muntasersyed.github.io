@@ -20,7 +20,7 @@
       "@id": "https://muntasersyed.com/projects.html#webpage",
       "url": "https://muntasersyed.com/projects.html",
       "name": "Projects and Innovation | Muntaser Syed",
-      "dateModified": "2026-11-14",
+      "dateModified": "2026-11-19",
       "description": "Research repositories, current builds, hackathon portfolios, and applied AI projects by Muntaser Syed.",
       "isPartOf": {
         "@id": "https://muntasersyed.com/#website"
@@ -366,7 +366,8 @@
             "programmingLanguage": "Python",
             "codeRepository": "https://github.com/jemsbhai/TOMLSignals",
             "citation": {
-              "@id": "https://openreview.net/forum?id=jYBcP44EDn"
+              "@id": "https://openreview.net/forum?id=jYBcP44EDn",
+              "url": "https://ieeexplore.ieee.org/document/11772572"
             },
             "subjectOf": {
               "@type": "WebPage",

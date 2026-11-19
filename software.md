@@ -1,6 +1,6 @@
 Source: [https://muntasersyed.com/software.html](https://muntasersyed.com/software.html)
 
-Updated: 2026-11-13
+Updated: 2026-11-19
 
 Open source  / Python · Rust · TypeScript · JavaScript · Java
 
@@ -346,11 +346,11 @@ Physics-grounded energy metrics paired with a causal, dual-rate sequence backbon
 
 ### TOML Signals
 
-Accepted · IEEE MLSP 2026
+Published · IEEE MLSP 2026
 
 Reproducible transistor-level energy analysis for 37 signal-processing algorithms on RTX 4090 and A100 GPUs, including data and profiler traces.
 
-[GitHub](https://github.com/jemsbhai/TOMLSignals) [OpenReview](https://openreview.net/forum?id=jYBcP44EDn) [Conference schedule](https://neuroneural.net/mlsp2026schedule/)
+[GitHub](https://github.com/jemsbhai/TOMLSignals) [IEEE Xplore](https://ieeexplore.ieee.org/document/11772572) [OpenReview](https://openreview.net/forum?id=jYBcP44EDn) [Conference schedule](https://neuroneural.net/mlsp2026schedule/)
 
 08 / APPLIED ML
 
