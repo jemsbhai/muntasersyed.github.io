@@ -1079,3 +1079,9 @@ Validation after the approved changes:
 - Adjusted research catalog counters to 23 published and 22 accepted/forthcoming, retaining 47 distinct outputs.
 - Publisher: https://ieeexplore.ieee.org/document/11772572
 - DOI: https://doi.org/10.1109/MLSP68619.2026.11772572
+
+
+## November 21, 2026: IEEE Smart City USA presentation
+
+- Moved the sovereign AI talk from upcoming to recent work and marked it as presented on November 21.
+- Added the site-hosted slides PDF and retained the conference, program, research, and preprint links.

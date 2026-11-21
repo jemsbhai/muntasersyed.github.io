@@ -41,7 +41,7 @@
       "breadcrumb": {
         "@id": "https://muntasersyed.com/speaking.html#breadcrumb"
       },
-      "dateModified": "2026-11-19"
+      "dateModified": "2026-11-21"
     },
     {
       "@type": "BreadcrumbList",
@@ -106,13 +106,12 @@
             "@type": "Event",
             "@id": "https://muntasersyed.com/speaking.html#smart-city-usa-2026",
             "name": "Where you train and deploy your AI model matters: The Water and Carbon Cost of Sovereign AI",
-            "description": "Technical talk at the 2026 IEEE Smart City USA Conference on November 21, in Room 2, Smart Energy & Sustainability. The morning technical session runs 10:30 a.m.-12:30 p.m. Central Standard Time (11:30 a.m.-1:30 p.m. Eastern). The talk connects modeled environmental impacts of hypothetical AI deployments to siting and cooling decisions.",
+            "description": "Presented on November 21, 2026 at the IEEE Smart City USA Conference in the Smart Energy & Sustainability session. The talk connects modeled environmental impacts of hypothetical AI deployments to siting and cooling decisions.",
             "startDate": "2026-11-21",
             "url": "https://sessionize.com/s/muntaser-syed/where-you-train-and-deploy-your-ai-model-matters-t/193572",
             "performer": {
               "@id": "https://muntasersyed.com/#person"
             },
-            "eventStatus": "https://schema.org/EventScheduled",
             "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
             "location": {
               "@type": "VirtualLocation",
@@ -142,11 +141,20 @@
               "@id": "https://muntasersyed.com/research.html#environmental-cost-paper",
               "name": "The Environmental Cost of Digital Sovereignty: Water, Energy, and Emissions Impacts of Sovereign AI Infrastructure in the Global South"
             },
-            "subjectOf": {
-              "@type": "CreativeWork",
-              "name": "IEEE Smart City USA 2026 final conference agenda",
-              "url": "https://ieeesmartcityconference.org/IEEE_Smart_City_USA_2026_Agenda_FINAL_With_Session_Dividers.pdf#page=4"
-            }
+            "subjectOf": [
+              {
+                "@type": "CreativeWork",
+                "name": "IEEE Smart City USA 2026 final conference agenda",
+                "url": "https://ieeesmartcityconference.org/IEEE_Smart_City_USA_2026_Agenda_FINAL_With_Session_Dividers.pdf#page=4"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "The Water and Carbon Cost of Sovereign AI — IEEE Smart City USA 2026 slides",
+                "url": "https://muntasersyed.com/slides/ieee-smart-city-usa-2026-sovereign-ai.pdf",
+                "genre": "Presentation slides",
+                "encodingFormat": "application/pdf"
+              }
+            ]
           }
         },
         {
