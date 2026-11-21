@@ -1,6 +1,6 @@
 Source: [https://muntasersyed.com/](https://muntasersyed.com/)
 
-Updated: 2026-11-19
+Updated: 2026-11-21
 
 Research dossier  / Melbourne, Florida
 
@@ -35,14 +35,6 @@ NOV 14 · DEVFEST TAMPA
 My workshop at USF covers budgets, approval gates, and exact replay for AI agents, with practical controls for model and tool calls.
 
 [Workshop details](https://muntasersyed.com/speaking.html#devfest-tampa-2026) [Workshop materials](https://github.com/jemsbhai/devfestTampaPollard2026) [Pollard](https://muntasersyed.com/software.html#pollard)
-
-NOV 21 · ONLINE TALK
-
-### The water and carbon cost of sovereign AI
-
-I’m speaking at the 2026 IEEE Smart City USA Conference about how siting and cooling choices shape AI infrastructure’s environmental impact. Find the talk in Room 2’s Smart Energy & Sustainability session, 11:30 a.m.–1:30 p.m. Eastern.
-
-[Talk and research](https://muntasersyed.com/speaking.html#smart-city-usa-2026) [Conference](https://ieeesmartcityconference.org/)
 
 DECEMBER · ACCEPTED RESEARCH
 
@@ -80,6 +72,14 @@ CryptEpi was presented at ICDM’s TML4DM workshop on November 12. The work comb
 
 [Paper and materials](https://muntasersyed.com/research.html#cryptepi-paper) [Presentation](https://muntasersyed.com/speaking.html#cryptepi-tml4dm-2026)
 
+NOV 21 · IEEE SMART CITY USA
+
+### The water and carbon cost of sovereign AI
+
+I presented at the 2026 IEEE Smart City USA Conference on how siting and cooling choices shape the water, energy, and carbon impacts of AI infrastructure.
+
+[Slides (PDF)](https://muntasersyed.com/slides/ieee-smart-city-usa-2026-sovereign-ai.pdf) [Talk and research](https://muntasersyed.com/speaking.html#smart-city-usa-2026) [Conference](https://ieeesmartcityconference.org/)
+
 PUBLISHED · ACM AI LEADERSHIP SUMMIT
 
 ### Beyond FLOPs
@@ -116,7 +116,7 @@ PRESENTATION MATERIALS
 
 ### Slides from recent talks
 
-Explore 19 presentation decks on governed agents, compact data, privacy, energy modeling, and health AI, alongside papers, code, and recordings.
+Explore presentation decks on governed agents, compact data, privacy, energy modeling, and health AI, alongside papers, code, and recordings.
 
 [Talks and slides](https://muntasersyed.com/speaking.html#talks-2026-title) [Research materials](https://muntasersyed.com/research.html#publications-title)
 

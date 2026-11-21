@@ -1,6 +1,6 @@
 Source: [https://muntasersyed.com/speaking.html](https://muntasersyed.com/speaking.html)
 
-Updated: 2026-11-19
+Updated: 2026-11-21
 
 Speaking  / Talks · workshops · lectures
 
@@ -100,14 +100,6 @@ A hands-on Pollard workshop at DevFest Tampa 2026, USF Engineering Building II.
 
 [Workshop details](https://muntasersyed.com/speaking.html#devfest-tampa-2026) [Workshop materials](https://github.com/jemsbhai/devfestTampaPollard2026)
 
-NOV 21 · IEEE SMART CITY USA
-
-### IEEE Smart City USA
-
-The water and carbon cost of sovereign AI. Room 2, Smart Energy & Sustainability, in the 10:30 a.m.–12:30 p.m. CST session.
-
-[Talk and research](https://muntasersyed.com/speaking.html#smart-city-usa-2026)
-
 DEC 5 · MIAMI
 
 ### Build a governed creative AI agent
@@ -168,13 +160,13 @@ Nov 21 2026
 
 ### Where you train and deploy your AI model matters: The Water and Carbon Cost of Sovereign AI
 
-Technical talk at the 2026 IEEE Smart City USA Conference , November 21.
+I presented this talk at the 2026 IEEE Smart City USA Conference  on November 21, 2026.
 
 Room 2 · Smart Energy & Sustainability  Morning technical session: 10:30 a.m.–12:30 p.m. Central Standard Time (11:30 a.m.–1:30 p.m. Eastern), online.
 
 Drawing on our environmental-cost research, the talk compares modeled water, energy, and carbon impacts of hypothetical AI deployments across the UAE, Bangladesh, India, and Kenya, connecting siting and cooling choices to urban infrastructure decisions.
 
-[Conference program](https://ieeesmartcityconference.org/IEEE_Smart_City_USA_2026_Agenda_FINAL_With_Session_Dividers.pdf#page=4) [Conference](https://ieeesmartcityconference.org/) [Talk details](https://sessionize.com/s/muntaser-syed/where-you-train-and-deploy-your-ai-model-matters-t/193572) [Related research](https://muntasersyed.com/research.html#environmental-cost-paper) [arXiv](https://arxiv.org/abs/2607.13443)
+[Slides (PDF)](https://muntasersyed.com/slides/ieee-smart-city-usa-2026-sovereign-ai.pdf) [Conference program](https://ieeesmartcityconference.org/IEEE_Smart_City_USA_2026_Agenda_FINAL_With_Session_Dividers.pdf#page=4) [Conference](https://ieeesmartcityconference.org/) [Talk details](https://sessionize.com/s/muntaser-syed/where-you-train-and-deploy-your-ai-model-matters-t/193572) [Related research](https://muntasersyed.com/research.html#environmental-cost-paper) [arXiv](https://arxiv.org/abs/2607.13443)
 
 Nov 14 2026
 
