@@ -1,6 +1,6 @@
 Source: [https://muntasersyed.com/media.html](https://muntasersyed.com/media.html)
 
-Updated: 2026-11-13
+Updated: 2026-11-22
 
 Media  / Muntaser Syed
 
@@ -39,6 +39,18 @@ San Diego Union-Tribune · August 14, 2019
 Pam Kragen covers our award-winning Opera Map project and its 360° theater-mapping concept for remote production collaboration.
 
 [Read story](https://www.sandiegouniontribune.com/2019/08/14/three-winners-chosen-in-opera-hack-competition-2/) [Project and award](https://muntasersyed.com/projects.html#opera-map)
+
+Selected writing
+
+## Published commentary.
+
+The Business Standard · Panorama · June 19, 2020
+
+### Ethics and governance in AI: Significance and relevance to the developing world
+
+Op-ed by Muntaser Syed.
+
+[Read the op-ed](https://www.tbsnews.net/feature/panorama/ethics-and-governance-ai-significance-and-relevance-developing-world-95407)
 
 48 coverage entries / 2018–2026
 
