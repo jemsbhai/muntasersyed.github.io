@@ -21,7 +21,7 @@
       "url": "https://muntasersyed.com/research.html",
       "name": "Research and Publications | Muntaser Syed",
       "description": "Papers and preprints by Muntaser Syed on trustworthy AI, agent systems, privacy, edge intelligence, and efficient computing, with code and presentations.",
-      "dateModified": "2026-11-19",
+      "dateModified": "2026-11-22",
       "isPartOf": {
         "@id": "https://muntasersyed.com/#website"
       },
@@ -1204,13 +1204,22 @@
                 "name": "Rwaida Alssadi"
               }
             ],
-            "url": "https://muntasersyed.com/research.html#container-energy-cloudcom",
-            "creativeWorkStatus": "Accepted for IEEE CloudCom 2026",
+            "url": "https://ieeexplore.ieee.org/document/11781710/",
+            "datePublished": "2026-10",
+            "pageStart": "589",
+            "pageEnd": "596",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1109/CloudCom71355.2026.00083"
+            },
+            "sameAs": "https://doi.org/10.1109/CloudCom71355.2026.00083",
+            "creativeWorkStatus": "Published paper in IEEE CloudCom 2026 proceedings",
             "genre": "Conference paper",
             "description": "Studies transistor-level energy attribution for machine-learning workloads running in containers.",
             "isPartOf": {
               "@type": "CreativeWork",
-              "name": "IEEE CloudCom 2026"
+              "name": "2026 IEEE 17th International Conference on Cloud Computing Technology and Science (CloudCom)"
             },
             "subjectOf": [
               {
@@ -1236,6 +1245,11 @@
                 "@type": "SoftwareSourceCode",
                 "name": "Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads — code",
                 "codeRepository": "https://github.com/jemsbhai/TOMLCloud"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Archived results: phase 6 energy attribution ablation summary",
+                "url": "https://github.com/jemsbhai/TOMLCloud/blob/b3e3072e8e756d6b644f8a0c2b8ffdd27b9acfa6/data/phase6_attribution/ablation_summary.csv"
               }
             ]
           }

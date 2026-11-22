@@ -1085,3 +1085,9 @@ Validation after the approved changes:
 
 - Moved the sovereign AI talk from upcoming to recent work and marked it as presented on November 21.
 - Added the site-hosted slides PDF and retained the conference, program, research, and preprint links.
+
+## November 22, 2026: Selected writing and CloudCom publication
+
+- Added Muntaser Syed’s June 19, 2020 [op-ed](https://www.tbsnews.net/feature/panorama/ethics-and-governance-ai-significance-and-relevance-developing-world-95407), “Ethics and governance in AI: Significance and relevance to the developing world,” to Selected writing on Media, separate from the 48-entry coverage archive.
+- Updated “Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads” to published in IEEE CloudCom 2026 proceedings, October 2026, pp. 589–596. Added [IEEE Xplore](https://ieeexplore.ieee.org/document/11781710/), [DOI](https://doi.org/10.1109/CloudCom71355.2026.00083), and [archived results](https://github.com/jemsbhai/TOMLCloud/blob/b3e3072e8e756d6b644f8a0c2b8ffdd27b9acfa6/data/phase6_attribution/ablation_summary.csv); retained the existing presentation and code links.
+- Research catalog: 47 scholarly outputs, 24 published, and 21 accepted/forthcoming. Refreshed the affected metadata, discovery companions, and sitemap dates.

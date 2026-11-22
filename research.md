@@ -1,6 +1,6 @@
 Source: [https://muntasersyed.com/research.html](https://muntasersyed.com/research.html)
 
-Updated: 2026-11-19
+Updated: 2026-11-22
 
 Research  / Publications
 
@@ -10,9 +10,9 @@ My published and accepted papers, preprints, conference presentations, and open-
 
 Research sources.  Explore papers, preprints, and conference materials through the linked publishers, repositories, and official programs. Reviewed November 14, 2026 .
 
-23 Published papers
+24 Published papers
 
-22 Accepted / forthcoming
+21 Accepted / forthcoming
 
 6 Preprints
 
@@ -190,15 +190,15 @@ Studies automated synthesis and discovery of multi-agent systems through composi
 
 #### Beyond Proportional Allocation: Transistor-Level Energy Attribution for Containerized ML Workloads
 
-Accepted · IEEE CloudCom 2026
+Published · IEEE CloudCom 2026
 
 Muntaser Syed ; Marius Silaghi; Rwaida Alssadi
 
-IEEE CloudCom 2026 · Conference presentation · October 29, Cloud Computing: Sustainability, Efficiency, and Security, Alésia Room · Session: 2:00–3:30 p.m. Paris time (CET)
+IEEE CloudCom 2026 proceedings · October 2026 · pages 589–596 · Conference presentation · October 29, Cloud Computing: Sustainability, Efficiency, and Security, Alésia Room · Session: 2:00–3:30 p.m. Paris time (CET)
 
 Studies transistor-level energy attribution for machine-learning workloads running in containers.
 
-[Official program](https://www.cloudcom2026.org/program) [Watch presentation](https://www.youtube.com/watch?v=7BM5ym9Hp4A) [Slides](https://docs.google.com/presentation/d/1ghms7xBHB-rclfHfJRDMLhNtGDuqV4H5/edit?usp=sharing) [Presentation](https://muntasersyed.com/speaking.html#cloudcom-author-session-2026) [Code](https://github.com/jemsbhai/TOMLCloud)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11781710/) [DOI](https://doi.org/10.1109/CloudCom71355.2026.00083) [Official program](https://www.cloudcom2026.org/program) [Watch presentation](https://www.youtube.com/watch?v=7BM5ym9Hp4A) [Slides](https://docs.google.com/presentation/d/1ghms7xBHB-rclfHfJRDMLhNtGDuqV4H5/edit?usp=sharing) [Presentation](https://muntasersyed.com/speaking.html#cloudcom-author-session-2026) [Code](https://github.com/jemsbhai/TOMLCloud) [Archived results](https://github.com/jemsbhai/TOMLCloud/blob/b3e3072e8e756d6b644f8a0c2b8ffdd27b9acfa6/data/phase6_attribution/ablation_summary.csv)
 
 #### Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay
 

@@ -22,11 +22,14 @@
       "mainEntity": {
         "@id": "https://muntasersyed.com/media.html#coverage"
       },
+      "hasPart": {
+        "@id": "https://www.tbsnews.net/feature/panorama/ethics-and-governance-ai-significance-and-relevance-developing-world-95407"
+      },
       "breadcrumb": {
         "@id": "https://muntasersyed.com/media.html#breadcrumb"
       },
       "inLanguage": "en-US",
-      "dateModified": "2026-11-13"
+      "dateModified": "2026-11-22"
     },
     {
       "@type": "ItemList",
@@ -950,6 +953,22 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.tbsnews.net/feature/panorama/ethics-and-governance-ai-significance-and-relevance-developing-world-95407",
+      "url": "https://www.tbsnews.net/feature/panorama/ethics-and-governance-ai-significance-and-relevance-developing-world-95407",
+      "headline": "Ethics and governance in AI: Significance and relevance to the developing world",
+      "author": {
+        "@id": "https://muntasersyed.com/#person"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "The Business Standard"
+      },
+      "articleSection": "Panorama",
+      "genre": "Op-ed",
+      "datePublished": "2020-06-19"
     },
     {
       "@type": "BreadcrumbList",
