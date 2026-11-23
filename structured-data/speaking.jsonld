@@ -164,13 +164,12 @@
             "@type": "Event",
             "@id": "https://muntasersyed.com/speaking.html#devfest-tampa-2026",
             "name": "Govern Your Agents: Budgets, Approval Gates, and Exact Replay with Pollard",
-            "description": "A one-hour hands-on workshop at DevFest Tampa 2026 on governing AI agents with explicit resource limits, approval gates, evidence verification, and exact replay using Pollard.",
+            "description": "Presented on November 14, 2026 at DevFest Tampa 2026. This one-hour hands-on workshop covered resource limits, approval gates, evidence verification, and exact replay with Pollard.",
             "startDate": "2026-11-14",
             "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-south-florida-tampa-united-states-presents-devfest-tampa-2026-build-secure-scale/",
             "performer": {
               "@id": "https://muntasersyed.com/#person"
             },
-            "eventStatus": "https://schema.org/EventScheduled",
             "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
             "location": {
               "@type": "Place",

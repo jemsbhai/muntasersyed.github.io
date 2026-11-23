@@ -86,19 +86,11 @@ Presented by Muntaser Syed for IEEE CloudCom 2026 · Uploaded Oct 16, 2026
 
 [Watch presentation ↗](https://www.youtube.com/watch?v=7BM5ym9Hp4A) [Slides](https://docs.google.com/presentation/d/1ghms7xBHB-rclfHfJRDMLhNtGDuqV4H5/edit?usp=sharing) [Paper](https://muntasersyed.com/research.html#container-energy-cloudcom) [Code](https://github.com/jemsbhai/TOMLCloud)
 
-Upcoming / November–December 2026
+Upcoming / December 2026
 
 ## Upcoming talks and presentations.
 
 Talks and research presentations on the calendar.
-
-NOV 14 · TAMPA
-
-### Govern your agents with Pollard
-
-A hands-on Pollard workshop at DevFest Tampa 2026, USF Engineering Building II.
-
-[Workshop details](https://muntasersyed.com/speaking.html#devfest-tampa-2026) [Workshop materials](https://github.com/jemsbhai/devfestTampaPollard2026)
 
 DEC 5 · MIAMI
 
@@ -172,7 +164,7 @@ Nov 14 2026
 
 ### Govern Your Agents: Budgets, Approval Gates, and Exact Replay with Pollard
 
-A one-hour hands-on workshop at DevFest Tampa 2026: Build, Secure, Scale , November 14 at USF Tampa Campus, Engineering Building II. Practice resource refusal, action approval, evidence verification, and strict replay with Pollard.
+I led this one-hour hands-on workshop at DevFest Tampa 2026: Build, Secure, Scale  on November 14 at USF Tampa Campus, Engineering Building II. We covered budget enforcement, action approval, evidence verification, and exact replay with Pollard.
 
 [Conference](https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-south-florida-tampa-united-states-presents-devfest-tampa-2026-build-secure-scale/) [Workshop materials](https://github.com/jemsbhai/devfestTampaPollard2026) [Pollard](https://muntasersyed.com/software.html#pollard) [Code](https://github.com/jemsbhai/pollard)
 

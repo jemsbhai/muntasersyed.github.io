@@ -28,14 +28,6 @@ Coming up
 
 Scheduled sessions, accepted research, and a call for papers.
 
-NOV 14 · DEVFEST TAMPA
-
-### Govern your agents with Pollard
-
-My workshop at USF covers budgets, approval gates, and exact replay for AI agents, with practical controls for model and tool calls.
-
-[Workshop details](https://muntasersyed.com/speaking.html#devfest-tampa-2026) [Workshop materials](https://github.com/jemsbhai/devfestTampaPollard2026) [Pollard](https://muntasersyed.com/software.html#pollard)
-
 DECEMBER · ACCEPTED RESEARCH
 
 ### KVRM and CDXF
@@ -79,6 +71,14 @@ NOV 21 · IEEE SMART CITY USA
 I presented at the 2026 IEEE Smart City USA Conference on how siting and cooling choices shape the water, energy, and carbon impacts of AI infrastructure.
 
 [Slides (PDF)](https://muntasersyed.com/slides/ieee-smart-city-usa-2026-sovereign-ai.pdf) [Talk and research](https://muntasersyed.com/speaking.html#smart-city-usa-2026) [Conference](https://ieeesmartcityconference.org/)
+
+NOV 14 · DEVFEST TAMPA
+
+### Govern your agents with Pollard
+
+I led a hands-on Pollard workshop at USF on budgets, approval gates, and exact replay for AI agents, with practical controls for model and tool calls.
+
+[Workshop details](https://muntasersyed.com/speaking.html#devfest-tampa-2026) [Workshop materials](https://github.com/jemsbhai/devfestTampaPollard2026) [Pollard](https://muntasersyed.com/software.html#pollard)
 
 PUBLISHED · ACM AI LEADERSHIP SUMMIT
 
