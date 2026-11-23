@@ -46,8 +46,8 @@ Hashrope Bio 0.3.4, and Hashrope's Python, JavaScript, Rust, and Java 0.3.4
 releases. Hashrope links to its interactive demo and related projects.
 
 The IEEE Smart City USA talk was presented on November 21; its slides are on
-Speaking. Calendar highlights include the November 14 DevFest Tampa workshop,
-December 3–5 COMNETSAT,
+Speaking. The DevFest Tampa Pollard workshop was presented on November 14,
+with materials linked from Speaking. Calendar highlights include December 3–5 COMNETSAT,
 December 5 DevFest Miami workshop, December 14–17 ComComAp, and the FLAIRS-40
 call for papers. About includes AAAI-27 AISI program-committee service and
 ICML AI4GOOD and ICMLA reviewer service.
