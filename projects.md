@@ -76,9 +76,9 @@ SEMANTIC IOT
 
 ### CBOR-LD Ex
 
-Reasoning-carrying binary linked data for constrained networks, with a Python reference implementation and byte-compatible, `no_std` Rust core.
+Reasoning-carrying binary linked data for constrained networks, with a Python reference implementation and a `no_std` Rust core. IANA assigned CBOR tag `60100` to its annotation block.
 
-[Python](https://github.com/jemsbhai/cbor-ld-ex) [Rust](https://github.com/jemsbhai/cborld-ex) [Project details](https://muntasersyed.com/software.html#compact-data) [Accepted IEEE WF-IoT paper](https://muntasersyed.com/research.html#cborld-ex-paper) [Slides](https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing)
+[IANA CBOR tag 60100](https://www.iana.org/assignments/cbor-tags/cbor-tags.xhtml#tags) [Python](https://github.com/jemsbhai/cbor-ld-ex) [Rust](https://github.com/jemsbhai/cborld-ex) [Project details](https://muntasersyed.com/software.html#compact-data) [Accepted IEEE WF-IoT paper](https://muntasersyed.com/research.html#cborld-ex-paper) [Slides](https://docs.google.com/presentation/d/1pmijmsdqrK8woen5Jj5jXGf1NapFw7NZ/edit?usp=sharing)
 
 EDGE AI PROTOCOL
 
