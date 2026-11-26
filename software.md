@@ -270,6 +270,10 @@ An interactive talk and security lab covering MCP, autonomous agents, AI pipelin
 
 A reasoning-carrying binary linked-data protocol for constrained IoT networks. It combines compact CBOR-LD documents with bit-packed Subjective Logic annotations while preserving on-wire semantics.
 
+IANA assigned [CBOR tag 60100](https://www.iana.org/assignments/cbor-tags/cbor-tags.xhtml#tags)  to the CBOR-LD-Ex annotation block (a byte string), with Muntaser Syed listed in the registry entry. See the [wire-format specification](https://github.com/jemsbhai/cbor-ld-ex/blob/v0.4.6/spec/FORMAL_MODEL.md) .
+
+Release compatibility:  Python `0.2.1` and Rust `0.1.0` use legacy tag `60000` for annotations. Use `60100` for new implementations; `60000` is assigned to a different format.
+
 `pip install cbor-ld-ex`
 
 `cargo add cborld-ex`
@@ -278,7 +282,7 @@ A reasoning-carrying binary linked-data protocol for constrained IoT networks. I
 
 v0.2.1 · Python 3.10+
 
-The full protocol implementation: CBOR Tag 60000 annotations, constrained opinion quantization, temporal decay, cumulative fusion, MQTT and CoAP transport, security metadata, provenance chains, streaming, and batch compression.
+The Python reference implementation includes constrained opinion quantization, temporal decay, cumulative fusion, MQTT and CoAP transport, security metadata, provenance chains, streaming, and batch compression.
 
 [PyPI](https://pypi.org/project/cbor-ld-ex/) [GitHub](https://github.com/jemsbhai/cbor-ld-ex)
 
