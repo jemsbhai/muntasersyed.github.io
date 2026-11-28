@@ -1,6 +1,6 @@
 Source: [https://muntasersyed.com/research.html](https://muntasersyed.com/research.html)
 
-Updated: 2026-11-22
+Updated: 2026-11-28
 
 Research  / Publications
 
@@ -710,4 +710,4 @@ Source profiles
 
 Explore my research through these publication profiles.
 
-[Google Scholar](https://scholar.google.com/citations?user=4RK-PocAAAAJ)  [ORCID](https://orcid.org/0000-0002-4777-6469)  [ResearchGate](https://www.researchgate.net/profile/Muntaser-Syed)  [arXiv](https://arxiv.org/search/?query=Muntaser+Syed&searchtype=author)  [GitHub](https://github.com/jemsbhai)  [Hugging Face](https://huggingface.co/Jemsbhai)  [LinkedIn](https://www.linkedin.com/in/muntasersyed)
+[Google Scholar](https://scholar.google.com/citations?user=4RK-PocAAAAJ)  [ORCID](https://orcid.org/0000-0002-4777-6469)  [IEEE Xplore](https://ieeexplore.ieee.org/author/824375339467098)  [ResearchGate](https://www.researchgate.net/profile/Muntaser-Syed)  [arXiv](https://arxiv.org/search/?query=Muntaser+Syed&searchtype=author)  [GitHub](https://github.com/jemsbhai)  [Hugging Face](https://huggingface.co/Jemsbhai)  [LinkedIn](https://www.linkedin.com/in/muntasersyed)
