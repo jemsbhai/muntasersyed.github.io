@@ -10,7 +10,7 @@ My published and accepted papers, preprints, conference presentations, and open-
 
 Research sources.  Explore papers, preprints, and conference materials through the linked publishers, repositories, and official programs. Reviewed November 14, 2026 .
 
-26 Published papers
+26 Published works
 
 19 Accepted / forthcoming
 
@@ -18,7 +18,7 @@ Research sources.  Explore papers, preprints, and conference materials through t
 
 47 Scholarly outputs
 
-The catalog contains 47 scholarly outputs. Preprints may also appear under Published or Accepted / forthcoming, so the status counts overlap. Published papers link to earlier manuscripts where available.
+The catalog contains 47 scholarly outputs. Preprints may also appear under Published works or Accepted / forthcoming, so the status counts overlap. Published papers link to earlier manuscripts where available.
 
 Research topics
 
@@ -482,7 +482,7 @@ Introduces an agentic simulator for measuring justification coverage, diversity,
 
 #### MCP-Edge: Extending the Model Context Protocol to Constrained IoT Devices
 
-Peer reviewed
+Published · IEEE Cloud Summit 2026
 
 Muntaser Syed ; Sheikh Abujar; Sharun Akter
 
@@ -494,7 +494,7 @@ Extends the Model Context Protocol to constrained IoT devices through a tiered a
 
 #### JSON-LD 1.2 and Beyond: Extensions for Machine Learning Data Exchange
 
-Peer reviewed
+Published · FLAIRS-39
 
 Muntaser Syed ; Marius Silaghi; Sheikh Abujar; Rwaida Alssadi; Sharun Akter Khushbu
 
@@ -506,7 +506,7 @@ A systematic gap analysis and backward-compatible extension set for representing
 
 #### TOML: Transistor Operations for Machine Learning: A Physics-Grounded Energy Efficiency Framework
 
-Peer reviewed
+Published · FLAIRS-39
 
 Muntaser Syed ; Marius Silaghi; Sheikh Abujar; Sharun Akter Khushbu
 
@@ -530,7 +530,7 @@ A Bayesian architecture for incorporating uncertain event-count constraints into
 
 #### Real-Time Neck Posture Classification Using a Lightweight Wearable IMU Pendant
 
-Peer reviewed
+Published · FLAIRS-39
 
 Muntaser Syed ; Alfred Sjöqvist; Noah Sedlik; Tsing Liu
 
@@ -544,7 +544,7 @@ Evaluates lightweight models and physics-informed rules for classifying seven ne
 
 #### Counting Doors by Integrating POMDP Models and PID Controllers
 
-Peer reviewed
+Published · FCRAR 2025
 
 Rwaida Alssadi; Sara Zuiran; Jolie Elliott; Phi Duong; Chinedum Ajabor; Alwaleed Alsaleemi; Samuel Boddepalli; Vamshi Gattikoppula; Pavan Manigandla; Akram Alghanmi; Muntaser Syed ; Samaher Damanhori; Marius Silaghi
 
@@ -558,7 +558,7 @@ Integrates probabilistic door counting into robot planning and control, connecti
 
 #### Comparative Evaluation of Transfer Learning for Classification of Brain Tumor Using MRI
 
-Peer reviewed
+Published · IEEE ICMLA 2023
 
 Abu Kaisar Mohammad Masum; Nusrat Badhon; S. M. Saiful Islam Badhon; Nushrat Jahan Ria; Sheikh Abujar; Muntaser Mansur Syed ; Naveed Mahmud
 
@@ -566,7 +566,7 @@ Abu Kaisar Mohammad Masum; Nusrat Badhon; S. M. Saiful Islam Badhon; Nushrat Jah
 
 Compares transfer-learning architectures for classifying brain tumors from MRI scans and examines their relative diagnostic performance.
 
-[DOI](https://doi.org/10.1109/ICMLA58977.2023.00102) [arXiv](https://arxiv.org/abs/2310.02270)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10459957/) [DOI](https://doi.org/10.1109/ICMLA58977.2023.00102) [arXiv](https://arxiv.org/abs/2310.02270)
 
 ### 2022
 
