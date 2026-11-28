@@ -10,15 +10,15 @@ My published and accepted papers, preprints, conference presentations, and open-
 
 Research sources.  Explore papers, preprints, and conference materials through the linked publishers, repositories, and official programs. Reviewed November 14, 2026 .
 
-24 Published papers
+26 Published papers
 
-21 Accepted / forthcoming
+19 Accepted / forthcoming
 
 6 Preprints
 
 47 Scholarly outputs
 
-The catalog contains 47 scholarly outputs. Five of the six arXiv preprints are also accepted conference papers, so the filters include both statuses. Published papers link to earlier manuscripts where available.
+The catalog contains 47 scholarly outputs. Preprints may also appear under Published or Accepted / forthcoming, so the status counts overlap. Published papers link to earlier manuscripts where available.
 
 Research topics
 
@@ -356,17 +356,17 @@ Demonstrates an open-source toolkit for designing multilingual speech corpora wi
 
 [ISCA Archive](https://www.isca-archive.org/interspeech_2026/syed26_interspeech.html) [Paper PDF](https://www.isca-archive.org/interspeech_2026/syed26_interspeech.pdf) [Code](https://github.com/jemsbhai/corpusgen) [CorpusKit demo](https://www.youtube.com/watch?v=m1guE38mbIo)
 
-#### Ergonomic Assessment of LLM-Assisted Work among Bangladeshi Technology Users: A Multi-Instrument Survey Study
+#### Ergonomic Assessment of LLM-Assisted Work Among Bangladeshi Technology Users: A Multi-Instrument Survey Study
 
-Accepted · IEEE GHTC 2026
+Published · IEEE GHTC 2026
 
-Muntaser Syed ; Marius C. Silaghi; Sheikh Abujar; Sharun Akter Khushbu
+Muntaser Syed ; Marius Silaghi; Sheikh Abujar; Sharun Akter Khushbu
 
-IEEE GHTC 2026 · Conference paper · Session 7B: Socio-Technical Approaches in Engineering, October 9, 1–2:30 p.m., Room C120B
+IEEE GHTC 2026 · Added to IEEE Xplore November 27, 2026 · Session 7B: Socio-Technical Approaches in Engineering, October 9, 1–2:30 p.m., Room C120B
 
 Uses multiple survey instruments to study ergonomic aspects of LLM-assisted work among Bangladeshi technology users.
 
-[Official program](https://ieeeghtc.org/technical-paper-presentations-schedule-2026/) [Slides](https://docs.google.com/presentation/d/1TGqNwZpWn31X5ujYOUv-mATiMo9JOlID/edit?usp=sharing) [Presentation](https://muntasersyed.com/speaking.html#llm-ergonomics-ghtc-2026)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11798163) [DOI](https://doi.org/10.1109/GHTC71023.2026.11798163) [Official program](https://ieeeghtc.org/technical-paper-presentations-schedule-2026/) [Slides](https://docs.google.com/presentation/d/1TGqNwZpWn31X5ujYOUv-mATiMo9JOlID/edit?usp=sharing) [Presentation](https://muntasersyed.com/speaking.html#llm-ergonomics-ghtc-2026)
 
 #### Semantic Confidence Algebra for Crowdsourced Disaster Report Verification: A JSON-LD Extended Approach
 
@@ -456,17 +456,17 @@ Applies Subjective Logic guardrails to LLM-driven IoT actuation so decisions can
 
 #### The Environmental Cost of Digital Sovereignty: Water, Energy, and Emissions Impacts of Sovereign AI Infrastructure in the Global South
 
-Accepted · IEEE GHTC 2026
+Published · IEEE GHTC 2026
 
 Muntaser Syed ; Marius C. Silaghi; Sheikh Abujar; Sharun Akter Khushbu; Amal El Ahmad
 
-IEEE GHTC 2026 · Accepted paper · Session 7B: Socio-Technical Approaches in Engineering, October 9, 1–2:30 p.m., Room C120B · Preprint: arXiv:2607.13443 · July 15, 2026
+IEEE GHTC 2026 · Added to IEEE Xplore November 27, 2026 · Session 7B: Socio-Technical Approaches in Engineering, October 9, 1–2:30 p.m., Room C120B · Preprint: arXiv:2607.13443 · July 15, 2026
 
 Reviewers Choice Award, IEEE GHTC 2026 — Research on the Broader Impacts of Engineering Efforts track.
 
 Models water, electricity, and emissions pressures for sovereign-AI deployment scenarios and proposes principles for environmentally responsible, resource-aware infrastructure.
 
-[Official program](https://ieeeghtc.org/technical-paper-presentations-schedule-2026/) [arXiv](https://arxiv.org/abs/2607.13443) [Upcoming Smart City USA talk](https://muntasersyed.com/speaking.html#smart-city-usa-2026) [SmarterArticles coverage](https://smarterarticles.co.uk/the-exported-thirst-how-ai-drinks-water-india-cannot-spare) [Slides](https://docs.google.com/presentation/d/1TrzsYUS6ouBemCOs1dYjce4mYAftQHFZ/edit?usp=sharing) [GHTC presentation](https://muntasersyed.com/speaking.html#environmental-cost-ghtc-2026)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11797993) [DOI](https://doi.org/10.1109/GHTC71023.2026.11797993) [Official program](https://ieeeghtc.org/technical-paper-presentations-schedule-2026/) [arXiv](https://arxiv.org/abs/2607.13443) [Smart City USA talk](https://muntasersyed.com/speaking.html#smart-city-usa-2026) [SmarterArticles coverage](https://smarterarticles.co.uk/the-exported-thirst-how-ai-drinks-water-india-cannot-spare) [Slides](https://docs.google.com/presentation/d/1TrzsYUS6ouBemCOs1dYjce4mYAftQHFZ/edit?usp=sharing) [GHTC presentation](https://muntasersyed.com/speaking.html#environmental-cost-ghtc-2026)
 
 #### Evaluation of Alternative-Based Information Systems for Deliberative Polling using an Agentic Simulator
 

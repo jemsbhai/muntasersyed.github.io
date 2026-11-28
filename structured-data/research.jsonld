@@ -233,18 +233,18 @@
                 "name": "Amal El Ahmad"
               }
             ],
-            "datePublished": "2026-07-15",
-            "url": "https://arxiv.org/abs/2607.13443",
+            "datePublished": "2026-11-27",
+            "url": "https://ieeexplore.ieee.org/document/11797993",
             "identifier": {
               "@type": "PropertyValue",
-              "propertyID": "arXiv",
-              "value": "2607.13443"
+              "propertyID": "DOI",
+              "value": "10.1109/GHTC71023.2026.11797993"
             },
             "isPartOf": {
               "@type": "CreativeWork",
-              "name": "arXiv"
+              "name": "2026 IEEE Global Humanitarian Technology Conference (GHTC)"
             },
-            "creativeWorkStatus": "Accepted for IEEE GHTC 2026",
+            "creativeWorkStatus": "Published paper in IEEE GHTC 2026 proceedings",
             "award": "Reviewers Choice Award, IEEE GHTC 2026 — Research on the Broader Impacts of Engineering Efforts track",
             "subjectOf": [
               {
@@ -261,7 +261,7 @@
                 "@type": "CreativeWork",
                 "name": "Official conference program",
                 "url": "https://ieeeghtc.org/technical-paper-presentations-schedule-2026/",
-                "description": "IEEE GHTC 2026 · Accepted paper · Session 7B: Socio-Technical Approaches in Engineering, October 9, 1–2:30 p.m., Room C120B · Preprint: arXiv:2607.13443 · July 15, 2026"
+                "description": "IEEE GHTC 2026 · Session 7B: Socio-Technical Approaches in Engineering, October 9, 1–2:30 p.m., Room C120B"
               },
               {
                 "@type": "CreativeWork",
@@ -275,7 +275,20 @@
               }
             ],
             "genre": "Conference paper",
-            "@id": "https://muntasersyed.com/research.html#environmental-cost-paper"
+            "@id": "https://muntasersyed.com/research.html#environmental-cost-paper",
+            "sameAs": "https://doi.org/10.1109/GHTC71023.2026.11797993",
+            "workExample": {
+              "@type": "ScholarlyArticle",
+              "@id": "https://arxiv.org/abs/2607.13443",
+              "name": "The Environmental Cost of Digital Sovereignty preprint",
+              "datePublished": "2026-07-15",
+              "url": "https://arxiv.org/abs/2607.13443",
+              "identifier": {
+                "@type": "PropertyValue",
+                "propertyID": "arXiv",
+                "value": "2607.13443"
+              }
+            }
           }
         },
         {
@@ -1916,14 +1929,14 @@
           "item": {
             "@type": "ScholarlyArticle",
             "@id": "https://muntasersyed.com/research.html#llm-ergonomics-paper",
-            "name": "Ergonomic Assessment of LLM-Assisted Work among Bangladeshi Technology Users: A Multi-Instrument Survey Study",
+            "name": "Ergonomic Assessment of LLM-Assisted Work Among Bangladeshi Technology Users: A Multi-Instrument Survey Study",
             "author": [
               {
                 "@id": "https://muntasersyed.com/#person"
               },
               {
                 "@type": "Person",
-                "name": "Marius C. Silaghi"
+                "name": "Marius Silaghi"
               },
               {
                 "@type": "Person",
@@ -1934,13 +1947,13 @@
                 "name": "Sharun Akter Khushbu"
               }
             ],
-            "url": "https://muntasersyed.com/research.html#llm-ergonomics-paper",
-            "creativeWorkStatus": "Accepted for IEEE GHTC 2026",
+            "url": "https://ieeexplore.ieee.org/document/11798163",
+            "creativeWorkStatus": "Published paper in IEEE GHTC 2026 proceedings",
             "genre": "Conference paper",
             "description": "Uses multiple survey instruments to study ergonomic aspects of LLM-assisted work among Bangladeshi technology users.",
             "isPartOf": {
               "@type": "CreativeWork",
-              "name": "IEEE GHTC 2026"
+              "name": "2026 IEEE Global Humanitarian Technology Conference (GHTC)"
             },
             "subjectOf": [
               {
@@ -1959,7 +1972,14 @@
                   "@id": "https://muntasersyed.com/research.html#llm-ergonomics-paper"
                 }
               }
-            ]
+            ],
+            "sameAs": "https://doi.org/10.1109/GHTC71023.2026.11798163",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1109/GHTC71023.2026.11798163"
+            },
+            "datePublished": "2026-11-27"
           }
         },
         {
