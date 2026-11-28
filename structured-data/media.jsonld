@@ -628,7 +628,7 @@
           "@type": "ListItem",
           "position": 32,
           "item": {
-            "@type": "ProfilePage",
+            "@type": "WebPage",
             "@id": "https://top.mlh.com/2020/profiles/muntaser-syed",
             "url": "https://top.mlh.com/2020/profiles/muntaser-syed",
             "name": "Muntaser Syed | MLH's Top 50 Hackers",

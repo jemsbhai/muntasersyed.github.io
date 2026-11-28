@@ -218,10 +218,18 @@ class Validator:
                     self.fail(name, "page entity URL must match its canonical")
                 modified = page.get("dateModified", "")
                 try:
-                    date.fromisoformat(modified)
+                    if page["@type"] == "ProfilePage":
+                        if not isinstance(modified, str) or not re.fullmatch(
+                            r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})", modified
+                        ):
+                            raise ValueError("ProfilePage dateModified needs a timezone")
+                        modified_date = datetime.fromisoformat(modified.replace("Z", "+00:00")).date()
+                    else:
+                        modified_date = date.fromisoformat(modified)
                 except (ValueError, TypeError):
-                    self.fail(name, "page dateModified must be an ISO calendar date")
-                self.page_dates[canonical] = modified
+                    self.fail(name, "invalid page dateModified (ProfilePage requires an ISO timestamp with timezone)")
+                else:
+                    self.page_dates[canonical] = modified_date.isoformat()
 
     def metadata(self):
         definitions = {node["@id"] for _, node in self.nodes if "@id" in node and "@type" in node}
@@ -252,6 +260,14 @@ class Validator:
                     count = sum(e.has_class(card_class) for e in self.documents[name].elements)
                     if count != len(items):
                         self.fail(name, f"{ident}: {count} visible cards differ from {len(items)} metadata items")
+            # The speaking archive is a list, not a dedicated event or video watch page.
+            types = node.get("@type", [])
+            if isinstance(types, str):
+                types = [types]
+            if name == "speaking.html" and isinstance(types, list) and any(
+                kind in types for kind in ("Event", "EducationEvent", "VideoObject")
+            ):
+                self.fail(name, "the archive must not claim event or video rich results")
             if node.get("@type") == "Event" and "startDate" in node:
                 try:
                     start = datetime.fromisoformat(node["startDate"].replace("Z", "+00:00"))
