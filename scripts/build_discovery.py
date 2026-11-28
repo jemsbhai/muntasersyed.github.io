@@ -110,7 +110,7 @@ def generated_files():
         graph = reader.schema[0]
         modified = next(node["dateModified"] for node in graph["@graph"]
                         if node.get("@id") == url + "#webpage")
-        markdown = f"Source: [{url}]({url})\n\nUpdated: {modified}\n\n" + reader.markdown()
+        markdown = f"Source: [{url}]({url})\n\nUpdated: {modified.split("T", 1)[0]}\n\n" + reader.markdown()
         yield page.with_suffix(".md"), markdown
         yield ROOT / "structured-data" / f"{page.stem}.jsonld", json.dumps(graph, ensure_ascii=False, indent=2) + "\n"
 
