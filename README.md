@@ -18,10 +18,10 @@ archive, professional service, selected awards, press, and public profiles.
 - `media.html`: dated media coverage, interviews, university news, organizer or sponsor reports, and selected writing
 - `about.html`: biography, roles, education, professional service, press, milestones, and profile links
 
-## Current catalog - November 22, 2026
+## Current catalog - November 28, 2026
 
-The research catalog contains 47 distinct scholarly outputs: 24 published
-works and 21 accepted works. Six works also have preprints; these categories
+The research catalog contains 47 distinct scholarly outputs: 26 published
+works and 19 accepted works. Six works also have preprints; these categories
 overlap. Beyond FLOPs is published in the ACM AI Leadership Summit proceedings,
 with DOI 10.1145/3806096.3844801. CryptEpi was presented at TML4DM on November 12.
 KVRM is accepted at COMNETSAT 2026. The transformer inference energy-modeling
@@ -30,6 +30,8 @@ Xplore and DOI links. TOML Signals is published in IEEE MLSP 2026,
 with publication date November 18, 2026 and DOI 10.1109/MLSP68619.2026.11772572.
 Beyond Proportional Allocation is published in the IEEE CloudCom 2026
 proceedings, October 2026, pp. 589–596, DOI 10.1109/CloudCom71355.2026.00083.
+Both IEEE GHTC 2026 papers were added to IEEE Xplore on November 27, 2026,
+with publisher and DOI links in the Research catalog.
 
 The site includes 36 selected project artifacts, 54 speaking engagements and
 presentation entries, seven selected recordings, and 48 media coverage entries.
